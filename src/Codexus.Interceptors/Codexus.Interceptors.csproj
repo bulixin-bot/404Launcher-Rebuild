@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Codexus.Interceptors</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="DotNetty.Transport">
+      <HintPath>..\..\lib\DotNetty.Transport.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="DotNetty.Buffers">
+      <HintPath>..\..\lib\DotNetty.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography">
+      <HintPath>..\..\lib\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Serilog">
+      <HintPath>..\..\lib\Serilog.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Common">
+      <HintPath>..\..\lib\DotNetty.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

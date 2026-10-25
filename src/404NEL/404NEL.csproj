@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>404NEL</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Codexus.Interceptors\Codexus.Interceptors.csproj" />
+    <ProjectReference Include="..\Codexus.Cipher\Codexus.Cipher.csproj" />
+    <Reference Include="Serilog">
+      <HintPath>..\..\lib\Serilog.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Codexus.OpenSDK\Codexus.OpenSDK.csproj" />
+    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <ProjectReference Include="..\Codexus.Protocol772Compat\Codexus.Protocol772Compat.csproj" />
+    <ProjectReference Include="..\Codexus.Game.Launcher\Codexus.Game.Launcher.csproj" />
+  </ItemGroup>
+</Project>

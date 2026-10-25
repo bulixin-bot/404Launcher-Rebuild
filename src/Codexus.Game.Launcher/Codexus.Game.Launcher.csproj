@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Codexus.Game.Launcher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="SharpCompress">
+      <HintPath>..\..\lib\SharpCompress.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Codexus.Cipher\Codexus.Cipher.csproj" />
+    <PackageReference Include="System.Management" Version="9.0.0" />
+    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="Serilog">
+      <HintPath>..\..\lib\Serilog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

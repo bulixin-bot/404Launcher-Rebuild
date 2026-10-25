@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Codexus.Protocol772Compat</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="DotNetty.Buffers">
+      <HintPath>..\..\lib\DotNetty.Buffers.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Codexus.Interceptors\Codexus.Interceptors.csproj" />
+    <Reference Include="Serilog">
+      <HintPath>..\..\lib\Serilog.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DotNetty.Common">
+      <HintPath>..\..\lib\DotNetty.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
