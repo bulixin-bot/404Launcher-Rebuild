@@ -1,0 +1,80 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (('annotations',))
+              6 IMPORT_NAME              0 (__future__)
+              8 IMPORT_FROM              1 (annotations)
+             10 STORE_NAME               1 (annotations)
+             12 POP_TOP
+
+  3          14 LOAD_CONST               0 (0)
+             16 LOAD_CONST               2 (None)
+             18 IMPORT_NAME              2 (os)
+             20 STORE_NAME               2 (os)
+
+  4          22 LOAD_CONST               0 (0)
+             24 LOAD_CONST               2 (None)
+             26 IMPORT_NAME              3 (sys)
+             28 STORE_NAME               3 (sys)
+
+  5          30 LOAD_CONST               0 (0)
+             32 LOAD_CONST               3 (('Path',))
+             34 IMPORT_NAME              4 (pathlib)
+             36 IMPORT_FROM              5 (Path)
+             38 STORE_NAME               5 (Path)
+             40 POP_TOP
+
+  8          42 PUSH_NULL
+             44 LOAD_NAME                6 (getattr)
+             46 LOAD_NAME                3 (sys)
+             48 LOAD_CONST               4 ('frozen')
+             50 LOAD_CONST               5 (False)
+             52 CALL                     3
+             60 POP_JUMP_IF_FALSE       84 (to 230)
+
+ 10          62 PUSH_NULL
+             64 LOAD_NAME                5 (Path)
+             66 LOAD_NAME                3 (sys)
+             68 LOAD_ATTR               14 (_MEIPASS)
+             88 CALL                     1
+
+ 11          96 LOAD_CONST               6 ('flet_desktop')
+
+ 10          98 BINARY_OP               11 (/)
+
+ 12         102 LOAD_CONST               7 ('app')
+
+ 10         104 BINARY_OP               11 (/)
+
+ 13         108 LOAD_CONST               8 ('flet')
+
+ 10         110 BINARY_OP               11 (/)
+
+  9         114 STORE_NAME               8 (bundled_flet)
+
+ 15         116 LOAD_NAME                8 (bundled_flet)
+            118 LOAD_CONST               9 ('flet.exe')
+            120 BINARY_OP               11 (/)
+            124 LOAD_ATTR               19 (NULL|self + is_file)
+            144 CALL                     0
+            152 POP_JUMP_IF_FALSE       37 (to 228)
+
+ 16         154 PUSH_NULL
+            156 LOAD_NAME               10 (str)
+            158 LOAD_NAME                8 (bundled_flet)
+            160 CALL                     1
+            168 LOAD_NAME                2 (os)
+            170 LOAD_ATTR               22 (environ)
+            190 LOAD_CONST              10 ('FLET_VIEW_PATH')
+            192 STORE_SUBSCR
+
+ 17         196 LOAD_CONST              11 ('full')
+            198 LOAD_NAME                2 (os)
+            200 LOAD_ATTR               22 (environ)
+            220 LOAD_CONST              12 ('FLET_DESKTOP_FLAVOR')
+            222 STORE_SUBSCR
+            226 RETURN_CONST             2 (None)
+
+ 15     >>  228 RETURN_CONST             2 (None)
+
+  8     >>  230 RETURN_CONST             2 (None)

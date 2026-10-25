@@ -3,9 +3,4 @@
     <Nullable>annotations</Nullable>
     <NuGetAudit>false</NuGetAudit>
   </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="DotNetty.Codecs" Condition="'$(MSBuildProjectName)' == 'Codexus.Interceptors'">
-      <HintPath>$(MSBuildThisFileDirectory)lib\DotNetty.Codecs.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>

@@ -1,0 +1,9 @@
+<Project>
+  <!-- ILSpy emitted direct references; these two projects also need transitive references to compile. -->
+  <ItemGroup Condition="'$(AssemblyName)' == 'Codexus.Protocol772Compat'">
+    <Reference Include="DotNetty.Common"><HintPath>$(MSBuildThisFileDirectory)..\lib\DotNetty.Common.dll</HintPath></Reference>
+  </ItemGroup>
+  <ItemGroup Condition="'$(AssemblyName)' == 'Codexus.Interceptors'">
+    <Reference Include="DotNetty.Codecs"><HintPath>$(MSBuildThisFileDirectory)..\lib\DotNetty.Codecs.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

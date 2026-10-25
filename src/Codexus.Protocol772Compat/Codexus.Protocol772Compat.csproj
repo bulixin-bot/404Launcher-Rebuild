@@ -12,18 +12,17 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="Codexus.Development.SDK">
+      <HintPath>..\..\lib\Codexus.Development.SDK.dll</HintPath>
+    </Reference>
     <Reference Include="DotNetty.Buffers">
       <HintPath>..\..\lib\DotNetty.Buffers.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\Codexus.Interceptors\Codexus.Interceptors.csproj" />
+    <Reference Include="Codexus.Interceptors">
+      <HintPath>..\..\lib\Codexus.Interceptors.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>..\..\lib\Serilog.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DotNetty.Common">
-      <HintPath>..\..\lib\DotNetty.Common.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>

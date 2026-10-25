@@ -1,0 +1,121 @@
+[
+  {
+    "module": "app_updater",
+    "file": "app_updater.cp312-win_amd64.pyd",
+    "sha256": "9d493432dd2a9fa1f16d86e1732361e321feed9da123bc739ac7a09182cd6796",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "auth_client",
+    "file": "auth_client.cp312-win_amd64.pyd",
+    "sha256": "1345d4226a2b1f286b61c86108265929fa997a530d726d947fb4e03785971de2",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "dotnet_bridge",
+    "file": "dotnet_bridge.cp312-win_amd64.pyd",
+    "sha256": "89a930f9bc6468958571375012512d2dfaa645e82ac1c736779d419a9e5e741f",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "game_launcher",
+    "file": "game_launcher.cp312-win_amd64.pyd",
+    "sha256": "1850c72a4e5012aa002b896bc7a5f030c0883e2e1ada8300db4c00dbb23a4266",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "gui",
+    "file": "gui.cp312-win_amd64.pyd",
+    "sha256": "45ed377258d7079d02ca73ada22b3c30cdb00ea2350158643fcb3dac33722b0c",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "official_4399_sdk",
+    "file": "official_4399_sdk.cp312-win_amd64.pyd",
+    "sha256": "180a306170f414f218e0c2c703860c89800ed64646dbc81b8ca371008224f6ec",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  },
+  {
+    "module": "sauth4399_client",
+    "file": "sauth4399_client.cp312-win_amd64.pyd",
+    "sha256": "d6c42b527084c2da5bf89a7d6665d240753a3c326de794187b30a247f03fc5dd",
+    "machine": "0x8664",
+    "format": "PE32+",
+    "managed_clr_header": false,
+    "sections": [
+      ".text",
+      ".rdata",
+      ".data",
+      ".pdata",
+      ".rsrc",
+      ".reloc"
+    ],
+    "recovery_status": "original_native_binary_only"
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "method": "Python 3.12 marshal parsing and compile only; recovered program not imported or executed",
+  "syntax_valid": true,
+  "original_pyc_sha256": "2810ad22fefc795c61208a2dbf66052d88f2eb8d6e04c025dfbe758edc006df5",
+  "recovered_source_sha256": "68fb12666097e622c22a51e0787938f9e0a9982b5f4fea0958eb5a8734f8eb25",
+  "original_code_object_count": 20,
+  "recovered_code_object_count": 20,
+  "all_equal_ignoring_source_locations": true,
+  "code_objects": [
+    {
+      "name": "<module>",
+      "recovered_name": "<module>",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 140,
+      "recovered_instruction_count": 140
+    },
+    {
+      "name": "sha256_file",
+      "recovered_name": "sha256_file",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 54,
+      "recovered_instruction_count": 54
+    },
+    {
+      "name": "sha256_file.<locals>.<lambda>",
+      "recovered_name": "sha256_file.<locals>.<lambda>",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 7,
+      "recovered_instruction_count": 7
+    },
+    {
+      "name": "relative",
+      "recovered_name": "relative",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 35,
+      "recovered_instruction_count": 35
+    },
+    {
+      "name": "process_exists",
+      "recovered_name": "process_exists",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 145,
+      "recovered_instruction_count": 145
+    },
+    {
+      "name": "wait_for_process",
+      "recovered_name": "wait_for_process",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 34,
+      "recovered_instruction_count": 34
+    },
+    {
+      "name": "windows_process_parent_map",
+      "recovered_name": "windows_process_parent_map",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 175,
+      "recovered_instruction_count": 175
+    },
+    {
+      "name": "windows_process_parent_map.<locals>.PROCESSENTRY32W",
+      "recovered_name": "windows_process_parent_map.<locals>.PROCESSENTRY32W",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 61,
+      "recovered_instruction_count": 61
+    },
+    {
+      "name": "windows_descendant_process_ids",
+      "recovered_name": "windows_descendant_process_ids",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 80,
+      "recovered_instruction_count": 80
+    },
+    {
+      "name": "windows_ancestor_process_ids",
+      "recovered_name": "windows_ancestor_process_ids",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 58,
+      "recovered_instruction_count": 58
+    },
+    {
+      "name": "taskkill_process_tree",
+      "recovered_name": "taskkill_process_tree",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 40,
+      "recovered_instruction_count": 40
+    },
+    {
+      "name": "taskkill_process",
+      "recovered_name": "taskkill_process",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 39,
+      "recovered_instruction_count": 39
+    },
+    {
+      "name": "close_launcher_process",
+      "recovered_name": "close_launcher_process",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 125,
+      "recovered_instruction_count": 125
+    },
+    {
+      "name": "replace_with_retry",
+      "recovered_name": "replace_with_retry",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 100,
+      "recovered_instruction_count": 100
+    },
+    {
+      "name": "restore_file",
+      "recovered_name": "restore_file",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 27,
+      "recovered_instruction_count": 27
+    },
+    {
+      "name": "is_protected",
+      "recovered_name": "is_protected",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 23,
+      "recovered_instruction_count": 23
+    },
+    {
+      "name": "is_protected.<locals>.<genexpr>",
+      "recovered_name": "is_protected.<locals>.<genexpr>",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 37,
+      "recovered_instruction_count": 37
+    },
+    {
+      "name": "write_update_log",
+      "recovered_name": "write_update_log",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 72,
+      "recovered_instruction_count": 72
+    },
+    {
+      "name": "apply",
+      "recovered_name": "apply",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 615,
+      "recovered_instruction_count": 615
+    },
+    {
+      "name": "main",
+      "recovered_name": "main",
+      "equal_ignoring_source_locations": true,
+      "differing_fields": [],
+      "original_instruction_count": 159,
+      "recovered_instruction_count": 159
+    }
+  ]
+}

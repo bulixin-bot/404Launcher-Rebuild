@@ -1,0 +1,2506 @@
+  0           0 RESUME                   0
+
+  1           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (('annotations',))
+              6 IMPORT_NAME              0 (__future__)
+              8 IMPORT_FROM              1 (annotations)
+             10 STORE_NAME               1 (annotations)
+             12 POP_TOP
+
+  3          14 LOAD_CONST               0 (0)
+             16 LOAD_CONST               2 (None)
+             18 IMPORT_NAME              2 (argparse)
+             20 STORE_NAME               2 (argparse)
+
+  4          22 LOAD_CONST               0 (0)
+             24 LOAD_CONST               2 (None)
+             26 IMPORT_NAME              3 (hashlib)
+             28 STORE_NAME               3 (hashlib)
+
+  5          30 LOAD_CONST               0 (0)
+             32 LOAD_CONST               2 (None)
+             34 IMPORT_NAME              4 (json)
+             36 STORE_NAME               4 (json)
+
+  6          38 LOAD_CONST               0 (0)
+             40 LOAD_CONST               2 (None)
+             42 IMPORT_NAME              5 (os)
+             44 STORE_NAME               5 (os)
+
+  7          46 LOAD_CONST               0 (0)
+             48 LOAD_CONST               2 (None)
+             50 IMPORT_NAME              6 (shutil)
+             52 STORE_NAME               6 (shutil)
+
+  8          54 LOAD_CONST               0 (0)
+             56 LOAD_CONST               2 (None)
+             58 IMPORT_NAME              7 (signal)
+             60 STORE_NAME               7 (signal)
+
+  9          62 LOAD_CONST               0 (0)
+             64 LOAD_CONST               2 (None)
+             66 IMPORT_NAME              8 (stat)
+             68 STORE_NAME               8 (stat)
+
+ 10          70 LOAD_CONST               0 (0)
+             72 LOAD_CONST               2 (None)
+             74 IMPORT_NAME              9 (subprocess)
+             76 STORE_NAME               9 (subprocess)
+
+ 11          78 LOAD_CONST               0 (0)
+             80 LOAD_CONST               2 (None)
+             82 IMPORT_NAME             10 (time)
+             84 STORE_NAME              10 (time)
+
+ 12          86 LOAD_CONST               0 (0)
+             88 LOAD_CONST               2 (None)
+             90 IMPORT_NAME             11 (traceback)
+             92 STORE_NAME              11 (traceback)
+
+ 13          94 LOAD_CONST               0 (0)
+             96 LOAD_CONST               3 (('datetime',))
+             98 IMPORT_NAME             12 (datetime)
+            100 IMPORT_FROM             12 (datetime)
+            102 STORE_NAME              12 (datetime)
+            104 POP_TOP
+
+ 14         106 LOAD_CONST               0 (0)
+            108 LOAD_CONST               4 (('Path', 'PurePosixPath'))
+            110 IMPORT_NAME             13 (pathlib)
+            112 IMPORT_FROM             14 (Path)
+            114 STORE_NAME              14 (Path)
+            116 IMPORT_FROM             15 (PurePosixPath)
+            118 STORE_NAME              15 (PurePosixPath)
+            120 POP_TOP
+
+ 17         122 LOAD_CONST              22 (('path', 'Path', 'return', 'str'))
+            124 LOAD_CONST               5 (<code object sha256_file at 0x0000019899121080, file "404_updater.py", line 17>)
+            126 MAKE_FUNCTION            4 (annotations)
+            128 STORE_NAME              16 (sha256_file)
+
+ 25         130 LOAD_CONST              23 (('value', 'str', 'return', 'Path'))
+            132 LOAD_CONST               6 (<code object relative at 0x0000019898E3F120, file "404_updater.py", line 25>)
+            134 MAKE_FUNCTION            4 (annotations)
+            136 STORE_NAME              17 (relative)
+
+ 32         138 LOAD_CONST              24 (('pid', 'int', 'return', 'bool'))
+            140 LOAD_CONST               7 (<code object process_exists at 0x00000198991FF7C0, file "404_updater.py", line 32>)
+            142 MAKE_FUNCTION            4 (annotations)
+            144 STORE_NAME              18 (process_exists)
+
+ 63         146 LOAD_CONST              25 ((120.0,))
+            148 LOAD_CONST              26 (('pid', 'int', 'timeout', 'float', 'return', 'None'))
+            150 LOAD_CONST               8 (<code object wait_for_process at 0x0000019898E3F2D0, file "404_updater.py", line 63>)
+            152 MAKE_FUNCTION            5 (defaults, annotations)
+            154 STORE_NAME              19 (wait_for_process)
+
+ 72         156 LOAD_CONST              27 (('return', 'dict[int, int]'))
+            158 LOAD_CONST               9 (<code object windows_process_parent_map at 0x00000198991FFC10, file "404_updater.py", line 72>)
+            160 MAKE_FUNCTION            4 (annotations)
+            162 STORE_NAME              20 (windows_process_parent_map)
+
+118         164 LOAD_CONST              28 (('root_pid', 'int', 'return', 'list[int]'))
+            166 LOAD_CONST              10 (<code object windows_descendant_process_ids at 0x0000019898E23A50, file "404_updater.py", line 118>)
+            168 MAKE_FUNCTION            4 (annotations)
+            170 STORE_NAME              21 (windows_descendant_process_ids)
+
+139         172 LOAD_CONST              29 ((0,))
+            174 LOAD_CONST              30 (('process_pid', 'int', 'stop_pid', 'int', 'return', 'set[int]'))
+            176 LOAD_CONST              11 (<code object windows_ancestor_process_ids at 0x0000019899370B90, file "404_updater.py", line 139>)
+            178 MAKE_FUNCTION            5 (defaults, annotations)
+            180 STORE_NAME              22 (windows_ancestor_process_ids)
+
+154         182 LOAD_CONST              31 (('pid', 'int', 'return', 'None'))
+            184 LOAD_CONST              12 (<code object taskkill_process_tree at 0x0000019898DFF4B0, file "404_updater.py", line 154>)
+            186 MAKE_FUNCTION            4 (annotations)
+            188 STORE_NAME              23 (taskkill_process_tree)
+
+166         190 LOAD_CONST              31 (('pid', 'int', 'return', 'None'))
+            192 LOAD_CONST              13 (<code object taskkill_process at 0x0000019898DFF9F0, file "404_updater.py", line 166>)
+            194 MAKE_FUNCTION            4 (annotations)
+            196 STORE_NAME              24 (taskkill_process)
+
+178         198 LOAD_CONST              32 ((None,))
+            200 LOAD_CONST              33 (('pid', 'int', 'descendants', 'list[int] | None', 'return', 'None'))
+            202 LOAD_CONST              14 (<code object close_launcher_process at 0x0000019899217750, file "404_updater.py", line 178>)
+            204 MAKE_FUNCTION            5 (defaults, annotations)
+            206 STORE_NAME              25 (close_launcher_process)
+
+205         208 LOAD_CONST              34 ((90.0,))
+            210 LOAD_CONST              35 (('source', 'Path', 'target', 'Path', 'timeout', 'float', 'return', 'None'))
+            212 LOAD_CONST              15 (<code object replace_with_retry at 0x00000198991E00C0, file "404_updater.py", line 205>)
+            214 MAKE_FUNCTION            5 (defaults, annotations)
+            216 STORE_NAME              26 (replace_with_retry)
+
+229         218 LOAD_CONST              36 (('source', 'Path', 'target', 'Path', 'return', 'None'))
+            220 LOAD_CONST              16 (<code object restore_file at 0x0000019899364D20, file "404_updater.py", line 229>)
+            222 MAKE_FUNCTION            4 (annotations)
+            224 STORE_NAME              27 (restore_file)
+
+236         226 LOAD_CONST              37 (('path', 'str', 'prefixes', 'list[str]', 'return', 'bool'))
+            228 LOAD_CONST              17 (<code object is_protected at 0x000001989911E8E0, file "404_updater.py", line 236>)
+            230 MAKE_FUNCTION            4 (annotations)
+            232 STORE_NAME              28 (is_protected)
+
+241         234 LOAD_CONST              38 (('app_root', 'Path', 'message', 'str', 'return', 'None'))
+            236 LOAD_CONST              18 (<code object write_update_log at 0x000001989910A030, file "404_updater.py", line 241>)
+            238 MAKE_FUNCTION            4 (annotations)
+            240 STORE_NAME              29 (write_update_log)
+
+252         242 LOAD_CONST              32 ((None,))
+            244 LOAD_CONST              39 (('plan_path', 'Path', 'wait_pid', 'int', 'ready_file', 'Path | None', 'return', 'Path'))
+            246 LOAD_CONST              19 (<code object apply at 0x0000019899195440, file "404_updater.py", line 252>)
+            248 MAKE_FUNCTION            5 (defaults, annotations)
+            250 STORE_NAME              30 (apply)
+
+345         252 LOAD_CONST              40 (('return', 'None'))
+            254 LOAD_CONST              20 (<code object main at 0x0000019899244AA0, file "404_updater.py", line 345>)
+            256 MAKE_FUNCTION            4 (annotations)
+            258 STORE_NAME              31 (main)
+
+372         260 LOAD_NAME               32 (__name__)
+            262 LOAD_CONST              21 ('__main__')
+            264 COMPARE_OP              40 (==)
+            268 POP_JUMP_IF_FALSE        8 (to 286)
+
+373         270 PUSH_NULL
+            272 LOAD_NAME               31 (main)
+            274 CALL                     0
+            282 POP_TOP
+            284 RETURN_CONST             2 (None)
+
+372     >>  286 RETURN_CONST             2 (None)
+
+Disassembly of <code object sha256_file at 0x0000019899121080, file "404_updater.py", line 17>:
+              0 MAKE_CELL                3 (source)
+
+ 17           2 RESUME                   0
+
+ 18           4 LOAD_GLOBAL              1 (NULL + hashlib)
+             14 LOAD_ATTR                2 (sha256)
+             34 CALL                     0
+             42 STORE_FAST               1 (digest)
+
+ 19          44 LOAD_FAST                0 (path)
+             46 LOAD_ATTR                5 (NULL|self + open)
+             66 LOAD_CONST               1 ('rb')
+             68 CALL                     1
+             76 BEFORE_WITH
+             78 STORE_DEREF              3 (source)
+
+ 20          80 LOAD_GLOBAL              7 (NULL + iter)
+             90 LOAD_CLOSURE             3 (source)
+             92 BUILD_TUPLE              1
+             94 LOAD_CONST               2 (<code object <lambda> at 0x000001989933D200, file "404_updater.py", line 20>)
+             96 MAKE_FUNCTION            8 (closure)
+             98 LOAD_CONST               3 (b'')
+            100 CALL                     2
+            108 GET_ITER
+        >>  110 FOR_ITER                19 (to 152)
+            114 STORE_FAST               2 (block)
+
+ 21         116 LOAD_FAST                1 (digest)
+            118 LOAD_ATTR                9 (NULL|self + update)
+            138 LOAD_FAST                2 (block)
+            140 CALL                     1
+            148 POP_TOP
+            150 JUMP_BACKWARD           21 (to 110)
+
+ 20     >>  152 END_FOR
+            154 NOP
+
+ 19         156 LOAD_CONST               0 (None)
+            158 LOAD_CONST               0 (None)
+            160 LOAD_CONST               0 (None)
+            162 CALL                     2
+            170 POP_TOP
+
+ 22         172 LOAD_FAST                1 (digest)
+            174 LOAD_ATTR               11 (NULL|self + hexdigest)
+            194 CALL                     0
+            202 RETURN_VALUE
+
+ 19     >>  204 PUSH_EXC_INFO
+            206 WITH_EXCEPT_START
+            208 POP_JUMP_IF_TRUE         1 (to 212)
+            210 RERAISE                  2
+        >>  212 POP_TOP
+            214 POP_EXCEPT
+            216 POP_TOP
+            218 POP_TOP
+
+ 22         220 LOAD_FAST                1 (digest)
+            222 LOAD_ATTR               11 (NULL|self + hexdigest)
+            242 CALL                     0
+            250 RETURN_VALUE
+        >>  252 COPY                     3
+            254 POP_EXCEPT
+            256 RERAISE                  1
+ExceptionTable:
+  78 to 152 -> 204 [1] lasti
+  204 to 212 -> 252 [3] lasti
+
+Disassembly of <code object <lambda> at 0x000001989933D200, file "404_updater.py", line 20>:
+              0 COPY_FREE_VARS           1
+
+ 20           2 RESUME                   0
+              4 LOAD_DEREF               0 (source)
+              6 LOAD_ATTR                1 (NULL|self + read)
+             26 LOAD_CONST               1 (1048576)
+             28 CALL                     1
+             36 RETURN_VALUE
+
+Disassembly of <code object relative at 0x0000019898E3F120, file "404_updater.py", line 25>:
+ 25           0 RESUME                   0
+
+ 26           2 LOAD_GLOBAL              1 (NULL + PurePosixPath)
+             12 LOAD_GLOBAL              3 (NULL + str)
+             22 LOAD_FAST                0 (value)
+             24 CALL                     1
+             32 LOAD_ATTR                5 (NULL|self + replace)
+             52 LOAD_CONST               1 ('\\')
+             54 LOAD_CONST               2 ('/')
+             56 CALL                     2
+             64 LOAD_ATTR                7 (NULL|self + lstrip)
+             84 LOAD_CONST               2 ('/')
+             86 CALL                     1
+             94 CALL                     1
+            102 STORE_FAST               1 (path)
+
+ 27         104 LOAD_FAST                1 (path)
+            106 LOAD_ATTR                9 (NULL|self + is_absolute)
+            126 CALL                     0
+            134 POP_JUMP_IF_TRUE        14 (to 164)
+            136 LOAD_CONST               3 ('..')
+            138 LOAD_FAST                1 (path)
+            140 LOAD_ATTR               10 (parts)
+            160 CONTAINS_OP              0
+            162 POP_JUMP_IF_FALSE       14 (to 192)
+
+ 28     >>  164 LOAD_GLOBAL             13 (NULL + RuntimeError)
+            174 LOAD_CONST               4 ('非法更新路径：')
+            176 LOAD_FAST                0 (value)
+            178 FORMAT_VALUE             0
+            180 BUILD_STRING             2
+            182 CALL                     1
+            190 RAISE_VARARGS            1
+
+ 29     >>  192 LOAD_GLOBAL             15 (NULL + Path)
+            202 LOAD_FAST                1 (path)
+            204 LOAD_ATTR               10 (parts)
+            224 CALL_FUNCTION_EX         0
+            226 RETURN_VALUE
+
+Disassembly of <code object process_exists at 0x00000198991FF7C0, file "404_updater.py", line 32>:
+ 32           0 RESUME                   0
+
+ 33           2 LOAD_FAST                0 (pid)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP              26 (<=)
+             10 POP_JUMP_IF_FALSE        1 (to 14)
+
+ 34          12 RETURN_CONST             2 (False)
+
+ 35     >>   14 LOAD_GLOBAL              0 (os)
+             24 LOAD_ATTR                2 (name)
+             44 LOAD_CONST               3 ('nt')
+             46 COMPARE_OP              40 (==)
+             50 EXTENDED_ARG             1
+             52 POP_JUMP_IF_FALSE      343 (to 740)
+
+ 36          54 LOAD_CONST               1 (0)
+             56 LOAD_CONST               0 (None)
+             58 IMPORT_NAME              2 (ctypes)
+             60 STORE_FAST               1 (ctypes)
+
+ 38          62 LOAD_FAST                1 (ctypes)
+             64 LOAD_ATTR                7 (NULL|self + WinDLL)
+             84 LOAD_CONST               4 ('kernel32')
+             86 LOAD_CONST               5 (True)
+             88 KW_NAMES                 6 (('use_last_error',))
+             90 CALL                     2
+             98 STORE_FAST               2 (kernel32)
+
+ 39         100 LOAD_FAST                1 (ctypes)
+            102 LOAD_ATTR                8 (c_ulong)
+            122 LOAD_FAST                1 (ctypes)
+            124 LOAD_ATTR               10 (c_int)
+            144 LOAD_FAST                1 (ctypes)
+            146 LOAD_ATTR                8 (c_ulong)
+            166 BUILD_LIST               3
+            168 LOAD_FAST                2 (kernel32)
+            170 LOAD_ATTR               12 (OpenProcess)
+            190 STORE_ATTR               7 (argtypes)
+
+ 40         200 LOAD_FAST                1 (ctypes)
+            202 LOAD_ATTR               16 (c_void_p)
+            222 LOAD_FAST                2 (kernel32)
+            224 LOAD_ATTR               12 (OpenProcess)
+            244 STORE_ATTR               9 (restype)
+
+ 41         254 LOAD_FAST                1 (ctypes)
+            256 LOAD_ATTR               16 (c_void_p)
+            276 LOAD_FAST                1 (ctypes)
+            278 LOAD_ATTR               21 (NULL|self + POINTER)
+            298 LOAD_FAST                1 (ctypes)
+            300 LOAD_ATTR                8 (c_ulong)
+            320 CALL                     1
+            328 BUILD_LIST               2
+            330 LOAD_FAST                2 (kernel32)
+            332 LOAD_ATTR               22 (GetExitCodeProcess)
+            352 STORE_ATTR               7 (argtypes)
+
+ 42         362 LOAD_FAST                1 (ctypes)
+            364 LOAD_ATTR               10 (c_int)
+            384 LOAD_FAST                2 (kernel32)
+            386 LOAD_ATTR               22 (GetExitCodeProcess)
+            406 STORE_ATTR               9 (restype)
+
+ 43         416 LOAD_FAST                1 (ctypes)
+            418 LOAD_ATTR               16 (c_void_p)
+            438 BUILD_LIST               1
+            440 LOAD_FAST                2 (kernel32)
+            442 LOAD_ATTR               24 (CloseHandle)
+            462 STORE_ATTR               7 (argtypes)
+
+ 44         472 LOAD_FAST                2 (kernel32)
+            474 LOAD_ATTR               13 (NULL|self + OpenProcess)
+            494 LOAD_CONST               7 (4096)
+            496 LOAD_CONST               2 (False)
+            498 LOAD_FAST                0 (pid)
+            500 CALL                     3
+            508 STORE_FAST               3 (handle)
+
+ 45         510 LOAD_FAST                3 (handle)
+            512 POP_JUMP_IF_TRUE        19 (to 552)
+
+ 46         514 LOAD_FAST                1 (ctypes)
+            516 LOAD_ATTR               27 (NULL|self + get_last_error)
+            536 CALL                     0
+            544 LOAD_CONST               8 (5)
+            546 COMPARE_OP              40 (==)
+            550 RETURN_VALUE
+
+ 47     >>  552 NOP
+
+ 48         554 LOAD_FAST                1 (ctypes)
+            556 LOAD_ATTR                9 (NULL|self + c_ulong)
+            576 CALL                     0
+            584 STORE_FAST               4 (exit_code)
+
+ 49         586 LOAD_GLOBAL             29 (NULL + bool)
+            596 LOAD_FAST                2 (kernel32)
+            598 LOAD_ATTR               23 (NULL|self + GetExitCodeProcess)
+            618 LOAD_FAST                3 (handle)
+            620 LOAD_FAST                1 (ctypes)
+            622 LOAD_ATTR               31 (NULL|self + byref)
+            642 LOAD_FAST                4 (exit_code)
+            644 CALL                     1
+            652 CALL                     2
+            660 CALL                     1
+            668 COPY                     1
+            670 POP_JUMP_IF_FALSE       15 (to 702)
+            672 POP_TOP
+            674 LOAD_FAST                4 (exit_code)
+            676 LOAD_ATTR               32 (value)
+            696 LOAD_CONST               9 (259)
+            698 COMPARE_OP              40 (==)
+        >>  702 NOP
+
+ 51         704 LOAD_FAST                2 (kernel32)
+            706 LOAD_ATTR               25 (NULL|self + CloseHandle)
+            726 LOAD_FAST                3 (handle)
+            728 CALL                     1
+            736 POP_TOP
+            738 RETURN_VALUE
+
+ 52     >>  740 NOP
+
+ 53         742 LOAD_GLOBAL              1 (NULL + os)
+            752 LOAD_ATTR               34 (kill)
+            772 LOAD_FAST                0 (pid)
+            774 LOAD_CONST               1 (0)
+            776 CALL                     2
+            784 POP_TOP
+
+ 60         786 RETURN_CONST             5 (True)
+        >>  788 PUSH_EXC_INFO
+
+ 51         790 LOAD_FAST                2 (kernel32)
+            792 LOAD_ATTR               25 (NULL|self + CloseHandle)
+            812 LOAD_FAST                3 (handle)
+            814 CALL                     1
+            822 POP_TOP
+            824 RERAISE                  0
+        >>  826 COPY                     3
+            828 POP_EXCEPT
+            830 RERAISE                  1
+        >>  832 PUSH_EXC_INFO
+
+ 54         834 LOAD_GLOBAL             36 (ProcessLookupError)
+            844 CHECK_EXC_MATCH
+            846 POP_JUMP_IF_FALSE        3 (to 854)
+            848 POP_TOP
+
+ 55         850 POP_EXCEPT
+            852 RETURN_CONST             2 (False)
+
+ 56     >>  854 LOAD_GLOBAL             38 (PermissionError)
+            864 CHECK_EXC_MATCH
+            866 POP_JUMP_IF_FALSE        3 (to 874)
+            868 POP_TOP
+
+ 57         870 POP_EXCEPT
+            872 RETURN_CONST             5 (True)
+
+ 58     >>  874 LOAD_GLOBAL             40 (OSError)
+            884 CHECK_EXC_MATCH
+            886 POP_JUMP_IF_FALSE        3 (to 894)
+            888 POP_TOP
+
+ 59         890 POP_EXCEPT
+            892 RETURN_CONST             2 (False)
+
+ 58     >>  894 RERAISE                  0
+        >>  896 COPY                     3
+            898 POP_EXCEPT
+            900 RERAISE                  1
+ExceptionTable:
+  554 to 700 -> 788 [0]
+  742 to 784 -> 832 [0]
+  788 to 824 -> 826 [1] lasti
+  832 to 848 -> 896 [1] lasti
+  854 to 868 -> 896 [1] lasti
+  874 to 888 -> 896 [1] lasti
+  894 to 894 -> 896 [1] lasti
+
+Disassembly of <code object wait_for_process at 0x0000019898E3F2D0, file "404_updater.py", line 63>:
+ 63           0 RESUME                   0
+
+ 64           2 LOAD_GLOBAL              1 (NULL + time)
+             12 LOAD_ATTR                2 (monotonic)
+             32 CALL                     0
+             40 LOAD_FAST                1 (timeout)
+             42 BINARY_OP                0 (+)
+             46 STORE_FAST               2 (deadline)
+
+ 65          48 LOAD_GLOBAL              1 (NULL + time)
+             58 LOAD_ATTR                2 (monotonic)
+             78 CALL                     0
+             86 LOAD_FAST                2 (deadline)
+             88 COMPARE_OP               2 (<)
+             92 POP_JUMP_IF_FALSE       57 (to 208)
+
+ 66     >>   94 LOAD_GLOBAL              5 (NULL + process_exists)
+            104 LOAD_FAST                0 (pid)
+            106 CALL                     1
+            114 POP_JUMP_IF_TRUE         1 (to 118)
+
+ 67         116 RETURN_CONST             0 (None)
+
+ 68     >>  118 LOAD_GLOBAL              1 (NULL + time)
+            128 LOAD_ATTR                6 (sleep)
+            148 LOAD_CONST               1 (0.25)
+            150 CALL                     1
+            158 POP_TOP
+
+ 65         160 LOAD_GLOBAL              1 (NULL + time)
+            170 LOAD_ATTR                2 (monotonic)
+            190 CALL                     0
+            198 LOAD_FAST                2 (deadline)
+            200 COMPARE_OP               2 (<)
+            204 POP_JUMP_IF_FALSE        1 (to 208)
+            206 JUMP_BACKWARD           57 (to 94)
+
+ 69     >>  208 LOAD_GLOBAL              9 (NULL + RuntimeError)
+            218 LOAD_CONST               2 ('等待 404 Launcher 退出超时')
+            220 CALL                     1
+            228 RAISE_VARARGS            1
+
+Disassembly of <code object windows_process_parent_map at 0x00000198991FFC10, file "404_updater.py", line 72>:
+              0 MAKE_CELL                7 (ctypes)
+              2 MAKE_CELL                8 (wintypes)
+
+ 72           4 RESUME                   0
+
+ 73           6 LOAD_GLOBAL              0 (os)
+             16 LOAD_ATTR                2 (name)
+             36 LOAD_CONST               1 ('nt')
+             38 COMPARE_OP              55 (!=)
+             42 POP_JUMP_IF_FALSE        2 (to 48)
+
+ 74          44 BUILD_MAP                0
+             46 RETURN_VALUE
+
+ 75     >>   48 LOAD_CONST               2 (0)
+             50 LOAD_CONST               0 (None)
+             52 IMPORT_NAME              2 (ctypes)
+             54 STORE_DEREF              7 (ctypes)
+
+ 76          56 LOAD_CONST               2 (0)
+             58 LOAD_CONST               3 (('wintypes',))
+             60 IMPORT_NAME              2 (ctypes)
+             62 IMPORT_FROM              3 (wintypes)
+             64 STORE_DEREF              8 (wintypes)
+             66 POP_TOP
+
+ 78          68 PUSH_NULL
+             70 LOAD_BUILD_CLASS
+             72 LOAD_CLOSURE             7 (ctypes)
+             74 LOAD_CLOSURE             8 (wintypes)
+             76 BUILD_TUPLE              2
+             78 LOAD_CONST               4 (<code object PROCESSENTRY32W at 0x0000019898E23670, file "404_updater.py", line 78>)
+             80 MAKE_FUNCTION            8 (closure)
+             82 LOAD_CONST               5 ('PROCESSENTRY32W')
+             84 LOAD_DEREF               7 (ctypes)
+             86 LOAD_ATTR                8 (Structure)
+            106 CALL                     3
+            114 STORE_FAST               0 (PROCESSENTRY32W)
+
+ 92         116 LOAD_DEREF               7 (ctypes)
+            118 LOAD_ATTR               11 (NULL|self + WinDLL)
+            138 LOAD_CONST               6 ('kernel32')
+            140 LOAD_CONST               7 (True)
+            142 KW_NAMES                 8 (('use_last_error',))
+            144 CALL                     2
+            152 STORE_FAST               1 (kernel32)
+
+ 93         154 LOAD_DEREF               8 (wintypes)
+            156 LOAD_ATTR               12 (DWORD)
+            176 LOAD_DEREF               8 (wintypes)
+            178 LOAD_ATTR               12 (DWORD)
+            198 BUILD_LIST               2
+            200 LOAD_FAST                1 (kernel32)
+            202 LOAD_ATTR               14 (CreateToolhelp32Snapshot)
+            222 STORE_ATTR               8 (argtypes)
+
+ 94         232 LOAD_DEREF               8 (wintypes)
+            234 LOAD_ATTR               18 (HANDLE)
+            254 LOAD_FAST                1 (kernel32)
+            256 LOAD_ATTR               14 (CreateToolhelp32Snapshot)
+            276 STORE_ATTR              10 (restype)
+
+ 95         286 LOAD_DEREF               8 (wintypes)
+            288 LOAD_ATTR               18 (HANDLE)
+            308 LOAD_DEREF               7 (ctypes)
+            310 LOAD_ATTR               23 (NULL|self + POINTER)
+            330 LOAD_FAST                0 (PROCESSENTRY32W)
+            332 CALL                     1
+            340 BUILD_LIST               2
+            342 LOAD_FAST                1 (kernel32)
+            344 LOAD_ATTR               24 (Process32FirstW)
+            364 STORE_ATTR               8 (argtypes)
+
+ 96         374 LOAD_DEREF               8 (wintypes)
+            376 LOAD_ATTR               26 (BOOL)
+            396 LOAD_FAST                1 (kernel32)
+            398 LOAD_ATTR               24 (Process32FirstW)
+            418 STORE_ATTR              10 (restype)
+
+ 97         428 LOAD_DEREF               8 (wintypes)
+            430 LOAD_ATTR               18 (HANDLE)
+            450 LOAD_DEREF               7 (ctypes)
+            452 LOAD_ATTR               23 (NULL|self + POINTER)
+            472 LOAD_FAST                0 (PROCESSENTRY32W)
+            474 CALL                     1
+            482 BUILD_LIST               2
+            484 LOAD_FAST                1 (kernel32)
+            486 LOAD_ATTR               28 (Process32NextW)
+            506 STORE_ATTR               8 (argtypes)
+
+ 98         516 LOAD_DEREF               8 (wintypes)
+            518 LOAD_ATTR               26 (BOOL)
+            538 LOAD_FAST                1 (kernel32)
+            540 LOAD_ATTR               28 (Process32NextW)
+            560 STORE_ATTR              10 (restype)
+
+ 99         570 LOAD_DEREF               8 (wintypes)
+            572 LOAD_ATTR               18 (HANDLE)
+            592 BUILD_LIST               1
+            594 LOAD_FAST                1 (kernel32)
+            596 LOAD_ATTR               30 (CloseHandle)
+            616 STORE_ATTR               8 (argtypes)
+
+101         626 LOAD_FAST                1 (kernel32)
+            628 LOAD_ATTR               15 (NULL|self + CreateToolhelp32Snapshot)
+            648 LOAD_CONST               9 (2)
+            650 LOAD_CONST               2 (0)
+            652 CALL                     2
+            660 STORE_FAST               2 (snapshot)
+
+102         662 LOAD_DEREF               7 (ctypes)
+            664 LOAD_ATTR               33 (NULL|self + c_void_p)
+            684 LOAD_CONST              10 (-1)
+            686 CALL                     1
+            694 LOAD_ATTR               34 (value)
+            714 STORE_FAST               3 (invalid_handle)
+
+103         716 LOAD_FAST                2 (snapshot)
+            718 POP_JUMP_IF_FALSE        5 (to 730)
+            720 LOAD_FAST                2 (snapshot)
+            722 LOAD_FAST                3 (invalid_handle)
+            724 COMPARE_OP              40 (==)
+            728 POP_JUMP_IF_FALSE        2 (to 734)
+
+104     >>  730 BUILD_MAP                0
+            732 RETURN_VALUE
+
+105     >>  734 BUILD_MAP                0
+            736 STORE_FAST               4 (parent_by_pid)
+
+106         738 NOP
+
+107         740 PUSH_NULL
+            742 LOAD_FAST                0 (PROCESSENTRY32W)
+            744 CALL                     0
+            752 STORE_FAST               5 (entry)
+
+108         754 LOAD_DEREF               7 (ctypes)
+            756 LOAD_ATTR               37 (NULL|self + sizeof)
+            776 LOAD_FAST                0 (PROCESSENTRY32W)
+            778 CALL                     1
+            786 LOAD_FAST                5 (entry)
+            788 STORE_ATTR              19 (dwSize)
+
+109         798 LOAD_GLOBAL             41 (NULL + bool)
+            808 LOAD_FAST                1 (kernel32)
+            810 LOAD_ATTR               25 (NULL|self + Process32FirstW)
+            830 LOAD_FAST                2 (snapshot)
+            832 LOAD_DEREF               7 (ctypes)
+            834 LOAD_ATTR               43 (NULL|self + byref)
+            854 LOAD_FAST                5 (entry)
+            856 CALL                     1
+            864 CALL                     2
+            872 CALL                     1
+            880 STORE_FAST               6 (has_entry)
+
+110         882 LOAD_FAST                6 (has_entry)
+            884 POP_JUMP_IF_FALSE       88 (to 1062)
+
+111     >>  886 LOAD_GLOBAL             45 (NULL + int)
+            896 LOAD_FAST                5 (entry)
+            898 LOAD_ATTR               46 (th32ParentProcessID)
+            918 CALL                     1
+            926 LOAD_FAST                4 (parent_by_pid)
+            928 LOAD_GLOBAL             45 (NULL + int)
+            938 LOAD_FAST                5 (entry)
+            940 LOAD_ATTR               48 (th32ProcessID)
+            960 CALL                     1
+            968 STORE_SUBSCR
+
+112         972 LOAD_GLOBAL             41 (NULL + bool)
+            982 LOAD_FAST                1 (kernel32)
+            984 LOAD_ATTR               29 (NULL|self + Process32NextW)
+           1004 LOAD_FAST                2 (snapshot)
+           1006 LOAD_DEREF               7 (ctypes)
+           1008 LOAD_ATTR               43 (NULL|self + byref)
+           1028 LOAD_FAST                5 (entry)
+           1030 CALL                     1
+           1038 CALL                     2
+           1046 CALL                     1
+           1054 STORE_FAST               6 (has_entry)
+
+110        1056 LOAD_FAST                6 (has_entry)
+           1058 POP_JUMP_IF_FALSE        1 (to 1062)
+           1060 JUMP_BACKWARD           88 (to 886)
+
+114     >> 1062 LOAD_FAST                1 (kernel32)
+           1064 LOAD_ATTR               31 (NULL|self + CloseHandle)
+           1084 LOAD_FAST                2 (snapshot)
+           1086 CALL                     1
+           1094 POP_TOP
+
+115        1096 LOAD_FAST                4 (parent_by_pid)
+           1098 RETURN_VALUE
+        >> 1100 PUSH_EXC_INFO
+
+114        1102 LOAD_FAST                1 (kernel32)
+           1104 LOAD_ATTR               31 (NULL|self + CloseHandle)
+           1124 LOAD_FAST                2 (snapshot)
+           1126 CALL                     1
+           1134 POP_TOP
+           1136 RERAISE                  0
+        >> 1138 COPY                     3
+           1140 POP_EXCEPT
+           1142 RERAISE                  1
+ExceptionTable:
+  740 to 1058 -> 1100 [0]
+  1100 to 1136 -> 1138 [1] lasti
+
+Disassembly of <code object PROCESSENTRY32W at 0x0000019898E23670, file "404_updater.py", line 78>:
+              0 COPY_FREE_VARS           2
+
+ 78           2 RESUME                   0
+              4 LOAD_NAME                0 (__name__)
+              6 STORE_NAME               1 (__module__)
+              8 LOAD_CONST               0 ('windows_process_parent_map.<locals>.PROCESSENTRY32W')
+             10 STORE_NAME               2 (__qualname__)
+
+ 80          12 LOAD_CONST               1 ('dwSize')
+             14 LOAD_LOCALS
+             16 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+             18 LOAD_ATTR                6 (DWORD)
+             38 BUILD_TUPLE              2
+
+ 81          40 LOAD_CONST               2 ('cntUsage')
+             42 LOAD_LOCALS
+             44 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+             46 LOAD_ATTR                6 (DWORD)
+             66 BUILD_TUPLE              2
+
+ 82          68 LOAD_CONST               3 ('th32ProcessID')
+             70 LOAD_LOCALS
+             72 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+             74 LOAD_ATTR                6 (DWORD)
+             94 BUILD_TUPLE              2
+
+ 83          96 LOAD_CONST               4 ('th32DefaultHeapID')
+             98 LOAD_LOCALS
+            100 LOAD_FROM_DICT_OR_DEREF     0 (ctypes)
+            102 LOAD_ATTR                8 (c_size_t)
+            122 BUILD_TUPLE              2
+
+ 84         124 LOAD_CONST               5 ('th32ModuleID')
+            126 LOAD_LOCALS
+            128 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+            130 LOAD_ATTR                6 (DWORD)
+            150 BUILD_TUPLE              2
+
+ 85         152 LOAD_CONST               6 ('cntThreads')
+            154 LOAD_LOCALS
+            156 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+            158 LOAD_ATTR                6 (DWORD)
+            178 BUILD_TUPLE              2
+
+ 86         180 LOAD_CONST               7 ('th32ParentProcessID')
+            182 LOAD_LOCALS
+            184 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+            186 LOAD_ATTR                6 (DWORD)
+            206 BUILD_TUPLE              2
+
+ 87         208 LOAD_CONST               8 ('pcPriClassBase')
+            210 LOAD_LOCALS
+            212 LOAD_FROM_DICT_OR_DEREF     0 (ctypes)
+            214 LOAD_ATTR               10 (c_long)
+            234 BUILD_TUPLE              2
+
+ 88         236 LOAD_CONST               9 ('dwFlags')
+            238 LOAD_LOCALS
+            240 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+            242 LOAD_ATTR                6 (DWORD)
+            262 BUILD_TUPLE              2
+
+ 89         264 LOAD_CONST              10 ('szExeFile')
+            266 LOAD_LOCALS
+            268 LOAD_FROM_DICT_OR_DEREF     1 (wintypes)
+            270 LOAD_ATTR               12 (WCHAR)
+            290 LOAD_CONST              11 (260)
+            292 BINARY_OP                5 (*)
+            296 BUILD_TUPLE              2
+
+ 79         298 BUILD_LIST              10
+            300 STORE_NAME               7 (_fields_)
+            302 RETURN_CONST            12 (None)
+
+Disassembly of <code object windows_descendant_process_ids at 0x0000019898E23A50, file "404_updater.py", line 118>:
+118           0 RESUME                   0
+
+119           2 LOAD_GLOBAL              0 (os)
+             12 LOAD_ATTR                2 (name)
+             32 LOAD_CONST               1 ('nt')
+             34 COMPARE_OP              55 (!=)
+             38 POP_JUMP_IF_TRUE         5 (to 50)
+             40 LOAD_FAST                0 (root_pid)
+             42 LOAD_CONST               2 (0)
+             44 COMPARE_OP              26 (<=)
+             48 POP_JUMP_IF_FALSE        2 (to 54)
+
+120     >>   50 BUILD_LIST               0
+             52 RETURN_VALUE
+
+121     >>   54 LOAD_GLOBAL              5 (NULL + windows_process_parent_map)
+             64 CALL                     0
+             72 STORE_FAST               1 (parent_by_pid)
+
+123          74 BUILD_LIST               0
+             76 STORE_FAST               2 (descendants)
+
+124          78 LOAD_FAST                0 (root_pid)
+             80 BUILD_SET                1
+             82 STORE_FAST               3 (frontier)
+
+125          84 LOAD_FAST                3 (frontier)
+             86 POP_JUMP_IF_FALSE       96 (to 280)
+
+128     >>   88 LOAD_FAST                1 (parent_by_pid)
+             90 LOAD_ATTR                7 (NULL|self + items)
+            110 CALL                     0
+            118 GET_ITER
+
+126         120 LOAD_FAST_AND_CLEAR      4 (child_pid)
+            122 LOAD_FAST_AND_CLEAR      5 (parent_pid)
+            124 SWAP                     3
+            126 BUILD_SET                0
+            128 SWAP                     2
+
+128     >>  130 FOR_ITER                16 (to 166)
+            134 UNPACK_SEQUENCE          2
+            138 STORE_FAST               4 (child_pid)
+            140 STORE_FAST               5 (parent_pid)
+
+129         142 LOAD_FAST                5 (parent_pid)
+            144 LOAD_FAST                3 (frontier)
+            146 CONTAINS_OP              0
+            148 POP_JUMP_IF_FALSE        7 (to 164)
+            150 LOAD_FAST                4 (child_pid)
+            152 LOAD_FAST                0 (root_pid)
+            154 COMPARE_OP              55 (!=)
+            158 POP_JUMP_IF_FALSE        2 (to 164)
+
+127         160 LOAD_FAST                4 (child_pid)
+            162 SET_ADD                  2
+        >>  164 JUMP_BACKWARD           18 (to 130)
+
+128     >>  166 END_FOR
+
+126         168 STORE_FAST               6 (children)
+            170 STORE_FAST               4 (child_pid)
+            172 STORE_FAST               5 (parent_pid)
+
+131         174 LOAD_FAST                6 (children)
+            176 LOAD_ATTR                9 (NULL|self + difference_update)
+            196 LOAD_FAST                2 (descendants)
+            198 CALL                     1
+            206 POP_TOP
+
+132         208 LOAD_FAST                6 (children)
+            210 POP_JUMP_IF_TRUE         3 (to 218)
+
+133         212 NOP
+
+136         214 LOAD_FAST                2 (descendants)
+            216 RETURN_VALUE
+
+134     >>  218 LOAD_FAST                2 (descendants)
+            220 LOAD_ATTR               11 (NULL|self + extend)
+            240 LOAD_GLOBAL             13 (NULL + sorted)
+            250 LOAD_FAST                6 (children)
+            252 CALL                     1
+            260 CALL                     1
+            268 POP_TOP
+
+135         270 LOAD_FAST                6 (children)
+            272 STORE_FAST               3 (frontier)
+
+125         274 LOAD_FAST                3 (frontier)
+            276 POP_JUMP_IF_FALSE        1 (to 280)
+            278 JUMP_BACKWARD           96 (to 88)
+
+136     >>  280 LOAD_FAST                2 (descendants)
+            282 RETURN_VALUE
+        >>  284 SWAP                     2
+            286 POP_TOP
+
+126         288 SWAP                     3
+            290 STORE_FAST               5 (parent_pid)
+            292 STORE_FAST               4 (child_pid)
+            294 RERAISE                  0
+ExceptionTable:
+  126 to 166 -> 284 [3]
+
+Disassembly of <code object windows_ancestor_process_ids at 0x0000019899370B90, file "404_updater.py", line 139>:
+139           0 RESUME                   0
+
+140           2 LOAD_GLOBAL              0 (os)
+             12 LOAD_ATTR                2 (name)
+             32 LOAD_CONST               1 ('nt')
+             34 COMPARE_OP              55 (!=)
+             38 POP_JUMP_IF_TRUE         5 (to 50)
+             40 LOAD_FAST                0 (process_pid)
+             42 LOAD_CONST               2 (0)
+             44 COMPARE_OP              26 (<=)
+             48 POP_JUMP_IF_FALSE       10 (to 70)
+
+141     >>   50 LOAD_GLOBAL              5 (NULL + set)
+             60 CALL                     0
+             68 RETURN_VALUE
+
+142     >>   70 LOAD_GLOBAL              7 (NULL + windows_process_parent_map)
+             80 CALL                     0
+             88 STORE_FAST               2 (parent_by_pid)
+
+143          90 LOAD_GLOBAL              5 (NULL + set)
+            100 CALL                     0
+            108 STORE_FAST               3 (ancestors)
+
+144         110 LOAD_FAST                0 (process_pid)
+            112 STORE_FAST               4 (current)
+
+145         114 LOAD_FAST                4 (current)
+            116 LOAD_FAST                2 (parent_by_pid)
+            118 CONTAINS_OP              0
+            120 POP_JUMP_IF_FALSE       46 (to 214)
+
+146     >>  122 LOAD_FAST                2 (parent_by_pid)
+            124 LOAD_FAST                4 (current)
+            126 BINARY_SUBSCR
+            130 STORE_FAST               5 (parent)
+
+147         132 LOAD_FAST                5 (parent)
+            134 LOAD_CONST               2 (0)
+            136 COMPARE_OP              26 (<=)
+            140 POP_JUMP_IF_TRUE         9 (to 160)
+            142 LOAD_FAST                5 (parent)
+            144 LOAD_FAST                1 (stop_pid)
+            146 COMPARE_OP              40 (==)
+            150 POP_JUMP_IF_TRUE         4 (to 160)
+            152 LOAD_FAST                5 (parent)
+            154 LOAD_FAST                3 (ancestors)
+            156 CONTAINS_OP              0
+            158 POP_JUMP_IF_FALSE        3 (to 166)
+
+148     >>  160 NOP
+
+151         162 LOAD_FAST                3 (ancestors)
+            164 RETURN_VALUE
+
+149     >>  166 LOAD_FAST                3 (ancestors)
+            168 LOAD_ATTR                9 (NULL|self + add)
+            188 LOAD_FAST                5 (parent)
+            190 CALL                     1
+            198 POP_TOP
+
+150         200 LOAD_FAST                5 (parent)
+            202 STORE_FAST               4 (current)
+
+145         204 LOAD_FAST                4 (current)
+            206 LOAD_FAST                2 (parent_by_pid)
+            208 CONTAINS_OP              0
+            210 POP_JUMP_IF_FALSE        1 (to 214)
+            212 JUMP_BACKWARD           46 (to 122)
+
+151     >>  214 LOAD_FAST                3 (ancestors)
+            216 RETURN_VALUE
+
+Disassembly of <code object taskkill_process_tree at 0x0000019898DFF4B0, file "404_updater.py", line 154>:
+154           0 RESUME                   0
+
+155           2 LOAD_FAST                0 (pid)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP              26 (<=)
+             10 POP_JUMP_IF_TRUE        34 (to 80)
+             12 LOAD_FAST                0 (pid)
+             14 LOAD_GLOBAL              1 (NULL + os)
+             24 LOAD_ATTR                2 (getpid)
+             44 CALL                     0
+             52 COMPARE_OP              40 (==)
+             56 POP_JUMP_IF_TRUE        11 (to 80)
+             58 LOAD_GLOBAL              5 (NULL + process_exists)
+             68 LOAD_FAST                0 (pid)
+             70 CALL                     1
+             78 POP_JUMP_IF_TRUE         1 (to 82)
+
+156     >>   80 RETURN_CONST             0 (None)
+
+157     >>   82 LOAD_GLOBAL              7 (NULL + subprocess)
+             92 LOAD_ATTR                8 (run)
+
+158         112 LOAD_CONST               2 ('taskkill')
+            114 LOAD_CONST               3 ('/PID')
+            116 LOAD_GLOBAL             11 (NULL + str)
+            126 LOAD_FAST                0 (pid)
+            128 CALL                     1
+            136 LOAD_CONST               4 ('/T')
+            138 LOAD_CONST               5 ('/F')
+            140 BUILD_LIST               5
+
+159         142 LOAD_GLOBAL              6 (subprocess)
+            152 LOAD_ATTR               12 (DEVNULL)
+
+160         172 LOAD_GLOBAL              6 (subprocess)
+            182 LOAD_ATTR               12 (DEVNULL)
+
+161         202 LOAD_GLOBAL             15 (NULL + getattr)
+            212 LOAD_GLOBAL              6 (subprocess)
+            222 LOAD_CONST               6 ('CREATE_NO_WINDOW')
+            224 LOAD_CONST               1 (0)
+            226 CALL                     3
+
+162         234 LOAD_CONST               7 (False)
+
+157         236 KW_NAMES                 8 (('stdout', 'stderr', 'creationflags', 'check'))
+            238 CALL                     5
+            246 POP_TOP
+            248 RETURN_CONST             0 (None)
+
+Disassembly of <code object taskkill_process at 0x0000019898DFF9F0, file "404_updater.py", line 166>:
+166           0 RESUME                   0
+
+167           2 LOAD_FAST                0 (pid)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP              26 (<=)
+             10 POP_JUMP_IF_TRUE        34 (to 80)
+             12 LOAD_FAST                0 (pid)
+             14 LOAD_GLOBAL              1 (NULL + os)
+             24 LOAD_ATTR                2 (getpid)
+             44 CALL                     0
+             52 COMPARE_OP              40 (==)
+             56 POP_JUMP_IF_TRUE        11 (to 80)
+             58 LOAD_GLOBAL              5 (NULL + process_exists)
+             68 LOAD_FAST                0 (pid)
+             70 CALL                     1
+             78 POP_JUMP_IF_TRUE         1 (to 82)
+
+168     >>   80 RETURN_CONST             0 (None)
+
+169     >>   82 LOAD_GLOBAL              7 (NULL + subprocess)
+             92 LOAD_ATTR                8 (run)
+
+170         112 LOAD_CONST               2 ('taskkill')
+            114 LOAD_CONST               3 ('/PID')
+            116 LOAD_GLOBAL             11 (NULL + str)
+            126 LOAD_FAST                0 (pid)
+            128 CALL                     1
+            136 LOAD_CONST               4 ('/F')
+            138 BUILD_LIST               4
+
+171         140 LOAD_GLOBAL              6 (subprocess)
+            150 LOAD_ATTR               12 (DEVNULL)
+
+172         170 LOAD_GLOBAL              6 (subprocess)
+            180 LOAD_ATTR               12 (DEVNULL)
+
+173         200 LOAD_GLOBAL             15 (NULL + getattr)
+            210 LOAD_GLOBAL              6 (subprocess)
+            220 LOAD_CONST               5 ('CREATE_NO_WINDOW')
+            222 LOAD_CONST               1 (0)
+            224 CALL                     3
+
+174         232 LOAD_CONST               6 (False)
+
+169         234 KW_NAMES                 7 (('stdout', 'stderr', 'creationflags', 'check'))
+            236 CALL                     5
+            244 POP_TOP
+            246 RETURN_CONST             0 (None)
+
+Disassembly of <code object close_launcher_process at 0x0000019899217750, file "404_updater.py", line 178>:
+178           0 RESUME                   0
+
+179           2 LOAD_FAST                0 (pid)
+              4 LOAD_CONST               1 (0)
+              6 COMPARE_OP              26 (<=)
+             10 POP_JUMP_IF_TRUE        23 (to 58)
+             12 LOAD_FAST                0 (pid)
+             14 LOAD_GLOBAL              1 (NULL + os)
+             24 LOAD_ATTR                2 (getpid)
+             44 CALL                     0
+             52 COMPARE_OP              40 (==)
+             56 POP_JUMP_IF_FALSE        1 (to 60)
+
+180     >>   58 RETURN_CONST             0 (None)
+
+181     >>   60 LOAD_FAST                1 (descendants)
+             62 POP_JUMP_IF_NONE         2 (to 68)
+             64 LOAD_FAST                1 (descendants)
+             66 JUMP_FORWARD            10 (to 88)
+        >>   68 LOAD_GLOBAL              5 (NULL + windows_descendant_process_ids)
+             78 LOAD_FAST                0 (pid)
+             80 CALL                     1
+        >>   88 STORE_FAST               2 (captured_descendants)
+
+182          90 LOAD_GLOBAL              7 (NULL + windows_ancestor_process_ids)
+            100 LOAD_GLOBAL              1 (NULL + os)
+            110 LOAD_ATTR                2 (getpid)
+            130 CALL                     0
+            138 LOAD_FAST                0 (pid)
+            140 CALL                     2
+            148 LOAD_GLOBAL              1 (NULL + os)
+            158 LOAD_ATTR                2 (getpid)
+            178 CALL                     0
+            186 BUILD_SET                1
+            188 BINARY_OP                7 (|)
+            192 STORE_FAST               3 (updater_processes)
+
+183         194 LOAD_CONST               2 (False)
+            196 STORE_FAST               4 (forced)
+
+184         198 LOAD_GLOBAL              9 (NULL + process_exists)
+            208 LOAD_FAST                0 (pid)
+            210 CALL                     1
+            218 POP_JUMP_IF_FALSE       14 (to 248)
+
+185         220 NOP
+
+186         222 LOAD_GLOBAL             11 (NULL + wait_for_process)
+            232 LOAD_FAST                0 (pid)
+            234 LOAD_CONST               3 (15.0)
+            236 KW_NAMES                 4 (('timeout',))
+            238 CALL                     2
+            246 POP_TOP
+
+199     >>  248 LOAD_GLOBAL              0 (os)
+            258 LOAD_ATTR               14 (name)
+            278 LOAD_CONST               5 ('nt')
+            280 COMPARE_OP              40 (==)
+            284 POP_JUMP_IF_FALSE       36 (to 358)
+            286 LOAD_FAST                4 (forced)
+            288 POP_JUMP_IF_TRUE        33 (to 356)
+
+200         290 LOAD_GLOBAL             17 (NULL + reversed)
+            300 LOAD_FAST                2 (captured_descendants)
+            302 CALL                     1
+            310 GET_ITER
+        >>  312 FOR_ITER                18 (to 352)
+            316 STORE_FAST               5 (child_pid)
+
+201         318 LOAD_FAST                5 (child_pid)
+            320 LOAD_FAST                3 (updater_processes)
+            322 CONTAINS_OP              1
+            324 POP_JUMP_IF_TRUE         1 (to 328)
+            326 JUMP_BACKWARD            8 (to 312)
+
+202     >>  328 LOAD_GLOBAL             19 (NULL + taskkill_process_tree)
+            338 LOAD_FAST                5 (child_pid)
+            340 CALL                     1
+            348 POP_TOP
+            350 JUMP_BACKWARD           20 (to 312)
+
+200     >>  352 END_FOR
+            354 RETURN_CONST             0 (None)
+
+199     >>  356 RETURN_CONST             0 (None)
+        >>  358 RETURN_CONST             0 (None)
+        >>  360 PUSH_EXC_INFO
+
+187         362 LOAD_GLOBAL             12 (RuntimeError)
+            372 CHECK_EXC_MATCH
+            374 POP_JUMP_IF_FALSE      117 (to 610)
+            376 POP_TOP
+
+188         378 LOAD_GLOBAL              0 (os)
+            388 LOAD_ATTR               14 (name)
+            408 LOAD_CONST               5 ('nt')
+            410 COMPARE_OP              40 (==)
+            414 POP_JUMP_IF_FALSE       46 (to 508)
+
+191         416 LOAD_GLOBAL             17 (NULL + reversed)
+            426 LOAD_FAST                2 (captured_descendants)
+            428 CALL                     1
+            436 GET_ITER
+        >>  438 FOR_ITER                18 (to 478)
+            442 STORE_FAST               5 (child_pid)
+
+192         444 LOAD_FAST                5 (child_pid)
+            446 LOAD_FAST                3 (updater_processes)
+            448 CONTAINS_OP              1
+            450 POP_JUMP_IF_TRUE         1 (to 454)
+            452 JUMP_BACKWARD            8 (to 438)
+
+193     >>  454 LOAD_GLOBAL             19 (NULL + taskkill_process_tree)
+            464 LOAD_FAST                5 (child_pid)
+            466 CALL                     1
+            474 POP_TOP
+            476 JUMP_BACKWARD           20 (to 438)
+
+191     >>  478 END_FOR
+
+194         480 LOAD_GLOBAL             21 (NULL + taskkill_process)
+            490 LOAD_FAST                0 (pid)
+            492 CALL                     1
+            500 POP_TOP
+
+195         502 LOAD_CONST               6 (True)
+            504 STORE_FAST               4 (forced)
+            506 JUMP_FORWARD            36 (to 580)
+
+197     >>  508 LOAD_GLOBAL              1 (NULL + os)
+            518 LOAD_ATTR               22 (kill)
+            538 LOAD_FAST                0 (pid)
+            540 LOAD_GLOBAL             24 (signal)
+            550 LOAD_ATTR               26 (SIGTERM)
+            570 CALL                     2
+            578 POP_TOP
+
+198     >>  580 LOAD_GLOBAL             11 (NULL + wait_for_process)
+            590 LOAD_FAST                0 (pid)
+            592 LOAD_CONST               7 (30.0)
+            594 KW_NAMES                 4 (('timeout',))
+            596 CALL                     2
+            604 POP_TOP
+            606 POP_EXCEPT
+            608 JUMP_BACKWARD          181 (to 248)
+
+187     >>  610 RERAISE                  0
+        >>  612 COPY                     3
+            614 POP_EXCEPT
+            616 RERAISE                  1
+ExceptionTable:
+  222 to 246 -> 360 [0]
+  360 to 450 -> 612 [1] lasti
+  454 to 604 -> 612 [1] lasti
+  610 to 610 -> 612 [1] lasti
+
+Disassembly of <code object replace_with_retry at 0x00000198991E00C0, file "404_updater.py", line 205>:
+205           0 RESUME                   0
+
+207           2 LOAD_GLOBAL              1 (NULL + time)
+             12 LOAD_ATTR                2 (monotonic)
+             32 CALL                     0
+             40 LOAD_FAST                2 (timeout)
+             42 BINARY_OP                0 (+)
+             46 STORE_FAST               3 (deadline)
+
+208          48 LOAD_CONST               1 (0.15)
+             50 STORE_FAST               4 (delay)
+
+209          52 NOP
+
+210     >>   54 NOP
+
+211          56 LOAD_FAST                1 (target)
+             58 LOAD_ATTR                5 (NULL|self + exists)
+             78 CALL                     0
+             86 POP_JUMP_IF_FALSE       59 (to 206)
+
+212          88 NOP
+
+213          90 LOAD_FAST                1 (target)
+             92 LOAD_ATTR                7 (NULL|self + chmod)
+            112 LOAD_FAST                1 (target)
+            114 LOAD_ATTR                9 (NULL|self + stat)
+            134 CALL                     0
+            142 LOAD_ATTR               10 (st_mode)
+            162 LOAD_GLOBAL              8 (stat)
+            172 LOAD_ATTR               12 (S_IWRITE)
+            192 BINARY_OP                7 (|)
+            196 CALL                     1
+            204 POP_TOP
+
+216     >>  206 LOAD_GLOBAL             17 (NULL + os)
+            216 LOAD_ATTR               18 (replace)
+            236 LOAD_FAST                0 (source)
+            238 LOAD_FAST                1 (target)
+            240 CALL                     2
+            248 POP_TOP
+
+217         250 RETURN_CONST             2 (None)
+        >>  252 PUSH_EXC_INFO
+
+214         254 LOAD_GLOBAL             14 (OSError)
+            264 CHECK_EXC_MATCH
+            266 POP_JUMP_IF_FALSE        3 (to 274)
+            268 POP_TOP
+
+215         270 POP_EXCEPT
+            272 JUMP_BACKWARD           34 (to 206)
+
+214     >>  274 RERAISE                  0
+        >>  276 COPY                     3
+            278 POP_EXCEPT
+            280 RERAISE                  1
+        >>  282 PUSH_EXC_INFO
+
+218         284 LOAD_GLOBAL             14 (OSError)
+            294 CHECK_EXC_MATCH
+            296 POP_JUMP_IF_FALSE      101 (to 500)
+            298 STORE_FAST               5 (exc)
+
+219         300 LOAD_GLOBAL             21 (NULL + getattr)
+            310 LOAD_FAST                5 (exc)
+            312 LOAD_CONST               3 ('winerror')
+            314 LOAD_CONST               2 (None)
+            316 CALL                     3
+            324 LOAD_CONST               4 (frozenset({32, 5}))
+            326 CONTAINS_OP              1
+            328 POP_JUMP_IF_FALSE        1 (to 332)
+
+220         330 RAISE_VARARGS            0
+
+221     >>  332 LOAD_GLOBAL              1 (NULL + time)
+            342 LOAD_ATTR                2 (monotonic)
+            362 CALL                     0
+            370 LOAD_FAST                3 (deadline)
+            372 COMPARE_OP              92 (>=)
+            376 POP_JUMP_IF_FALSE       16 (to 410)
+
+222         378 LOAD_GLOBAL             23 (NULL + PermissionError)
+
+223         388 LOAD_CONST               5 ('等待文件解除占用超时：')
+            390 LOAD_FAST                1 (target)
+            392 FORMAT_VALUE             0
+            394 LOAD_CONST               6 ('；请关闭安全软件扫描或占用该文件的程序后重试')
+            396 BUILD_STRING             3
+
+222         398 CALL                     1
+
+224         406 LOAD_FAST                5 (exc)
+
+222         408 RAISE_VARARGS            2
+
+225     >>  410 LOAD_GLOBAL              1 (NULL + time)
+            420 LOAD_ATTR               24 (sleep)
+            440 LOAD_FAST                4 (delay)
+            442 CALL                     1
+            450 POP_TOP
+
+226         452 LOAD_GLOBAL             27 (NULL + min)
+            462 LOAD_FAST                4 (delay)
+            464 LOAD_CONST               7 (1.35)
+            466 BINARY_OP                5 (*)
+            470 LOAD_CONST               8 (1.0)
+            472 CALL                     2
+            480 STORE_FAST               4 (delay)
+            482 POP_EXCEPT
+            484 LOAD_CONST               2 (None)
+            486 STORE_FAST               5 (exc)
+            488 DELETE_FAST              5 (exc)
+            490 JUMP_FORWARD             8 (to 508)
+        >>  492 LOAD_CONST               2 (None)
+            494 STORE_FAST               5 (exc)
+            496 DELETE_FAST              5 (exc)
+            498 RERAISE                  1
+
+218     >>  500 RERAISE                  0
+        >>  502 COPY                     3
+            504 POP_EXCEPT
+            506 RERAISE                  1
+
+209     >>  508 JUMP_BACKWARD          228 (to 54)
+ExceptionTable:
+  56 to 86 -> 282 [0]
+  90 to 204 -> 252 [0]
+  206 to 248 -> 282 [0]
+  252 to 268 -> 276 [1] lasti
+  270 to 272 -> 282 [0]
+  274 to 274 -> 276 [1] lasti
+  276 to 280 -> 282 [0]
+  282 to 298 -> 502 [1] lasti
+  300 to 480 -> 492 [1] lasti
+  492 to 500 -> 502 [1] lasti
+
+Disassembly of <code object restore_file at 0x0000019899364D20, file "404_updater.py", line 229>:
+229           0 RESUME                   0
+
+230           2 LOAD_FAST                1 (target)
+              4 LOAD_ATTR                1 (NULL|self + with_name)
+             24 LOAD_FAST                1 (target)
+             26 LOAD_ATTR                2 (name)
+             46 LOAD_CONST               1 ('.404rollback')
+             48 BINARY_OP                0 (+)
+             52 CALL                     1
+             60 STORE_FAST               2 (temporary)
+
+231          62 LOAD_FAST                2 (temporary)
+             64 LOAD_ATTR                5 (NULL|self + unlink)
+             84 LOAD_CONST               2 (True)
+             86 KW_NAMES                 3 (('missing_ok',))
+             88 CALL                     1
+             96 POP_TOP
+
+232          98 LOAD_GLOBAL              7 (NULL + shutil)
+            108 LOAD_ATTR                8 (copy2)
+            128 LOAD_FAST                0 (source)
+            130 LOAD_FAST                2 (temporary)
+            132 CALL                     2
+            140 POP_TOP
+
+233         142 LOAD_GLOBAL             11 (NULL + replace_with_retry)
+            152 LOAD_FAST                2 (temporary)
+            154 LOAD_FAST                1 (target)
+            156 CALL                     2
+            164 POP_TOP
+            166 RETURN_CONST             0 (None)
+
+Disassembly of <code object is_protected at 0x000001989911E8E0, file "404_updater.py", line 236>:
+              0 MAKE_CELL                2 (lowered)
+
+236           2 RESUME                   0
+
+237           4 LOAD_FAST                0 (path)
+              6 LOAD_ATTR                1 (NULL|self + replace)
+             26 LOAD_CONST               1 ('\\')
+             28 LOAD_CONST               2 ('/')
+             30 CALL                     2
+             38 LOAD_ATTR                3 (NULL|self + strip)
+             58 LOAD_CONST               2 ('/')
+             60 CALL                     1
+             68 LOAD_ATTR                5 (NULL|self + lower)
+             88 CALL                     0
+             96 STORE_DEREF              2 (lowered)
+
+238          98 LOAD_GLOBAL              7 (NULL + any)
+            108 LOAD_CLOSURE             2 (lowered)
+            110 BUILD_TUPLE              1
+            112 LOAD_CONST               3 (<code object <genexpr> at 0x00000198991130A0, file "404_updater.py", line 238>)
+            114 MAKE_FUNCTION            8 (closure)
+            116 LOAD_FAST                1 (prefixes)
+            118 GET_ITER
+            120 CALL                     0
+            128 CALL                     1
+            136 RETURN_VALUE
+
+Disassembly of <code object <genexpr> at 0x00000198991130A0, file "404_updater.py", line 238>:
+              0 COPY_FREE_VARS           1
+
+238           2 RETURN_GENERATOR
+              4 POP_TOP
+              6 RESUME                   0
+              8 LOAD_FAST                0 (.0)
+        >>   10 FOR_ITER                89 (to 192)
+             14 STORE_FAST               1 (prefix)
+             16 LOAD_DEREF               2 (lowered)
+             18 LOAD_FAST                1 (prefix)
+             20 LOAD_ATTR                1 (NULL|self + lower)
+             40 CALL                     0
+             48 LOAD_ATTR                3 (NULL|self + strip)
+             68 LOAD_CONST               0 ('/')
+             70 CALL                     1
+             78 COMPARE_OP              40 (==)
+             82 COPY                     1
+             84 POP_JUMP_IF_TRUE        49 (to 184)
+             86 POP_TOP
+             88 LOAD_DEREF               2 (lowered)
+             90 LOAD_ATTR                5 (NULL|self + startswith)
+            110 LOAD_FAST                1 (prefix)
+            112 LOAD_ATTR                1 (NULL|self + lower)
+            132 CALL                     0
+            140 LOAD_ATTR                3 (NULL|self + strip)
+            160 LOAD_CONST               0 ('/')
+            162 CALL                     1
+            170 LOAD_CONST               0 ('/')
+            172 BINARY_OP                0 (+)
+            176 CALL                     1
+        >>  184 YIELD_VALUE              1
+            186 RESUME                   1
+            188 POP_TOP
+            190 JUMP_BACKWARD           91 (to 10)
+        >>  192 END_FOR
+            194 RETURN_CONST             1 (None)
+        >>  196 CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+            198 RERAISE                  1
+ExceptionTable:
+  6 to 194 -> 196 [0] lasti
+
+Disassembly of <code object write_update_log at 0x000001989910A030, file "404_updater.py", line 241>:
+241           0 RESUME                   0
+
+242           2 NOP
+
+243           4 LOAD_FAST                0 (app_root)
+              6 LOAD_CONST               1 ('.404_update')
+              8 BINARY_OP               11 (/)
+             12 LOAD_CONST               2 ('updater.log')
+             14 BINARY_OP               11 (/)
+             18 STORE_FAST               2 (log_path)
+
+244          20 LOAD_FAST                2 (log_path)
+             22 LOAD_ATTR                0 (parent)
+             42 LOAD_ATTR                3 (NULL|self + mkdir)
+             62 LOAD_CONST               3 (True)
+             64 LOAD_CONST               3 (True)
+             66 KW_NAMES                 4 (('parents', 'exist_ok'))
+             68 CALL                     2
+             76 POP_TOP
+
+245          78 LOAD_GLOBAL              5 (NULL + datetime)
+             88 LOAD_ATTR                6 (now)
+            108 CALL                     0
+            116 LOAD_ATTR                9 (NULL|self + strftime)
+            136 LOAD_CONST               5 ('%Y-%m-%d %H:%M:%S')
+            138 CALL                     1
+            146 STORE_FAST               3 (timestamp)
+
+246         148 LOAD_FAST                2 (log_path)
+            150 LOAD_ATTR               11 (NULL|self + open)
+            170 LOAD_CONST               6 ('a')
+            172 LOAD_CONST               7 ('utf-8')
+            174 KW_NAMES                 8 (('encoding',))
+            176 CALL                     2
+            184 BEFORE_WITH
+            186 STORE_FAST               4 (output)
+
+247         188 LOAD_FAST                4 (output)
+            190 LOAD_ATTR               13 (NULL|self + write)
+            210 LOAD_CONST               9 ('[')
+            212 LOAD_FAST                3 (timestamp)
+            214 FORMAT_VALUE             0
+            216 LOAD_CONST              10 ('] ')
+            218 LOAD_FAST                1 (message)
+            220 FORMAT_VALUE             0
+            222 LOAD_CONST              11 ('\n')
+            224 BUILD_STRING             5
+            226 CALL                     1
+            234 POP_TOP
+
+246         236 LOAD_CONST               0 (None)
+            238 LOAD_CONST               0 (None)
+            240 LOAD_CONST               0 (None)
+            242 CALL                     2
+            250 POP_TOP
+            252 RETURN_CONST             0 (None)
+        >>  254 PUSH_EXC_INFO
+            256 WITH_EXCEPT_START
+            258 POP_JUMP_IF_TRUE         1 (to 262)
+            260 RERAISE                  2
+        >>  262 POP_TOP
+            264 POP_EXCEPT
+            266 POP_TOP
+            268 POP_TOP
+            270 RETURN_CONST             0 (None)
+        >>  272 COPY                     3
+            274 POP_EXCEPT
+            276 RERAISE                  1
+        >>  278 PUSH_EXC_INFO
+
+248         280 LOAD_GLOBAL             14 (OSError)
+            290 CHECK_EXC_MATCH
+            292 POP_JUMP_IF_FALSE        3 (to 300)
+            294 POP_TOP
+
+249         296 POP_EXCEPT
+            298 RETURN_CONST             0 (None)
+
+248     >>  300 RERAISE                  0
+        >>  302 COPY                     3
+            304 POP_EXCEPT
+            306 RERAISE                  1
+ExceptionTable:
+  4 to 184 -> 278 [0]
+  186 to 234 -> 254 [1] lasti
+  236 to 250 -> 278 [0]
+  254 to 262 -> 272 [3] lasti
+  264 to 268 -> 278 [0]
+  272 to 276 -> 278 [0]
+  278 to 294 -> 302 [1] lasti
+  300 to 300 -> 302 [1] lasti
+
+Disassembly of <code object apply at 0x0000019899195440, file "404_updater.py", line 252>:
+252           0 RESUME                   0
+
+253           2 LOAD_GLOBAL              1 (NULL + json)
+             12 LOAD_ATTR                2 (loads)
+             32 LOAD_FAST                0 (plan_path)
+             34 LOAD_ATTR                5 (NULL|self + read_text)
+             54 LOAD_CONST               1 ('utf-8-sig')
+             56 CALL                     1
+             64 CALL                     1
+             72 STORE_FAST               3 (plan)
+
+254          74 LOAD_GLOBAL              7 (NULL + Path)
+             84 LOAD_FAST                3 (plan)
+             86 LOAD_CONST               2 ('app_root')
+             88 BINARY_SUBSCR
+             92 CALL                     1
+            100 LOAD_ATTR                9 (NULL|self + resolve)
+            120 CALL                     0
+            128 STORE_FAST               4 (app_root)
+
+255         130 LOAD_GLOBAL              7 (NULL + Path)
+            140 LOAD_FAST                3 (plan)
+            142 LOAD_CONST               3 ('staging_root')
+            144 BINARY_SUBSCR
+            148 CALL                     1
+            156 LOAD_ATTR                9 (NULL|self + resolve)
+            176 CALL                     0
+            184 STORE_FAST               5 (staging_root)
+
+256         186 LOAD_GLOBAL             11 (NULL + windows_descendant_process_ids)
+            196 LOAD_FAST                1 (wait_pid)
+            198 CALL                     1
+            206 STORE_FAST               6 (descendants)
+
+257         208 LOAD_GLOBAL             13 (NULL + write_update_log)
+
+258         218 LOAD_FAST                4 (app_root)
+
+259         220 LOAD_CONST               4 ('开始更新 version=')
+            222 LOAD_FAST                3 (plan)
+            224 LOAD_CONST               5 ('version')
+            226 BINARY_SUBSCR
+            230 FORMAT_VALUE             0
+            232 LOAD_CONST               6 (' wait_pid=')
+            234 LOAD_FAST                1 (wait_pid)
+            236 FORMAT_VALUE             0
+            238 LOAD_CONST               7 (' files=')
+            240 LOAD_GLOBAL             15 (NULL + len)
+            250 LOAD_FAST                3 (plan)
+            252 LOAD_CONST               8 ('files')
+            254 BINARY_SUBSCR
+            258 CALL                     1
+            266 FORMAT_VALUE             0
+            268 BUILD_STRING             6
+
+257         270 CALL                     2
+            278 POP_TOP
+
+261         280 LOAD_GLOBAL             13 (NULL + write_update_log)
+            290 LOAD_FAST                4 (app_root)
+            292 LOAD_CONST               9 ('已记录 Launcher 子进程：')
+            294 LOAD_FAST                6 (descendants)
+            296 FORMAT_VALUE             0
+            298 BUILD_STRING             2
+            300 CALL                     2
+            308 POP_TOP
+
+262         310 LOAD_FAST                2 (ready_file)
+            312 POP_JUMP_IF_NONE        63 (to 440)
+
+263         314 LOAD_FAST                2 (ready_file)
+            316 LOAD_ATTR               16 (parent)
+            336 LOAD_ATTR               19 (NULL|self + mkdir)
+            356 LOAD_CONST              10 (True)
+            358 LOAD_CONST              10 (True)
+            360 KW_NAMES                11 (('parents', 'exist_ok'))
+            362 CALL                     2
+            370 POP_TOP
+
+264         372 LOAD_FAST                2 (ready_file)
+            374 LOAD_ATTR               21 (NULL|self + write_text)
+            394 LOAD_CONST              12 ('ready\n')
+            396 LOAD_CONST              13 ('utf-8')
+            398 KW_NAMES                14 (('encoding',))
+            400 CALL                     2
+            408 POP_TOP
+
+265         410 LOAD_GLOBAL             13 (NULL + write_update_log)
+            420 LOAD_FAST                4 (app_root)
+            422 LOAD_CONST              15 ('已写入 ready 信号：')
+            424 LOAD_FAST                2 (ready_file)
+            426 FORMAT_VALUE             0
+            428 BUILD_STRING             2
+            430 CALL                     2
+            438 POP_TOP
+
+266     >>  440 LOAD_GLOBAL             23 (NULL + close_launcher_process)
+            450 LOAD_FAST                1 (wait_pid)
+            452 LOAD_FAST                6 (descendants)
+            454 CALL                     2
+            462 POP_TOP
+
+267         464 LOAD_GLOBAL             13 (NULL + write_update_log)
+            474 LOAD_FAST                4 (app_root)
+            476 LOAD_CONST              16 ('Launcher 及残留子进程已退出')
+            478 CALL                     2
+            486 POP_TOP
+
+268         488 LOAD_GLOBAL             25 (NULL + time)
+            498 LOAD_ATTR               26 (sleep)
+            518 LOAD_CONST              17 (3.0)
+            520 CALL                     1
+            528 POP_TOP
+
+269         530 LOAD_FAST                4 (app_root)
+            532 LOAD_CONST              18 ('.404_update')
+            534 BINARY_OP               11 (/)
+            538 LOAD_CONST              19 ('rollback')
+            540 BINARY_OP               11 (/)
+            544 LOAD_GLOBAL             29 (NULL + str)
+            554 LOAD_FAST                3 (plan)
+            556 LOAD_CONST               5 ('version')
+            558 BINARY_SUBSCR
+            562 CALL                     1
+            570 BINARY_OP               11 (/)
+            574 STORE_FAST               7 (rollback)
+
+270         576 LOAD_FAST                7 (rollback)
+            578 LOAD_ATTR               31 (NULL|self + exists)
+            598 CALL                     0
+            606 POP_JUMP_IF_FALSE       21 (to 650)
+
+271         608 LOAD_GLOBAL             33 (NULL + shutil)
+            618 LOAD_ATTR               34 (rmtree)
+            638 LOAD_FAST                7 (rollback)
+            640 CALL                     1
+            648 POP_TOP
+
+272     >>  650 LOAD_FAST                7 (rollback)
+            652 LOAD_ATTR               19 (NULL|self + mkdir)
+            672 LOAD_CONST              10 (True)
+            674 KW_NAMES                20 (('parents',))
+            676 CALL                     1
+            684 POP_TOP
+
+273         686 BUILD_LIST               0
+            688 STORE_FAST               8 (replaced)
+
+274         690 BUILD_LIST               0
+            692 STORE_FAST               9 (created)
+
+275         694 BUILD_LIST               0
+            696 STORE_FAST              10 (removed)
+
+276         698 NOP
+
+277         700 LOAD_FAST                3 (plan)
+            702 LOAD_CONST               8 ('files')
+            704 BINARY_SUBSCR
+            708 GET_ITER
+        >>  710 EXTENDED_ARG             1
+            712 FOR_ITER               324 (to 1364)
+            716 STORE_FAST              11 (item)
+
+278         718 LOAD_GLOBAL             37 (NULL + relative)
+            728 LOAD_FAST               11 (item)
+            730 LOAD_CONST              21 ('path')
+            732 BINARY_SUBSCR
+            736 CALL                     1
+            744 STORE_FAST              12 (rel)
+
+279         746 LOAD_FAST                5 (staging_root)
+            748 LOAD_FAST               12 (rel)
+            750 BINARY_OP               11 (/)
+            754 STORE_FAST              13 (source)
+
+280         756 LOAD_FAST                4 (app_root)
+            758 LOAD_FAST               12 (rel)
+            760 BINARY_OP               11 (/)
+            764 STORE_FAST              14 (target)
+
+281         766 LOAD_FAST               13 (source)
+            768 LOAD_ATTR               39 (NULL|self + is_file)
+            788 CALL                     0
+            796 POP_JUMP_IF_FALSE       17 (to 832)
+            798 LOAD_GLOBAL             41 (NULL + sha256_file)
+            808 LOAD_FAST               13 (source)
+            810 CALL                     1
+            818 LOAD_FAST               11 (item)
+            820 LOAD_CONST              22 ('sha256')
+            822 BINARY_SUBSCR
+            826 COMPARE_OP              55 (!=)
+            830 POP_JUMP_IF_FALSE       17 (to 866)
+
+282     >>  832 LOAD_GLOBAL             43 (NULL + RuntimeError)
+            842 LOAD_CONST              23 ('暂存文件校验失败：')
+            844 LOAD_FAST               11 (item)
+            846 LOAD_CONST              21 ('path')
+            848 BINARY_SUBSCR
+            852 FORMAT_VALUE             0
+            854 BUILD_STRING             2
+            856 CALL                     1
+            864 RAISE_VARARGS            1
+
+283     >>  866 LOAD_FAST               14 (target)
+            868 LOAD_ATTR               31 (NULL|self + exists)
+            888 CALL                     0
+            896 POP_JUMP_IF_FALSE       57 (to 1012)
+
+284         898 LOAD_FAST                7 (rollback)
+            900 LOAD_FAST               12 (rel)
+            902 BINARY_OP               11 (/)
+            906 STORE_FAST              15 (backup)
+
+285         908 LOAD_FAST               15 (backup)
+            910 LOAD_ATTR               16 (parent)
+            930 LOAD_ATTR               19 (NULL|self + mkdir)
+            950 LOAD_CONST              10 (True)
+            952 LOAD_CONST              10 (True)
+            954 KW_NAMES                11 (('parents', 'exist_ok'))
+            956 CALL                     2
+            964 POP_TOP
+
+286         966 LOAD_GLOBAL             33 (NULL + shutil)
+            976 LOAD_ATTR               44 (copy2)
+            996 LOAD_FAST               14 (target)
+            998 LOAD_FAST               15 (backup)
+           1000 CALL                     2
+           1008 POP_TOP
+           1010 JUMP_FORWARD            17 (to 1046)
+
+288     >> 1012 LOAD_FAST                9 (created)
+           1014 LOAD_ATTR               47 (NULL|self + append)
+           1034 LOAD_FAST               12 (rel)
+           1036 CALL                     1
+           1044 POP_TOP
+
+289     >> 1046 LOAD_FAST               14 (target)
+           1048 LOAD_ATTR               16 (parent)
+           1068 LOAD_ATTR               19 (NULL|self + mkdir)
+           1088 LOAD_CONST              10 (True)
+           1090 LOAD_CONST              10 (True)
+           1092 KW_NAMES                11 (('parents', 'exist_ok'))
+           1094 CALL                     2
+           1102 POP_TOP
+
+290        1104 LOAD_FAST               14 (target)
+           1106 LOAD_ATTR               49 (NULL|self + with_name)
+           1126 LOAD_FAST               14 (target)
+           1128 LOAD_ATTR               50 (name)
+           1148 LOAD_CONST              24 ('.404new')
+           1150 BINARY_OP                0 (+)
+           1154 CALL                     1
+           1162 STORE_FAST              16 (temporary)
+
+291        1164 LOAD_FAST               16 (temporary)
+           1166 LOAD_ATTR               53 (NULL|self + unlink)
+           1186 LOAD_CONST              10 (True)
+           1188 KW_NAMES                25 (('missing_ok',))
+           1190 CALL                     1
+           1198 POP_TOP
+
+292        1200 LOAD_GLOBAL             33 (NULL + shutil)
+           1210 LOAD_ATTR               44 (copy2)
+           1230 LOAD_FAST               13 (source)
+           1232 LOAD_FAST               16 (temporary)
+           1234 CALL                     2
+           1242 POP_TOP
+
+293        1244 LOAD_GLOBAL             55 (NULL + replace_with_retry)
+           1254 LOAD_FAST               16 (temporary)
+           1256 LOAD_FAST               14 (target)
+           1258 CALL                     2
+           1266 POP_TOP
+
+294        1268 LOAD_FAST                8 (replaced)
+           1270 LOAD_ATTR               47 (NULL|self + append)
+           1290 LOAD_FAST               12 (rel)
+           1292 CALL                     1
+           1300 POP_TOP
+
+295        1302 LOAD_GLOBAL             13 (NULL + write_update_log)
+           1312 LOAD_FAST                4 (app_root)
+           1314 LOAD_CONST              26 ('已替换：')
+           1316 LOAD_FAST               12 (rel)
+           1318 LOAD_ATTR               57 (NULL|self + as_posix)
+           1338 CALL                     0
+           1346 FORMAT_VALUE             0
+           1348 BUILD_STRING             2
+           1350 CALL                     2
+           1358 POP_TOP
+           1360 EXTENDED_ARG             1
+           1362 JUMP_BACKWARD          327 (to 710)
+
+277     >> 1364 END_FOR
+
+297        1366 LOAD_FAST                3 (plan)
+           1368 LOAD_CONST               8 ('files')
+           1370 BINARY_SUBSCR
+           1374 GET_ITER
+        >> 1376 FOR_ITER                71 (to 1522)
+           1380 STORE_FAST              11 (item)
+
+298        1382 LOAD_GLOBAL             37 (NULL + relative)
+           1392 LOAD_FAST               11 (item)
+           1394 LOAD_CONST              21 ('path')
+           1396 BINARY_SUBSCR
+           1400 CALL                     1
+           1408 STORE_FAST              12 (rel)
+
+299        1410 LOAD_FAST                4 (app_root)
+           1412 LOAD_FAST               12 (rel)
+           1414 BINARY_OP               11 (/)
+           1418 STORE_FAST              14 (target)
+
+300        1420 LOAD_FAST               14 (target)
+           1422 LOAD_ATTR               39 (NULL|self + is_file)
+           1442 CALL                     0
+           1450 POP_JUMP_IF_FALSE       18 (to 1488)
+           1452 LOAD_GLOBAL             41 (NULL + sha256_file)
+           1462 LOAD_FAST               14 (target)
+           1464 CALL                     1
+           1472 LOAD_FAST               11 (item)
+           1474 LOAD_CONST              22 ('sha256')
+           1476 BINARY_SUBSCR
+           1480 COMPARE_OP              55 (!=)
+           1484 POP_JUMP_IF_TRUE         1 (to 1488)
+           1486 JUMP_BACKWARD           56 (to 1376)
+
+301     >> 1488 LOAD_GLOBAL             43 (NULL + RuntimeError)
+           1498 LOAD_CONST              27 ('更新后文件校验失败：')
+           1500 LOAD_FAST               11 (item)
+           1502 LOAD_CONST              21 ('path')
+           1504 BINARY_SUBSCR
+           1508 FORMAT_VALUE             0
+           1510 BUILD_STRING             2
+           1512 CALL                     1
+           1520 RAISE_VARARGS            1
+
+297     >> 1522 END_FOR
+
+303        1524 LOAD_FAST                3 (plan)
+           1526 LOAD_CONST              28 ('target_files')
+           1528 BINARY_SUBSCR
+           1532 GET_ITER
+           1534 LOAD_FAST_AND_CLEAR     17 (path)
+           1536 SWAP                     2
+           1538 BUILD_SET                0
+           1540 SWAP                     2
+        >> 1542 FOR_ITER                52 (to 1650)
+           1546 STORE_FAST              17 (path)
+           1548 LOAD_GLOBAL             29 (NULL + str)
+           1558 LOAD_GLOBAL             37 (NULL + relative)
+           1568 LOAD_FAST               17 (path)
+           1570 CALL                     1
+           1578 CALL                     1
+           1586 LOAD_ATTR               59 (NULL|self + replace)
+           1606 LOAD_CONST              29 ('\\')
+           1608 LOAD_CONST              30 ('/')
+           1610 CALL                     2
+           1618 LOAD_ATTR               61 (NULL|self + lower)
+           1638 CALL                     0
+           1646 SET_ADD                  2
+           1648 JUMP_BACKWARD           54 (to 1542)
+        >> 1650 END_FOR
+           1652 STORE_FAST              18 (targets)
+           1654 STORE_FAST              17 (path)
+
+304        1656 LOAD_FAST                3 (plan)
+           1658 LOAD_CONST              31 ('obsolete_paths')
+           1660 BINARY_SUBSCR
+           1664 GET_ITER
+           1666 LOAD_FAST_AND_CLEAR     17 (path)
+           1668 SWAP                     2
+           1670 BUILD_SET                0
+           1672 SWAP                     2
+        >> 1674 FOR_ITER                38 (to 1754)
+           1678 STORE_FAST              17 (path)
+           1680 LOAD_GLOBAL             29 (NULL + str)
+           1690 LOAD_GLOBAL             37 (NULL + relative)
+           1700 LOAD_FAST               17 (path)
+           1702 CALL                     1
+           1710 CALL                     1
+           1718 LOAD_ATTR               59 (NULL|self + replace)
+           1738 LOAD_CONST              29 ('\\')
+           1740 LOAD_CONST              30 ('/')
+           1742 CALL                     2
+           1750 SET_ADD                  2
+           1752 JUMP_BACKWARD           40 (to 1674)
+        >> 1754 END_FOR
+           1756 STORE_FAST              19 (deletion_candidates)
+           1758 STORE_FAST              17 (path)
+
+305        1760 LOAD_FAST                3 (plan)
+           1762 LOAD_ATTR               63 (NULL|self + get)
+           1782 LOAD_CONST              32 ('managed_roots')
+           1784 BUILD_LIST               0
+           1786 CALL                     2
+           1794 GET_ITER
+        >> 1796 FOR_ITER               139 (to 2078)
+           1800 STORE_FAST              20 (root_name)
+
+306        1802 LOAD_FAST                4 (app_root)
+           1804 LOAD_GLOBAL             37 (NULL + relative)
+           1814 LOAD_FAST               20 (root_name)
+           1816 CALL                     1
+           1824 BINARY_OP               11 (/)
+           1828 STORE_FAST              21 (managed)
+
+307        1830 LOAD_FAST               21 (managed)
+           1832 LOAD_ATTR               65 (NULL|self + is_dir)
+           1852 CALL                     0
+           1860 POP_JUMP_IF_TRUE         1 (to 1864)
+           1862 JUMP_BACKWARD           34 (to 1796)
+
+308     >> 1864 LOAD_FAST               21 (managed)
+           1866 LOAD_ATTR               67 (NULL|self + rglob)
+           1886 LOAD_CONST              33 ('*')
+           1888 CALL                     1
+           1896 GET_ITER
+        >> 1898 FOR_ITER                86 (to 2074)
+           1902 STORE_FAST              17 (path)
+
+309        1904 LOAD_FAST               17 (path)
+           1906 LOAD_ATTR               39 (NULL|self + is_file)
+           1926 CALL                     0
+           1934 POP_JUMP_IF_TRUE         1 (to 1938)
+           1936 JUMP_BACKWARD           20 (to 1898)
+
+310     >> 1938 LOAD_FAST               17 (path)
+           1940 LOAD_ATTR               69 (NULL|self + relative_to)
+           1960 LOAD_FAST                4 (app_root)
+           1962 CALL                     1
+           1970 LOAD_ATTR               57 (NULL|self + as_posix)
+           1990 CALL                     0
+           1998 STORE_FAST              22 (rel_text)
+
+311        2000 LOAD_FAST               22 (rel_text)
+           2002 LOAD_ATTR               61 (NULL|self + lower)
+           2022 CALL                     0
+           2030 LOAD_FAST               18 (targets)
+           2032 CONTAINS_OP              1
+           2034 POP_JUMP_IF_TRUE         1 (to 2038)
+           2036 JUMP_BACKWARD           70 (to 1898)
+
+312     >> 2038 LOAD_FAST               19 (deletion_candidates)
+           2040 LOAD_ATTR               71 (NULL|self + add)
+           2060 LOAD_FAST               22 (rel_text)
+           2062 CALL                     1
+           2070 POP_TOP
+           2072 JUMP_BACKWARD           88 (to 1898)
+
+308     >> 2074 END_FOR
+           2076 JUMP_BACKWARD          141 (to 1796)
+
+305     >> 2078 END_FOR
+
+313        2080 LOAD_FAST                3 (plan)
+           2082 LOAD_ATTR               63 (NULL|self + get)
+           2102 LOAD_CONST              34 ('protected_prefixes')
+           2104 BUILD_LIST               0
+           2106 CALL                     2
+           2114 GET_ITER
+           2116 LOAD_FAST_AND_CLEAR     11 (item)
+           2118 SWAP                     2
+           2120 BUILD_LIST               0
+           2122 SWAP                     2
+        >> 2124 FOR_ITER                13 (to 2154)
+           2128 STORE_FAST              11 (item)
+           2130 LOAD_GLOBAL             29 (NULL + str)
+           2140 LOAD_FAST               11 (item)
+           2142 CALL                     1
+           2150 LIST_APPEND              2
+           2152 JUMP_BACKWARD           15 (to 2124)
+        >> 2154 END_FOR
+           2156 STORE_FAST              23 (protected)
+           2158 STORE_FAST              11 (item)
+
+314        2160 LOAD_GLOBAL             73 (NULL + sorted)
+           2170 LOAD_FAST               19 (deletion_candidates)
+           2172 LOAD_CONST              10 (True)
+           2174 KW_NAMES                35 (('reverse',))
+           2176 CALL                     2
+           2184 GET_ITER
+        >> 2186 FOR_ITER               126 (to 2442)
+           2190 STORE_FAST              22 (rel_text)
+
+315        2192 LOAD_GLOBAL             75 (NULL + is_protected)
+           2202 LOAD_FAST               22 (rel_text)
+           2204 LOAD_FAST               23 (protected)
+           2206 CALL                     2
+           2214 POP_JUMP_IF_FALSE        1 (to 2218)
+
+316        2216 JUMP_BACKWARD           16 (to 2186)
+
+317     >> 2218 LOAD_GLOBAL             37 (NULL + relative)
+           2228 LOAD_FAST               22 (rel_text)
+           2230 CALL                     1
+           2238 STORE_FAST              12 (rel)
+
+318        2240 LOAD_FAST                4 (app_root)
+           2242 LOAD_FAST               12 (rel)
+           2244 BINARY_OP               11 (/)
+           2248 STORE_FAST              14 (target)
+
+319        2250 LOAD_FAST               14 (target)
+           2252 LOAD_ATTR               39 (NULL|self + is_file)
+           2272 CALL                     0
+           2280 POP_JUMP_IF_TRUE         1 (to 2284)
+           2282 JUMP_BACKWARD           49 (to 2186)
+
+320     >> 2284 LOAD_FAST                7 (rollback)
+           2286 LOAD_CONST              36 ('deleted')
+           2288 BINARY_OP               11 (/)
+           2292 LOAD_FAST               12 (rel)
+           2294 BINARY_OP               11 (/)
+           2298 STORE_FAST              15 (backup)
+
+321        2300 LOAD_FAST               15 (backup)
+           2302 LOAD_ATTR               16 (parent)
+           2322 LOAD_ATTR               19 (NULL|self + mkdir)
+           2342 LOAD_CONST              10 (True)
+           2344 LOAD_CONST              10 (True)
+           2346 KW_NAMES                11 (('parents', 'exist_ok'))
+           2348 CALL                     2
+           2356 POP_TOP
+
+322        2358 LOAD_GLOBAL             33 (NULL + shutil)
+           2368 LOAD_ATTR               76 (move)
+           2388 LOAD_FAST               14 (target)
+           2390 LOAD_FAST               15 (backup)
+           2392 CALL                     2
+           2400 POP_TOP
+
+323        2402 LOAD_FAST               10 (removed)
+           2404 LOAD_ATTR               47 (NULL|self + append)
+           2424 LOAD_FAST               14 (target)
+           2426 LOAD_FAST               15 (backup)
+           2428 BUILD_TUPLE              2
+           2430 CALL                     1
+           2438 POP_TOP
+           2440 JUMP_BACKWARD          128 (to 2186)
+
+314     >> 2442 END_FOR
+
+324        2444 LOAD_GLOBAL             13 (NULL + write_update_log)
+           2454 LOAD_FAST                4 (app_root)
+           2456 LOAD_CONST              37 ('更新完成 version=')
+           2458 LOAD_FAST                3 (plan)
+           2460 LOAD_CONST               5 ('version')
+           2462 BINARY_SUBSCR
+           2466 FORMAT_VALUE             0
+           2468 BUILD_STRING             2
+           2470 CALL                     2
+           2478 POP_TOP
+
+325        2480 LOAD_FAST                4 (app_root)
+           2482 LOAD_GLOBAL             29 (NULL + str)
+           2492 LOAD_FAST                3 (plan)
+           2494 LOAD_ATTR               63 (NULL|self + get)
+           2514 LOAD_CONST              38 ('entrypoint')
+           2516 LOAD_CONST              39 ('404Launcher.exe')
+           2518 CALL                     2
+           2526 CALL                     1
+           2534 BINARY_OP               11 (/)
+           2538 RETURN_VALUE
+        >> 2540 SWAP                     2
+           2542 POP_TOP
+
+303        2544 SWAP                     2
+           2546 STORE_FAST              17 (path)
+           2548 RERAISE                  0
+        >> 2550 SWAP                     2
+           2552 POP_TOP
+
+304        2554 SWAP                     2
+           2556 STORE_FAST              17 (path)
+           2558 RERAISE                  0
+        >> 2560 SWAP                     2
+           2562 POP_TOP
+
+313        2564 SWAP                     2
+           2566 STORE_FAST              11 (item)
+           2568 RERAISE                  0
+        >> 2570 PUSH_EXC_INFO
+
+326        2572 LOAD_GLOBAL             78 (Exception)
+           2582 CHECK_EXC_MATCH
+           2584 POP_JUMP_IF_FALSE      251 (to 3088)
+           2586 STORE_FAST              24 (exc)
+
+327        2588 LOAD_GLOBAL             13 (NULL + write_update_log)
+           2598 LOAD_FAST                4 (app_root)
+           2600 LOAD_CONST              40 ('更新失败，开始回滚：')
+           2602 LOAD_GLOBAL             81 (NULL + type)
+           2612 LOAD_FAST               24 (exc)
+           2614 CALL                     1
+           2622 LOAD_ATTR               82 (__name__)
+           2642 FORMAT_VALUE             0
+           2644 LOAD_CONST              41 (': ')
+           2646 LOAD_FAST               24 (exc)
+           2648 FORMAT_VALUE             0
+           2650 BUILD_STRING             4
+           2652 CALL                     2
+           2660 POP_TOP
+
+328        2662 LOAD_GLOBAL             85 (NULL + reversed)
+           2672 LOAD_FAST                8 (replaced)
+           2674 CALL                     1
+           2682 GET_ITER
+        >> 2684 FOR_ITER                41 (to 2770)
+           2688 STORE_FAST              12 (rel)
+
+329        2690 LOAD_FAST                7 (rollback)
+           2692 LOAD_FAST               12 (rel)
+           2694 BINARY_OP               11 (/)
+           2698 STORE_FAST              15 (backup)
+
+330        2700 LOAD_FAST                4 (app_root)
+           2702 LOAD_FAST               12 (rel)
+           2704 BINARY_OP               11 (/)
+           2708 STORE_FAST              14 (target)
+
+331        2710 LOAD_FAST               15 (backup)
+           2712 LOAD_ATTR               39 (NULL|self + is_file)
+           2732 CALL                     0
+           2740 POP_JUMP_IF_TRUE         1 (to 2744)
+           2742 JUMP_BACKWARD           30 (to 2684)
+
+332     >> 2744 LOAD_GLOBAL             87 (NULL + restore_file)
+           2754 LOAD_FAST               15 (backup)
+           2756 LOAD_FAST               14 (target)
+           2758 CALL                     2
+           2766 POP_TOP
+           2768 JUMP_BACKWARD           43 (to 2684)
+
+328     >> 2770 END_FOR
+
+333        2772 LOAD_GLOBAL             85 (NULL + reversed)
+           2782 LOAD_FAST                9 (created)
+           2784 CALL                     1
+           2792 GET_ITER
+        >> 2794 FOR_ITER                40 (to 2878)
+           2798 STORE_FAST              12 (rel)
+
+334        2800 LOAD_FAST                4 (app_root)
+           2802 LOAD_FAST               12 (rel)
+           2804 BINARY_OP               11 (/)
+           2808 STORE_FAST              14 (target)
+
+335        2810 LOAD_FAST               14 (target)
+           2812 LOAD_ATTR               39 (NULL|self + is_file)
+           2832 CALL                     0
+           2840 POP_JUMP_IF_TRUE         1 (to 2844)
+           2842 JUMP_BACKWARD           25 (to 2794)
+
+336     >> 2844 LOAD_FAST               14 (target)
+           2846 LOAD_ATTR               53 (NULL|self + unlink)
+           2866 CALL                     0
+           2874 POP_TOP
+           2876 JUMP_BACKWARD           42 (to 2794)
+
+333     >> 2878 END_FOR
+
+337        2880 LOAD_GLOBAL             85 (NULL + reversed)
+           2890 LOAD_FAST               10 (removed)
+           2892 CALL                     1
+           2900 GET_ITER
+        >> 2902 FOR_ITER                73 (to 3052)
+           2906 UNPACK_SEQUENCE          2
+           2910 STORE_FAST              14 (target)
+           2912 STORE_FAST              15 (backup)
+
+338        2914 LOAD_FAST               15 (backup)
+           2916 LOAD_ATTR               39 (NULL|self + is_file)
+           2936 CALL                     0
+           2944 POP_JUMP_IF_TRUE         1 (to 2948)
+           2946 JUMP_BACKWARD           23 (to 2902)
+
+339     >> 2948 LOAD_FAST               14 (target)
+           2950 LOAD_ATTR               16 (parent)
+           2970 LOAD_ATTR               19 (NULL|self + mkdir)
+           2990 LOAD_CONST              10 (True)
+           2992 LOAD_CONST              10 (True)
+           2994 KW_NAMES                11 (('parents', 'exist_ok'))
+           2996 CALL                     2
+           3004 POP_TOP
+
+340        3006 LOAD_GLOBAL             33 (NULL + shutil)
+           3016 LOAD_ATTR               76 (move)
+           3036 LOAD_FAST               15 (backup)
+           3038 LOAD_FAST               14 (target)
+           3040 CALL                     2
+           3048 POP_TOP
+           3050 JUMP_BACKWARD           75 (to 2902)
+
+337     >> 3052 END_FOR
+
+341        3054 LOAD_GLOBAL             13 (NULL + write_update_log)
+           3064 LOAD_FAST                4 (app_root)
+           3066 LOAD_CONST              42 ('回滚完成')
+           3068 CALL                     2
+           3076 POP_TOP
+
+342        3078 RAISE_VARARGS            0
+        >> 3080 LOAD_CONST               0 (None)
+           3082 STORE_FAST              24 (exc)
+           3084 DELETE_FAST             24 (exc)
+           3086 RERAISE                  1
+
+326     >> 3088 RERAISE                  0
+        >> 3090 COPY                     3
+           3092 POP_EXCEPT
+           3094 RERAISE                  1
+ExceptionTable:
+  700 to 1484 -> 2570 [0]
+  1488 to 1536 -> 2570 [0]
+  1538 to 1650 -> 2540 [2]
+  1652 to 1668 -> 2570 [0]
+  1670 to 1754 -> 2550 [2]
+  1756 to 1860 -> 2570 [0]
+  1864 to 1934 -> 2570 [0]
+  1938 to 2034 -> 2570 [0]
+  2038 to 2118 -> 2570 [0]
+  2120 to 2154 -> 2560 [2]
+  2156 to 2280 -> 2570 [0]
+  2284 to 2536 -> 2570 [0]
+  2540 to 2568 -> 2570 [0]
+  2570 to 2586 -> 3090 [1] lasti
+  2588 to 2740 -> 3080 [1] lasti
+  2744 to 2840 -> 3080 [1] lasti
+  2844 to 2944 -> 3080 [1] lasti
+  2948 to 3078 -> 3080 [1] lasti
+  3080 to 3088 -> 3090 [1] lasti
+
+Disassembly of <code object main at 0x0000019899244AA0, file "404_updater.py", line 345>:
+345           0 RESUME                   0
+
+346           2 LOAD_GLOBAL              1 (NULL + argparse)
+             12 LOAD_ATTR                2 (ArgumentParser)
+             32 CALL                     0
+             40 STORE_FAST               0 (parser)
+
+347          42 LOAD_FAST                0 (parser)
+             44 LOAD_ATTR                5 (NULL|self + add_argument)
+             64 LOAD_CONST               1 ('--plan')
+             66 LOAD_CONST               2 (True)
+             68 KW_NAMES                 3 (('required',))
+             70 CALL                     2
+             78 POP_TOP
+
+348          80 LOAD_FAST                0 (parser)
+             82 LOAD_ATTR                5 (NULL|self + add_argument)
+            102 LOAD_CONST               4 ('--wait-pid')
+            104 LOAD_CONST               2 (True)
+            106 LOAD_GLOBAL              6 (int)
+            116 KW_NAMES                 5 (('required', 'type'))
+            118 CALL                     3
+            126 POP_TOP
+
+349         128 LOAD_FAST                0 (parser)
+            130 LOAD_ATTR                5 (NULL|self + add_argument)
+            150 LOAD_CONST               6 ('--ready-file')
+            152 CALL                     1
+            160 POP_TOP
+
+350         162 LOAD_FAST                0 (parser)
+            164 LOAD_ATTR                9 (NULL|self + parse_args)
+            184 CALL                     0
+            192 STORE_FAST               1 (args)
+
+351         194 LOAD_FAST                1 (args)
+            196 LOAD_ATTR               10 (ready_file)
+            216 POP_JUMP_IF_FALSE       35 (to 288)
+            218 LOAD_GLOBAL             13 (NULL + Path)
+            228 LOAD_FAST                1 (args)
+            230 LOAD_ATTR               10 (ready_file)
+            250 CALL                     1
+            258 LOAD_ATTR               15 (NULL|self + resolve)
+            278 CALL                     0
+            286 JUMP_FORWARD             1 (to 290)
+        >>  288 LOAD_CONST               0 (None)
+        >>  290 STORE_FAST               2 (ready_file)
+
+352         292 LOAD_GLOBAL             13 (NULL + Path)
+            302 LOAD_FAST                1 (args)
+            304 LOAD_ATTR               16 (plan)
+            324 CALL                     1
+            332 LOAD_ATTR               15 (NULL|self + resolve)
+            352 CALL                     0
+            360 STORE_FAST               3 (plan_path)
+
+353         362 NOP
+
+354         364 LOAD_GLOBAL             19 (NULL + apply)
+            374 LOAD_FAST                3 (plan_path)
+            376 LOAD_FAST                1 (args)
+            378 LOAD_ATTR               20 (wait_pid)
+            398 LOAD_FAST                2 (ready_file)
+            400 CALL                     3
+            408 STORE_FAST               4 (entrypoint)
+
+368         410 LOAD_GLOBAL             23 (NULL + write_update_log)
+            420 LOAD_FAST                4 (entrypoint)
+            422 LOAD_ATTR               24 (parent)
+            442 LOAD_CONST               7 ('正在启动更新后的程序')
+            444 CALL                     2
+            452 POP_TOP
+
+369         454 LOAD_GLOBAL             27 (NULL + subprocess)
+            464 LOAD_ATTR               28 (Popen)
+            484 LOAD_GLOBAL             31 (NULL + str)
+            494 LOAD_FAST                4 (entrypoint)
+            496 CALL                     1
+            504 BUILD_LIST               1
+            506 LOAD_GLOBAL             31 (NULL + str)
+            516 LOAD_FAST                4 (entrypoint)
+            518 LOAD_ATTR               24 (parent)
+            538 CALL                     1
+            546 LOAD_CONST               2 (True)
+            548 KW_NAMES                 8 (('cwd', 'close_fds'))
+            550 CALL                     3
+            558 POP_TOP
+            560 RETURN_CONST             0 (None)
+        >>  562 PUSH_EXC_INFO
+
+355         564 LOAD_GLOBAL             32 (Exception)
+            574 CHECK_EXC_MATCH
+            576 POP_JUMP_IF_FALSE      239 (to 1056)
+            578 POP_TOP
+
+356         580 NOP
+
+357         582 LOAD_GLOBAL             35 (NULL + json)
+            592 LOAD_ATTR               36 (loads)
+            612 LOAD_FAST                3 (plan_path)
+            614 LOAD_ATTR               39 (NULL|self + read_text)
+            634 LOAD_CONST               9 ('utf-8-sig')
+            636 CALL                     1
+            644 CALL                     1
+            652 STORE_FAST               5 (plan)
+
+358         654 LOAD_GLOBAL             13 (NULL + Path)
+            664 LOAD_FAST                5 (plan)
+            666 LOAD_CONST              10 ('app_root')
+            668 BINARY_SUBSCR
+            672 CALL                     1
+            680 LOAD_ATTR               15 (NULL|self + resolve)
+            700 CALL                     0
+            708 STORE_FAST               6 (app_root)
+
+359         710 LOAD_FAST                6 (app_root)
+            712 LOAD_GLOBAL             31 (NULL + str)
+            722 LOAD_FAST                5 (plan)
+            724 LOAD_ATTR               41 (NULL|self + get)
+            744 LOAD_CONST              11 ('entrypoint')
+            746 LOAD_CONST              12 ('404Launcher.exe')
+            748 CALL                     2
+            756 CALL                     1
+            764 BINARY_OP               11 (/)
+            768 STORE_FAST               4 (entrypoint)
+
+360         770 LOAD_GLOBAL             23 (NULL + write_update_log)
+            780 LOAD_FAST                6 (app_root)
+            782 LOAD_GLOBAL             43 (NULL + traceback)
+            792 LOAD_ATTR               44 (format_exc)
+            812 CALL                     0
+            820 LOAD_ATTR               47 (NULL|self + rstrip)
+            840 CALL                     0
+            848 CALL                     2
+            856 POP_TOP
+
+361         858 LOAD_FAST                4 (entrypoint)
+            860 LOAD_ATTR               49 (NULL|self + is_file)
+            880 CALL                     0
+            888 POP_JUMP_IF_FALSE       65 (to 1020)
+
+362         890 LOAD_GLOBAL             23 (NULL + write_update_log)
+            900 LOAD_FAST                6 (app_root)
+            902 LOAD_CONST              13 ('更新失败，正在重新启动原程序')
+            904 CALL                     2
+            912 POP_TOP
+
+363         914 LOAD_GLOBAL             27 (NULL + subprocess)
+            924 LOAD_ATTR               28 (Popen)
+            944 LOAD_GLOBAL             31 (NULL + str)
+            954 LOAD_FAST                4 (entrypoint)
+            956 CALL                     1
+            964 BUILD_LIST               1
+            966 LOAD_GLOBAL             31 (NULL + str)
+            976 LOAD_FAST                4 (entrypoint)
+            978 LOAD_ATTR               24 (parent)
+            998 CALL                     1
+           1006 LOAD_CONST               2 (True)
+           1008 KW_NAMES                 8 (('cwd', 'close_fds'))
+           1010 CALL                     3
+           1018 POP_TOP
+
+366     >> 1020 POP_EXCEPT
+           1022 RETURN_CONST             0 (None)
+        >> 1024 PUSH_EXC_INFO
+
+364        1026 LOAD_GLOBAL             32 (Exception)
+           1036 CHECK_EXC_MATCH
+           1038 POP_JUMP_IF_FALSE        4 (to 1048)
+           1040 POP_TOP
+
+365        1042 POP_EXCEPT
+
+366        1044 POP_EXCEPT
+           1046 RETURN_CONST             0 (None)
+
+364     >> 1048 RERAISE                  0
+        >> 1050 COPY                     3
+           1052 POP_EXCEPT
+           1054 RERAISE                  1
+
+355     >> 1056 RERAISE                  0
+        >> 1058 COPY                     3
+           1060 POP_EXCEPT
+           1062 RERAISE                  1
+ExceptionTable:
+  364 to 408 -> 562 [0]
+  562 to 578 -> 1058 [1] lasti
+  582 to 1018 -> 1024 [1]
+  1024 to 1040 -> 1050 [2] lasti
+  1042 to 1042 -> 1058 [1] lasti
+  1048 to 1048 -> 1050 [2] lasti
+  1050 to 1056 -> 1058 [1] lasti

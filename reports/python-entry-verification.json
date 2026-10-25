@@ -1,0 +1,12 @@
+[
+  {
+    "name": "hardened_entry",
+    "syntax_valid": true,
+    "bytecode_equal_ignoring_source_locations": true
+  },
+  {
+    "name": "pyi_rth_404_flet",
+    "syntax_valid": true,
+    "bytecode_equal_ignoring_source_locations": true
+  }
+]

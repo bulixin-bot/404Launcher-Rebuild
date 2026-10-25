@@ -1,0 +1,34 @@
+using System.Runtime.CompilerServices;
+using System.Text;
+
+namespace _404NEL;
+
+internal sealed record YggdrasilAuthServer(string IP, int Port, string? ServerType)
+{
+	[CompilerGenerated]
+	public override string ToString()
+	{
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.Append(Worker_0020Normalize_0020Dispatch_002EMaterialize.Materialize_0020Finalize_0020Synchronize_002EAcquire(Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Initialize_0020Transform_0020Validate_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Validate_0020Transform_0020Observe_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Evaluate_0020Resolve_0020Evaluate_002ETransform));
+		stringBuilder.Append(Worker_0020Normalize_0020Dispatch_002EMaterialize.Materialize_0020Finalize_0020Synchronize_002EAcquire(Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Schedule_0020Process_0020Materialize_002EWorker, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Validate_0020Transform_0020Observe_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Evaluate_0020Resolve_0020Evaluate_002ETransform));
+		if (PrintMembers(stringBuilder))
+		{
+			stringBuilder.Append(' ');
+		}
+		stringBuilder.Append('}');
+		return stringBuilder.ToString();
+	}
+
+	[CompilerGenerated]
+	private bool PrintMembers(StringBuilder builder)
+	{
+		RuntimeHelpers.EnsureSufficientExecutionStack();
+		builder.Append(Worker_0020Normalize_0020Dispatch_002EMaterialize.Materialize_0020Finalize_0020Synchronize_002EAcquire(Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Observe_0020Transform_0020Validate_002EObserve, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Validate_0020Transform_0020Observe_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Evaluate_0020Resolve_0020Evaluate_002ETransform));
+		builder.Append((object?)IP);
+		builder.Append(Worker_0020Normalize_0020Dispatch_002EMaterialize.Materialize_0020Finalize_0020Synchronize_002EAcquire(Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Acquire_0020Initialize_0020Initialize_002EResolve, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Validate_0020Transform_0020Observe_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Evaluate_0020Resolve_0020Evaluate_002ETransform));
+		builder.Append(Port.ToString());
+		builder.Append(Worker_0020Normalize_0020Dispatch_002EMaterialize.Materialize_0020Finalize_0020Synchronize_002EAcquire(Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Finalize_0020Evaluate_0020Worker_002EFinalize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Validate_0020Transform_0020Observe_002EInitialize, Schedule_0020Acquire_0020Initialize_002EResolve._003C_003Ec.Evaluate_0020Resolve_0020Evaluate_002ETransform));
+		builder.Append((object?)ServerType);
+		return true;
+	}
+}

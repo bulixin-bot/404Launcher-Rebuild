@@ -1,0 +1,8354 @@
+[
+  {
+    "module_path": "__future__.pyc",
+    "size": 2641
+  },
+  {
+    "module_path": "_aix_support.pyc",
+    "size": 3354
+  },
+  {
+    "module_path": "_compat_pickle.pyc",
+    "size": 7056
+  },
+  {
+    "module_path": "_compression.pyc",
+    "size": 7271
+  },
+  {
+    "module_path": "_distutils_hack/__init__.pyc",
+    "size": 9625
+  },
+  {
+    "module_path": "_distutils_hack/override.pyc",
+    "size": 225
+  },
+  {
+    "module_path": "_py_abc.pyc",
+    "size": 5779
+  },
+  {
+    "module_path": "_pydatetime.pyc",
+    "size": 84355
+  },
+  {
+    "module_path": "_pydecimal.pyc",
+    "size": 149645
+  },
+  {
+    "module_path": "_sitebuiltins.pyc",
+    "size": 4213
+  },
+  {
+    "module_path": "_strptime.pyc",
+    "size": 23256
+  },
+  {
+    "module_path": "_threading_local.pyc",
+    "size": 4942
+  },
+  {
+    "module_path": "annotated_doc/__init__.pyc",
+    "size": 186
+  },
+  {
+    "module_path": "annotated_doc/main.pyc",
+    "size": 1188
+  },
+  {
+    "module_path": "annotated_types/__init__.pyc",
+    "size": 12535
+  },
+  {
+    "module_path": "anyio/__init__.pyc",
+    "size": 4534
+  },
+  {
+    "module_path": "anyio/_backends/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "anyio/_backends/_asyncio.pyc",
+    "size": 137366
+  },
+  {
+    "module_path": "anyio/_backends/_trio.pyc",
+    "size": 71784
+  },
+  {
+    "module_path": "anyio/_core/__init__.pyc",
+    "size": 120
+  },
+  {
+    "module_path": "anyio/_core/_asyncio_selector_thread.pyc",
+    "size": 8205
+  },
+  {
+    "module_path": "anyio/_core/_contextmanagers.pyc",
+    "size": 6858
+  },
+  {
+    "module_path": "anyio/_core/_eventloop.pyc",
+    "size": 6362
+  },
+  {
+    "module_path": "anyio/_core/_exceptions.pyc",
+    "size": 5370
+  },
+  {
+    "module_path": "anyio/_core/_fileio.pyc",
+    "size": 39461
+  },
+  {
+    "module_path": "anyio/_core/_resources.pyc",
+    "size": 697
+  },
+  {
+    "module_path": "anyio/_core/_signals.pyc",
+    "size": 674
+  },
+  {
+    "module_path": "anyio/_core/_sockets.pyc",
+    "size": 26476
+  },
+  {
+    "module_path": "anyio/_core/_streams.pyc",
+    "size": 1718
+  },
+  {
+    "module_path": "anyio/_core/_subprocesses.pyc",
+    "size": 5278
+  },
+  {
+    "module_path": "anyio/_core/_synchronization.pyc",
+    "size": 28776
+  },
+  {
+    "module_path": "anyio/_core/_tasks.pyc",
+    "size": 4841
+  },
+  {
+    "module_path": "anyio/_core/_tempfile.pyc",
+    "size": 22305
+  },
+  {
+    "module_path": "anyio/_core/_testing.pyc",
+    "size": 2834
+  },
+  {
+    "module_path": "anyio/_core/_typedattr.pyc",
+    "size": 2720
+  },
+  {
+    "module_path": "anyio/abc/__init__.pyc",
+    "size": 2295
+  },
+  {
+    "module_path": "anyio/abc/_eventloop.pyc",
+    "size": 14605
+  },
+  {
+    "module_path": "anyio/abc/_resources.pyc",
+    "size": 1337
+  },
+  {
+    "module_path": "anyio/abc/_sockets.pyc",
+    "size": 13734
+  },
+  {
+    "module_path": "anyio/abc/_streams.pyc",
+    "size": 6128
+  },
+  {
+    "module_path": "anyio/abc/_subprocesses.pyc",
+    "size": 2130
+  },
+  {
+    "module_path": "anyio/abc/_tasks.pyc",
+    "size": 3066
+  },
+  {
+    "module_path": "anyio/abc/_testing.pyc",
+    "size": 2015
+  },
+  {
+    "module_path": "anyio/from_thread.pyc",
+    "size": 20012
+  },
+  {
+    "module_path": "anyio/lowlevel.pyc",
+    "size": 6639
+  },
+  {
+    "module_path": "anyio/streams/__init__.pyc",
+    "size": 122
+  },
+  {
+    "module_path": "anyio/streams/memory.pyc",
+    "size": 12953
+  },
+  {
+    "module_path": "anyio/streams/stapled.pyc",
+    "size": 6287
+  },
+  {
+    "module_path": "anyio/streams/tls.pyc",
+    "size": 16977
+  },
+  {
+    "module_path": "anyio/to_thread.pyc",
+    "size": 1783
+  },
+  {
+    "module_path": "argparse.pyc",
+    "size": 91414
+  },
+  {
+    "module_path": "ast.pyc",
+    "size": 91718
+  },
+  {
+    "module_path": "asyncio/__init__.pyc",
+    "size": 1385
+  },
+  {
+    "module_path": "asyncio/base_events.pyc",
+    "size": 77337
+  },
+  {
+    "module_path": "asyncio/base_futures.pyc",
+    "size": 2828
+  },
+  {
+    "module_path": "asyncio/base_subprocess.pyc",
+    "size": 15746
+  },
+  {
+    "module_path": "asyncio/base_tasks.pyc",
+    "size": 4058
+  },
+  {
+    "module_path": "asyncio/constants.pyc",
+    "size": 935
+  },
+  {
+    "module_path": "asyncio/coroutines.pyc",
+    "size": 3616
+  },
+  {
+    "module_path": "asyncio/events.pyc",
+    "size": 27428
+  },
+  {
+    "module_path": "asyncio/exceptions.pyc",
+    "size": 2431
+  },
+  {
+    "module_path": "asyncio/format_helpers.pyc",
+    "size": 3616
+  },
+  {
+    "module_path": "asyncio/futures.pyc",
+    "size": 13539
+  },
+  {
+    "module_path": "asyncio/locks.pyc",
+    "size": 20400
+  },
+  {
+    "module_path": "asyncio/log.pyc",
+    "size": 226
+  },
+  {
+    "module_path": "asyncio/mixins.pyc",
+    "size": 977
+  },
+  {
+    "module_path": "asyncio/proactor_events.pyc",
+    "size": 43745
+  },
+  {
+    "module_path": "asyncio/protocols.pyc",
+    "size": 3738
+  },
+  {
+    "module_path": "asyncio/queues.pyc",
+    "size": 9355
+  },
+  {
+    "module_path": "asyncio/runners.pyc",
+    "size": 8080
+  },
+  {
+    "module_path": "asyncio/selector_events.pyc",
+    "size": 61375
+  },
+  {
+    "module_path": "asyncio/sslproto.pyc",
+    "size": 37924
+  },
+  {
+    "module_path": "asyncio/staggered.pyc",
+    "size": 4252
+  },
+  {
+    "module_path": "asyncio/streams.pyc",
+    "size": 27210
+  },
+  {
+    "module_path": "asyncio/subprocess.pyc",
+    "size": 11955
+  },
+  {
+    "module_path": "asyncio/taskgroups.pyc",
+    "size": 7648
+  },
+  {
+    "module_path": "asyncio/tasks.pyc",
+    "size": 31346
+  },
+  {
+    "module_path": "asyncio/threads.pyc",
+    "size": 783
+  },
+  {
+    "module_path": "asyncio/timeouts.pyc",
+    "size": 5963
+  },
+  {
+    "module_path": "asyncio/transports.pyc",
+    "size": 8642
+  },
+  {
+    "module_path": "asyncio/trsock.pyc",
+    "size": 4815
+  },
+  {
+    "module_path": "asyncio/unix_events.pyc",
+    "size": 62186
+  },
+  {
+    "module_path": "asyncio/windows_events.pyc",
+    "size": 40559
+  },
+  {
+    "module_path": "asyncio/windows_utils.pyc",
+    "size": 6743
+  },
+  {
+    "module_path": "attr/__init__.pyc",
+    "size": 2402
+  },
+  {
+    "module_path": "attr/_cmp.pyc",
+    "size": 3523
+  },
+  {
+    "module_path": "attr/_compat.pyc",
+    "size": 3229
+  },
+  {
+    "module_path": "attr/_config.pyc",
+    "size": 585
+  },
+  {
+    "module_path": "attr/_funcs.pyc",
+    "size": 7958
+  },
+  {
+    "module_path": "attr/_make.pyc",
+    "size": 87161
+  },
+  {
+    "module_path": "attr/_next_gen.pyc",
+    "size": 4235
+  },
+  {
+    "module_path": "attr/_version_info.pyc",
+    "size": 2724
+  },
+  {
+    "module_path": "attr/converters.pyc",
+    "size": 2979
+  },
+  {
+    "module_path": "attr/exceptions.pyc",
+    "size": 2417
+  },
+  {
+    "module_path": "attr/filters.pyc",
+    "size": 2024
+  },
+  {
+    "module_path": "attr/setters.pyc",
+    "size": 1422
+  },
+  {
+    "module_path": "attr/validators.pyc",
+    "size": 18802
+  },
+  {
+    "module_path": "attrs/__init__.pyc",
+    "size": 1147
+  },
+  {
+    "module_path": "attrs/converters.pyc",
+    "size": 155
+  },
+  {
+    "module_path": "attrs/exceptions.pyc",
+    "size": 155
+  },
+  {
+    "module_path": "attrs/filters.pyc",
+    "size": 149
+  },
+  {
+    "module_path": "attrs/setters.pyc",
+    "size": 149
+  },
+  {
+    "module_path": "attrs/validators.pyc",
+    "size": 155
+  },
+  {
+    "module_path": "backports.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "base64.pyc",
+    "size": 19453
+  },
+  {
+    "module_path": "bcrypt/__init__.pyc",
+    "size": 509
+  },
+  {
+    "module_path": "bdb.pyc",
+    "size": 29378
+  },
+  {
+    "module_path": "bisect.pyc",
+    "size": 2108
+  },
+  {
+    "module_path": "blinker/__init__.pyc",
+    "size": 428
+  },
+  {
+    "module_path": "blinker/_utilities.pyc",
+    "size": 2372
+  },
+  {
+    "module_path": "blinker/base.pyc",
+    "size": 13058
+  },
+  {
+    "module_path": "brotli.pyc",
+    "size": 919
+  },
+  {
+    "module_path": "bz2.pyc",
+    "size": 10259
+  },
+  {
+    "module_path": "calendar.pyc",
+    "size": 35839
+  },
+  {
+    "module_path": "certifi/__init__.pyc",
+    "size": 243
+  },
+  {
+    "module_path": "certifi/core.pyc",
+    "size": 1902
+  },
+  {
+    "module_path": "cffi/__init__.pyc",
+    "size": 481
+  },
+  {
+    "module_path": "cffi/_imp_emulation.pyc",
+    "size": 3793
+  },
+  {
+    "module_path": "cffi/_shimmed_dist_utils.pyc",
+    "size": 1624
+  },
+  {
+    "module_path": "cffi/api.pyc",
+    "size": 39951
+  },
+  {
+    "module_path": "cffi/cffi_opcode.pyc",
+    "size": 6637
+  },
+  {
+    "module_path": "cffi/commontypes.pyc",
+    "size": 2910
+  },
+  {
+    "module_path": "cffi/cparser.pyc",
+    "size": 46451
+  },
+  {
+    "module_path": "cffi/error.pyc",
+    "size": 1582
+  },
+  {
+    "module_path": "cffi/ffiplatform.pyc",
+    "size": 5688
+  },
+  {
+    "module_path": "cffi/lock.pyc",
+    "size": 453
+  },
+  {
+    "module_path": "cffi/model.pyc",
+    "size": 29853
+  },
+  {
+    "module_path": "cffi/pkgconfig.pyc",
+    "size": 5639
+  },
+  {
+    "module_path": "cffi/recompiler.pyc",
+    "size": 79617
+  },
+  {
+    "module_path": "cffi/vengine_cpy.pyc",
+    "size": 50400
+  },
+  {
+    "module_path": "cffi/vengine_gen.pyc",
+    "size": 33549
+  },
+  {
+    "module_path": "cffi/verifier.pyc",
+    "size": 15325
+  },
+  {
+    "module_path": "chardet/__init__.pyc",
+    "size": 3566
+  },
+  {
+    "module_path": "chardet/big5freq.pyc",
+    "size": 27124
+  },
+  {
+    "module_path": "chardet/big5prober.pyc",
+    "size": 1314
+  },
+  {
+    "module_path": "chardet/chardistribution.pyc",
+    "size": 9541
+  },
+  {
+    "module_path": "chardet/charsetgroupprober.pyc",
+    "size": 4032
+  },
+  {
+    "module_path": "chardet/charsetprober.pyc",
+    "size": 4023
+  },
+  {
+    "module_path": "chardet/codingstatemachine.pyc",
+    "size": 2617
+  },
+  {
+    "module_path": "chardet/codingstatemachinedict.pyc",
+    "size": 714
+  },
+  {
+    "module_path": "chardet/cp949prober.pyc",
+    "size": 1323
+  },
+  {
+    "module_path": "chardet/enums.pyc",
+    "size": 2074
+  },
+  {
+    "module_path": "chardet/escprober.pyc",
+    "size": 4277
+  },
+  {
+    "module_path": "chardet/escsm.pyc",
+    "size": 15235
+  },
+  {
+    "module_path": "chardet/eucjpprober.pyc",
+    "size": 4174
+  },
+  {
+    "module_path": "chardet/euckrfreq.pyc",
+    "size": 12007
+  },
+  {
+    "module_path": "chardet/euckrprober.pyc",
+    "size": 1317
+  },
+  {
+    "module_path": "chardet/euctwfreq.pyc",
+    "size": 27129
+  },
+  {
+    "module_path": "chardet/euctwprober.pyc",
+    "size": 1317
+  },
+  {
+    "module_path": "chardet/gb2312freq.pyc",
+    "size": 19051
+  },
+  {
+    "module_path": "chardet/gb2312prober.pyc",
+    "size": 1330
+  },
+  {
+    "module_path": "chardet/hebrewprober.pyc",
+    "size": 5566
+  },
+  {
+    "module_path": "chardet/jisfreq.pyc",
+    "size": 22080
+  },
+  {
+    "module_path": "chardet/johabfreq.pyc",
+    "size": 82928
+  },
+  {
+    "module_path": "chardet/johabprober.pyc",
+    "size": 1321
+  },
+  {
+    "module_path": "chardet/jpcntx.pyc",
+    "size": 39511
+  },
+  {
+    "module_path": "chardet/langbulgarianmodel.pyc",
+    "size": 83035
+  },
+  {
+    "module_path": "chardet/langgreekmodel.pyc",
+    "size": 76901
+  },
+  {
+    "module_path": "chardet/langhebrewmodel.pyc",
+    "size": 77412
+  },
+  {
+    "module_path": "chardet/langrussianmodel.pyc",
+    "size": 105164
+  },
+  {
+    "module_path": "chardet/langthaimodel.pyc",
+    "size": 77590
+  },
+  {
+    "module_path": "chardet/langturkishmodel.pyc",
+    "size": 77429
+  },
+  {
+    "module_path": "chardet/latin1prober.pyc",
+    "size": 6931
+  },
+  {
+    "module_path": "chardet/macromanprober.pyc",
+    "size": 7111
+  },
+  {
+    "module_path": "chardet/mbcharsetprober.pyc",
+    "size": 3642
+  },
+  {
+    "module_path": "chardet/mbcsgroupprober.pyc",
+    "size": 1513
+  },
+  {
+    "module_path": "chardet/mbcssm.pyc",
+    "size": 38570
+  },
+  {
+    "module_path": "chardet/resultdict.pyc",
+    "size": 557
+  },
+  {
+    "module_path": "chardet/sbcharsetprober.pyc",
+    "size": 6315
+  },
+  {
+    "module_path": "chardet/sbcsgroupprober.pyc",
+    "size": 2282
+  },
+  {
+    "module_path": "chardet/sjisprober.pyc",
+    "size": 4284
+  },
+  {
+    "module_path": "chardet/universaldetector.pyc",
+    "size": 10518
+  },
+  {
+    "module_path": "chardet/utf1632prober.pyc",
+    "size": 9063
+  },
+  {
+    "module_path": "chardet/utf8prober.pyc",
+    "size": 3107
+  },
+  {
+    "module_path": "chardet/version.pyc",
+    "size": 219
+  },
+  {
+    "module_path": "click/__init__.pyc",
+    "size": 3769
+  },
+  {
+    "module_path": "click/_compat.pyc",
+    "size": 23307
+  },
+  {
+    "module_path": "click/_termui_impl.pyc",
+    "size": 30053
+  },
+  {
+    "module_path": "click/_textwrap.pyc",
+    "size": 2348
+  },
+  {
+    "module_path": "click/_utils.pyc",
+    "size": 981
+  },
+  {
+    "module_path": "click/_winconsole.pyc",
+    "size": 11660
+  },
+  {
+    "module_path": "click/core.pyc",
+    "size": 89994
+  },
+  {
+    "module_path": "click/decorators.pyc",
+    "size": 14820
+  },
+  {
+    "module_path": "click/exceptions.pyc",
+    "size": 12243
+  },
+  {
+    "module_path": "click/formatting.pyc",
+    "size": 10790
+  },
+  {
+    "module_path": "click/globals.pyc",
+    "size": 2015
+  },
+  {
+    "module_path": "click/parser.pyc",
+    "size": 17501
+  },
+  {
+    "module_path": "click/shell_completion.pyc",
+    "size": 17811
+  },
+  {
+    "module_path": "click/termui.pyc",
+    "size": 17102
+  },
+  {
+    "module_path": "click/types.pyc",
+    "size": 38247
+  },
+  {
+    "module_path": "click/utils.pyc",
+    "size": 16479
+  },
+  {
+    "module_path": "clr.pyc",
+    "size": 172
+  },
+  {
+    "module_path": "clr_loader/__init__.pyc",
+    "size": 4327
+  },
+  {
+    "module_path": "clr_loader/ffi/__init__.pyc",
+    "size": 3959
+  },
+  {
+    "module_path": "clr_loader/ffi/hostfxr.pyc",
+    "size": 3325
+  },
+  {
+    "module_path": "clr_loader/ffi/mono.pyc",
+    "size": 1751
+  },
+  {
+    "module_path": "clr_loader/ffi/netfx.pyc",
+    "size": 528
+  },
+  {
+    "module_path": "clr_loader/hostfxr.pyc",
+    "size": 9799
+  },
+  {
+    "module_path": "clr_loader/mono.pyc",
+    "size": 9413
+  },
+  {
+    "module_path": "clr_loader/netfx.pyc",
+    "size": 3252
+  },
+  {
+    "module_path": "clr_loader/types.pyc",
+    "size": 5672
+  },
+  {
+    "module_path": "clr_loader/util/__init__.pyc",
+    "size": 1245
+  },
+  {
+    "module_path": "clr_loader/util/clr_error.pyc",
+    "size": 1517
+  },
+  {
+    "module_path": "clr_loader/util/coreclr_errors.pyc",
+    "size": 77052
+  },
+  {
+    "module_path": "clr_loader/util/find.pyc",
+    "size": 6234
+  },
+  {
+    "module_path": "clr_loader/util/hostfxr_errors.pyc",
+    "size": 2517
+  },
+  {
+    "module_path": "clr_loader/util/runtime_spec.pyc",
+    "size": 2403
+  },
+  {
+    "module_path": "cmd.pyc",
+    "size": 13240
+  },
+  {
+    "module_path": "code.pyc",
+    "size": 8464
+  },
+  {
+    "module_path": "codeop.pyc",
+    "size": 3892
+  },
+  {
+    "module_path": "colorama/__init__.pyc",
+    "size": 417
+  },
+  {
+    "module_path": "colorama/ansi.pyc",
+    "size": 3752
+  },
+  {
+    "module_path": "colorama/ansitowin32.pyc",
+    "size": 15434
+  },
+  {
+    "module_path": "colorama/initialise.pyc",
+    "size": 3469
+  },
+  {
+    "module_path": "colorama/win32.pyc",
+    "size": 7933
+  },
+  {
+    "module_path": "colorama/winterm.pyc",
+    "size": 9015
+  },
+  {
+    "module_path": "colorsys.pyc",
+    "size": 4020
+  },
+  {
+    "module_path": "concurrent/__init__.pyc",
+    "size": 119
+  },
+  {
+    "module_path": "concurrent/futures/__init__.pyc",
+    "size": 1163
+  },
+  {
+    "module_path": "concurrent/futures/_base.pyc",
+    "size": 24115
+  },
+  {
+    "module_path": "concurrent/futures/process.pyc",
+    "size": 29529
+  },
+  {
+    "module_path": "concurrent/futures/thread.pyc",
+    "size": 9679
+  },
+  {
+    "module_path": "configparser.pyc",
+    "size": 48973
+  },
+  {
+    "module_path": "contextlib.pyc",
+    "size": 24483
+  },
+  {
+    "module_path": "contextvars.pyc",
+    "size": 241
+  },
+  {
+    "module_path": "copy.pyc",
+    "size": 7459
+  },
+  {
+    "module_path": "cryptography/__about__.pyc",
+    "size": 393
+  },
+  {
+    "module_path": "cryptography/__init__.pyc",
+    "size": 303
+  },
+  {
+    "module_path": "cryptography/exceptions.pyc",
+    "size": 2315
+  },
+  {
+    "module_path": "cryptography/fernet.pyc",
+    "size": 11033
+  },
+  {
+    "module_path": "cryptography/hazmat/__init__.pyc",
+    "size": 184
+  },
+  {
+    "module_path": "cryptography/hazmat/_oid.pyc",
+    "size": 20974
+  },
+  {
+    "module_path": "cryptography/hazmat/backends/__init__.pyc",
+    "size": 436
+  },
+  {
+    "module_path": "cryptography/hazmat/backends/openssl/__init__.pyc",
+    "size": 300
+  },
+  {
+    "module_path": "cryptography/hazmat/backends/openssl/backend.pyc",
+    "size": 13751
+  },
+  {
+    "module_path": "cryptography/hazmat/bindings/__init__.pyc",
+    "size": 137
+  },
+  {
+    "module_path": "cryptography/hazmat/bindings/openssl/__init__.pyc",
+    "size": 145
+  },
+  {
+    "module_path": "cryptography/hazmat/bindings/openssl/_conditional.pyc",
+    "size": 5551
+  },
+  {
+    "module_path": "cryptography/hazmat/bindings/openssl/binding.pyc",
+    "size": 4952
+  },
+  {
+    "module_path": "cryptography/hazmat/decrepit/__init__.pyc",
+    "size": 188
+  },
+  {
+    "module_path": "cryptography/hazmat/decrepit/ciphers/__init__.pyc",
+    "size": 196
+  },
+  {
+    "module_path": "cryptography/hazmat/decrepit/ciphers/algorithms.pyc",
+    "size": 5979
+  },
+  {
+    "module_path": "cryptography/hazmat/decrepit/ciphers/modes.pyc",
+    "size": 2056
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/__init__.pyc",
+    "size": 139
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/_asymmetric.pyc",
+    "size": 679
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/_cipheralgorithm.pyc",
+    "size": 2137
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/_modes.pyc",
+    "size": 4663
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/_serialization.pyc",
+    "size": 5503
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/__init__.pyc",
+    "size": 150
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/dh.pyc",
+    "size": 5700
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/dsa.pyc",
+    "size": 6606
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/ec.pyc",
+    "size": 13712
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/ed25519.pyc",
+    "size": 4690
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/ed448.pyc",
+    "size": 5527
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/mldsa.pyc",
+    "size": 13234
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/mlkem.pyc",
+    "size": 10031
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/padding.pyc",
+    "size": 4610
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/rsa.pyc",
+    "size": 9526
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/types.pyc",
+    "size": 3632
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/utils.pyc",
+    "size": 1420
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/x25519.pyc",
+    "size": 5261
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/asymmetric/x448.pyc",
+    "size": 5298
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/ciphers/__init__.pyc",
+    "size": 578
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/ciphers/algorithms.pyc",
+    "size": 4637
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/ciphers/base.pyc",
+    "size": 6144
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/ciphers/modes.pyc",
+    "size": 7191
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/constant_time.pyc",
+    "size": 605
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/hashes.pyc",
+    "size": 7623
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/hmac.pyc",
+    "size": 526
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/padding.pyc",
+    "size": 3060
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/serialization/__init__.pyc",
+    "size": 1318
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/serialization/base.pyc",
+    "size": 783
+  },
+  {
+    "module_path": "cryptography/hazmat/primitives/serialization/ssh.pyc",
+    "size": 64922
+  },
+  {
+    "module_path": "cryptography/utils.pyc",
+    "size": 6432
+  },
+  {
+    "module_path": "cryptography/x509/__init__.pyc",
+    "size": 8403
+  },
+  {
+    "module_path": "cryptography/x509/base.pyc",
+    "size": 29352
+  },
+  {
+    "module_path": "cryptography/x509/certificate_transparency.pyc",
+    "size": 1126
+  },
+  {
+    "module_path": "cryptography/x509/extensions.pyc",
+    "size": 113103
+  },
+  {
+    "module_path": "cryptography/x509/general_name.pyc",
+    "size": 13071
+  },
+  {
+    "module_path": "cryptography/x509/name.pyc",
+    "size": 22047
+  },
+  {
+    "module_path": "cryptography/x509/oid.pyc",
+    "size": 700
+  },
+  {
+    "module_path": "cryptography/x509/verification.pyc",
+    "size": 946
+  },
+  {
+    "module_path": "csv.pyc",
+    "size": 15716
+  },
+  {
+    "module_path": "ctypes/__init__.pyc",
+    "size": 21267
+  },
+  {
+    "module_path": "ctypes/_aix.pyc",
+    "size": 6745
+  },
+  {
+    "module_path": "ctypes/_endian.pyc",
+    "size": 2953
+  },
+  {
+    "module_path": "ctypes/macholib/__init__.pyc",
+    "size": 157
+  },
+  {
+    "module_path": "ctypes/macholib/dyld.pyc",
+    "size": 6424
+  },
+  {
+    "module_path": "ctypes/macholib/dylib.pyc",
+    "size": 654
+  },
+  {
+    "module_path": "ctypes/macholib/framework.pyc",
+    "size": 704
+  },
+  {
+    "module_path": "ctypes/util.pyc",
+    "size": 15971
+  },
+  {
+    "module_path": "ctypes/wintypes.pyc",
+    "size": 8475
+  },
+  {
+    "module_path": "Cython/__init__.pyc",
+    "size": 430
+  },
+  {
+    "module_path": "Cython/Build/__init__.pyc",
+    "size": 509
+  },
+  {
+    "module_path": "Cython/Build/Cache.pyc",
+    "size": 10351
+  },
+  {
+    "module_path": "Cython/Build/Dependencies.pyc",
+    "size": 52615
+  },
+  {
+    "module_path": "Cython/Build/Distutils.pyc",
+    "size": 185
+  },
+  {
+    "module_path": "Cython/Build/Inline.pyc",
+    "size": 19234
+  },
+  {
+    "module_path": "Cython/Build/IpythonMagic.pyc",
+    "size": 20272
+  },
+  {
+    "module_path": "Cython/Build/SharedModule.pyc",
+    "size": 5041
+  },
+  {
+    "module_path": "Cython/CodeWriter.pyc",
+    "size": 47824
+  },
+  {
+    "module_path": "Cython/Compiler/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "Cython/Compiler/AnalysedTreeTransforms.pyc",
+    "size": 4911
+  },
+  {
+    "module_path": "Cython/Compiler/Annotate.pyc",
+    "size": 16404
+  },
+  {
+    "module_path": "Cython/Compiler/AutoDocTransforms.pyc",
+    "size": 13977
+  },
+  {
+    "module_path": "Cython/Compiler/Buffer.pyc",
+    "size": 30945
+  },
+  {
+    "module_path": "Cython/Compiler/Builtin.pyc",
+    "size": 34554
+  },
+  {
+    "module_path": "Cython/Compiler/CmdLine.pyc",
+    "size": 15892
+  },
+  {
+    "module_path": "Cython/Compiler/CodeGeneration.pyc",
+    "size": 1205
+  },
+  {
+    "module_path": "Cython/Compiler/CythonScope.pyc",
+    "size": 7464
+  },
+  {
+    "module_path": "Cython/Compiler/Dataclass.pyc",
+    "size": 35866
+  },
+  {
+    "module_path": "Cython/Compiler/DebugFlags.pyc",
+    "size": 449
+  },
+  {
+    "module_path": "Cython/Compiler/Errors.pyc",
+    "size": 12107
+  },
+  {
+    "module_path": "Cython/Compiler/ExprNodes.pyc",
+    "size": 743915
+  },
+  {
+    "module_path": "Cython/Compiler/Future.pyc",
+    "size": 757
+  },
+  {
+    "module_path": "Cython/Compiler/Interpreter.pyc",
+    "size": 1849
+  },
+  {
+    "module_path": "Cython/Compiler/Lexicon.pyc",
+    "size": 13037
+  },
+  {
+    "module_path": "Cython/Compiler/Main.pyc",
+    "size": 35810
+  },
+  {
+    "module_path": "Cython/Compiler/MatchCaseNodes.pyc",
+    "size": 10338
+  },
+  {
+    "module_path": "Cython/Compiler/MemoryView.pyc",
+    "size": 36501
+  },
+  {
+    "module_path": "Cython/Compiler/ModuleNode.pyc",
+    "size": 211682
+  },
+  {
+    "module_path": "Cython/Compiler/Naming.pyc",
+    "size": 9530
+  },
+  {
+    "module_path": "Cython/Compiler/Nodes.pyc",
+    "size": 512196
+  },
+  {
+    "module_path": "Cython/Compiler/Optimize.pyc",
+    "size": 236229
+  },
+  {
+    "module_path": "Cython/Compiler/Options.pyc",
+    "size": 18649
+  },
+  {
+    "module_path": "Cython/Compiler/ParseTreeTransforms.pyc",
+    "size": 207794
+  },
+  {
+    "module_path": "Cython/Compiler/Pipeline.pyc",
+    "size": 18998
+  },
+  {
+    "module_path": "Cython/Compiler/PyrexTypes.pyc",
+    "size": 239516
+  },
+  {
+    "module_path": "Cython/Compiler/Pythran.pyc",
+    "size": 11695
+  },
+  {
+    "module_path": "Cython/Compiler/StringEncoding.pyc",
+    "size": 14831
+  },
+  {
+    "module_path": "Cython/Compiler/Symtab.pyc",
+    "size": 125795
+  },
+  {
+    "module_path": "Cython/Compiler/TreeFragment.pyc",
+    "size": 10289
+  },
+  {
+    "module_path": "Cython/Compiler/TreePath.pyc",
+    "size": 10641
+  },
+  {
+    "module_path": "Cython/Compiler/TypeInference.pyc",
+    "size": 27142
+  },
+  {
+    "module_path": "Cython/Compiler/TypeSlots.pyc",
+    "size": 48585
+  },
+  {
+    "module_path": "Cython/Compiler/UFuncs.pyc",
+    "size": 14975
+  },
+  {
+    "module_path": "Cython/Compiler/UtilityCode.pyc",
+    "size": 16252
+  },
+  {
+    "module_path": "Cython/Compiler/UtilNodes.pyc",
+    "size": 19370
+  },
+  {
+    "module_path": "Cython/Compiler/Version.pyc",
+    "size": 216
+  },
+  {
+    "module_path": "Cython/Debugger/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "Cython/Debugger/DebugWriter.pyc",
+    "size": 3954
+  },
+  {
+    "module_path": "Cython/Debugging.pyc",
+    "size": 1027
+  },
+  {
+    "module_path": "Cython/Distutils/__init__.pyc",
+    "size": 249
+  },
+  {
+    "module_path": "Cython/Distutils/build_ext.pyc",
+    "size": 5387
+  },
+  {
+    "module_path": "Cython/Distutils/extension.pyc",
+    "size": 2200
+  },
+  {
+    "module_path": "Cython/Plex/__init__.pyc",
+    "size": 619
+  },
+  {
+    "module_path": "Cython/Plex/Errors.pyc",
+    "size": 2335
+  },
+  {
+    "module_path": "Cython/Plex/Lexicons.pyc",
+    "size": 4571
+  },
+  {
+    "module_path": "Cython/Plex/Regexps.pyc",
+    "size": 17723
+  },
+  {
+    "module_path": "Cython/Shadow.pyc",
+    "size": 29572
+  },
+  {
+    "module_path": "Cython/Tempita/__init__.pyc",
+    "size": 155
+  },
+  {
+    "module_path": "Cython/Tempita/_looper.pyc",
+    "size": 5924
+  },
+  {
+    "module_path": "Cython/TestUtils.pyc",
+    "size": 17980
+  },
+  {
+    "module_path": "cython.pyc",
+    "size": 818
+  },
+  {
+    "module_path": "dataclasses.pyc",
+    "size": 41004
+  },
+  {
+    "module_path": "datetime.pyc",
+    "size": 389
+  },
+  {
+    "module_path": "decimal.pyc",
+    "size": 349
+  },
+  {
+    "module_path": "difflib.pyc",
+    "size": 42056
+  },
+  {
+    "module_path": "dis.pyc",
+    "size": 30043
+  },
+  {
+    "module_path": "doctest.pyc",
+    "size": 70406
+  },
+  {
+    "module_path": "dotenv/__init__.pyc",
+    "size": 1461
+  },
+  {
+    "module_path": "dotenv/ipython.pyc",
+    "size": 1880
+  },
+  {
+    "module_path": "dotenv/main.pyc",
+    "size": 16588
+  },
+  {
+    "module_path": "dotenv/parser.pyc",
+    "size": 9902
+  },
+  {
+    "module_path": "dotenv/variables.pyc",
+    "size": 4960
+  },
+  {
+    "module_path": "email/__init__.pyc",
+    "size": 1322
+  },
+  {
+    "module_path": "email/_encoded_words.pyc",
+    "size": 6428
+  },
+  {
+    "module_path": "email/_header_value_parser.pyc",
+    "size": 116926
+  },
+  {
+    "module_path": "email/_parseaddr.pyc",
+    "size": 20421
+  },
+  {
+    "module_path": "email/_policybase.pyc",
+    "size": 9571
+  },
+  {
+    "module_path": "email/base64mime.pyc",
+    "size": 2179
+  },
+  {
+    "module_path": "email/charset.pyc",
+    "size": 8884
+  },
+  {
+    "module_path": "email/contentmanager.pyc",
+    "size": 12341
+  },
+  {
+    "module_path": "email/encoders.pyc",
+    "size": 1756
+  },
+  {
+    "module_path": "email/errors.pyc",
+    "size": 5506
+  },
+  {
+    "module_path": "email/feedparser.pyc",
+    "size": 17968
+  },
+  {
+    "module_path": "email/generator.pyc",
+    "size": 17019
+  },
+  {
+    "module_path": "email/header.pyc",
+    "size": 18926
+  },
+  {
+    "module_path": "email/headerregistry.pyc",
+    "size": 25470
+  },
+  {
+    "module_path": "email/iterators.pyc",
+    "size": 2187
+  },
+  {
+    "module_path": "email/message.pyc",
+    "size": 36832
+  },
+  {
+    "module_path": "email/parser.pyc",
+    "size": 3816
+  },
+  {
+    "module_path": "email/policy.pyc",
+    "size": 5645
+  },
+  {
+    "module_path": "email/quoprimime.pyc",
+    "size": 6530
+  },
+  {
+    "module_path": "email/utils.pyc",
+    "size": 12745
+  },
+  {
+    "module_path": "fastapi/__init__.pyc",
+    "size": 932
+  },
+  {
+    "module_path": "fastapi/_compat/__init__.pyc",
+    "size": 1560
+  },
+  {
+    "module_path": "fastapi/_compat/shared.pyc",
+    "size": 9346
+  },
+  {
+    "module_path": "fastapi/_compat/v2.pyc",
+    "size": 19584
+  },
+  {
+    "module_path": "fastapi/applications.pyc",
+    "size": 82792
+  },
+  {
+    "module_path": "fastapi/background.pyc",
+    "size": 1282
+  },
+  {
+    "module_path": "fastapi/concurrency.pyc",
+    "size": 1653
+  },
+  {
+    "module_path": "fastapi/datastructures.pyc",
+    "size": 5359
+  },
+  {
+    "module_path": "fastapi/dependencies/__init__.pyc",
+    "size": 129
+  },
+  {
+    "module_path": "fastapi/dependencies/models.pyc",
+    "size": 9049
+  },
+  {
+    "module_path": "fastapi/dependencies/utils.pyc",
+    "size": 37506
+  },
+  {
+    "module_path": "fastapi/encoders.pyc",
+    "size": 10479
+  },
+  {
+    "module_path": "fastapi/exception_handlers.pyc",
+    "size": 1958
+  },
+  {
+    "module_path": "fastapi/exceptions.pyc",
+    "size": 8153
+  },
+  {
+    "module_path": "fastapi/logger.pyc",
+    "size": 218
+  },
+  {
+    "module_path": "fastapi/middleware/__init__.pyc",
+    "size": 185
+  },
+  {
+    "module_path": "fastapi/middleware/asyncexitstack.pyc",
+    "size": 1418
+  },
+  {
+    "module_path": "fastapi/openapi/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "fastapi/openapi/constants.pyc",
+    "size": 294
+  },
+  {
+    "module_path": "fastapi/openapi/docs.pyc",
+    "size": 11522
+  },
+  {
+    "module_path": "fastapi/openapi/models.pyc",
+    "size": 22275
+  },
+  {
+    "module_path": "fastapi/openapi/utils.pyc",
+    "size": 22862
+  },
+  {
+    "module_path": "fastapi/param_functions.pyc",
+    "size": 39397
+  },
+  {
+    "module_path": "fastapi/params.pyc",
+    "size": 24465
+  },
+  {
+    "module_path": "fastapi/requests.pyc",
+    "size": 207
+  },
+  {
+    "module_path": "fastapi/responses.pyc",
+    "size": 3760
+  },
+  {
+    "module_path": "fastapi/routing.pyc",
+    "size": 159710
+  },
+  {
+    "module_path": "fastapi/security/__init__.pyc",
+    "size": 781
+  },
+  {
+    "module_path": "fastapi/security/api_key.pyc",
+    "size": 7494
+  },
+  {
+    "module_path": "fastapi/security/base.pyc",
+    "size": 443
+  },
+  {
+    "module_path": "fastapi/security/http.pyc",
+    "size": 11080
+  },
+  {
+    "module_path": "fastapi/security/oauth2.pyc",
+    "size": 13834
+  },
+  {
+    "module_path": "fastapi/security/open_id_connect_url.pyc",
+    "size": 3286
+  },
+  {
+    "module_path": "fastapi/security/utils.pyc",
+    "size": 524
+  },
+  {
+    "module_path": "fastapi/sse.pyc",
+    "size": 6627
+  },
+  {
+    "module_path": "fastapi/staticfiles.pyc",
+    "size": 179
+  },
+  {
+    "module_path": "fastapi/types.pyc",
+    "size": 721
+  },
+  {
+    "module_path": "fastapi/utils.pyc",
+    "size": 5081
+  },
+  {
+    "module_path": "fastapi/websockets.pyc",
+    "size": 256
+  },
+  {
+    "module_path": "flet/__init__.pyc",
+    "size": 29069
+  },
+  {
+    "module_path": "flet/app.pyc",
+    "size": 15698
+  },
+  {
+    "module_path": "flet/auth/__init__.pyc",
+    "size": 1552
+  },
+  {
+    "module_path": "flet/auth/authorization.pyc",
+    "size": 1214
+  },
+  {
+    "module_path": "flet/auth/authorization_service.pyc",
+    "size": 11009
+  },
+  {
+    "module_path": "flet/auth/group.pyc",
+    "size": 747
+  },
+  {
+    "module_path": "flet/auth/oauth_provider.pyc",
+    "size": 2409
+  },
+  {
+    "module_path": "flet/auth/oauth_token.pyc",
+    "size": 1637
+  },
+  {
+    "module_path": "flet/auth/providers/__init__.pyc",
+    "size": 516
+  },
+  {
+    "module_path": "flet/auth/providers/auth0_oauth_provider.pyc",
+    "size": 1492
+  },
+  {
+    "module_path": "flet/auth/providers/azure_oauth_provider.pyc",
+    "size": 1385
+  },
+  {
+    "module_path": "flet/auth/providers/github_oauth_provider.pyc",
+    "size": 4246
+  },
+  {
+    "module_path": "flet/auth/providers/google_oauth_provider.pyc",
+    "size": 1321
+  },
+  {
+    "module_path": "flet/auth/user.pyc",
+    "size": 899
+  },
+  {
+    "module_path": "flet/components/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "flet/components/component.pyc",
+    "size": 20311
+  },
+  {
+    "module_path": "flet/components/component_decorator.pyc",
+    "size": 1252
+  },
+  {
+    "module_path": "flet/components/component_owned.pyc",
+    "size": 1400
+  },
+  {
+    "module_path": "flet/components/hooks/__init__.pyc",
+    "size": 130
+  },
+  {
+    "module_path": "flet/components/hooks/hook.pyc",
+    "size": 521
+  },
+  {
+    "module_path": "flet/components/hooks/use_callback.pyc",
+    "size": 865
+  },
+  {
+    "module_path": "flet/components/hooks/use_context.pyc",
+    "size": 3344
+  },
+  {
+    "module_path": "flet/components/hooks/use_dialog.pyc",
+    "size": 3992
+  },
+  {
+    "module_path": "flet/components/hooks/use_effect.pyc",
+    "size": 3367
+  },
+  {
+    "module_path": "flet/components/hooks/use_memo.pyc",
+    "size": 1877
+  },
+  {
+    "module_path": "flet/components/hooks/use_ref.pyc",
+    "size": 2016
+  },
+  {
+    "module_path": "flet/components/hooks/use_state.pyc",
+    "size": 2862
+  },
+  {
+    "module_path": "flet/components/memo.pyc",
+    "size": 577
+  },
+  {
+    "module_path": "flet/components/observable.pyc",
+    "size": 13067
+  },
+  {
+    "module_path": "flet/components/public_utils.pyc",
+    "size": 520
+  },
+  {
+    "module_path": "flet/components/router.pyc",
+    "size": 19253
+  },
+  {
+    "module_path": "flet/components/utils.pyc",
+    "size": 3298
+  },
+  {
+    "module_path": "flet/controls/__init__.pyc",
+    "size": 122
+  },
+  {
+    "module_path": "flet/controls/adaptive_control.pyc",
+    "size": 638
+  },
+  {
+    "module_path": "flet/controls/alignment.pyc",
+    "size": 3743
+  },
+  {
+    "module_path": "flet/controls/animation.pyc",
+    "size": 4904
+  },
+  {
+    "module_path": "flet/controls/base_control.pyc",
+    "size": 13950
+  },
+  {
+    "module_path": "flet/controls/base_page.pyc",
+    "size": 25382
+  },
+  {
+    "module_path": "flet/controls/blur.pyc",
+    "size": 1090
+  },
+  {
+    "module_path": "flet/controls/border.pyc",
+    "size": 6873
+  },
+  {
+    "module_path": "flet/controls/border_radius.pyc",
+    "size": 4932
+  },
+  {
+    "module_path": "flet/controls/box.pyc",
+    "size": 10769
+  },
+  {
+    "module_path": "flet/controls/buttons.pyc",
+    "size": 8841
+  },
+  {
+    "module_path": "flet/controls/colors.pyc",
+    "size": 16759
+  },
+  {
+    "module_path": "flet/controls/context.pyc",
+    "size": 3906
+  },
+  {
+    "module_path": "flet/controls/control.pyc",
+    "size": 1576
+  },
+  {
+    "module_path": "flet/controls/control_event.pyc",
+    "size": 4786
+  },
+  {
+    "module_path": "flet/controls/control_state.pyc",
+    "size": 888
+  },
+  {
+    "module_path": "flet/controls/core/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "flet/controls/core/animated_switcher.pyc",
+    "size": 2051
+  },
+  {
+    "module_path": "flet/controls/core/autofill_group.pyc",
+    "size": 4857
+  },
+  {
+    "module_path": "flet/controls/core/column.pyc",
+    "size": 1789
+  },
+  {
+    "module_path": "flet/controls/core/dismissible.pyc",
+    "size": 4069
+  },
+  {
+    "module_path": "flet/controls/core/drag_target.pyc",
+    "size": 5446
+  },
+  {
+    "module_path": "flet/controls/core/draggable.pyc",
+    "size": 1523
+  },
+  {
+    "module_path": "flet/controls/core/flet_app.pyc",
+    "size": 1826
+  },
+  {
+    "module_path": "flet/controls/core/gesture_detector.pyc",
+    "size": 8367
+  },
+  {
+    "module_path": "flet/controls/core/grid_view.pyc",
+    "size": 1972
+  },
+  {
+    "module_path": "flet/controls/core/hero.pyc",
+    "size": 980
+  },
+  {
+    "module_path": "flet/controls/core/icon.pyc",
+    "size": 1757
+  },
+  {
+    "module_path": "flet/controls/core/image.pyc",
+    "size": 2501
+  },
+  {
+    "module_path": "flet/controls/core/interactive_viewer.pyc",
+    "size": 4476
+  },
+  {
+    "module_path": "flet/controls/core/keyboard_listener.pyc",
+    "size": 2012
+  },
+  {
+    "module_path": "flet/controls/core/list_view.pyc",
+    "size": 1832
+  },
+  {
+    "module_path": "flet/controls/core/markdown.pyc",
+    "size": 13555
+  },
+  {
+    "module_path": "flet/controls/core/merge_semantics.pyc",
+    "size": 627
+  },
+  {
+    "module_path": "flet/controls/core/page_view.pyc",
+    "size": 3875
+  },
+  {
+    "module_path": "flet/controls/core/pagelet.pyc",
+    "size": 3442
+  },
+  {
+    "module_path": "flet/controls/core/placeholder.pyc",
+    "size": 1100
+  },
+  {
+    "module_path": "flet/controls/core/reorderable_drag_handle.pyc",
+    "size": 1025
+  },
+  {
+    "module_path": "flet/controls/core/responsive_row.pyc",
+    "size": 2905
+  },
+  {
+    "module_path": "flet/controls/core/rotated_box.pyc",
+    "size": 747
+  },
+  {
+    "module_path": "flet/controls/core/row.pyc",
+    "size": 1787
+  },
+  {
+    "module_path": "flet/controls/core/safe_area.pyc",
+    "size": 1322
+  },
+  {
+    "module_path": "flet/controls/core/screenshot.pyc",
+    "size": 1145
+  },
+  {
+    "module_path": "flet/controls/core/semantics.pyc",
+    "size": 4187
+  },
+  {
+    "module_path": "flet/controls/core/shader_mask.pyc",
+    "size": 1064
+  },
+  {
+    "module_path": "flet/controls/core/shimmer.pyc",
+    "size": 2293
+  },
+  {
+    "module_path": "flet/controls/core/stack.pyc",
+    "size": 1785
+  },
+  {
+    "module_path": "flet/controls/core/text.pyc",
+    "size": 5904
+  },
+  {
+    "module_path": "flet/controls/core/text_span.pyc",
+    "size": 1845
+  },
+  {
+    "module_path": "flet/controls/core/transparent_pointer.pyc",
+    "size": 702
+  },
+  {
+    "module_path": "flet/controls/core/view.pyc",
+    "size": 5625
+  },
+  {
+    "module_path": "flet/controls/core/window.pyc",
+    "size": 6366
+  },
+  {
+    "module_path": "flet/controls/core/window_drag_area.pyc",
+    "size": 1365
+  },
+  {
+    "module_path": "flet/controls/cupertino/__init__.pyc",
+    "size": 132
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_action_sheet.pyc",
+    "size": 2411
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_action_sheet_action.pyc",
+    "size": 1221
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_activity_indicator.pyc",
+    "size": 1176
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_alert_dialog.pyc",
+    "size": 2764
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_app_bar.pyc",
+    "size": 1735
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_bottom_sheet.pyc",
+    "size": 1059
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_button.pyc",
+    "size": 3626
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_checkbox.pyc",
+    "size": 2252
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_colors.pyc",
+    "size": 4744
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_context_menu.pyc",
+    "size": 1063
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_context_menu_action.pyc",
+    "size": 1223
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_date_picker.pyc",
+    "size": 5880
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_dialog_action.pyc",
+    "size": 1232
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_filled_button.pyc",
+    "size": 547
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_icons.pyc",
+    "size": 5122
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_list_tile.pyc",
+    "size": 1949
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_navigation_bar.pyc",
+    "size": 2497
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_picker.pyc",
+    "size": 2149
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_radio.pyc",
+    "size": 1697
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_segmented_button.pyc",
+    "size": 2476
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_slider.pyc",
+    "size": 2320
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_sliding_segmented_button.pyc",
+    "size": 2743
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_switch.pyc",
+    "size": 2373
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_textfield.pyc",
+    "size": 2369
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_timer_picker.pyc",
+    "size": 4082
+  },
+  {
+    "module_path": "flet/controls/cupertino/cupertino_tinted_button.pyc",
+    "size": 547
+  },
+  {
+    "module_path": "flet/controls/device_info.pyc",
+    "size": 7780
+  },
+  {
+    "module_path": "flet/controls/dialog_control.pyc",
+    "size": 754
+  },
+  {
+    "module_path": "flet/controls/duration.pyc",
+    "size": 7992
+  },
+  {
+    "module_path": "flet/controls/embed_json_encoder.pyc",
+    "size": 2214
+  },
+  {
+    "module_path": "flet/controls/events.pyc",
+    "size": 11424
+  },
+  {
+    "module_path": "flet/controls/exceptions.pyc",
+    "size": 858
+  },
+  {
+    "module_path": "flet/controls/geometry.pyc",
+    "size": 6362
+  },
+  {
+    "module_path": "flet/controls/gradients.pyc",
+    "size": 3697
+  },
+  {
+    "module_path": "flet/controls/icon_data.pyc",
+    "size": 2116
+  },
+  {
+    "module_path": "flet/controls/id_counter.pyc",
+    "size": 1563
+  },
+  {
+    "module_path": "flet/controls/keys.pyc",
+    "size": 1907
+  },
+  {
+    "module_path": "flet/controls/layout_control.pyc",
+    "size": 3561
+  },
+  {
+    "module_path": "flet/controls/margin.pyc",
+    "size": 1636
+  },
+  {
+    "module_path": "flet/controls/material/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "flet/controls/material/alert_dialog.pyc",
+    "size": 3878
+  },
+  {
+    "module_path": "flet/controls/material/app_bar.pyc",
+    "size": 2673
+  },
+  {
+    "module_path": "flet/controls/material/auto_complete.pyc",
+    "size": 2036
+  },
+  {
+    "module_path": "flet/controls/material/badge.pyc",
+    "size": 1559
+  },
+  {
+    "module_path": "flet/controls/material/banner.pyc",
+    "size": 2265
+  },
+  {
+    "module_path": "flet/controls/material/bottom_app_bar.pyc",
+    "size": 1626
+  },
+  {
+    "module_path": "flet/controls/material/bottom_sheet.pyc",
+    "size": 1968
+  },
+  {
+    "module_path": "flet/controls/material/button.pyc",
+    "size": 4123
+  },
+  {
+    "module_path": "flet/controls/material/card.pyc",
+    "size": 2048
+  },
+  {
+    "module_path": "flet/controls/material/checkbox.pyc",
+    "size": 2606
+  },
+  {
+    "module_path": "flet/controls/material/chip.pyc",
+    "size": 4297
+  },
+  {
+    "module_path": "flet/controls/material/circle_avatar.pyc",
+    "size": 2220
+  },
+  {
+    "module_path": "flet/controls/material/container.pyc",
+    "size": 3810
+  },
+  {
+    "module_path": "flet/controls/material/context_menu.pyc",
+    "size": 4156
+  },
+  {
+    "module_path": "flet/controls/material/datatable.pyc",
+    "size": 8507
+  },
+  {
+    "module_path": "flet/controls/material/date_picker.pyc",
+    "size": 4230
+  },
+  {
+    "module_path": "flet/controls/material/date_range_picker.pyc",
+    "size": 3234
+  },
+  {
+    "module_path": "flet/controls/material/divider.pyc",
+    "size": 1452
+  },
+  {
+    "module_path": "flet/controls/material/dropdown.pyc",
+    "size": 5929
+  },
+  {
+    "module_path": "flet/controls/material/dropdownm2.pyc",
+    "size": 4214
+  },
+  {
+    "module_path": "flet/controls/material/elevated_button.pyc",
+    "size": 598
+  },
+  {
+    "module_path": "flet/controls/material/expansion_panel.pyc",
+    "size": 2954
+  },
+  {
+    "module_path": "flet/controls/material/expansion_tile.pyc",
+    "size": 4107
+  },
+  {
+    "module_path": "flet/controls/material/filled_button.pyc",
+    "size": 490
+  },
+  {
+    "module_path": "flet/controls/material/filled_tonal_button.pyc",
+    "size": 502
+  },
+  {
+    "module_path": "flet/controls/material/floating_action_button.pyc",
+    "size": 3667
+  },
+  {
+    "module_path": "flet/controls/material/form_field_control.pyc",
+    "size": 4587
+  },
+  {
+    "module_path": "flet/controls/material/icon_button.pyc",
+    "size": 4905
+  },
+  {
+    "module_path": "flet/controls/material/icons.pyc",
+    "size": 4995
+  },
+  {
+    "module_path": "flet/controls/material/list_tile.pyc",
+    "size": 3908
+  },
+  {
+    "module_path": "flet/controls/material/menu_bar.pyc",
+    "size": 2674
+  },
+  {
+    "module_path": "flet/controls/material/menu_item_button.pyc",
+    "size": 1866
+  },
+  {
+    "module_path": "flet/controls/material/navigation_bar.pyc",
+    "size": 3895
+  },
+  {
+    "module_path": "flet/controls/material/navigation_drawer.pyc",
+    "size": 2459
+  },
+  {
+    "module_path": "flet/controls/material/navigation_rail.pyc",
+    "size": 3630
+  },
+  {
+    "module_path": "flet/controls/material/outlined_button.pyc",
+    "size": 3046
+  },
+  {
+    "module_path": "flet/controls/material/popup_menu_button.pyc",
+    "size": 3875
+  },
+  {
+    "module_path": "flet/controls/material/progress_bar.pyc",
+    "size": 1741
+  },
+  {
+    "module_path": "flet/controls/material/progress_ring.pyc",
+    "size": 1559
+  },
+  {
+    "module_path": "flet/controls/material/radio.pyc",
+    "size": 2061
+  },
+  {
+    "module_path": "flet/controls/material/radio_group.pyc",
+    "size": 971
+  },
+  {
+    "module_path": "flet/controls/material/range_slider.pyc",
+    "size": 2459
+  },
+  {
+    "module_path": "flet/controls/material/reorderable_list_view.pyc",
+    "size": 1926
+  },
+  {
+    "module_path": "flet/controls/material/search_bar.pyc",
+    "size": 5438
+  },
+  {
+    "module_path": "flet/controls/material/segmented_button.pyc",
+    "size": 3861
+  },
+  {
+    "module_path": "flet/controls/material/selection_area.pyc",
+    "size": 919
+  },
+  {
+    "module_path": "flet/controls/material/slider.pyc",
+    "size": 3234
+  },
+  {
+    "module_path": "flet/controls/material/snack_bar.pyc",
+    "size": 4208
+  },
+  {
+    "module_path": "flet/controls/material/submenu_button.pyc",
+    "size": 1966
+  },
+  {
+    "module_path": "flet/controls/material/switch.pyc",
+    "size": 2929
+  },
+  {
+    "module_path": "flet/controls/material/tabs.pyc",
+    "size": 10448
+  },
+  {
+    "module_path": "flet/controls/material/text_button.pyc",
+    "size": 2038
+  },
+  {
+    "module_path": "flet/controls/material/textfield.pyc",
+    "size": 8420
+  },
+  {
+    "module_path": "flet/controls/material/time_picker.pyc",
+    "size": 3275
+  },
+  {
+    "module_path": "flet/controls/material/tooltip.pyc",
+    "size": 2387
+  },
+  {
+    "module_path": "flet/controls/material/vertical_divider.pyc",
+    "size": 1471
+  },
+  {
+    "module_path": "flet/controls/multi_view.pyc",
+    "size": 646
+  },
+  {
+    "module_path": "flet/controls/object_patch.pyc",
+    "size": 58131
+  },
+  {
+    "module_path": "flet/controls/padding.pyc",
+    "size": 1848
+  },
+  {
+    "module_path": "flet/controls/page.pyc",
+    "size": 32733
+  },
+  {
+    "module_path": "flet/controls/painting.pyc",
+    "size": 8658
+  },
+  {
+    "module_path": "flet/controls/query_string.pyc",
+    "size": 4748
+  },
+  {
+    "module_path": "flet/controls/ref.pyc",
+    "size": 1411
+  },
+  {
+    "module_path": "flet/controls/scrollable_control.pyc",
+    "size": 5663
+  },
+  {
+    "module_path": "flet/controls/services/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "flet/controls/services/accelerometer.pyc",
+    "size": 2148
+  },
+  {
+    "module_path": "flet/controls/services/barometer.pyc",
+    "size": 2082
+  },
+  {
+    "module_path": "flet/controls/services/battery.pyc",
+    "size": 2326
+  },
+  {
+    "module_path": "flet/controls/services/browser_context_menu.pyc",
+    "size": 1572
+  },
+  {
+    "module_path": "flet/controls/services/clipboard.pyc",
+    "size": 3293
+  },
+  {
+    "module_path": "flet/controls/services/connectivity.pyc",
+    "size": 1936
+  },
+  {
+    "module_path": "flet/controls/services/file_picker.pyc",
+    "size": 5807
+  },
+  {
+    "module_path": "flet/controls/services/gyroscope.pyc",
+    "size": 2131
+  },
+  {
+    "module_path": "flet/controls/services/haptic_feedback.pyc",
+    "size": 1662
+  },
+  {
+    "module_path": "flet/controls/services/magnetometer.pyc",
+    "size": 2133
+  },
+  {
+    "module_path": "flet/controls/services/screen_brightness.pyc",
+    "size": 4738
+  },
+  {
+    "module_path": "flet/controls/services/semantics_service.pyc",
+    "size": 2623
+  },
+  {
+    "module_path": "flet/controls/services/sensor_error_event.pyc",
+    "size": 607
+  },
+  {
+    "module_path": "flet/controls/services/service.pyc",
+    "size": 1085
+  },
+  {
+    "module_path": "flet/controls/services/shake_detector.pyc",
+    "size": 1058
+  },
+  {
+    "module_path": "flet/controls/services/share.pyc",
+    "size": 7258
+  },
+  {
+    "module_path": "flet/controls/services/shared_preferences.pyc",
+    "size": 3149
+  },
+  {
+    "module_path": "flet/controls/services/storage_paths.pyc",
+    "size": 5662
+  },
+  {
+    "module_path": "flet/controls/services/url_launcher.pyc",
+    "size": 4245
+  },
+  {
+    "module_path": "flet/controls/services/user_accelerometer.pyc",
+    "size": 2166
+  },
+  {
+    "module_path": "flet/controls/services/wakelock.pyc",
+    "size": 1215
+  },
+  {
+    "module_path": "flet/controls/template_route.pyc",
+    "size": 1310
+  },
+  {
+    "module_path": "flet/controls/text_style.pyc",
+    "size": 7893
+  },
+  {
+    "module_path": "flet/controls/theme.pyc",
+    "size": 47987
+  },
+  {
+    "module_path": "flet/controls/transform.pyc",
+    "size": 11626
+  },
+  {
+    "module_path": "flet/controls/types.pyc",
+    "size": 17189
+  },
+  {
+    "module_path": "flet/controls/value_types.pyc",
+    "size": 7294
+  },
+  {
+    "module_path": "flet/messaging/connection.pyc",
+    "size": 3322
+  },
+  {
+    "module_path": "flet/messaging/flet_socket_server.pyc",
+    "size": 20068
+  },
+  {
+    "module_path": "flet/messaging/protocol.pyc",
+    "size": 10740
+  },
+  {
+    "module_path": "flet/messaging/pyodide_connection.pyc",
+    "size": 7612
+  },
+  {
+    "module_path": "flet/messaging/session.pyc",
+    "size": 23535
+  },
+  {
+    "module_path": "flet/messaging/session_store.pyc",
+    "size": 1885
+  },
+  {
+    "module_path": "flet/messaging.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "flet/pubsub/__init__.pyc",
+    "size": 260
+  },
+  {
+    "module_path": "flet/pubsub/pubsub_client.pyc",
+    "size": 3257
+  },
+  {
+    "module_path": "flet/pubsub/pubsub_hub.pyc",
+    "size": 9730
+  },
+  {
+    "module_path": "flet/utils/__init__.pyc",
+    "size": 1770
+  },
+  {
+    "module_path": "flet/utils/browser.pyc",
+    "size": 442
+  },
+  {
+    "module_path": "flet/utils/classproperty.pyc",
+    "size": 895
+  },
+  {
+    "module_path": "flet/utils/deprecated.pyc",
+    "size": 4658
+  },
+  {
+    "module_path": "flet/utils/deprecated_enum.pyc",
+    "size": 1639
+  },
+  {
+    "module_path": "flet/utils/files.pyc",
+    "size": 4008
+  },
+  {
+    "module_path": "flet/utils/from_dict.pyc",
+    "size": 3977
+  },
+  {
+    "module_path": "flet/utils/hashing.pyc",
+    "size": 1055
+  },
+  {
+    "module_path": "flet/utils/json_utils.pyc",
+    "size": 546
+  },
+  {
+    "module_path": "flet/utils/locks.pyc",
+    "size": 960
+  },
+  {
+    "module_path": "flet/utils/network.pyc",
+    "size": 1187
+  },
+  {
+    "module_path": "flet/utils/object_model.pyc",
+    "size": 4322
+  },
+  {
+    "module_path": "flet/utils/once.pyc",
+    "size": 1075
+  },
+  {
+    "module_path": "flet/utils/pip.pyc",
+    "size": 3644
+  },
+  {
+    "module_path": "flet/utils/platform_utils.pyc",
+    "size": 4153
+  },
+  {
+    "module_path": "flet/utils/slugify.pyc",
+    "size": 807
+  },
+  {
+    "module_path": "flet/utils/strings.pyc",
+    "size": 746
+  },
+  {
+    "module_path": "flet/utils/typing_utils.pyc",
+    "size": 562
+  },
+  {
+    "module_path": "flet/utils/validation.pyc",
+    "size": 42063
+  },
+  {
+    "module_path": "flet/utils/vector.pyc",
+    "size": 5283
+  },
+  {
+    "module_path": "flet/version.pyc",
+    "size": 3569
+  },
+  {
+    "module_path": "flet_cli/version.pyc",
+    "size": 139
+  },
+  {
+    "module_path": "flet_cli.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "flet_desktop/__init__.pyc",
+    "size": 14385
+  },
+  {
+    "module_path": "flet_desktop/version.pyc",
+    "size": 143
+  },
+  {
+    "module_path": "flet_web/__init__.pyc",
+    "size": 779
+  },
+  {
+    "module_path": "flet_web/fastapi/__init__.pyc",
+    "size": 628
+  },
+  {
+    "module_path": "flet_web/fastapi/app.pyc",
+    "size": 5301
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_app.pyc",
+    "size": 19263
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_app_manager.pyc",
+    "size": 10004
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_fastapi.pyc",
+    "size": 5890
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_oauth.pyc",
+    "size": 2984
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_static_files.pyc",
+    "size": 9115
+  },
+  {
+    "module_path": "flet_web/fastapi/flet_upload.pyc",
+    "size": 4857
+  },
+  {
+    "module_path": "flet_web/fastapi/oauth_state.pyc",
+    "size": 886
+  },
+  {
+    "module_path": "flet_web/fastapi/serve_fastapi_web_app.pyc",
+    "size": 4044
+  },
+  {
+    "module_path": "flet_web/patch_index.pyc",
+    "size": 5291
+  },
+  {
+    "module_path": "flet_web/uploads.pyc",
+    "size": 2551
+  },
+  {
+    "module_path": "flet_web/version.pyc",
+    "size": 139
+  },
+  {
+    "module_path": "fnmatch.pyc",
+    "size": 5156
+  },
+  {
+    "module_path": "fractions.pyc",
+    "size": 28284
+  },
+  {
+    "module_path": "ftplib.pyc",
+    "size": 32494
+  },
+  {
+    "module_path": "getopt.pyc",
+    "size": 5748
+  },
+  {
+    "module_path": "getpass.pyc",
+    "size": 5648
+  },
+  {
+    "module_path": "gettext.pyc",
+    "size": 21097
+  },
+  {
+    "module_path": "glob.pyc",
+    "size": 8780
+  },
+  {
+    "module_path": "gzip.pyc",
+    "size": 27668
+  },
+  {
+    "module_path": "h11/__init__.pyc",
+    "size": 1003
+  },
+  {
+    "module_path": "h11/_abnf.pyc",
+    "size": 1709
+  },
+  {
+    "module_path": "h11/_connection.pyc",
+    "size": 16453
+  },
+  {
+    "module_path": "h11/_events.pyc",
+    "size": 8401
+  },
+  {
+    "module_path": "h11/_headers.pyc",
+    "size": 7047
+  },
+  {
+    "module_path": "h11/_readers.pyc",
+    "size": 9481
+  },
+  {
+    "module_path": "h11/_receivebuffer.pyc",
+    "size": 4344
+  },
+  {
+    "module_path": "h11/_state.pyc",
+    "size": 8232
+  },
+  {
+    "module_path": "h11/_util.pyc",
+    "size": 3481
+  },
+  {
+    "module_path": "h11/_version.pyc",
+    "size": 141
+  },
+  {
+    "module_path": "h11/_writers.pyc",
+    "size": 6275
+  },
+  {
+    "module_path": "hashlib.pyc",
+    "size": 7317
+  },
+  {
+    "module_path": "hmac.pyc",
+    "size": 8248
+  },
+  {
+    "module_path": "html/__init__.pyc",
+    "size": 3720
+  },
+  {
+    "module_path": "html/entities.pyc",
+    "size": 97597
+  },
+  {
+    "module_path": "http/__init__.pyc",
+    "size": 8404
+  },
+  {
+    "module_path": "http/client.pyc",
+    "size": 47113
+  },
+  {
+    "module_path": "http/cookiejar.pyc",
+    "size": 66073
+  },
+  {
+    "module_path": "http/cookies.pyc",
+    "size": 16407
+  },
+  {
+    "module_path": "http/server.pyc",
+    "size": 43745
+  },
+  {
+    "module_path": "httpcore/__init__.pyc",
+    "size": 3111
+  },
+  {
+    "module_path": "httpcore/_api.pyc",
+    "size": 1697
+  },
+  {
+    "module_path": "httpcore/_async/__init__.pyc",
+    "size": 1563
+  },
+  {
+    "module_path": "httpcore/_async/connection.pyc",
+    "size": 11454
+  },
+  {
+    "module_path": "httpcore/_async/connection_pool.pyc",
+    "size": 16507
+  },
+  {
+    "module_path": "httpcore/_async/http11.pyc",
+    "size": 19923
+  },
+  {
+    "module_path": "httpcore/_async/http2.pyc",
+    "size": 29739
+  },
+  {
+    "module_path": "httpcore/_async/http_proxy.pyc",
+    "size": 15503
+  },
+  {
+    "module_path": "httpcore/_async/interfaces.pyc",
+    "size": 4543
+  },
+  {
+    "module_path": "httpcore/_async/socks_proxy.pyc",
+    "size": 14480
+  },
+  {
+    "module_path": "httpcore/_backends/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "httpcore/_backends/anyio.pyc",
+    "size": 8463
+  },
+  {
+    "module_path": "httpcore/_backends/auto.pyc",
+    "size": 2619
+  },
+  {
+    "module_path": "httpcore/_backends/base.pyc",
+    "size": 4890
+  },
+  {
+    "module_path": "httpcore/_backends/mock.pyc",
+    "size": 7238
+  },
+  {
+    "module_path": "httpcore/_backends/sync.pyc",
+    "size": 11074
+  },
+  {
+    "module_path": "httpcore/_backends/trio.pyc",
+    "size": 8638
+  },
+  {
+    "module_path": "httpcore/_exceptions.pyc",
+    "size": 3113
+  },
+  {
+    "module_path": "httpcore/_models.pyc",
+    "size": 18537
+  },
+  {
+    "module_path": "httpcore/_ssl.pyc",
+    "size": 538
+  },
+  {
+    "module_path": "httpcore/_sync/__init__.pyc",
+    "size": 1517
+  },
+  {
+    "module_path": "httpcore/_sync/connection.pyc",
+    "size": 10111
+  },
+  {
+    "module_path": "httpcore/_sync/connection_pool.pyc",
+    "size": 15607
+  },
+  {
+    "module_path": "httpcore/_sync/http11.pyc",
+    "size": 17519
+  },
+  {
+    "module_path": "httpcore/_sync/http2.pyc",
+    "size": 25887
+  },
+  {
+    "module_path": "httpcore/_sync/http_proxy.pyc",
+    "size": 14706
+  },
+  {
+    "module_path": "httpcore/_sync/interfaces.pyc",
+    "size": 4090
+  },
+  {
+    "module_path": "httpcore/_sync/socks_proxy.pyc",
+    "size": 13258
+  },
+  {
+    "module_path": "httpcore/_synchronization.pyc",
+    "size": 13468
+  },
+  {
+    "module_path": "httpcore/_trace.pyc",
+    "size": 5588
+  },
+  {
+    "module_path": "httpcore/_utils.pyc",
+    "size": 1000
+  },
+  {
+    "module_path": "httptools/__init__.pyc",
+    "size": 608
+  },
+  {
+    "module_path": "httptools/_version.pyc",
+    "size": 146
+  },
+  {
+    "module_path": "httptools/parser/__init__.pyc",
+    "size": 600
+  },
+  {
+    "module_path": "httptools/parser/errors.pyc",
+    "size": 1143
+  },
+  {
+    "module_path": "httptools/parser/protocol.pyc",
+    "size": 1710
+  },
+  {
+    "module_path": "httpx/__init__.pyc",
+    "size": 2048
+  },
+  {
+    "module_path": "httpx/__version__.pyc",
+    "size": 243
+  },
+  {
+    "module_path": "httpx/_api.pyc",
+    "size": 7309
+  },
+  {
+    "module_path": "httpx/_auth.pyc",
+    "size": 13460
+  },
+  {
+    "module_path": "httpx/_client.pyc",
+    "size": 55291
+  },
+  {
+    "module_path": "httpx/_config.pyc",
+    "size": 9840
+  },
+  {
+    "module_path": "httpx/_content.pyc",
+    "size": 9927
+  },
+  {
+    "module_path": "httpx/_decoders.pyc",
+    "size": 15337
+  },
+  {
+    "module_path": "httpx/_exceptions.pyc",
+    "size": 8528
+  },
+  {
+    "module_path": "httpx/_main.pyc",
+    "size": 20450
+  },
+  {
+    "module_path": "httpx/_models.pyc",
+    "size": 52721
+  },
+  {
+    "module_path": "httpx/_multipart.pyc",
+    "size": 12929
+  },
+  {
+    "module_path": "httpx/_status_codes.pyc",
+    "size": 5869
+  },
+  {
+    "module_path": "httpx/_transports/__init__.pyc",
+    "size": 372
+  },
+  {
+    "module_path": "httpx/_transports/asgi.pyc",
+    "size": 6485
+  },
+  {
+    "module_path": "httpx/_transports/base.pyc",
+    "size": 2717
+  },
+  {
+    "module_path": "httpx/_transports/default.pyc",
+    "size": 16020
+  },
+  {
+    "module_path": "httpx/_transports/mock.pyc",
+    "size": 1880
+  },
+  {
+    "module_path": "httpx/_transports/wsgi.pyc",
+    "size": 5643
+  },
+  {
+    "module_path": "httpx/_types.pyc",
+    "size": 3567
+  },
+  {
+    "module_path": "httpx/_urlparse.pyc",
+    "size": 15882
+  },
+  {
+    "module_path": "httpx/_urls.pyc",
+    "size": 18520
+  },
+  {
+    "module_path": "httpx/_utils.pyc",
+    "size": 7653
+  },
+  {
+    "module_path": "idna/__init__.pyc",
+    "size": 811
+  },
+  {
+    "module_path": "idna/core.pyc",
+    "size": 15756
+  },
+  {
+    "module_path": "idna/idnadata.pyc",
+    "size": 100840
+  },
+  {
+    "module_path": "idna/intranges.pyc",
+    "size": 1940
+  },
+  {
+    "module_path": "idna/package_data.pyc",
+    "size": 142
+  },
+  {
+    "module_path": "idna/uts46data.pyc",
+    "size": 161770
+  },
+  {
+    "module_path": "importlib/__init__.pyc",
+    "size": 4070
+  },
+  {
+    "module_path": "importlib/_abc.pyc",
+    "size": 858
+  },
+  {
+    "module_path": "importlib/_bootstrap.pyc",
+    "size": 47228
+  },
+  {
+    "module_path": "importlib/_bootstrap_external.pyc",
+    "size": 51461
+  },
+  {
+    "module_path": "importlib/abc.pyc",
+    "size": 6856
+  },
+  {
+    "module_path": "importlib/machinery.pyc",
+    "size": 904
+  },
+  {
+    "module_path": "importlib/metadata/__init__.pyc",
+    "size": 38714
+  },
+  {
+    "module_path": "importlib/metadata/_adapters.pyc",
+    "size": 3571
+  },
+  {
+    "module_path": "importlib/metadata/_collections.pyc",
+    "size": 1556
+  },
+  {
+    "module_path": "importlib/metadata/_functools.pyc",
+    "size": 1384
+  },
+  {
+    "module_path": "importlib/metadata/_itertools.pyc",
+    "size": 1126
+  },
+  {
+    "module_path": "importlib/metadata/_meta.pyc",
+    "size": 3064
+  },
+  {
+    "module_path": "importlib/metadata/_text.pyc",
+    "size": 2649
+  },
+  {
+    "module_path": "importlib/readers.pyc",
+    "size": 283
+  },
+  {
+    "module_path": "importlib/resources/__init__.pyc",
+    "size": 540
+  },
+  {
+    "module_path": "importlib/resources/_adapters.pyc",
+    "size": 8848
+  },
+  {
+    "module_path": "importlib/resources/_common.pyc",
+    "size": 7587
+  },
+  {
+    "module_path": "importlib/resources/_itertools.pyc",
+    "size": 714
+  },
+  {
+    "module_path": "importlib/resources/_legacy.pyc",
+    "size": 4628
+  },
+  {
+    "module_path": "importlib/resources/abc.pyc",
+    "size": 7083
+  },
+  {
+    "module_path": "importlib/resources/readers.pyc",
+    "size": 8354
+  },
+  {
+    "module_path": "importlib/util.pyc",
+    "size": 8479
+  },
+  {
+    "module_path": "inspect.pyc",
+    "size": 108732
+  },
+  {
+    "module_path": "ipaddress.pyc",
+    "size": 66818
+  },
+  {
+    "module_path": "itsdangerous/__init__.pyc",
+    "size": 1559
+  },
+  {
+    "module_path": "itsdangerous/_json.pyc",
+    "size": 1050
+  },
+  {
+    "module_path": "itsdangerous/encoding.pyc",
+    "size": 2451
+  },
+  {
+    "module_path": "itsdangerous/exc.pyc",
+    "size": 2943
+  },
+  {
+    "module_path": "itsdangerous/serializer.pyc",
+    "size": 11038
+  },
+  {
+    "module_path": "itsdangerous/signer.pyc",
+    "size": 8018
+  },
+  {
+    "module_path": "itsdangerous/timed.pyc",
+    "size": 6931
+  },
+  {
+    "module_path": "itsdangerous/url_safe.pyc",
+    "size": 2840
+  },
+  {
+    "module_path": "json/__init__.pyc",
+    "size": 4327
+  },
+  {
+    "module_path": "json/decoder.pyc",
+    "size": 9941
+  },
+  {
+    "module_path": "json/encoder.pyc",
+    "size": 10778
+  },
+  {
+    "module_path": "json/scanner.pyc",
+    "size": 3278
+  },
+  {
+    "module_path": "logging/__init__.pyc",
+    "size": 66275
+  },
+  {
+    "module_path": "logging/config.pyc",
+    "size": 39752
+  },
+  {
+    "module_path": "logging/handlers.pyc",
+    "size": 47832
+  },
+  {
+    "module_path": "lzma.pyc",
+    "size": 9762
+  },
+  {
+    "module_path": "markdown_it/__init__.pyc",
+    "size": 214
+  },
+  {
+    "module_path": "markdown_it/_punycode.pyc",
+    "size": 2571
+  },
+  {
+    "module_path": "markdown_it/common/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "markdown_it/common/entities.pyc",
+    "size": 437
+  },
+  {
+    "module_path": "markdown_it/common/html_blocks.pyc",
+    "size": 582
+  },
+  {
+    "module_path": "markdown_it/common/html_re.pyc",
+    "size": 1224
+  },
+  {
+    "module_path": "markdown_it/common/normalize_url.pyc",
+    "size": 2787
+  },
+  {
+    "module_path": "markdown_it/common/utils.pyc",
+    "size": 6849
+  },
+  {
+    "module_path": "markdown_it/helpers/__init__.pyc",
+    "size": 350
+  },
+  {
+    "module_path": "markdown_it/helpers/parse_link_destination.pyc",
+    "size": 2010
+  },
+  {
+    "module_path": "markdown_it/helpers/parse_link_label.pyc",
+    "size": 1233
+  },
+  {
+    "module_path": "markdown_it/helpers/parse_link_title.pyc",
+    "size": 2156
+  },
+  {
+    "module_path": "markdown_it/main.pyc",
+    "size": 12597
+  },
+  {
+    "module_path": "markdown_it/parser_block.pyc",
+    "size": 3782
+  },
+  {
+    "module_path": "markdown_it/parser_core.pyc",
+    "size": 1597
+  },
+  {
+    "module_path": "markdown_it/parser_inline.pyc",
+    "size": 5006
+  },
+  {
+    "module_path": "markdown_it/presets/__init__.pyc",
+    "size": 1240
+  },
+  {
+    "module_path": "markdown_it/presets/commonmark.pyc",
+    "size": 908
+  },
+  {
+    "module_path": "markdown_it/presets/default.pyc",
+    "size": 563
+  },
+  {
+    "module_path": "markdown_it/presets/zero.pyc",
+    "size": 727
+  },
+  {
+    "module_path": "markdown_it/renderer.pyc",
+    "size": 9902
+  },
+  {
+    "module_path": "markdown_it/ruler.pyc",
+    "size": 9177
+  },
+  {
+    "module_path": "markdown_it/rules_block/__init__.pyc",
+    "size": 614
+  },
+  {
+    "module_path": "markdown_it/rules_block/blockquote.pyc",
+    "size": 6839
+  },
+  {
+    "module_path": "markdown_it/rules_block/code.pyc",
+    "size": 1271
+  },
+  {
+    "module_path": "markdown_it/rules_block/fence.pyc",
+    "size": 2459
+  },
+  {
+    "module_path": "markdown_it/rules_block/heading.pyc",
+    "size": 2518
+  },
+  {
+    "module_path": "markdown_it/rules_block/hr.pyc",
+    "size": 1611
+  },
+  {
+    "module_path": "markdown_it/rules_block/html_block.pyc",
+    "size": 3542
+  },
+  {
+    "module_path": "markdown_it/rules_block/lheading.pyc",
+    "size": 2864
+  },
+  {
+    "module_path": "markdown_it/rules_block/list.pyc",
+    "size": 7965
+  },
+  {
+    "module_path": "markdown_it/rules_block/paragraph.pyc",
+    "size": 2081
+  },
+  {
+    "module_path": "markdown_it/rules_block/reference.pyc",
+    "size": 6128
+  },
+  {
+    "module_path": "markdown_it/rules_block/state_block.pyc",
+    "size": 8733
+  },
+  {
+    "module_path": "markdown_it/rules_block/table.pyc",
+    "size": 7300
+  },
+  {
+    "module_path": "markdown_it/rules_core/__init__.pyc",
+    "size": 478
+  },
+  {
+    "module_path": "markdown_it/rules_core/block.pyc",
+    "size": 910
+  },
+  {
+    "module_path": "markdown_it/rules_core/inline.pyc",
+    "size": 739
+  },
+  {
+    "module_path": "markdown_it/rules_core/linkify.pyc",
+    "size": 5111
+  },
+  {
+    "module_path": "markdown_it/rules_core/normalize.pyc",
+    "size": 702
+  },
+  {
+    "module_path": "markdown_it/rules_core/replacements.pyc",
+    "size": 4559
+  },
+  {
+    "module_path": "markdown_it/rules_core/smartquotes.pyc",
+    "size": 5983
+  },
+  {
+    "module_path": "markdown_it/rules_core/state_core.pyc",
+    "size": 1020
+  },
+  {
+    "module_path": "markdown_it/rules_core/text_join.pyc",
+    "size": 1057
+  },
+  {
+    "module_path": "markdown_it/rules_inline/__init__.pyc",
+    "size": 745
+  },
+  {
+    "module_path": "markdown_it/rules_inline/autolink.pyc",
+    "size": 2705
+  },
+  {
+    "module_path": "markdown_it/rules_inline/backticks.pyc",
+    "size": 2493
+  },
+  {
+    "module_path": "markdown_it/rules_inline/balance_pairs.pyc",
+    "size": 3050
+  },
+  {
+    "module_path": "markdown_it/rules_inline/emphasis.pyc",
+    "size": 3663
+  },
+  {
+    "module_path": "markdown_it/rules_inline/entity.pyc",
+    "size": 2394
+  },
+  {
+    "module_path": "markdown_it/rules_inline/escape.pyc",
+    "size": 1767
+  },
+  {
+    "module_path": "markdown_it/rules_inline/fragments_join.pyc",
+    "size": 1434
+  },
+  {
+    "module_path": "markdown_it/rules_inline/html_inline.pyc",
+    "size": 1917
+  },
+  {
+    "module_path": "markdown_it/rules_inline/image.pyc",
+    "size": 4124
+  },
+  {
+    "module_path": "markdown_it/rules_inline/link.pyc",
+    "size": 3962
+  },
+  {
+    "module_path": "markdown_it/rules_inline/linkify.pyc",
+    "size": 2580
+  },
+  {
+    "module_path": "markdown_it/rules_inline/newline.pyc",
+    "size": 1680
+  },
+  {
+    "module_path": "markdown_it/rules_inline/state_inline.pyc",
+    "size": 5475
+  },
+  {
+    "module_path": "markdown_it/rules_inline/strikethrough.pyc",
+    "size": 4013
+  },
+  {
+    "module_path": "markdown_it/rules_inline/text.pyc",
+    "size": 1441
+  },
+  {
+    "module_path": "markdown_it/token.pyc",
+    "size": 6430
+  },
+  {
+    "module_path": "markdown_it/utils.pyc",
+    "size": 8051
+  },
+  {
+    "module_path": "markupsafe/__init__.pyc",
+    "size": 18157
+  },
+  {
+    "module_path": "markupsafe/_native.pyc",
+    "size": 546
+  },
+  {
+    "module_path": "mdurl/__init__.pyc",
+    "size": 576
+  },
+  {
+    "module_path": "mdurl/_decode.pyc",
+    "size": 3751
+  },
+  {
+    "module_path": "mdurl/_encode.pyc",
+    "size": 2804
+  },
+  {
+    "module_path": "mdurl/_format.pyc",
+    "size": 1144
+  },
+  {
+    "module_path": "mdurl/_parse.pyc",
+    "size": 7181
+  },
+  {
+    "module_path": "mdurl/_url.pyc",
+    "size": 599
+  },
+  {
+    "module_path": "mimetypes.pyc",
+    "size": 18181
+  },
+  {
+    "module_path": "msgpack/__init__.pyc",
+    "size": 1366
+  },
+  {
+    "module_path": "msgpack/exceptions.pyc",
+    "size": 1536
+  },
+  {
+    "module_path": "msgpack/ext.pyc",
+    "size": 6127
+  },
+  {
+    "module_path": "msgpack/fallback.pyc",
+    "size": 35633
+  },
+  {
+    "module_path": "multipart/__init__.pyc",
+    "size": 1190
+  },
+  {
+    "module_path": "multipart/multipart.pyc",
+    "size": 167
+  },
+  {
+    "module_path": "multiprocessing/__init__.pyc",
+    "size": 941
+  },
+  {
+    "module_path": "multiprocessing/connection.pyc",
+    "size": 44840
+  },
+  {
+    "module_path": "multiprocessing/context.pyc",
+    "size": 15708
+  },
+  {
+    "module_path": "multiprocessing/dummy/__init__.pyc",
+    "size": 5564
+  },
+  {
+    "module_path": "multiprocessing/dummy/connection.pyc",
+    "size": 3473
+  },
+  {
+    "module_path": "multiprocessing/forkserver.pyc",
+    "size": 14261
+  },
+  {
+    "module_path": "multiprocessing/heap.pyc",
+    "size": 13630
+  },
+  {
+    "module_path": "multiprocessing/managers.pyc",
+    "size": 64173
+  },
+  {
+    "module_path": "multiprocessing/pool.pyc",
+    "size": 42141
+  },
+  {
+    "module_path": "multiprocessing/popen_fork.pyc",
+    "size": 4076
+  },
+  {
+    "module_path": "multiprocessing/popen_forkserver.pyc",
+    "size": 3933
+  },
+  {
+    "module_path": "multiprocessing/popen_spawn_posix.pyc",
+    "size": 3899
+  },
+  {
+    "module_path": "multiprocessing/popen_spawn_win32.pyc",
+    "size": 6000
+  },
+  {
+    "module_path": "multiprocessing/process.pyc",
+    "size": 15294
+  },
+  {
+    "module_path": "multiprocessing/queues.pyc",
+    "size": 18195
+  },
+  {
+    "module_path": "multiprocessing/reduction.pyc",
+    "size": 13170
+  },
+  {
+    "module_path": "multiprocessing/resource_sharer.pyc",
+    "size": 8351
+  },
+  {
+    "module_path": "multiprocessing/resource_tracker.pyc",
+    "size": 10584
+  },
+  {
+    "module_path": "multiprocessing/shared_memory.pyc",
+    "size": 20486
+  },
+  {
+    "module_path": "multiprocessing/sharedctypes.pyc",
+    "size": 10318
+  },
+  {
+    "module_path": "multiprocessing/spawn.pyc",
+    "size": 11110
+  },
+  {
+    "module_path": "multiprocessing/synchronize.pyc",
+    "size": 20190
+  },
+  {
+    "module_path": "multiprocessing/util.pyc",
+    "size": 17844
+  },
+  {
+    "module_path": "netrc.pyc",
+    "size": 8611
+  },
+  {
+    "module_path": "nturl2path.pyc",
+    "size": 2300
+  },
+  {
+    "module_path": "numbers.pyc",
+    "size": 10502
+  },
+  {
+    "module_path": "oauthlib/__init__.pyc",
+    "size": 668
+  },
+  {
+    "module_path": "oauthlib/common.pyc",
+    "size": 15727
+  },
+  {
+    "module_path": "oauthlib/oauth2/__init__.pyc",
+    "size": 2261
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/__init__.pyc",
+    "size": 503
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/__init__.pyc",
+    "size": 580
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/backend_application.pyc",
+    "size": 972
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/base.pyc",
+    "size": 11522
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/legacy_application.pyc",
+    "size": 1255
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/mobile_application.pyc",
+    "size": 1426
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/service_application.pyc",
+    "size": 2754
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/clients/web_application.pyc",
+    "size": 2665
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/__init__.pyc",
+    "size": 654
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/authorization.pyc",
+    "size": 3605
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/base.pyc",
+    "size": 6005
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/introspect.pyc",
+    "size": 3112
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/metadata.pyc",
+    "size": 8377
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/pre_configured.pyc",
+    "size": 6726
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/resource.pyc",
+    "size": 2991
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/revocation.pyc",
+    "size": 3218
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/endpoints/token.pyc",
+    "size": 3272
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/errors.pyc",
+    "size": 11404
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/__init__.pyc",
+    "size": 490
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/authorization_code.pyc",
+    "size": 14275
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/base.pyc",
+    "size": 10260
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/client_credentials.pyc",
+    "size": 3978
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/implicit.pyc",
+    "size": 5910
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/refresh_token.pyc",
+    "size": 5867
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.pyc",
+    "size": 4967
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/parameters.pyc",
+    "size": 8797
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/request_validator.pyc",
+    "size": 6389
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/tokens.pyc",
+    "size": 11188
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc6749/utils.pyc",
+    "size": 3255
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/__init__.pyc",
+    "size": 383
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/clients/__init__.pyc",
+    "size": 195
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/clients/device.pyc",
+    "size": 2455
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/endpoints/__init__.pyc",
+    "size": 289
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/endpoints/device_authorization.pyc",
+    "size": 4879
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/endpoints/pre_configured.pyc",
+    "size": 1150
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/errors.pyc",
+    "size": 981
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/grant_types/__init__.pyc",
+    "size": 234
+  },
+  {
+    "module_path": "oauthlib/oauth2/rfc8628/grant_types/device_code.pyc",
+    "size": 4636
+  },
+  {
+    "module_path": "oauthlib/openid/__init__.pyc",
+    "size": 288
+  },
+  {
+    "module_path": "oauthlib/openid/connect/__init__.pyc",
+    "size": 132
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/__init__.pyc",
+    "size": 137
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/endpoints/__init__.pyc",
+    "size": 254
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/endpoints/pre_configured.pyc",
+    "size": 4119
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/endpoints/userinfo.pyc",
+    "size": 3017
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/__init__.pyc",
+    "size": 576
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/authorization_code.pyc",
+    "size": 1827
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/base.pyc",
+    "size": 5729
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/dispatchers.pyc",
+    "size": 4664
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/hybrid.pyc",
+    "size": 2641
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/implicit.pyc",
+    "size": 2186
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/grant_types/refresh_token.pyc",
+    "size": 1347
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/request_validator.pyc",
+    "size": 3078
+  },
+  {
+    "module_path": "oauthlib/openid/connect/core/tokens.pyc",
+    "size": 2025
+  },
+  {
+    "module_path": "oauthlib/signals.pyc",
+    "size": 1629
+  },
+  {
+    "module_path": "oauthlib/uri_validate.pyc",
+    "size": 4494
+  },
+  {
+    "module_path": "opcode.pyc",
+    "size": 14529
+  },
+  {
+    "module_path": "optparse.pyc",
+    "size": 55342
+  },
+  {
+    "module_path": "outcome/__init__.pyc",
+    "size": 503
+  },
+  {
+    "module_path": "outcome/_impl.pyc",
+    "size": 7226
+  },
+  {
+    "module_path": "outcome/_util.pyc",
+    "size": 1703
+  },
+  {
+    "module_path": "outcome/_version.pyc",
+    "size": 304
+  },
+  {
+    "module_path": "packaging/__init__.pyc",
+    "size": 483
+  },
+  {
+    "module_path": "packaging/_elffile.pyc",
+    "size": 4488
+  },
+  {
+    "module_path": "packaging/_manylinux.pyc",
+    "size": 8821
+  },
+  {
+    "module_path": "packaging/_musllinux.pyc",
+    "size": 3432
+  },
+  {
+    "module_path": "packaging/_parser.pyc",
+    "size": 13179
+  },
+  {
+    "module_path": "packaging/_structures.pyc",
+    "size": 3398
+  },
+  {
+    "module_path": "packaging/_tokenizer.pyc",
+    "size": 7464
+  },
+  {
+    "module_path": "packaging/licenses/__init__.pyc",
+    "size": 3712
+  },
+  {
+    "module_path": "packaging/licenses/_spdx.pyc",
+    "size": 49785
+  },
+  {
+    "module_path": "packaging/markers.pyc",
+    "size": 11877
+  },
+  {
+    "module_path": "packaging/metadata.pyc",
+    "size": 28132
+  },
+  {
+    "module_path": "packaging/pylock.pyc",
+    "size": 27635
+  },
+  {
+    "module_path": "packaging/requirements.pyc",
+    "size": 4041
+  },
+  {
+    "module_path": "packaging/specifiers.pyc",
+    "size": 27729
+  },
+  {
+    "module_path": "packaging/tags.pyc",
+    "size": 21337
+  },
+  {
+    "module_path": "packaging/utils.pyc",
+    "size": 5572
+  },
+  {
+    "module_path": "packaging/version.pyc",
+    "size": 23250
+  },
+  {
+    "module_path": "pathlib.pyc",
+    "size": 52591
+  },
+  {
+    "module_path": "pdb.pyc",
+    "size": 69932
+  },
+  {
+    "module_path": "pickle.pyc",
+    "size": 71980
+  },
+  {
+    "module_path": "pkg_resources/__init__.pyc",
+    "size": 136819
+  },
+  {
+    "module_path": "pkgutil.pyc",
+    "size": 13726
+  },
+  {
+    "module_path": "platform.pyc",
+    "size": 33651
+  },
+  {
+    "module_path": "plistlib.pyc",
+    "size": 38434
+  },
+  {
+    "module_path": "pprint.pyc",
+    "size": 27378
+  },
+  {
+    "module_path": "pty.pyc",
+    "size": 6574
+  },
+  {
+    "module_path": "py_compile.pyc",
+    "size": 6706
+  },
+  {
+    "module_path": "pycparser/__init__.pyc",
+    "size": 1560
+  },
+  {
+    "module_path": "pycparser/ast_transforms.pyc",
+    "size": 4024
+  },
+  {
+    "module_path": "pycparser/c_ast.pyc",
+    "size": 49487
+  },
+  {
+    "module_path": "pycparser/c_lexer.pyc",
+    "size": 21177
+  },
+  {
+    "module_path": "pycparser/c_parser.pyc",
+    "size": 94144
+  },
+  {
+    "module_path": "pydantic/__init__.pyc",
+    "size": 14357
+  },
+  {
+    "module_path": "pydantic/_internal/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "pydantic/_internal/_config.pyc",
+    "size": 14432
+  },
+  {
+    "module_path": "pydantic/_internal/_core_metadata.pyc",
+    "size": 2706
+  },
+  {
+    "module_path": "pydantic/_internal/_core_utils.pyc",
+    "size": 6652
+  },
+  {
+    "module_path": "pydantic/_internal/_dataclasses.pyc",
+    "size": 8734
+  },
+  {
+    "module_path": "pydantic/_internal/_decorators.pyc",
+    "size": 26831
+  },
+  {
+    "module_path": "pydantic/_internal/_decorators_v1.pyc",
+    "size": 7328
+  },
+  {
+    "module_path": "pydantic/_internal/_discriminated_union.pyc",
+    "size": 16683
+  },
+  {
+    "module_path": "pydantic/_internal/_docs_extraction.pyc",
+    "size": 4828
+  },
+  {
+    "module_path": "pydantic/_internal/_fields.pyc",
+    "size": 23339
+  },
+  {
+    "module_path": "pydantic/_internal/_forward_ref.pyc",
+    "size": 1082
+  },
+  {
+    "module_path": "pydantic/_internal/_generate_schema.pyc",
+    "size": 123396
+  },
+  {
+    "module_path": "pydantic/_internal/_generics.pyc",
+    "size": 16494
+  },
+  {
+    "module_path": "pydantic/_internal/_git.pyc",
+    "size": 1210
+  },
+  {
+    "module_path": "pydantic/_internal/_import_utils.pyc",
+    "size": 759
+  },
+  {
+    "module_path": "pydantic/_internal/_internal_dataclass.pyc",
+    "size": 276
+  },
+  {
+    "module_path": "pydantic/_internal/_known_annotated_metadata.pyc",
+    "size": 11701
+  },
+  {
+    "module_path": "pydantic/_internal/_mock_val_ser.pyc",
+    "size": 9980
+  },
+  {
+    "module_path": "pydantic/_internal/_model_construction.pyc",
+    "size": 30424
+  },
+  {
+    "module_path": "pydantic/_internal/_namespace_utils.pyc",
+    "size": 6398
+  },
+  {
+    "module_path": "pydantic/_internal/_repr.pyc",
+    "size": 6813
+  },
+  {
+    "module_path": "pydantic/_internal/_schema_gather.pyc",
+    "size": 6670
+  },
+  {
+    "module_path": "pydantic/_internal/_schema_generation_shared.pyc",
+    "size": 4868
+  },
+  {
+    "module_path": "pydantic/_internal/_serializers.pyc",
+    "size": 2043
+  },
+  {
+    "module_path": "pydantic/_internal/_signature.pyc",
+    "size": 5566
+  },
+  {
+    "module_path": "pydantic/_internal/_typing_extra.pyc",
+    "size": 19032
+  },
+  {
+    "module_path": "pydantic/_internal/_utils.pyc",
+    "size": 16193
+  },
+  {
+    "module_path": "pydantic/_internal/_validate_call.pyc",
+    "size": 6615
+  },
+  {
+    "module_path": "pydantic/_internal/_validators.pyc",
+    "size": 20211
+  },
+  {
+    "module_path": "pydantic/_migration.pyc",
+    "size": 10521
+  },
+  {
+    "module_path": "pydantic/alias_generators.pyc",
+    "size": 2731
+  },
+  {
+    "module_path": "pydantic/aliases.pyc",
+    "size": 4568
+  },
+  {
+    "module_path": "pydantic/annotated_handlers.pyc",
+    "size": 2551
+  },
+  {
+    "module_path": "pydantic/class_validators.pyc",
+    "size": 234
+  },
+  {
+    "module_path": "pydantic/color.pyc",
+    "size": 24613
+  },
+  {
+    "module_path": "pydantic/config.pyc",
+    "size": 6358
+  },
+  {
+    "module_path": "pydantic/dataclasses.pyc",
+    "size": 13386
+  },
+  {
+    "module_path": "pydantic/datetime_parse.pyc",
+    "size": 232
+  },
+  {
+    "module_path": "pydantic/decorator.pyc",
+    "size": 227
+  },
+  {
+    "module_path": "pydantic/deprecated/__init__.pyc",
+    "size": 128
+  },
+  {
+    "module_path": "pydantic/deprecated/class_validators.pyc",
+    "size": 9602
+  },
+  {
+    "module_path": "pydantic/deprecated/config.pyc",
+    "size": 3807
+  },
+  {
+    "module_path": "pydantic/deprecated/copy_internals.pyc",
+    "size": 8592
+  },
+  {
+    "module_path": "pydantic/deprecated/decorator.pyc",
+    "size": 13783
+  },
+  {
+    "module_path": "pydantic/deprecated/json.pyc",
+    "size": 5639
+  },
+  {
+    "module_path": "pydantic/deprecated/parse.pyc",
+    "size": 3334
+  },
+  {
+    "module_path": "pydantic/deprecated/tools.pyc",
+    "size": 3314
+  },
+  {
+    "module_path": "pydantic/env_settings.pyc",
+    "size": 230
+  },
+  {
+    "module_path": "pydantic/error_wrappers.pyc",
+    "size": 232
+  },
+  {
+    "module_path": "pydantic/errors.pyc",
+    "size": 6338
+  },
+  {
+    "module_path": "pydantic/experimental/__init__.pyc",
+    "size": 133
+  },
+  {
+    "module_path": "pydantic/experimental/arguments_schema.pyc",
+    "size": 1545
+  },
+  {
+    "module_path": "pydantic/experimental/missing_sentinel.pyc",
+    "size": 209
+  },
+  {
+    "module_path": "pydantic/experimental/pipeline.pyc",
+    "size": 32400
+  },
+  {
+    "module_path": "pydantic/fields.pyc",
+    "size": 50201
+  },
+  {
+    "module_path": "pydantic/functional_serializers.pyc",
+    "size": 11202
+  },
+  {
+    "module_path": "pydantic/functional_validators.pyc",
+    "size": 23269
+  },
+  {
+    "module_path": "pydantic/generics.pyc",
+    "size": 226
+  },
+  {
+    "module_path": "pydantic/json.pyc",
+    "size": 222
+  },
+  {
+    "module_path": "pydantic/json_schema.pyc",
+    "size": 89458
+  },
+  {
+    "module_path": "pydantic/main.pyc",
+    "size": 55774
+  },
+  {
+    "module_path": "pydantic/mypy.pyc",
+    "size": 56465
+  },
+  {
+    "module_path": "pydantic/networks.pyc",
+    "size": 34524
+  },
+  {
+    "module_path": "pydantic/parse.pyc",
+    "size": 223
+  },
+  {
+    "module_path": "pydantic/plugin/__init__.pyc",
+    "size": 4638
+  },
+  {
+    "module_path": "pydantic/plugin/_loader.pyc",
+    "size": 2235
+  },
+  {
+    "module_path": "pydantic/plugin/_schema_validator.pyc",
+    "size": 6566
+  },
+  {
+    "module_path": "pydantic/root_model.pyc",
+    "size": 6178
+  },
+  {
+    "module_path": "pydantic/schema.pyc",
+    "size": 224
+  },
+  {
+    "module_path": "pydantic/tools.pyc",
+    "size": 223
+  },
+  {
+    "module_path": "pydantic/type_adapter.pyc",
+    "size": 17714
+  },
+  {
+    "module_path": "pydantic/types.pyc",
+    "size": 58127
+  },
+  {
+    "module_path": "pydantic/typing.pyc",
+    "size": 224
+  },
+  {
+    "module_path": "pydantic/utils.pyc",
+    "size": 223
+  },
+  {
+    "module_path": "pydantic/v1/__init__.pyc",
+    "size": 2151
+  },
+  {
+    "module_path": "pydantic/v1/_hypothesis_plugin.pyc",
+    "size": 18576
+  },
+  {
+    "module_path": "pydantic/v1/annotated_types.pyc",
+    "size": 3323
+  },
+  {
+    "module_path": "pydantic/v1/class_validators.pyc",
+    "size": 18472
+  },
+  {
+    "module_path": "pydantic/v1/color.pyc",
+    "size": 23463
+  },
+  {
+    "module_path": "pydantic/v1/config.pyc",
+    "size": 8166
+  },
+  {
+    "module_path": "pydantic/v1/dataclasses.pyc",
+    "size": 20219
+  },
+  {
+    "module_path": "pydantic/v1/datetime_parse.pyc",
+    "size": 8758
+  },
+  {
+    "module_path": "pydantic/v1/decorator.pyc",
+    "size": 13666
+  },
+  {
+    "module_path": "pydantic/v1/env_settings.pyc",
+    "size": 16878
+  },
+  {
+    "module_path": "pydantic/v1/error_wrappers.pyc",
+    "size": 8857
+  },
+  {
+    "module_path": "pydantic/v1/errors.pyc",
+    "size": 29308
+  },
+  {
+    "module_path": "pydantic/v1/fields.pyc",
+    "size": 50061
+  },
+  {
+    "module_path": "pydantic/v1/generics.pyc",
+    "size": 14178
+  },
+  {
+    "module_path": "pydantic/v1/json.pyc",
+    "size": 4666
+  },
+  {
+    "module_path": "pydantic/v1/main.pyc",
+    "size": 45957
+  },
+  {
+    "module_path": "pydantic/v1/mypy.pyc",
+    "size": 41623
+  },
+  {
+    "module_path": "pydantic/v1/networks.pyc",
+    "size": 28704
+  },
+  {
+    "module_path": "pydantic/v1/parse.pyc",
+    "size": 2678
+  },
+  {
+    "module_path": "pydantic/v1/schema.pyc",
+    "size": 38175
+  },
+  {
+    "module_path": "pydantic/v1/tools.pyc",
+    "size": 3663
+  },
+  {
+    "module_path": "pydantic/v1/types.pyc",
+    "size": 47771
+  },
+  {
+    "module_path": "pydantic/v1/typing.pyc",
+    "size": 19809
+  },
+  {
+    "module_path": "pydantic/v1/utils.pyc",
+    "size": 30477
+  },
+  {
+    "module_path": "pydantic/v1/validators.pyc",
+    "size": 30205
+  },
+  {
+    "module_path": "pydantic/v1/version.pyc",
+    "size": 1889
+  },
+  {
+    "module_path": "pydantic/validate_call_decorator.pyc",
+    "size": 4649
+  },
+  {
+    "module_path": "pydantic/validators.pyc",
+    "size": 228
+  },
+  {
+    "module_path": "pydantic/version.pyc",
+    "size": 4105
+  },
+  {
+    "module_path": "pydantic/warnings.pyc",
+    "size": 5455
+  },
+  {
+    "module_path": "pydantic_core/__init__.pyc",
+    "size": 2966
+  },
+  {
+    "module_path": "pydantic_core/core_schema.pyc",
+    "size": 84636
+  },
+  {
+    "module_path": "pydoc.pyc",
+    "size": 133532
+  },
+  {
+    "module_path": "pydoc_data/__init__.pyc",
+    "size": 119
+  },
+  {
+    "module_path": "pydoc_data/topics.pyc",
+    "size": 518670
+  },
+  {
+    "module_path": "pygments/__init__.pyc",
+    "size": 1790
+  },
+  {
+    "module_path": "pygments/console.pyc",
+    "size": 2154
+  },
+  {
+    "module_path": "pygments/filter.pyc",
+    "size": 2238
+  },
+  {
+    "module_path": "pygments/filters/__init__.pyc",
+    "size": 33383
+  },
+  {
+    "module_path": "pygments/formatter.pyc",
+    "size": 2160
+  },
+  {
+    "module_path": "pygments/formatters/__init__.pyc",
+    "size": 5272
+  },
+  {
+    "module_path": "pygments/formatters/_mapping.pyc",
+    "size": 4141
+  },
+  {
+    "module_path": "pygments/formatters/bbcode.pyc",
+    "size": 2902
+  },
+  {
+    "module_path": "pygments/formatters/groff.pyc",
+    "size": 6417
+  },
+  {
+    "module_path": "pygments/formatters/html.pyc",
+    "size": 28119
+  },
+  {
+    "module_path": "pygments/formatters/img.pyc",
+    "size": 23563
+  },
+  {
+    "module_path": "pygments/formatters/irc.pyc",
+    "size": 5122
+  },
+  {
+    "module_path": "pygments/formatters/latex.pyc",
+    "size": 15505
+  },
+  {
+    "module_path": "pygments/formatters/other.pyc",
+    "size": 5700
+  },
+  {
+    "module_path": "pygments/formatters/pangomarkup.pyc",
+    "size": 2486
+  },
+  {
+    "module_path": "pygments/formatters/rtf.pyc",
+    "size": 10298
+  },
+  {
+    "module_path": "pygments/formatters/svg.pyc",
+    "size": 6218
+  },
+  {
+    "module_path": "pygments/formatters/terminal.pyc",
+    "size": 4700
+  },
+  {
+    "module_path": "pygments/formatters/terminal256.pyc",
+    "size": 12924
+  },
+  {
+    "module_path": "pygments/lexer.pyc",
+    "size": 29423
+  },
+  {
+    "module_path": "pygments/lexers/__init__.pyc",
+    "size": 11273
+  },
+  {
+    "module_path": "pygments/lexers/_ada_builtins.pyc",
+    "size": 954
+  },
+  {
+    "module_path": "pygments/lexers/_asy_builtins.pyc",
+    "size": 17098
+  },
+  {
+    "module_path": "pygments/lexers/_cl_builtins.pyc",
+    "size": 11372
+  },
+  {
+    "module_path": "pygments/lexers/_cocoa_builtins.pyc",
+    "size": 97036
+  },
+  {
+    "module_path": "pygments/lexers/_csound_builtins.pyc",
+    "size": 16108
+  },
+  {
+    "module_path": "pygments/lexers/_css_builtins.pyc",
+    "size": 9058
+  },
+  {
+    "module_path": "pygments/lexers/_googlesql_builtins.pyc",
+    "size": 10494
+  },
+  {
+    "module_path": "pygments/lexers/_julia_builtins.pyc",
+    "size": 7963
+  },
+  {
+    "module_path": "pygments/lexers/_lasso_builtins.pyc",
+    "size": 76405
+  },
+  {
+    "module_path": "pygments/lexers/_lilypond_builtins.pyc",
+    "size": 88110
+  },
+  {
+    "module_path": "pygments/lexers/_lua_builtins.pyc",
+    "size": 7803
+  },
+  {
+    "module_path": "pygments/lexers/_luau_builtins.pyc",
+    "size": 737
+  },
+  {
+    "module_path": "pygments/lexers/_mapping.pyc",
+    "size": 66887
+  },
+  {
+    "module_path": "pygments/lexers/_mql_builtins.pyc",
+    "size": 17715
+  },
+  {
+    "module_path": "pygments/lexers/_mysql_builtins.pyc",
+    "size": 19008
+  },
+  {
+    "module_path": "pygments/lexers/_openedge_builtins.pyc",
+    "size": 33778
+  },
+  {
+    "module_path": "pygments/lexers/_php_builtins.pyc",
+    "size": 65065
+  },
+  {
+    "module_path": "pygments/lexers/_postgres_builtins.pyc",
+    "size": 10875
+  },
+  {
+    "module_path": "pygments/lexers/_qlik_builtins.pyc",
+    "size": 6092
+  },
+  {
+    "module_path": "pygments/lexers/_scheme_builtins.pyc",
+    "size": 22883
+  },
+  {
+    "module_path": "pygments/lexers/_scilab_builtins.pyc",
+    "size": 34887
+  },
+  {
+    "module_path": "pygments/lexers/_sourcemod_builtins.pyc",
+    "size": 21386
+  },
+  {
+    "module_path": "pygments/lexers/_sql_builtins.pyc",
+    "size": 5270
+  },
+  {
+    "module_path": "pygments/lexers/_stan_builtins.pyc",
+    "size": 9541
+  },
+  {
+    "module_path": "pygments/lexers/_stata_builtins.pyc",
+    "size": 20946
+  },
+  {
+    "module_path": "pygments/lexers/_tsql_builtins.pyc",
+    "size": 8527
+  },
+  {
+    "module_path": "pygments/lexers/_usd_builtins.pyc",
+    "size": 1061
+  },
+  {
+    "module_path": "pygments/lexers/_vbscript_builtins.pyc",
+    "size": 2548
+  },
+  {
+    "module_path": "pygments/lexers/_vim_builtins.pyc",
+    "size": 30416
+  },
+  {
+    "module_path": "pygments/lexers/actionscript.pyc",
+    "size": 10419
+  },
+  {
+    "module_path": "pygments/lexers/ada.pyc",
+    "size": 5192
+  },
+  {
+    "module_path": "pygments/lexers/agile.pyc",
+    "size": 992
+  },
+  {
+    "module_path": "pygments/lexers/algebra.pyc",
+    "size": 10400
+  },
+  {
+    "module_path": "pygments/lexers/ambient.pyc",
+    "size": 2782
+  },
+  {
+    "module_path": "pygments/lexers/amdgpu.pyc",
+    "size": 1917
+  },
+  {
+    "module_path": "pygments/lexers/ampl.pyc",
+    "size": 3775
+  },
+  {
+    "module_path": "pygments/lexers/apdlexer.pyc",
+    "size": 18693
+  },
+  {
+    "module_path": "pygments/lexers/apl.pyc",
+    "size": 2214
+  },
+  {
+    "module_path": "pygments/lexers/archetype.pyc",
+    "size": 8457
+  },
+  {
+    "module_path": "pygments/lexers/arrow.pyc",
+    "size": 3263
+  },
+  {
+    "module_path": "pygments/lexers/arturo.pyc",
+    "size": 9046
+  },
+  {
+    "module_path": "pygments/lexers/asc.pyc",
+    "size": 1648
+  },
+  {
+    "module_path": "pygments/lexers/asm.pyc",
+    "size": 34635
+  },
+  {
+    "module_path": "pygments/lexers/asn1.pyc",
+    "size": 4159
+  },
+  {
+    "module_path": "pygments/lexers/automation.pyc",
+    "size": 17905
+  },
+  {
+    "module_path": "pygments/lexers/bare.pyc",
+    "size": 2554
+  },
+  {
+    "module_path": "pygments/lexers/basic.pyc",
+    "size": 26239
+  },
+  {
+    "module_path": "pygments/lexers/bdd.pyc",
+    "size": 1622
+  },
+  {
+    "module_path": "pygments/lexers/berry.pyc",
+    "size": 3246
+  },
+  {
+    "module_path": "pygments/lexers/bibtex.pyc",
+    "size": 4800
+  },
+  {
+    "module_path": "pygments/lexers/blueprint.pyc",
+    "size": 4963
+  },
+  {
+    "module_path": "pygments/lexers/boa.pyc",
+    "size": 3209
+  },
+  {
+    "module_path": "pygments/lexers/bqn.pyc",
+    "size": 2245
+  },
+  {
+    "module_path": "pygments/lexers/business.pyc",
+    "size": 21365
+  },
+  {
+    "module_path": "pygments/lexers/c_cpp.pyc",
+    "size": 14242
+  },
+  {
+    "module_path": "pygments/lexers/c_like.pyc",
+    "size": 26315
+  },
+  {
+    "module_path": "pygments/lexers/capnproto.pyc",
+    "size": 2059
+  },
+  {
+    "module_path": "pygments/lexers/carbon.pyc",
+    "size": 3208
+  },
+  {
+    "module_path": "pygments/lexers/cddl.pyc",
+    "size": 3742
+  },
+  {
+    "module_path": "pygments/lexers/chapel.pyc",
+    "size": 3947
+  },
+  {
+    "module_path": "pygments/lexers/clean.pyc",
+    "size": 5646
+  },
+  {
+    "module_path": "pygments/lexers/codeql.pyc",
+    "size": 2350
+  },
+  {
+    "module_path": "pygments/lexers/comal.pyc",
+    "size": 2909
+  },
+  {
+    "module_path": "pygments/lexers/compiled.pyc",
+    "size": 1677
+  },
+  {
+    "module_path": "pygments/lexers/configs.pyc",
+    "size": 42170
+  },
+  {
+    "module_path": "pygments/lexers/console.pyc",
+    "size": 3802
+  },
+  {
+    "module_path": "pygments/lexers/cplint.pyc",
+    "size": 1315
+  },
+  {
+    "module_path": "pygments/lexers/crystal.pyc",
+    "size": 14830
+  },
+  {
+    "module_path": "pygments/lexers/csound.pyc",
+    "size": 13670
+  },
+  {
+    "module_path": "pygments/lexers/css.pyc",
+    "size": 21629
+  },
+  {
+    "module_path": "pygments/lexers/d.pyc",
+    "size": 7935
+  },
+  {
+    "module_path": "pygments/lexers/dalvik.pyc",
+    "size": 4177
+  },
+  {
+    "module_path": "pygments/lexers/data.pyc",
+    "size": 20047
+  },
+  {
+    "module_path": "pygments/lexers/dax.pyc",
+    "size": 5863
+  },
+  {
+    "module_path": "pygments/lexers/devicetree.pyc",
+    "size": 3705
+  },
+  {
+    "module_path": "pygments/lexers/diff.pyc",
+    "size": 4871
+  },
+  {
+    "module_path": "pygments/lexers/dns.pyc",
+    "size": 3465
+  },
+  {
+    "module_path": "pygments/lexers/dotnet.pyc",
+    "size": 32959
+  },
+  {
+    "module_path": "pygments/lexers/dsls.pyc",
+    "size": 32695
+  },
+  {
+    "module_path": "pygments/lexers/dylan.pyc",
+    "size": 9214
+  },
+  {
+    "module_path": "pygments/lexers/ecl.pyc",
+    "size": 5109
+  },
+  {
+    "module_path": "pygments/lexers/eiffel.pyc",
+    "size": 2668
+  },
+  {
+    "module_path": "pygments/lexers/elm.pyc",
+    "size": 2912
+  },
+  {
+    "module_path": "pygments/lexers/elpi.pyc",
+    "size": 6853
+  },
+  {
+    "module_path": "pygments/lexers/email.pyc",
+    "size": 5407
+  },
+  {
+    "module_path": "pygments/lexers/erlang.pyc",
+    "size": 19801
+  },
+  {
+    "module_path": "pygments/lexers/esoteric.pyc",
+    "size": 8520
+  },
+  {
+    "module_path": "pygments/lexers/ezhil.pyc",
+    "size": 3254
+  },
+  {
+    "module_path": "pygments/lexers/factor.pyc",
+    "size": 16593
+  },
+  {
+    "module_path": "pygments/lexers/fantom.pyc",
+    "size": 7670
+  },
+  {
+    "module_path": "pygments/lexers/felix.pyc",
+    "size": 7929
+  },
+  {
+    "module_path": "pygments/lexers/fift.pyc",
+    "size": 1657
+  },
+  {
+    "module_path": "pygments/lexers/floscript.pyc",
+    "size": 2634
+  },
+  {
+    "module_path": "pygments/lexers/forth.pyc",
+    "size": 4948
+  },
+  {
+    "module_path": "pygments/lexers/fortran.pyc",
+    "size": 8281
+  },
+  {
+    "module_path": "pygments/lexers/foxpro.pyc",
+    "size": 20306
+  },
+  {
+    "module_path": "pygments/lexers/freefem.pyc",
+    "size": 12364
+  },
+  {
+    "module_path": "pygments/lexers/func.pyc",
+    "size": 3031
+  },
+  {
+    "module_path": "pygments/lexers/functional.pyc",
+    "size": 723
+  },
+  {
+    "module_path": "pygments/lexers/futhark.pyc",
+    "size": 3759
+  },
+  {
+    "module_path": "pygments/lexers/gcodelexer.pyc",
+    "size": 985
+  },
+  {
+    "module_path": "pygments/lexers/gdscript.pyc",
+    "size": 6798
+  },
+  {
+    "module_path": "pygments/lexers/gleam.pyc",
+    "size": 2342
+  },
+  {
+    "module_path": "pygments/lexers/go.pyc",
+    "size": 3073
+  },
+  {
+    "module_path": "pygments/lexers/grammar_notation.pyc",
+    "size": 5877
+  },
+  {
+    "module_path": "pygments/lexers/graph.pyc",
+    "size": 3443
+  },
+  {
+    "module_path": "pygments/lexers/graphics.pyc",
+    "size": 28708
+  },
+  {
+    "module_path": "pygments/lexers/graphql.pyc",
+    "size": 4012
+  },
+  {
+    "module_path": "pygments/lexers/graphviz.pyc",
+    "size": 1861
+  },
+  {
+    "module_path": "pygments/lexers/gsql.pyc",
+    "size": 3433
+  },
+  {
+    "module_path": "pygments/lexers/hare.pyc",
+    "size": 2615
+  },
+  {
+    "module_path": "pygments/lexers/haskell.pyc",
+    "size": 27897
+  },
+  {
+    "module_path": "pygments/lexers/haxe.pyc",
+    "size": 21909
+  },
+  {
+    "module_path": "pygments/lexers/hdl.pyc",
+    "size": 16871
+  },
+  {
+    "module_path": "pygments/lexers/hexdump.pyc",
+    "size": 2646
+  },
+  {
+    "module_path": "pygments/lexers/html.pyc",
+    "size": 19825
+  },
+  {
+    "module_path": "pygments/lexers/idl.pyc",
+    "size": 12081
+  },
+  {
+    "module_path": "pygments/lexers/igor.pyc",
+    "size": 25357
+  },
+  {
+    "module_path": "pygments/lexers/inferno.pyc",
+    "size": 2770
+  },
+  {
+    "module_path": "pygments/lexers/installers.pyc",
+    "size": 13166
+  },
+  {
+    "module_path": "pygments/lexers/int_fiction.pyc",
+    "size": 47294
+  },
+  {
+    "module_path": "pygments/lexers/iolang.pyc",
+    "size": 1852
+  },
+  {
+    "module_path": "pygments/lexers/j.pyc",
+    "size": 3988
+  },
+  {
+    "module_path": "pygments/lexers/javascript.pyc",
+    "size": 55406
+  },
+  {
+    "module_path": "pygments/lexers/jmespath.pyc",
+    "size": 2074
+  },
+  {
+    "module_path": "pygments/lexers/jslt.pyc",
+    "size": 3449
+  },
+  {
+    "module_path": "pygments/lexers/json5.pyc",
+    "size": 2565
+  },
+  {
+    "module_path": "pygments/lexers/jsonnet.pyc",
+    "size": 4524
+  },
+  {
+    "module_path": "pygments/lexers/jsx.pyc",
+    "size": 2524
+  },
+  {
+    "module_path": "pygments/lexers/julia.pyc",
+    "size": 10536
+  },
+  {
+    "module_path": "pygments/lexers/jvm.pyc",
+    "size": 62740
+  },
+  {
+    "module_path": "pygments/lexers/kuin.pyc",
+    "size": 9565
+  },
+  {
+    "module_path": "pygments/lexers/kusto.pyc",
+    "size": 2505
+  },
+  {
+    "module_path": "pygments/lexers/ldap.pyc",
+    "size": 6064
+  },
+  {
+    "module_path": "pygments/lexers/lean.pyc",
+    "size": 7614
+  },
+  {
+    "module_path": "pygments/lexers/lilypond.pyc",
+    "size": 7823
+  },
+  {
+    "module_path": "pygments/lexers/lisp.pyc",
+    "size": 120126
+  },
+  {
+    "module_path": "pygments/lexers/macaulay2.pyc",
+    "size": 22796
+  },
+  {
+    "module_path": "pygments/lexers/make.pyc",
+    "size": 6129
+  },
+  {
+    "module_path": "pygments/lexers/maple.pyc",
+    "size": 4678
+  },
+  {
+    "module_path": "pygments/lexers/markup.pyc",
+    "size": 58410
+  },
+  {
+    "module_path": "pygments/lexers/math.pyc",
+    "size": 739
+  },
+  {
+    "module_path": "pygments/lexers/matlab.pyc",
+    "size": 55123
+  },
+  {
+    "module_path": "pygments/lexers/maxima.pyc",
+    "size": 2764
+  },
+  {
+    "module_path": "pygments/lexers/meson.pyc",
+    "size": 2898
+  },
+  {
+    "module_path": "pygments/lexers/mime.pyc",
+    "size": 8706
+  },
+  {
+    "module_path": "pygments/lexers/minecraft.pyc",
+    "size": 9459
+  },
+  {
+    "module_path": "pygments/lexers/mips.pyc",
+    "size": 3026
+  },
+  {
+    "module_path": "pygments/lexers/ml.pyc",
+    "size": 25688
+  },
+  {
+    "module_path": "pygments/lexers/modeling.pyc",
+    "size": 11368
+  },
+  {
+    "module_path": "pygments/lexers/modula2.pyc",
+    "size": 21288
+  },
+  {
+    "module_path": "pygments/lexers/mojo.pyc",
+    "size": 14026
+  },
+  {
+    "module_path": "pygments/lexers/monte.pyc",
+    "size": 4763
+  },
+  {
+    "module_path": "pygments/lexers/mosel.pyc",
+    "size": 6564
+  },
+  {
+    "module_path": "pygments/lexers/ncl.pyc",
+    "size": 45598
+  },
+  {
+    "module_path": "pygments/lexers/nimrod.pyc",
+    "size": 6106
+  },
+  {
+    "module_path": "pygments/lexers/nit.pyc",
+    "size": 2450
+  },
+  {
+    "module_path": "pygments/lexers/nix.pyc",
+    "size": 5171
+  },
+  {
+    "module_path": "pygments/lexers/numbair.pyc",
+    "size": 1791
+  },
+  {
+    "module_path": "pygments/lexers/oberon.pyc",
+    "size": 3217
+  },
+  {
+    "module_path": "pygments/lexers/objective.pyc",
+    "size": 18719
+  },
+  {
+    "module_path": "pygments/lexers/ooc.pyc",
+    "size": 2805
+  },
+  {
+    "module_path": "pygments/lexers/openscad.pyc",
+    "size": 3407
+  },
+  {
+    "module_path": "pygments/lexers/other.pyc",
+    "size": 2139
+  },
+  {
+    "module_path": "pygments/lexers/parasail.pyc",
+    "size": 2567
+  },
+  {
+    "module_path": "pygments/lexers/parsers.pyc",
+    "size": 22770
+  },
+  {
+    "module_path": "pygments/lexers/pascal.pyc",
+    "size": 22988
+  },
+  {
+    "module_path": "pygments/lexers/pawn.pyc",
+    "size": 7353
+  },
+  {
+    "module_path": "pygments/lexers/pddl.pyc",
+    "size": 2443
+  },
+  {
+    "module_path": "pygments/lexers/perl.pyc",
+    "size": 38641
+  },
+  {
+    "module_path": "pygments/lexers/phix.pyc",
+    "size": 18076
+  },
+  {
+    "module_path": "pygments/lexers/php.pyc",
+    "size": 12490
+  },
+  {
+    "module_path": "pygments/lexers/pointless.pyc",
+    "size": 1972
+  },
+  {
+    "module_path": "pygments/lexers/pony.pyc",
+    "size": 3099
+  },
+  {
+    "module_path": "pygments/lexers/praat.pyc",
+    "size": 9985
+  },
+  {
+    "module_path": "pygments/lexers/procfile.pyc",
+    "size": 1199
+  },
+  {
+    "module_path": "pygments/lexers/prolog.pyc",
+    "size": 10113
+  },
+  {
+    "module_path": "pygments/lexers/promql.pyc",
+    "size": 2872
+  },
+  {
+    "module_path": "pygments/lexers/prql.pyc",
+    "size": 8001
+  },
+  {
+    "module_path": "pygments/lexers/ptx.pyc",
+    "size": 3390
+  },
+  {
+    "module_path": "pygments/lexers/python.pyc",
+    "size": 40952
+  },
+  {
+    "module_path": "pygments/lexers/q.pyc",
+    "size": 5466
+  },
+  {
+    "module_path": "pygments/lexers/qlik.pyc",
+    "size": 3166
+  },
+  {
+    "module_path": "pygments/lexers/qvt.pyc",
+    "size": 4420
+  },
+  {
+    "module_path": "pygments/lexers/r.pyc",
+    "size": 5338
+  },
+  {
+    "module_path": "pygments/lexers/rdf.pyc",
+    "size": 11779
+  },
+  {
+    "module_path": "pygments/lexers/rebol.pyc",
+    "size": 18818
+  },
+  {
+    "module_path": "pygments/lexers/rego.pyc",
+    "size": 1555
+  },
+  {
+    "module_path": "pygments/lexers/resource.pyc",
+    "size": 3250
+  },
+  {
+    "module_path": "pygments/lexers/ride.pyc",
+    "size": 4161
+  },
+  {
+    "module_path": "pygments/lexers/rita.pyc",
+    "size": 1164
+  },
+  {
+    "module_path": "pygments/lexers/rnc.pyc",
+    "size": 1687
+  },
+  {
+    "module_path": "pygments/lexers/roboconf.pyc",
+    "size": 1979
+  },
+  {
+    "module_path": "pygments/lexers/robotframework.pyc",
+    "size": 29359
+  },
+  {
+    "module_path": "pygments/lexers/ruby.pyc",
+    "size": 21976
+  },
+  {
+    "module_path": "pygments/lexers/rust.pyc",
+    "size": 6954
+  },
+  {
+    "module_path": "pygments/lexers/sas.pyc",
+    "size": 6747
+  },
+  {
+    "module_path": "pygments/lexers/savi.pyc",
+    "size": 3651
+  },
+  {
+    "module_path": "pygments/lexers/scdoc.pyc",
+    "size": 2310
+  },
+  {
+    "module_path": "pygments/lexers/scripting.pyc",
+    "size": 68557
+  },
+  {
+    "module_path": "pygments/lexers/sgf.pyc",
+    "size": 1624
+  },
+  {
+    "module_path": "pygments/lexers/shell.pyc",
+    "size": 35888
+  },
+  {
+    "module_path": "pygments/lexers/sieve.pyc",
+    "size": 2106
+  },
+  {
+    "module_path": "pygments/lexers/slash.pyc",
+    "size": 8042
+  },
+  {
+    "module_path": "pygments/lexers/smalltalk.pyc",
+    "size": 6251
+  },
+  {
+    "module_path": "pygments/lexers/smithy.pyc",
+    "size": 2816
+  },
+  {
+    "module_path": "pygments/lexers/smv.pyc",
+    "size": 2486
+  },
+  {
+    "module_path": "pygments/lexers/snobol.pyc",
+    "size": 2027
+  },
+  {
+    "module_path": "pygments/lexers/solidity.pyc",
+    "size": 3088
+  },
+  {
+    "module_path": "pygments/lexers/soong.pyc",
+    "size": 1977
+  },
+  {
+    "module_path": "pygments/lexers/sophia.pyc",
+    "size": 3505
+  },
+  {
+    "module_path": "pygments/lexers/special.pyc",
+    "size": 4727
+  },
+  {
+    "module_path": "pygments/lexers/spice.pyc",
+    "size": 2850
+  },
+  {
+    "module_path": "pygments/lexers/sql.pyc",
+    "size": 37084
+  },
+  {
+    "module_path": "pygments/lexers/srcinfo.pyc",
+    "size": 1523
+  },
+  {
+    "module_path": "pygments/lexers/stata.pyc",
+    "size": 4857
+  },
+  {
+    "module_path": "pygments/lexers/supercollider.pyc",
+    "size": 3511
+  },
+  {
+    "module_path": "pygments/lexers/tablegen.pyc",
+    "size": 3029
+  },
+  {
+    "module_path": "pygments/lexers/tact.pyc",
+    "size": 8743
+  },
+  {
+    "module_path": "pygments/lexers/tal.pyc",
+    "size": 2642
+  },
+  {
+    "module_path": "pygments/lexers/tcl.pyc",
+    "size": 4826
+  },
+  {
+    "module_path": "pygments/lexers/teal.pyc",
+    "size": 3078
+  },
+  {
+    "module_path": "pygments/lexers/templates.pyc",
+    "size": 76427
+  },
+  {
+    "module_path": "pygments/lexers/teraterm.pyc",
+    "size": 5226
+  },
+  {
+    "module_path": "pygments/lexers/testing.pyc",
+    "size": 9693
+  },
+  {
+    "module_path": "pygments/lexers/text.pyc",
+    "size": 1269
+  },
+  {
+    "module_path": "pygments/lexers/textedit.pyc",
+    "size": 7567
+  },
+  {
+    "module_path": "pygments/lexers/textfmts.pyc",
+    "size": 14739
+  },
+  {
+    "module_path": "pygments/lexers/theorem.pyc",
+    "size": 14474
+  },
+  {
+    "module_path": "pygments/lexers/thingsdb.pyc",
+    "size": 5267
+  },
+  {
+    "module_path": "pygments/lexers/tlb.pyc",
+    "size": 1570
+  },
+  {
+    "module_path": "pygments/lexers/tls.pyc",
+    "size": 1571
+  },
+  {
+    "module_path": "pygments/lexers/tnt.pyc",
+    "size": 13043
+  },
+  {
+    "module_path": "pygments/lexers/trafficscript.pyc",
+    "size": 1477
+  },
+  {
+    "module_path": "pygments/lexers/typoscript.pyc",
+    "size": 6585
+  },
+  {
+    "module_path": "pygments/lexers/typst.pyc",
+    "size": 6435
+  },
+  {
+    "module_path": "pygments/lexers/ul4.pyc",
+    "size": 7633
+  },
+  {
+    "module_path": "pygments/lexers/unicon.pyc",
+    "size": 11963
+  },
+  {
+    "module_path": "pygments/lexers/urbi.pyc",
+    "size": 5499
+  },
+  {
+    "module_path": "pygments/lexers/usd.pyc",
+    "size": 3624
+  },
+  {
+    "module_path": "pygments/lexers/varnish.pyc",
+    "size": 6543
+  },
+  {
+    "module_path": "pygments/lexers/verification.pyc",
+    "size": 3633
+  },
+  {
+    "module_path": "pygments/lexers/verifpal.pyc",
+    "size": 2653
+  },
+  {
+    "module_path": "pygments/lexers/vip.pyc",
+    "size": 5238
+  },
+  {
+    "module_path": "pygments/lexers/vyper.pyc",
+    "size": 4583
+  },
+  {
+    "module_path": "pygments/lexers/web.pyc",
+    "size": 1034
+  },
+  {
+    "module_path": "pygments/lexers/webassembly.pyc",
+    "size": 5310
+  },
+  {
+    "module_path": "pygments/lexers/webidl.pyc",
+    "size": 7780
+  },
+  {
+    "module_path": "pygments/lexers/webmisc.pyc",
+    "size": 43109
+  },
+  {
+    "module_path": "pygments/lexers/wgsl.pyc",
+    "size": 10512
+  },
+  {
+    "module_path": "pygments/lexers/whiley.pyc",
+    "size": 3296
+  },
+  {
+    "module_path": "pygments/lexers/wowtoc.pyc",
+    "size": 2862
+  },
+  {
+    "module_path": "pygments/lexers/wren.pyc",
+    "size": 2792
+  },
+  {
+    "module_path": "pygments/lexers/x10.pyc",
+    "size": 2075
+  },
+  {
+    "module_path": "pygments/lexers/xorg.pyc",
+    "size": 1083
+  },
+  {
+    "module_path": "pygments/lexers/yang.pyc",
+    "size": 3796
+  },
+  {
+    "module_path": "pygments/lexers/yara.pyc",
+    "size": 2439
+  },
+  {
+    "module_path": "pygments/lexers/zig.pyc",
+    "size": 3528
+  },
+  {
+    "module_path": "pygments/modeline.pyc",
+    "size": 1187
+  },
+  {
+    "module_path": "pygments/plugin.pyc",
+    "size": 1816
+  },
+  {
+    "module_path": "pygments/regexopt.pyc",
+    "size": 3430
+  },
+  {
+    "module_path": "pygments/scanner.pyc",
+    "size": 3123
+  },
+  {
+    "module_path": "pygments/style.pyc",
+    "size": 6366
+  },
+  {
+    "module_path": "pygments/styles/__init__.pyc",
+    "size": 2070
+  },
+  {
+    "module_path": "pygments/styles/_mapping.pyc",
+    "size": 3574
+  },
+  {
+    "module_path": "pygments/styles/abap.pyc",
+    "size": 797
+  },
+  {
+    "module_path": "pygments/styles/algol.pyc",
+    "size": 1283
+  },
+  {
+    "module_path": "pygments/styles/algol_nu.pyc",
+    "size": 1276
+  },
+  {
+    "module_path": "pygments/styles/arduino.pyc",
+    "size": 3820
+  },
+  {
+    "module_path": "pygments/styles/autumn.pyc",
+    "size": 2452
+  },
+  {
+    "module_path": "pygments/styles/borland.pyc",
+    "size": 1839
+  },
+  {
+    "module_path": "pygments/styles/bw.pyc",
+    "size": 1619
+  },
+  {
+    "module_path": "pygments/styles/coffee.pyc",
+    "size": 3088
+  },
+  {
+    "module_path": "pygments/styles/colorful.pyc",
+    "size": 3354
+  },
+  {
+    "module_path": "pygments/styles/default.pyc",
+    "size": 2862
+  },
+  {
+    "module_path": "pygments/styles/dracula.pyc",
+    "size": 2535
+  },
+  {
+    "module_path": "pygments/styles/emacs.pyc",
+    "size": 2884
+  },
+  {
+    "module_path": "pygments/styles/friendly.pyc",
+    "size": 2982
+  },
+  {
+    "module_path": "pygments/styles/friendly_grayscale.pyc",
+    "size": 2965
+  },
+  {
+    "module_path": "pygments/styles/fruity.pyc",
+    "size": 1566
+  },
+  {
+    "module_path": "pygments/styles/gh_dark.pyc",
+    "size": 3572
+  },
+  {
+    "module_path": "pygments/styles/gruvbox.pyc",
+    "size": 3882
+  },
+  {
+    "module_path": "pygments/styles/igor.pyc",
+    "size": 762
+  },
+  {
+    "module_path": "pygments/styles/inkpot.pyc",
+    "size": 2654
+  },
+  {
+    "module_path": "pygments/styles/lightbulb.pyc",
+    "size": 3950
+  },
+  {
+    "module_path": "pygments/styles/lilypond.pyc",
+    "size": 3131
+  },
+  {
+    "module_path": "pygments/styles/lovelace.pyc",
+    "size": 3621
+  },
+  {
+    "module_path": "pygments/styles/manni.pyc",
+    "size": 2962
+  },
+  {
+    "module_path": "pygments/styles/material.pyc",
+    "size": 4367
+  },
+  {
+    "module_path": "pygments/styles/monokai.pyc",
+    "size": 4338
+  },
+  {
+    "module_path": "pygments/styles/murphy.pyc",
+    "size": 3336
+  },
+  {
+    "module_path": "pygments/styles/native.pyc",
+    "size": 2584
+  },
+  {
+    "module_path": "pygments/styles/nord.pyc",
+    "size": 5072
+  },
+  {
+    "module_path": "pygments/styles/onedark.pyc",
+    "size": 1732
+  },
+  {
+    "module_path": "pygments/styles/paraiso_dark.pyc",
+    "size": 4644
+  },
+  {
+    "module_path": "pygments/styles/paraiso_light.pyc",
+    "size": 4647
+  },
+  {
+    "module_path": "pygments/styles/pastie.pyc",
+    "size": 3050
+  },
+  {
+    "module_path": "pygments/styles/perldoc.pyc",
+    "size": 2598
+  },
+  {
+    "module_path": "pygments/styles/rainbow_dash.pyc",
+    "size": 3233
+  },
+  {
+    "module_path": "pygments/styles/rrt.pyc",
+    "size": 1069
+  },
+  {
+    "module_path": "pygments/styles/sas.pyc",
+    "size": 1183
+  },
+  {
+    "module_path": "pygments/styles/solarized.pyc",
+    "size": 5248
+  },
+  {
+    "module_path": "pygments/styles/staroffice.pyc",
+    "size": 675
+  },
+  {
+    "module_path": "pygments/styles/stata_dark.pyc",
+    "size": 1269
+  },
+  {
+    "module_path": "pygments/styles/stata_light.pyc",
+    "size": 1126
+  },
+  {
+    "module_path": "pygments/styles/tango.pyc",
+    "size": 4462
+  },
+  {
+    "module_path": "pygments/styles/trac.pyc",
+    "size": 2232
+  },
+  {
+    "module_path": "pygments/styles/vim.pyc",
+    "size": 2126
+  },
+  {
+    "module_path": "pygments/styles/vs.pyc",
+    "size": 1189
+  },
+  {
+    "module_path": "pygments/styles/xcode.pyc",
+    "size": 1450
+  },
+  {
+    "module_path": "pygments/styles/zenburn.pyc",
+    "size": 2897
+  },
+  {
+    "module_path": "pygments/token.pyc",
+    "size": 7391
+  },
+  {
+    "module_path": "pygments/unistring.pyc",
+    "size": 32529
+  },
+  {
+    "module_path": "pygments/util.pyc",
+    "size": 10515
+  },
+  {
+    "module_path": "python_multipart/__init__.pyc",
+    "size": 517
+  },
+  {
+    "module_path": "python_multipart/decoders.pyc",
+    "size": 5405
+  },
+  {
+    "module_path": "python_multipart/exceptions.pyc",
+    "size": 1115
+  },
+  {
+    "module_path": "python_multipart/multipart.pyc",
+    "size": 49207
+  },
+  {
+    "module_path": "pythonnet/__init__.pyc",
+    "size": 5303
+  },
+  {
+    "module_path": "pyximport/__init__.pyc",
+    "size": 182
+  },
+  {
+    "module_path": "pyximport/pyxbuild.pyc",
+    "size": 5839
+  },
+  {
+    "module_path": "pyximport/pyximport.pyc",
+    "size": 16954
+  },
+  {
+    "module_path": "queue.pyc",
+    "size": 10475
+  },
+  {
+    "module_path": "quopri.pyc",
+    "size": 7977
+  },
+  {
+    "module_path": "random.pyc",
+    "size": 24668
+  },
+  {
+    "module_path": "repath.pyc",
+    "size": 7672
+  },
+  {
+    "module_path": "rich/__init__.pyc",
+    "size": 3619
+  },
+  {
+    "module_path": "rich/__main__.pyc",
+    "size": 9220
+  },
+  {
+    "module_path": "rich/_emoji_codes.pyc",
+    "size": 205902
+  },
+  {
+    "module_path": "rich/_emoji_replace.pyc",
+    "size": 1632
+  },
+  {
+    "module_path": "rich/_export_format.pyc",
+    "size": 2275
+  },
+  {
+    "module_path": "rich/_extension.pyc",
+    "size": 439
+  },
+  {
+    "module_path": "rich/_fileno.pyc",
+    "size": 550
+  },
+  {
+    "module_path": "rich/_inspect.pyc",
+    "size": 10169
+  },
+  {
+    "module_path": "rich/_log_render.pyc",
+    "size": 4061
+  },
+  {
+    "module_path": "rich/_loop.pyc",
+    "size": 1631
+  },
+  {
+    "module_path": "rich/_null_file.pyc",
+    "size": 3580
+  },
+  {
+    "module_path": "rich/_palettes.pyc",
+    "size": 5086
+  },
+  {
+    "module_path": "rich/_pick.pyc",
+    "size": 410
+  },
+  {
+    "module_path": "rich/_ratio.pyc",
+    "size": 4861
+  },
+  {
+    "module_path": "rich/_spinners.pyc",
+    "size": 11884
+  },
+  {
+    "module_path": "rich/_stack.pyc",
+    "size": 775
+  },
+  {
+    "module_path": "rich/_timer.pyc",
+    "size": 686
+  },
+  {
+    "module_path": "rich/_unicode_data/__init__.pyc",
+    "size": 2887
+  },
+  {
+    "module_path": "rich/_unicode_data/_versions.pyc",
+    "size": 305
+  },
+  {
+    "module_path": "rich/_win32_console.pyc",
+    "size": 21892
+  },
+  {
+    "module_path": "rich/_windows.pyc",
+    "size": 2227
+  },
+  {
+    "module_path": "rich/_windows_renderer.pyc",
+    "size": 3211
+  },
+  {
+    "module_path": "rich/_wrap.pyc",
+    "size": 2665
+  },
+  {
+    "module_path": "rich/abc.pyc",
+    "size": 1163
+  },
+  {
+    "module_path": "rich/align.pyc",
+    "size": 10966
+  },
+  {
+    "module_path": "rich/ansi.pyc",
+    "size": 8349
+  },
+  {
+    "module_path": "rich/box.pyc",
+    "size": 9994
+  },
+  {
+    "module_path": "rich/cells.pyc",
+    "size": 8008
+  },
+  {
+    "module_path": "rich/color.pyc",
+    "size": 24078
+  },
+  {
+    "module_path": "rich/color_triplet.pyc",
+    "size": 1309
+  },
+  {
+    "module_path": "rich/columns.pyc",
+    "size": 7469
+  },
+  {
+    "module_path": "rich/console.pyc",
+    "size": 82983
+  },
+  {
+    "module_path": "rich/constrain.pyc",
+    "size": 1933
+  },
+  {
+    "module_path": "rich/containers.pyc",
+    "size": 8572
+  },
+  {
+    "module_path": "rich/control.pyc",
+    "size": 9277
+  },
+  {
+    "module_path": "rich/default_styles.pyc",
+    "size": 10753
+  },
+  {
+    "module_path": "rich/emoji.pyc",
+    "size": 3473
+  },
+  {
+    "module_path": "rich/errors.pyc",
+    "size": 1485
+  },
+  {
+    "module_path": "rich/file_proxy.pyc",
+    "size": 3400
+  },
+  {
+    "module_path": "rich/filesize.pyc",
+    "size": 1644
+  },
+  {
+    "module_path": "rich/highlighter.pyc",
+    "size": 9012
+  },
+  {
+    "module_path": "rich/json.pyc",
+    "size": 3924
+  },
+  {
+    "module_path": "rich/jupyter.pyc",
+    "size": 4946
+  },
+  {
+    "module_path": "rich/live.pyc",
+    "size": 17988
+  },
+  {
+    "module_path": "rich/live_render.pyc",
+    "size": 4316
+  },
+  {
+    "module_path": "rich/markdown.pyc",
+    "size": 33212
+  },
+  {
+    "module_path": "rich/markup.pyc",
+    "size": 8541
+  },
+  {
+    "module_path": "rich/measure.pyc",
+    "size": 4433
+  },
+  {
+    "module_path": "rich/padding.pyc",
+    "size": 6028
+  },
+  {
+    "module_path": "rich/pager.pyc",
+    "size": 1542
+  },
+  {
+    "module_path": "rich/palette.pyc",
+    "size": 4854
+  },
+  {
+    "module_path": "rich/panel.pyc",
+    "size": 10642
+  },
+  {
+    "module_path": "rich/pretty.pyc",
+    "size": 33710
+  },
+  {
+    "module_path": "rich/progress.pyc",
+    "size": 57550
+  },
+  {
+    "module_path": "rich/progress_bar.pyc",
+    "size": 8624
+  },
+  {
+    "module_path": "rich/protocol.pyc",
+    "size": 1458
+  },
+  {
+    "module_path": "rich/region.pyc",
+    "size": 437
+  },
+  {
+    "module_path": "rich/repr.pyc",
+    "size": 6335
+  },
+  {
+    "module_path": "rich/rule.pyc",
+    "size": 5956
+  },
+  {
+    "module_path": "rich/scope.pyc",
+    "size": 3164
+  },
+  {
+    "module_path": "rich/screen.pyc",
+    "size": 2166
+  },
+  {
+    "module_path": "rich/segment.pyc",
+    "size": 21482
+  },
+  {
+    "module_path": "rich/spinner.pyc",
+    "size": 4776
+  },
+  {
+    "module_path": "rich/status.pyc",
+    "size": 4746
+  },
+  {
+    "module_path": "rich/style.pyc",
+    "size": 28231
+  },
+  {
+    "module_path": "rich/styled.pyc",
+    "size": 1851
+  },
+  {
+    "module_path": "rich/syntax.pyc",
+    "size": 33597
+  },
+  {
+    "module_path": "rich/table.pyc",
+    "size": 34506
+  },
+  {
+    "module_path": "rich/terminal_theme.pyc",
+    "size": 2823
+  },
+  {
+    "module_path": "rich/text.pyc",
+    "size": 48061
+  },
+  {
+    "module_path": "rich/theme.pyc",
+    "size": 4843
+  },
+  {
+    "module_path": "rich/themes.pyc",
+    "size": 240
+  },
+  {
+    "module_path": "rich/traceback.pyc",
+    "size": 30270
+  },
+  {
+    "module_path": "rlcompleter.pyc",
+    "size": 5598
+  },
+  {
+    "module_path": "runpy.pyc",
+    "size": 11884
+  },
+  {
+    "module_path": "secrets.pyc",
+    "size": 1519
+  },
+  {
+    "module_path": "selectors.pyc",
+    "size": 22179
+  },
+  {
+    "module_path": "setuptools/__init__.pyc",
+    "size": 8628
+  },
+  {
+    "module_path": "setuptools/_core_metadata.pyc",
+    "size": 13871
+  },
+  {
+    "module_path": "setuptools/_discovery.pyc",
+    "size": 1335
+  },
+  {
+    "module_path": "setuptools/_distutils/__init__.pyc",
+    "size": 466
+  },
+  {
+    "module_path": "setuptools/_distutils/_log.pyc",
+    "size": 214
+  },
+  {
+    "module_path": "setuptools/_distutils/_modified.pyc",
+    "size": 3426
+  },
+  {
+    "module_path": "setuptools/_distutils/_msvccompiler.pyc",
+    "size": 661
+  },
+  {
+    "module_path": "setuptools/_distutils/archive_util.pyc",
+    "size": 8856
+  },
+  {
+    "module_path": "setuptools/_distutils/ccompiler.pyc",
+    "size": 630
+  },
+  {
+    "module_path": "setuptools/_distutils/cmd.pyc",
+    "size": 17073
+  },
+  {
+    "module_path": "setuptools/_distutils/command/__init__.pyc",
+    "size": 344
+  },
+  {
+    "module_path": "setuptools/_distutils/command/bdist.pyc",
+    "size": 6211
+  },
+  {
+    "module_path": "setuptools/_distutils/command/build.pyc",
+    "size": 6131
+  },
+  {
+    "module_path": "setuptools/_distutils/command/build_ext.pyc",
+    "size": 28013
+  },
+  {
+    "module_path": "setuptools/_distutils/command/sdist.pyc",
+    "size": 19144
+  },
+  {
+    "module_path": "setuptools/_distutils/compat/__init__.pyc",
+    "size": 1129
+  },
+  {
+    "module_path": "setuptools/_distutils/compat/numpy.pyc",
+    "size": 224
+  },
+  {
+    "module_path": "setuptools/_distutils/compat/py39.pyc",
+    "size": 2561
+  },
+  {
+    "module_path": "setuptools/_distutils/compilers/C/base.pyc",
+    "size": 35285
+  },
+  {
+    "module_path": "setuptools/_distutils/compilers/C/errors.pyc",
+    "size": 1065
+  },
+  {
+    "module_path": "setuptools/_distutils/compilers/C/msvc.pyc",
+    "size": 22751
+  },
+  {
+    "module_path": "setuptools/_distutils/compilers/C.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "setuptools/_distutils/compilers.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "setuptools/_distutils/core.pyc",
+    "size": 5462
+  },
+  {
+    "module_path": "setuptools/_distutils/debug.pyc",
+    "size": 257
+  },
+  {
+    "module_path": "setuptools/_distutils/dep_util.pyc",
+    "size": 651
+  },
+  {
+    "module_path": "setuptools/_distutils/dir_util.pyc",
+    "size": 7831
+  },
+  {
+    "module_path": "setuptools/_distutils/dist.pyc",
+    "size": 46525
+  },
+  {
+    "module_path": "setuptools/_distutils/errors.pyc",
+    "size": 2608
+  },
+  {
+    "module_path": "setuptools/_distutils/extension.pyc",
+    "size": 6500
+  },
+  {
+    "module_path": "setuptools/_distutils/fancy_getopt.pyc",
+    "size": 12749
+  },
+  {
+    "module_path": "setuptools/_distutils/file_util.pyc",
+    "size": 7316
+  },
+  {
+    "module_path": "setuptools/_distutils/filelist.pyc",
+    "size": 14551
+  },
+  {
+    "module_path": "setuptools/_distutils/log.pyc",
+    "size": 2358
+  },
+  {
+    "module_path": "setuptools/_distutils/spawn.pyc",
+    "size": 4486
+  },
+  {
+    "module_path": "setuptools/_distutils/sysconfig.pyc",
+    "size": 18111
+  },
+  {
+    "module_path": "setuptools/_distutils/text_file.pyc",
+    "size": 5942
+  },
+  {
+    "module_path": "setuptools/_distutils/util.pyc",
+    "size": 14262
+  },
+  {
+    "module_path": "setuptools/_distutils/version.pyc",
+    "size": 7154
+  },
+  {
+    "module_path": "setuptools/_distutils/versionpredicate.pyc",
+    "size": 4388
+  },
+  {
+    "module_path": "setuptools/_entry_points.pyc",
+    "size": 4178
+  },
+  {
+    "module_path": "setuptools/_imp.pyc",
+    "size": 3399
+  },
+  {
+    "module_path": "setuptools/_importlib.pyc",
+    "size": 336
+  },
+  {
+    "module_path": "setuptools/_itertools.pyc",
+    "size": 713
+  },
+  {
+    "module_path": "setuptools/_normalization.pyc",
+    "size": 4739
+  },
+  {
+    "module_path": "setuptools/_path.pyc",
+    "size": 3117
+  },
+  {
+    "module_path": "setuptools/_reqs.pyc",
+    "size": 1694
+  },
+  {
+    "module_path": "setuptools/_shutil.pyc",
+    "size": 2277
+  },
+  {
+    "module_path": "setuptools/_static.pyc",
+    "size": 3846
+  },
+  {
+    "module_path": "setuptools/_vendor/backports/__init__.pyc",
+    "size": 259
+  },
+  {
+    "module_path": "setuptools/_vendor/backports/tarfile/__init__.pyc",
+    "size": 106930
+  },
+  {
+    "module_path": "setuptools/_vendor/backports/tarfile/compat/__init__.pyc",
+    "size": 152
+  },
+  {
+    "module_path": "setuptools/_vendor/backports/tarfile/compat/py38.pyc",
+    "size": 1006
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/__init__.pyc",
+    "size": 41494
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_adapters.pyc",
+    "size": 4492
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_collections.pyc",
+    "size": 1625
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_compat.pyc",
+    "size": 1622
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_functools.pyc",
+    "size": 2154
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_itertools.pyc",
+    "size": 3788
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_meta.pyc",
+    "size": 3341
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_text.pyc",
+    "size": 2668
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/_typing.pyc",
+    "size": 350
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/compat/__init__.pyc",
+    "size": 153
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/compat/py311.pyc",
+    "size": 942
+  },
+  {
+    "module_path": "setuptools/_vendor/importlib_metadata/compat/py39.pyc",
+    "size": 1444
+  },
+  {
+    "module_path": "setuptools/_vendor/jaraco/context/__init__.pyc",
+    "size": 10133
+  },
+  {
+    "module_path": "setuptools/_vendor/jaraco/functools/__init__.pyc",
+    "size": 13695
+  },
+  {
+    "module_path": "setuptools/_vendor/jaraco/text/__init__.pyc",
+    "size": 16308
+  },
+  {
+    "module_path": "setuptools/_vendor/jaraco.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "setuptools/_vendor/more_itertools/__init__.pyc",
+    "size": 225
+  },
+  {
+    "module_path": "setuptools/_vendor/more_itertools/more.pyc",
+    "size": 101239
+  },
+  {
+    "module_path": "setuptools/_vendor/more_itertools/recipes.pyc",
+    "size": 27780
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/__init__.pyc",
+    "size": 502
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_elffile.pyc",
+    "size": 4507
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_manylinux.pyc",
+    "size": 8840
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_musllinux.pyc",
+    "size": 3451
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_parser.pyc",
+    "size": 13198
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_structures.pyc",
+    "size": 3417
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/_tokenizer.pyc",
+    "size": 7483
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/markers.pyc",
+    "size": 11896
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/requirements.pyc",
+    "size": 4060
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/specifiers.pyc",
+    "size": 27748
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/tags.pyc",
+    "size": 21356
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/utils.pyc",
+    "size": 5591
+  },
+  {
+    "module_path": "setuptools/_vendor/packaging/version.pyc",
+    "size": 23269
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/__init__.pyc",
+    "size": 10845
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/android.pyc",
+    "size": 8607
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/api.pyc",
+    "size": 11523
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/macos.pyc",
+    "size": 6169
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/unix.pyc",
+    "size": 10824
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/version.pyc",
+    "size": 747
+  },
+  {
+    "module_path": "setuptools/_vendor/platformdirs/windows.pyc",
+    "size": 11374
+  },
+  {
+    "module_path": "setuptools/_vendor/tomli/__init__.pyc",
+    "size": 283
+  },
+  {
+    "module_path": "setuptools/_vendor/tomli/_parser.pyc",
+    "size": 28682
+  },
+  {
+    "module_path": "setuptools/_vendor/tomli/_re.pyc",
+    "size": 4058
+  },
+  {
+    "module_path": "setuptools/_vendor/tomli/_types.pyc",
+    "size": 311
+  },
+  {
+    "module_path": "setuptools/_vendor/wheel/__init__.pyc",
+    "size": 212
+  },
+  {
+    "module_path": "setuptools/_vendor/wheel/macosx_libfile.pyc",
+    "size": 14038
+  },
+  {
+    "module_path": "setuptools/_vendor/wheel/wheelfile.pyc",
+    "size": 11757
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/__init__.pyc",
+    "size": 15771
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/_functools.pyc",
+    "size": 884
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/compat/__init__.pyc",
+    "size": 139
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/compat/overlay.pyc",
+    "size": 958
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/compat/py310.pyc",
+    "size": 455
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/compat/py313.pyc",
+    "size": 1524
+  },
+  {
+    "module_path": "setuptools/_vendor/zipp/glob.pyc",
+    "size": 3970
+  },
+  {
+    "module_path": "setuptools/_vendor.pyc",
+    "size": 16
+  },
+  {
+    "module_path": "setuptools/archive_util.pyc",
+    "size": 6891
+  },
+  {
+    "module_path": "setuptools/command/__init__.pyc",
+    "size": 591
+  },
+  {
+    "module_path": "setuptools/command/_requirestxt.pyc",
+    "size": 5472
+  },
+  {
+    "module_path": "setuptools/command/bdist_egg.pyc",
+    "size": 23625
+  },
+  {
+    "module_path": "setuptools/command/bdist_wheel.pyc",
+    "size": 25488
+  },
+  {
+    "module_path": "setuptools/command/build.pyc",
+    "size": 1865
+  },
+  {
+    "module_path": "setuptools/command/build_ext.pyc",
+    "size": 22902
+  },
+  {
+    "module_path": "setuptools/command/egg_info.pyc",
+    "size": 31019
+  },
+  {
+    "module_path": "setuptools/command/sdist.pyc",
+    "size": 11120
+  },
+  {
+    "module_path": "setuptools/command/setopt.pyc",
+    "size": 6408
+  },
+  {
+    "module_path": "setuptools/compat/__init__.pyc",
+    "size": 126
+  },
+  {
+    "module_path": "setuptools/compat/py310.pyc",
+    "size": 733
+  },
+  {
+    "module_path": "setuptools/compat/py311.pyc",
+    "size": 1369
+  },
+  {
+    "module_path": "setuptools/compat/py39.pyc",
+    "size": 255
+  },
+  {
+    "module_path": "setuptools/config/__init__.pyc",
+    "size": 1852
+  },
+  {
+    "module_path": "setuptools/config/_apply_pyprojecttoml.pyc",
+    "size": 24005
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/__init__.pyc",
+    "size": 1682
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/error_reporting.pyc",
+    "size": 17456
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/extra_validations.pyc",
+    "size": 2887
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/fastjsonschema_exceptions.pyc",
+    "size": 1914
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/fastjsonschema_validations.pyc",
+    "size": 233311
+  },
+  {
+    "module_path": "setuptools/config/_validate_pyproject/formats.pyc",
+    "size": 15194
+  },
+  {
+    "module_path": "setuptools/config/expand.pyc",
+    "size": 19303
+  },
+  {
+    "module_path": "setuptools/config/pyprojecttoml.pyc",
+    "size": 20766
+  },
+  {
+    "module_path": "setuptools/config/setupcfg.pyc",
+    "size": 27751
+  },
+  {
+    "module_path": "setuptools/depends.pyc",
+    "size": 5982
+  },
+  {
+    "module_path": "setuptools/discovery.pyc",
+    "size": 22734
+  },
+  {
+    "module_path": "setuptools/dist.pyc",
+    "size": 43284
+  },
+  {
+    "module_path": "setuptools/errors.pyc",
+    "size": 1990
+  },
+  {
+    "module_path": "setuptools/extension.pyc",
+    "size": 2576
+  },
+  {
+    "module_path": "setuptools/glob.pyc",
+    "size": 6350
+  },
+  {
+    "module_path": "setuptools/installer.pyc",
+    "size": 7466
+  },
+  {
+    "module_path": "setuptools/logging.pyc",
+    "size": 1842
+  },
+  {
+    "module_path": "setuptools/monkey.pyc",
+    "size": 4428
+  },
+  {
+    "module_path": "setuptools/msvc.pyc",
+    "size": 48330
+  },
+  {
+    "module_path": "setuptools/unicode_utils.pyc",
+    "size": 3707
+  },
+  {
+    "module_path": "setuptools/version.pyc",
+    "size": 358
+  },
+  {
+    "module_path": "setuptools/warnings.pyc",
+    "size": 4285
+  },
+  {
+    "module_path": "setuptools/wheel.pyc",
+    "size": 14837
+  },
+  {
+    "module_path": "setuptools/windows_support.pyc",
+    "size": 1260
+  },
+  {
+    "module_path": "shlex.pyc",
+    "size": 13627
+  },
+  {
+    "module_path": "shutil.pyc",
+    "size": 53410
+  },
+  {
+    "module_path": "signal.pyc",
+    "size": 4225
+  },
+  {
+    "module_path": "site.pyc",
+    "size": 22899
+  },
+  {
+    "module_path": "six.pyc",
+    "size": 39399
+  },
+  {
+    "module_path": "smtplib.pyc",
+    "size": 32243
+  },
+  {
+    "module_path": "sniffio/__init__.pyc",
+    "size": 349
+  },
+  {
+    "module_path": "sniffio/_impl.pyc",
+    "size": 1724
+  },
+  {
+    "module_path": "sniffio/_version.pyc",
+    "size": 144
+  },
+  {
+    "module_path": "socket.pyc",
+    "size": 33343
+  },
+  {
+    "module_path": "socketserver.pyc",
+    "size": 23873
+  },
+  {
+    "module_path": "sortedcontainers/__init__.pyc",
+    "size": 690
+  },
+  {
+    "module_path": "sortedcontainers/sorteddict.pyc",
+    "size": 13914
+  },
+  {
+    "module_path": "sortedcontainers/sortedlist.pyc",
+    "size": 51801
+  },
+  {
+    "module_path": "sortedcontainers/sortedset.pyc",
+    "size": 12308
+  },
+  {
+    "module_path": "ssl.pyc",
+    "size": 52957
+  },
+  {
+    "module_path": "starlette/__init__.pyc",
+    "size": 144
+  },
+  {
+    "module_path": "starlette/_exception_handler.pyc",
+    "size": 3004
+  },
+  {
+    "module_path": "starlette/_utils.pyc",
+    "size": 5506
+  },
+  {
+    "module_path": "starlette/applications.pyc",
+    "size": 5815
+  },
+  {
+    "module_path": "starlette/background.pyc",
+    "size": 2456
+  },
+  {
+    "module_path": "starlette/concurrency.pyc",
+    "size": 3158
+  },
+  {
+    "module_path": "starlette/convertors.pyc",
+    "size": 4217
+  },
+  {
+    "module_path": "starlette/datastructures.pyc",
+    "size": 39155
+  },
+  {
+    "module_path": "starlette/exceptions.pyc",
+    "size": 2529
+  },
+  {
+    "module_path": "starlette/formparsers.pyc",
+    "size": 15219
+  },
+  {
+    "module_path": "starlette/middleware/__init__.pyc",
+    "size": 2465
+  },
+  {
+    "module_path": "starlette/middleware/base.pyc",
+    "size": 11153
+  },
+  {
+    "module_path": "starlette/middleware/errors.pyc",
+    "size": 9473
+  },
+  {
+    "module_path": "starlette/middleware/exceptions.pyc",
+    "size": 3838
+  },
+  {
+    "module_path": "starlette/middleware/sessions.pyc",
+    "size": 7172
+  },
+  {
+    "module_path": "starlette/requests.pyc",
+    "size": 15796
+  },
+  {
+    "module_path": "starlette/responses.pyc",
+    "size": 30314
+  },
+  {
+    "module_path": "starlette/routing.pyc",
+    "size": 36888
+  },
+  {
+    "module_path": "starlette/staticfiles.pyc",
+    "size": 10536
+  },
+  {
+    "module_path": "starlette/status.pyc",
+    "size": 4987
+  },
+  {
+    "module_path": "starlette/types.pyc",
+    "size": 1250
+  },
+  {
+    "module_path": "starlette/websockets.pyc",
+    "size": 11633
+  },
+  {
+    "module_path": "statistics.pyc",
+    "size": 34381
+  },
+  {
+    "module_path": "string.pyc",
+    "size": 10394
+  },
+  {
+    "module_path": "stringprep.pyc",
+    "size": 24876
+  },
+  {
+    "module_path": "subprocess.pyc",
+    "size": 66943
+  },
+  {
+    "module_path": "sysconfig.pyc",
+    "size": 26536
+  },
+  {
+    "module_path": "tarfile.pyc",
+    "size": 105742
+  },
+  {
+    "module_path": "tempfile.pyc",
+    "size": 33071
+  },
+  {
+    "module_path": "textwrap.pyc",
+    "size": 11186
+  },
+  {
+    "module_path": "threading.pyc",
+    "size": 45823
+  },
+  {
+    "module_path": "token.pyc",
+    "size": 3520
+  },
+  {
+    "module_path": "tokenize.pyc",
+    "size": 20719
+  },
+  {
+    "module_path": "toml/__init__.pyc",
+    "size": 920
+  },
+  {
+    "module_path": "toml/decoder.pyc",
+    "size": 38859
+  },
+  {
+    "module_path": "toml/encoder.pyc",
+    "size": 13540
+  },
+  {
+    "module_path": "toml/tz.pyc",
+    "size": 1677
+  },
+  {
+    "module_path": "tomllib/__init__.pyc",
+    "size": 283
+  },
+  {
+    "module_path": "tomllib/_parser.pyc",
+    "size": 26310
+  },
+  {
+    "module_path": "tomllib/_re.pyc",
+    "size": 3675
+  },
+  {
+    "module_path": "tomllib/_types.pyc",
+    "size": 294
+  },
+  {
+    "module_path": "tracemalloc.pyc",
+    "size": 25590
+  },
+  {
+    "module_path": "trio/__init__.pyc",
+    "size": 3298
+  },
+  {
+    "module_path": "trio/_abc.pyc",
+    "size": 9844
+  },
+  {
+    "module_path": "trio/_channel.pyc",
+    "size": 24278
+  },
+  {
+    "module_path": "trio/_core/__init__.pyc",
+    "size": 2703
+  },
+  {
+    "module_path": "trio/_core/_asyncgens.pyc",
+    "size": 7949
+  },
+  {
+    "module_path": "trio/_core/_concat_tb.pyc",
+    "size": 840
+  },
+  {
+    "module_path": "trio/_core/_entry_queue.pyc",
+    "size": 5808
+  },
+  {
+    "module_path": "trio/_core/_exceptions.pyc",
+    "size": 3421
+  },
+  {
+    "module_path": "trio/_core/_generated_instrumentation.pyc",
+    "size": 1288
+  },
+  {
+    "module_path": "trio/_core/_generated_io_epoll.pyc",
+    "size": 1782
+  },
+  {
+    "module_path": "trio/_core/_generated_io_kqueue.pyc",
+    "size": 3546
+  },
+  {
+    "module_path": "trio/_core/_generated_io_windows.pyc",
+    "size": 5013
+  },
+  {
+    "module_path": "trio/_core/_generated_run.pyc",
+    "size": 4109
+  },
+  {
+    "module_path": "trio/_core/_generated_windows_ffi.pyc",
+    "size": 2508
+  },
+  {
+    "module_path": "trio/_core/_instrumentation.pyc",
+    "size": 3525
+  },
+  {
+    "module_path": "trio/_core/_io_common.pyc",
+    "size": 1179
+  },
+  {
+    "module_path": "trio/_core/_io_epoll.pyc",
+    "size": 9082
+  },
+  {
+    "module_path": "trio/_core/_io_kqueue.pyc",
+    "size": 10679
+  },
+  {
+    "module_path": "trio/_core/_io_windows.pyc",
+    "size": 29091
+  },
+  {
+    "module_path": "trio/_core/_ki.pyc",
+    "size": 7688
+  },
+  {
+    "module_path": "trio/_core/_local.pyc",
+    "size": 4320
+  },
+  {
+    "module_path": "trio/_core/_mock_clock.pyc",
+    "size": 5012
+  },
+  {
+    "module_path": "trio/_core/_parking_lot.pyc",
+    "size": 7306
+  },
+  {
+    "module_path": "trio/_core/_run.pyc",
+    "size": 84869
+  },
+  {
+    "module_path": "trio/_core/_run_context.pyc",
+    "size": 674
+  },
+  {
+    "module_path": "trio/_core/_thread_cache.pyc",
+    "size": 7101
+  },
+  {
+    "module_path": "trio/_core/_traps.pyc",
+    "size": 4230
+  },
+  {
+    "module_path": "trio/_core/_unbounded_queue.pyc",
+    "size": 4817
+  },
+  {
+    "module_path": "trio/_core/_wakeup_socketpair.pyc",
+    "size": 4028
+  },
+  {
+    "module_path": "trio/_core/_windows_cffi.pyc",
+    "size": 11419
+  },
+  {
+    "module_path": "trio/_deprecate.pyc",
+    "size": 6012
+  },
+  {
+    "module_path": "trio/_dtls.pyc",
+    "size": 41897
+  },
+  {
+    "module_path": "trio/_file_io.pyc",
+    "size": 26341
+  },
+  {
+    "module_path": "trio/_highlevel_generic.pyc",
+    "size": 3606
+  },
+  {
+    "module_path": "trio/_highlevel_open_tcp_listeners.pyc",
+    "size": 4271
+  },
+  {
+    "module_path": "trio/_highlevel_open_tcp_stream.pyc",
+    "size": 6776
+  },
+  {
+    "module_path": "trio/_highlevel_open_unix_stream.pyc",
+    "size": 2066
+  },
+  {
+    "module_path": "trio/_highlevel_serve_listeners.pyc",
+    "size": 3805
+  },
+  {
+    "module_path": "trio/_highlevel_socket.pyc",
+    "size": 11523
+  },
+  {
+    "module_path": "trio/_highlevel_ssl_helpers.pyc",
+    "size": 3297
+  },
+  {
+    "module_path": "trio/_path.pyc",
+    "size": 14359
+  },
+  {
+    "module_path": "trio/_signals.pyc",
+    "size": 5678
+  },
+  {
+    "module_path": "trio/_socket.pyc",
+    "size": 40166
+  },
+  {
+    "module_path": "trio/_ssl.pyc",
+    "size": 18490
+  },
+  {
+    "module_path": "trio/_subprocess.pyc",
+    "size": 22227
+  },
+  {
+    "module_path": "trio/_subprocess_platform/__init__.pyc",
+    "size": 3835
+  },
+  {
+    "module_path": "trio/_subprocess_platform/kqueue.pyc",
+    "size": 2059
+  },
+  {
+    "module_path": "trio/_subprocess_platform/waitid.pyc",
+    "size": 3146
+  },
+  {
+    "module_path": "trio/_subprocess_platform/windows.pyc",
+    "size": 622
+  },
+  {
+    "module_path": "trio/_sync.pyc",
+    "size": 24427
+  },
+  {
+    "module_path": "trio/_threads.pyc",
+    "size": 18696
+  },
+  {
+    "module_path": "trio/_timeouts.pyc",
+    "size": 4167
+  },
+  {
+    "module_path": "trio/_unix_pipes.pyc",
+    "size": 7324
+  },
+  {
+    "module_path": "trio/_util.pyc",
+    "size": 11547
+  },
+  {
+    "module_path": "trio/_version.pyc",
+    "size": 142
+  },
+  {
+    "module_path": "trio/_wait_for_object.pyc",
+    "size": 2250
+  },
+  {
+    "module_path": "trio/_windows_pipes.pyc",
+    "size": 6610
+  },
+  {
+    "module_path": "trio/abc.pyc",
+    "size": 434
+  },
+  {
+    "module_path": "trio/from_thread.pyc",
+    "size": 323
+  },
+  {
+    "module_path": "trio/lowlevel.pyc",
+    "size": 2337
+  },
+  {
+    "module_path": "trio/socket.pyc",
+    "size": 16448
+  },
+  {
+    "module_path": "trio/testing/__init__.pyc",
+    "size": 1659
+  },
+  {
+    "module_path": "trio/testing/_check_streams.pyc",
+    "size": 36886
+  },
+  {
+    "module_path": "trio/testing/_checkpoints.pyc",
+    "size": 1791
+  },
+  {
+    "module_path": "trio/testing/_memory_streams.pyc",
+    "size": 21141
+  },
+  {
+    "module_path": "trio/testing/_network.pyc",
+    "size": 1144
+  },
+  {
+    "module_path": "trio/testing/_raises_group.pyc",
+    "size": 34923
+  },
+  {
+    "module_path": "trio/testing/_sequencer.pyc",
+    "size": 2702
+  },
+  {
+    "module_path": "trio/testing/_trio_test.pyc",
+    "size": 1751
+  },
+  {
+    "module_path": "trio/to_thread.pyc",
+    "size": 258
+  },
+  {
+    "module_path": "tty.pyc",
+    "size": 2543
+  },
+  {
+    "module_path": "typing.pyc",
+    "size": 108423
+  },
+  {
+    "module_path": "typing_extensions.pyc",
+    "size": 125738
+  },
+  {
+    "module_path": "typing_inspection/__init__.pyc",
+    "size": 126
+  },
+  {
+    "module_path": "typing_inspection/introspection.pyc",
+    "size": 11565
+  },
+  {
+    "module_path": "typing_inspection/typing_objects.pyc",
+    "size": 15780
+  },
+  {
+    "module_path": "tzdata/__init__.pyc",
+    "size": 176
+  },
+  {
+    "module_path": "tzdata/zoneinfo/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Africa/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/America/__init__.pyc",
+    "size": 132
+  },
+  {
+    "module_path": "tzdata/zoneinfo/America/Argentina/__init__.pyc",
+    "size": 142
+  },
+  {
+    "module_path": "tzdata/zoneinfo/America/Indiana/__init__.pyc",
+    "size": 140
+  },
+  {
+    "module_path": "tzdata/zoneinfo/America/Kentucky/__init__.pyc",
+    "size": 141
+  },
+  {
+    "module_path": "tzdata/zoneinfo/America/North_Dakota/__init__.pyc",
+    "size": 145
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Antarctica/__init__.pyc",
+    "size": 135
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Arctic/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Asia/__init__.pyc",
+    "size": 129
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Atlantic/__init__.pyc",
+    "size": 133
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Australia/__init__.pyc",
+    "size": 134
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Brazil/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Canada/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Chile/__init__.pyc",
+    "size": 130
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Etc/__init__.pyc",
+    "size": 128
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Europe/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Indian/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Mexico/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "tzdata/zoneinfo/Pacific/__init__.pyc",
+    "size": 132
+  },
+  {
+    "module_path": "tzdata/zoneinfo/US/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "unittest/__init__.pyc",
+    "size": 1655
+  },
+  {
+    "module_path": "unittest/_log.pyc",
+    "size": 4499
+  },
+  {
+    "module_path": "unittest/async_case.pyc",
+    "size": 5842
+  },
+  {
+    "module_path": "unittest/case.pyc",
+    "size": 54935
+  },
+  {
+    "module_path": "unittest/loader.pyc",
+    "size": 21132
+  },
+  {
+    "module_path": "unittest/main.pyc",
+    "size": 13363
+  },
+  {
+    "module_path": "unittest/mock.pyc",
+    "size": 98749
+  },
+  {
+    "module_path": "unittest/result.pyc",
+    "size": 10729
+  },
+  {
+    "module_path": "unittest/runner.pyc",
+    "size": 15793
+  },
+  {
+    "module_path": "unittest/signals.pyc",
+    "size": 3582
+  },
+  {
+    "module_path": "unittest/suite.pyc",
+    "size": 14436
+  },
+  {
+    "module_path": "unittest/util.pyc",
+    "size": 6422
+  },
+  {
+    "module_path": "urllib/__init__.pyc",
+    "size": 115
+  },
+  {
+    "module_path": "urllib/error.pyc",
+    "size": 2961
+  },
+  {
+    "module_path": "urllib/parse.pyc",
+    "size": 40172
+  },
+  {
+    "module_path": "urllib/request.pyc",
+    "size": 103669
+  },
+  {
+    "module_path": "urllib/response.pyc",
+    "size": 3833
+  },
+  {
+    "module_path": "uuid.pyc",
+    "size": 25160
+  },
+  {
+    "module_path": "uvicorn/__init__.pyc",
+    "size": 314
+  },
+  {
+    "module_path": "uvicorn/__main__.pyc",
+    "size": 234
+  },
+  {
+    "module_path": "uvicorn/_ansi.pyc",
+    "size": 1054
+  },
+  {
+    "module_path": "uvicorn/_compat.pyc",
+    "size": 3932
+  },
+  {
+    "module_path": "uvicorn/_subprocess.pyc",
+    "size": 1810
+  },
+  {
+    "module_path": "uvicorn/_types.pyc",
+    "size": 9774
+  },
+  {
+    "module_path": "uvicorn/config.pyc",
+    "size": 28206
+  },
+  {
+    "module_path": "uvicorn/importer.pyc",
+    "size": 1707
+  },
+  {
+    "module_path": "uvicorn/lifespan/__init__.pyc",
+    "size": 125
+  },
+  {
+    "module_path": "uvicorn/lifespan/off.pyc",
+    "size": 914
+  },
+  {
+    "module_path": "uvicorn/lifespan/on.pyc",
+    "size": 6970
+  },
+  {
+    "module_path": "uvicorn/logging.pyc",
+    "size": 7246
+  },
+  {
+    "module_path": "uvicorn/loops/__init__.pyc",
+    "size": 122
+  },
+  {
+    "module_path": "uvicorn/loops/asyncio.pyc",
+    "size": 654
+  },
+  {
+    "module_path": "uvicorn/loops/auto.pyc",
+    "size": 754
+  },
+  {
+    "module_path": "uvicorn/loops/uvloop.pyc",
+    "size": 511
+  },
+  {
+    "module_path": "uvicorn/main.pyc",
+    "size": 21884
+  },
+  {
+    "module_path": "uvicorn/middleware/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "uvicorn/middleware/asgi2.pyc",
+    "size": 935
+  },
+  {
+    "module_path": "uvicorn/middleware/message_logger.pyc",
+    "size": 4229
+  },
+  {
+    "module_path": "uvicorn/middleware/proxy_headers.pyc",
+    "size": 6746
+  },
+  {
+    "module_path": "uvicorn/middleware/wsgi.pyc",
+    "size": 9678
+  },
+  {
+    "module_path": "uvicorn/protocols/__init__.pyc",
+    "size": 126
+  },
+  {
+    "module_path": "uvicorn/protocols/http/__init__.pyc",
+    "size": 131
+  },
+  {
+    "module_path": "uvicorn/protocols/http/auto.pyc",
+    "size": 542
+  },
+  {
+    "module_path": "uvicorn/protocols/http/flow_control.pyc",
+    "size": 2977
+  },
+  {
+    "module_path": "uvicorn/protocols/http/h11_impl.pyc",
+    "size": 27302
+  },
+  {
+    "module_path": "uvicorn/protocols/http/httptools_impl.pyc",
+    "size": 29208
+  },
+  {
+    "module_path": "uvicorn/protocols/utils.pyc",
+    "size": 3090
+  },
+  {
+    "module_path": "uvicorn/protocols/websockets/__init__.pyc",
+    "size": 137
+  },
+  {
+    "module_path": "uvicorn/protocols/websockets/auto.pyc",
+    "size": 760
+  },
+  {
+    "module_path": "uvicorn/protocols/websockets/websockets_impl.pyc",
+    "size": 19441
+  },
+  {
+    "module_path": "uvicorn/protocols/websockets/websockets_sansio_impl.pyc",
+    "size": 29024
+  },
+  {
+    "module_path": "uvicorn/protocols/websockets/wsproto_impl.pyc",
+    "size": 27281
+  },
+  {
+    "module_path": "uvicorn/server.pyc",
+    "size": 16970
+  },
+  {
+    "module_path": "uvicorn/supervisors/__init__.pyc",
+    "size": 691
+  },
+  {
+    "module_path": "uvicorn/supervisors/basereload.pyc",
+    "size": 6763
+  },
+  {
+    "module_path": "uvicorn/supervisors/multiprocess.pyc",
+    "size": 16141
+  },
+  {
+    "module_path": "uvicorn/supervisors/statreload.pyc",
+    "size": 2755
+  },
+  {
+    "module_path": "uvicorn/supervisors/watchfilesreload.pyc",
+    "size": 4208
+  },
+  {
+    "module_path": "uvicorn/workers.pyc",
+    "size": 6210
+  },
+  {
+    "module_path": "watchdog/__init__.pyc",
+    "size": 117
+  },
+  {
+    "module_path": "watchdog/events.pyc",
+    "size": 14937
+  },
+  {
+    "module_path": "watchdog/observers/__init__.pyc",
+    "size": 2093
+  },
+  {
+    "module_path": "watchdog/observers/api.pyc",
+    "size": 14468
+  },
+  {
+    "module_path": "watchdog/observers/fsevents.pyc",
+    "size": 14268
+  },
+  {
+    "module_path": "watchdog/observers/inotify.pyc",
+    "size": 9734
+  },
+  {
+    "module_path": "watchdog/observers/inotify_buffer.pyc",
+    "size": 4343
+  },
+  {
+    "module_path": "watchdog/observers/inotify_c.pyc",
+    "size": 21444
+  },
+  {
+    "module_path": "watchdog/observers/kqueue.pyc",
+    "size": 19000
+  },
+  {
+    "module_path": "watchdog/observers/polling.pyc",
+    "size": 5165
+  },
+  {
+    "module_path": "watchdog/observers/read_directory_changes.pyc",
+    "size": 5356
+  },
+  {
+    "module_path": "watchdog/observers/winapi.pyc",
+    "size": 13519
+  },
+  {
+    "module_path": "watchdog/utils/__init__.pyc",
+    "size": 3821
+  },
+  {
+    "module_path": "watchdog/utils/bricks.pyc",
+    "size": 1310
+  },
+  {
+    "module_path": "watchdog/utils/delayed_queue.pyc",
+    "size": 3934
+  },
+  {
+    "module_path": "watchdog/utils/dirsnapshot.pyc",
+    "size": 14374
+  },
+  {
+    "module_path": "watchdog/utils/patterns.pyc",
+    "size": 2071
+  },
+  {
+    "module_path": "watchdog/utils/platform.pyc",
+    "size": 1592
+  },
+  {
+    "module_path": "watchfiles/__init__.pyc",
+    "size": 478
+  },
+  {
+    "module_path": "watchfiles/filters.pyc",
+    "size": 5422
+  },
+  {
+    "module_path": "watchfiles/main.pyc",
+    "size": 9744
+  },
+  {
+    "module_path": "watchfiles/run.pyc",
+    "size": 13434
+  },
+  {
+    "module_path": "watchfiles/version.pyc",
+    "size": 212
+  },
+  {
+    "module_path": "webbrowser.pyc",
+    "size": 24077
+  },
+  {
+    "module_path": "websockets/__init__.pyc",
+    "size": 4420
+  },
+  {
+    "module_path": "websockets/__main__.pyc",
+    "size": 220
+  },
+  {
+    "module_path": "websockets/asyncio/__init__.pyc",
+    "size": 127
+  },
+  {
+    "module_path": "websockets/asyncio/async_timeout.pyc",
+    "size": 8322
+  },
+  {
+    "module_path": "websockets/asyncio/client.pyc",
+    "size": 24403
+  },
+  {
+    "module_path": "websockets/asyncio/compatibility.pyc",
+    "size": 1001
+  },
+  {
+    "module_path": "websockets/asyncio/connection.pyc",
+    "size": 37391
+  },
+  {
+    "module_path": "websockets/asyncio/messages.pyc",
+    "size": 9977
+  },
+  {
+    "module_path": "websockets/asyncio/router.pyc",
+    "size": 5968
+  },
+  {
+    "module_path": "websockets/asyncio/server.pyc",
+    "size": 24400
+  },
+  {
+    "module_path": "websockets/auth.pyc",
+    "size": 732
+  },
+  {
+    "module_path": "websockets/cli.pyc",
+    "size": 8806
+  },
+  {
+    "module_path": "websockets/client.pyc",
+    "size": 12905
+  },
+  {
+    "module_path": "websockets/connection.pyc",
+    "size": 488
+  },
+  {
+    "module_path": "websockets/datastructures.pyc",
+    "size": 7594
+  },
+  {
+    "module_path": "websockets/exceptions.pyc",
+    "size": 12640
+  },
+  {
+    "module_path": "websockets/extensions/__init__.pyc",
+    "size": 242
+  },
+  {
+    "module_path": "websockets/extensions/base.pyc",
+    "size": 2272
+  },
+  {
+    "module_path": "websockets/extensions/permessage_deflate.pyc",
+    "size": 15963
+  },
+  {
+    "module_path": "websockets/frames.pyc",
+    "size": 15639
+  },
+  {
+    "module_path": "websockets/headers.pyc",
+    "size": 13562
+  },
+  {
+    "module_path": "websockets/http.pyc",
+    "size": 844
+  },
+  {
+    "module_path": "websockets/http11.pyc",
+    "size": 12503
+  },
+  {
+    "module_path": "websockets/imports.pyc",
+    "size": 2321
+  },
+  {
+    "module_path": "websockets/legacy/__init__.pyc",
+    "size": 412
+  },
+  {
+    "module_path": "websockets/legacy/auth.pyc",
+    "size": 5726
+  },
+  {
+    "module_path": "websockets/legacy/client.pyc",
+    "size": 20895
+  },
+  {
+    "module_path": "websockets/legacy/exceptions.pyc",
+    "size": 2667
+  },
+  {
+    "module_path": "websockets/legacy/framing.pyc",
+    "size": 6120
+  },
+  {
+    "module_path": "websockets/legacy/handshake.pyc",
+    "size": 4826
+  },
+  {
+    "module_path": "websockets/legacy/http.pyc",
+    "size": 5903
+  },
+  {
+    "module_path": "websockets/legacy/protocol.pyc",
+    "size": 43866
+  },
+  {
+    "module_path": "websockets/legacy/server.pyc",
+    "size": 31152
+  },
+  {
+    "module_path": "websockets/protocol.pyc",
+    "size": 18340
+  },
+  {
+    "module_path": "websockets/proxy.pyc",
+    "size": 4874
+  },
+  {
+    "module_path": "websockets/server.pyc",
+    "size": 15920
+  },
+  {
+    "module_path": "websockets/streams.pyc",
+    "size": 3714
+  },
+  {
+    "module_path": "websockets/sync/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "websockets/sync/client.pyc",
+    "size": 17932
+  },
+  {
+    "module_path": "websockets/sync/connection.pyc",
+    "size": 27300
+  },
+  {
+    "module_path": "websockets/sync/messages.pyc",
+    "size": 10072
+  },
+  {
+    "module_path": "websockets/sync/router.pyc",
+    "size": 5761
+  },
+  {
+    "module_path": "websockets/sync/server.pyc",
+    "size": 18216
+  },
+  {
+    "module_path": "websockets/sync/utils.pyc",
+    "size": 1110
+  },
+  {
+    "module_path": "websockets/typing.pyc",
+    "size": 1241
+  },
+  {
+    "module_path": "websockets/uri.pyc",
+    "size": 3285
+  },
+  {
+    "module_path": "websockets/utils.pyc",
+    "size": 2072
+  },
+  {
+    "module_path": "websockets/version.pyc",
+    "size": 2913
+  },
+  {
+    "module_path": "werkzeug/__init__.pyc",
+    "size": 271
+  },
+  {
+    "module_path": "werkzeug/_internal.pyc",
+    "size": 8747
+  },
+  {
+    "module_path": "werkzeug/_reloader.pyc",
+    "size": 19472
+  },
+  {
+    "module_path": "werkzeug/datastructures/__init__.pyc",
+    "size": 2348
+  },
+  {
+    "module_path": "werkzeug/datastructures/accept.pyc",
+    "size": 12700
+  },
+  {
+    "module_path": "werkzeug/datastructures/auth.pyc",
+    "size": 11614
+  },
+  {
+    "module_path": "werkzeug/datastructures/cache_control.pyc",
+    "size": 7012
+  },
+  {
+    "module_path": "werkzeug/datastructures/csp.pyc",
+    "size": 5281
+  },
+  {
+    "module_path": "werkzeug/datastructures/etag.pyc",
+    "size": 4728
+  },
+  {
+    "module_path": "werkzeug/datastructures/file_storage.pyc",
+    "size": 6661
+  },
+  {
+    "module_path": "werkzeug/datastructures/headers.pyc",
+    "size": 22708
+  },
+  {
+    "module_path": "werkzeug/datastructures/mixins.pyc",
+    "size": 15732
+  },
+  {
+    "module_path": "werkzeug/datastructures/range.pyc",
+    "size": 8712
+  },
+  {
+    "module_path": "werkzeug/datastructures/structures.pyc",
+    "size": 46377
+  },
+  {
+    "module_path": "werkzeug/debug/__init__.pyc",
+    "size": 20662
+  },
+  {
+    "module_path": "werkzeug/debug/console.pyc",
+    "size": 11403
+  },
+  {
+    "module_path": "werkzeug/debug/repr.pyc",
+    "size": 13176
+  },
+  {
+    "module_path": "werkzeug/debug/tbtools.pyc",
+    "size": 16835
+  },
+  {
+    "module_path": "werkzeug/exceptions.pyc",
+    "size": 22595
+  },
+  {
+    "module_path": "werkzeug/formparser.pyc",
+    "size": 11958
+  },
+  {
+    "module_path": "werkzeug/http.pyc",
+    "size": 31839
+  },
+  {
+    "module_path": "werkzeug/middleware/__init__.pyc",
+    "size": 128
+  },
+  {
+    "module_path": "werkzeug/middleware/shared_data.pyc",
+    "size": 9773
+  },
+  {
+    "module_path": "werkzeug/routing/__init__.pyc",
+    "size": 1144
+  },
+  {
+    "module_path": "werkzeug/routing/converters.pyc",
+    "size": 7925
+  },
+  {
+    "module_path": "werkzeug/routing/exceptions.pyc",
+    "size": 7131
+  },
+  {
+    "module_path": "werkzeug/routing/map.pyc",
+    "size": 22857
+  },
+  {
+    "module_path": "werkzeug/routing/matcher.pyc",
+    "size": 7984
+  },
+  {
+    "module_path": "werkzeug/routing/rules.pyc",
+    "size": 28872
+  },
+  {
+    "module_path": "werkzeug/sansio/__init__.pyc",
+    "size": 124
+  },
+  {
+    "module_path": "werkzeug/sansio/http.pyc",
+    "size": 4239
+  },
+  {
+    "module_path": "werkzeug/sansio/multipart.pyc",
+    "size": 13912
+  },
+  {
+    "module_path": "werkzeug/sansio/request.pyc",
+    "size": 16041
+  },
+  {
+    "module_path": "werkzeug/sansio/response.pyc",
+    "size": 24947
+  },
+  {
+    "module_path": "werkzeug/sansio/utils.pyc",
+    "size": 3917
+  },
+  {
+    "module_path": "werkzeug/security.pyc",
+    "size": 5723
+  },
+  {
+    "module_path": "werkzeug/serving.pyc",
+    "size": 38435
+  },
+  {
+    "module_path": "werkzeug/test.pyc",
+    "size": 43053
+  },
+  {
+    "module_path": "werkzeug/urls.pyc",
+    "size": 6297
+  },
+  {
+    "module_path": "werkzeug/user_agent.pyc",
+    "size": 1548
+  },
+  {
+    "module_path": "werkzeug/utils.pyc",
+    "size": 16843
+  },
+  {
+    "module_path": "werkzeug/wrappers/__init__.pyc",
+    "size": 248
+  },
+  {
+    "module_path": "werkzeug/wrappers/request.pyc",
+    "size": 14511
+  },
+  {
+    "module_path": "werkzeug/wrappers/response.pyc",
+    "size": 20017
+  },
+  {
+    "module_path": "werkzeug/wsgi.pyc",
+    "size": 15653
+  },
+  {
+    "module_path": "win32con.pyc",
+    "size": 147139
+  },
+  {
+    "module_path": "win32evtlogutil.pyc",
+    "size": 6200
+  },
+  {
+    "module_path": "winerror.pyc",
+    "size": 348442
+  },
+  {
+    "module_path": "wsproto/__init__.pyc",
+    "size": 3141
+  },
+  {
+    "module_path": "wsproto/connection.pyc",
+    "size": 6840
+  },
+  {
+    "module_path": "wsproto/events.pyc",
+    "size": 4428
+  },
+  {
+    "module_path": "wsproto/extensions.pyc",
+    "size": 13254
+  },
+  {
+    "module_path": "wsproto/frame_protocol.pyc",
+    "size": 25796
+  },
+  {
+    "module_path": "wsproto/handshake.pyc",
+    "size": 19610
+  },
+  {
+    "module_path": "wsproto/typing.pyc",
+    "size": 231
+  },
+  {
+    "module_path": "wsproto/utilities.pyc",
+    "size": 2878
+  },
+  {
+    "module_path": "xml/__init__.pyc",
+    "size": 168
+  },
+  {
+    "module_path": "xml/etree/__init__.pyc",
+    "size": 118
+  },
+  {
+    "module_path": "xml/etree/cElementTree.pyc",
+    "size": 167
+  },
+  {
+    "module_path": "xml/etree/ElementInclude.pyc",
+    "size": 3967
+  },
+  {
+    "module_path": "xml/etree/ElementPath.pyc",
+    "size": 14891
+  },
+  {
+    "module_path": "xml/etree/ElementTree.pyc",
+    "size": 63438
+  },
+  {
+    "module_path": "xml/parsers/__init__.pyc",
+    "size": 125
+  },
+  {
+    "module_path": "xml/parsers/expat.pyc",
+    "size": 334
+  },
+  {
+    "module_path": "xml/sax/__init__.pyc",
+    "size": 2714
+  },
+  {
+    "module_path": "xml/sax/_exceptions.pyc",
+    "size": 3671
+  },
+  {
+    "module_path": "xml/sax/expatreader.pyc",
+    "size": 21190
+  },
+  {
+    "module_path": "xml/sax/handler.pyc",
+    "size": 5833
+  },
+  {
+    "module_path": "xml/sax/saxutils.pyc",
+    "size": 18033
+  },
+  {
+    "module_path": "xml/sax/xmlreader.pyc",
+    "size": 13473
+  },
+  {
+    "module_path": "xmlrpc/__init__.pyc",
+    "size": 115
+  },
+  {
+    "module_path": "xmlrpc/client.pyc",
+    "size": 46266
+  },
+  {
+    "module_path": "yaml/__init__.pyc",
+    "size": 11669
+  },
+  {
+    "module_path": "yaml/composer.pyc",
+    "size": 6457
+  },
+  {
+    "module_path": "yaml/constructor.pyc",
+    "size": 34801
+  },
+  {
+    "module_path": "yaml/cyaml.pyc",
+    "size": 4740
+  },
+  {
+    "module_path": "yaml/dumper.pyc",
+    "size": 2566
+  },
+  {
+    "module_path": "yaml/emitter.pyc",
+    "size": 50137
+  },
+  {
+    "module_path": "yaml/error.pyc",
+    "size": 4200
+  },
+  {
+    "module_path": "yaml/events.pyc",
+    "size": 4638
+  },
+  {
+    "module_path": "yaml/loader.pyc",
+    "size": 3478
+  },
+  {
+    "module_path": "yaml/nodes.pyc",
+    "size": 2139
+  },
+  {
+    "module_path": "yaml/parser.pyc",
+    "size": 24652
+  },
+  {
+    "module_path": "yaml/reader.pyc",
+    "size": 8778
+  },
+  {
+    "module_path": "yaml/representer.pyc",
+    "size": 16953
+  },
+  {
+    "module_path": "yaml/resolver.pyc",
+    "size": 8957
+  },
+  {
+    "module_path": "yaml/scanner.pyc",
+    "size": 49881
+  },
+  {
+    "module_path": "yaml/serializer.pyc",
+    "size": 6122
+  },
+  {
+    "module_path": "yaml/tokens.pyc",
+    "size": 5737
+  },
+  {
+    "module_path": "zipfile/__init__.pyc",
+    "size": 92817
+  },
+  {
+    "module_path": "zipfile/_path/__init__.pyc",
+    "size": 14672
+  },
+  {
+    "module_path": "zipfile/_path/glob.pyc",
+    "size": 1373
+  },
+  {
+    "module_path": "zipimport.pyc",
+    "size": 21549
+  },
+  {
+    "module_path": "zoneinfo/__init__.pyc",
+    "size": 1082
+  },
+  {
+    "module_path": "zoneinfo/_common.pyc",
+    "size": 5197
+  },
+  {
+    "module_path": "zoneinfo/_tzpath.pyc",
+    "size": 6624
+  },
+  {
+    "module_path": "zoneinfo/_zoneinfo.pyc",
+    "size": 26210
+  }
+]

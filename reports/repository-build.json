@@ -1,0 +1,16 @@
+{
+  "version": "1.3.9",
+  "command": "dotnet build 404Launcher.Rebuild.sln -c Release --nologo -v quiet",
+  "sdk": "10.0.300",
+  "target_framework": "net9.0",
+  "errors": 0,
+  "warnings": 16,
+  "projects": 8,
+  "input_application_executed": false,
+  "whole_application_runtime_equivalence_verified": false,
+  "notes": [
+    "This check uses the repository src/ tree and relative lib/ references.",
+    "The 265-warning Debug build report describes the earlier standalone recovery pass.",
+    "Build success does not prove complete unpacking or a fully recovered launcher."
+  ]
+}

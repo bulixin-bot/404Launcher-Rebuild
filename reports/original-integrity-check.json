@@ -1,0 +1,25 @@
+[
+  {
+    "manifest": "update_manifest.json",
+    "entries_checked": 1207,
+    "content_mismatches": [],
+    "filename_encoding_differences": [
+      {
+        "manifest_path": "_internal/assets/builtin_mods/\u5143\u7d20\u8865\u4e01.jar",
+        "extracted_path": "_internal/assets/builtin_mods/\u052a\ufffd\u0632\ufffd\ufffd\ufffd.jar",
+        "content_matches": true
+      },
+      {
+        "manifest_path": "_internal/assets/server_extra_mods/4658261307332877912/\u5d29\u6e83\u4fee\u590d.jar",
+        "extracted_path": "_internal/assets/server_extra_mods/4658261307332877912/\ufffd\ufffd\ufffd\ufffd\ufffd\u07b8\ufffd.jar",
+        "content_matches": true
+      }
+    ]
+  },
+  {
+    "manifest": "HARDENING_HASHES.json",
+    "entries_checked": 9,
+    "content_mismatches": [],
+    "filename_encoding_differences": []
+  }
+]

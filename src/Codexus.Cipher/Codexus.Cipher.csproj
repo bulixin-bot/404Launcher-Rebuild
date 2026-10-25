@@ -12,7 +12,9 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="Codexus.Development.SDK">
+      <HintPath>..\..\lib\Codexus.Development.SDK.dll</HintPath>
+    </Reference>
     <Reference Include="BouncyCastle.Cryptography">
       <HintPath>..\..\lib\BouncyCastle.Cryptography.dll</HintPath>
     </Reference>

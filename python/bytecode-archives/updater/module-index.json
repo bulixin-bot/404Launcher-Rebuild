@@ -1,0 +1,442 @@
+[
+  {
+    "module_path": "__future__.pyc",
+    "size": 4688
+  },
+  {
+    "module_path": "_compat_pickle.pyc",
+    "size": 7189
+  },
+  {
+    "module_path": "_compression.pyc",
+    "size": 7470
+  },
+  {
+    "module_path": "_py_abc.pyc",
+    "size": 7015
+  },
+  {
+    "module_path": "_pydatetime.pyc",
+    "size": 94774
+  },
+  {
+    "module_path": "_pydecimal.pyc",
+    "size": 226780
+  },
+  {
+    "module_path": "_strptime.pyc",
+    "size": 27444
+  },
+  {
+    "module_path": "_threading_local.pyc",
+    "size": 8242
+  },
+  {
+    "module_path": "argparse.pyc",
+    "size": 101417
+  },
+  {
+    "module_path": "ast.pyc",
+    "size": 100244
+  },
+  {
+    "module_path": "base64.pyc",
+    "size": 24392
+  },
+  {
+    "module_path": "bisect.pyc",
+    "size": 3670
+  },
+  {
+    "module_path": "bz2.pyc",
+    "size": 15146
+  },
+  {
+    "module_path": "calendar.pyc",
+    "size": 40030
+  },
+  {
+    "module_path": "contextlib.pyc",
+    "size": 30582
+  },
+  {
+    "module_path": "contextvars.pyc",
+    "size": 241
+  },
+  {
+    "module_path": "copy.pyc",
+    "size": 9739
+  },
+  {
+    "module_path": "csv.pyc",
+    "size": 17709
+  },
+  {
+    "module_path": "ctypes/__init__.pyc",
+    "size": 23489
+  },
+  {
+    "module_path": "ctypes/_endian.pyc",
+    "size": 3353
+  },
+  {
+    "module_path": "ctypes/wintypes.pyc",
+    "size": 8475
+  },
+  {
+    "module_path": "dataclasses.pyc",
+    "size": 44934
+  },
+  {
+    "module_path": "datetime.pyc",
+    "size": 389
+  },
+  {
+    "module_path": "decimal.pyc",
+    "size": 2911
+  },
+  {
+    "module_path": "dis.pyc",
+    "size": 34423
+  },
+  {
+    "module_path": "email/__init__.pyc",
+    "size": 1899
+  },
+  {
+    "module_path": "email/_encoded_words.pyc",
+    "size": 8295
+  },
+  {
+    "module_path": "email/_header_value_parser.pyc",
+    "size": 133506
+  },
+  {
+    "module_path": "email/_parseaddr.pyc",
+    "size": 23260
+  },
+  {
+    "module_path": "email/_policybase.pyc",
+    "size": 18710
+  },
+  {
+    "module_path": "email/base64mime.pyc",
+    "size": 3925
+  },
+  {
+    "module_path": "email/charset.pyc",
+    "size": 15223
+  },
+  {
+    "module_path": "email/contentmanager.pyc",
+    "size": 12341
+  },
+  {
+    "module_path": "email/encoders.pyc",
+    "size": 2081
+  },
+  {
+    "module_path": "email/errors.pyc",
+    "size": 6999
+  },
+  {
+    "module_path": "email/feedparser.pyc",
+    "size": 19786
+  },
+  {
+    "module_path": "email/generator.pyc",
+    "size": 20673
+  },
+  {
+    "module_path": "email/header.pyc",
+    "size": 24500
+  },
+  {
+    "module_path": "email/headerregistry.pyc",
+    "size": 31110
+  },
+  {
+    "module_path": "email/iterators.pyc",
+    "size": 2779
+  },
+  {
+    "module_path": "email/message.pyc",
+    "size": 53137
+  },
+  {
+    "module_path": "email/parser.pyc",
+    "size": 6789
+  },
+  {
+    "module_path": "email/policy.pyc",
+    "size": 11806
+  },
+  {
+    "module_path": "email/quoprimime.pyc",
+    "size": 9941
+  },
+  {
+    "module_path": "email/utils.pyc",
+    "size": 15952
+  },
+  {
+    "module_path": "fnmatch.pyc",
+    "size": 6460
+  },
+  {
+    "module_path": "fractions.pyc",
+    "size": 36831
+  },
+  {
+    "module_path": "getopt.pyc",
+    "size": 8335
+  },
+  {
+    "module_path": "gettext.pyc",
+    "size": 21766
+  },
+  {
+    "module_path": "gzip.pyc",
+    "size": 32017
+  },
+  {
+    "module_path": "hashlib.pyc",
+    "size": 8072
+  },
+  {
+    "module_path": "importlib/__init__.pyc",
+    "size": 4539
+  },
+  {
+    "module_path": "importlib/_abc.pyc",
+    "size": 1623
+  },
+  {
+    "module_path": "importlib/_bootstrap.pyc",
+    "size": 55820
+  },
+  {
+    "module_path": "importlib/_bootstrap_external.pyc",
+    "size": 61738
+  },
+  {
+    "module_path": "importlib/abc.pyc",
+    "size": 10421
+  },
+  {
+    "module_path": "importlib/machinery.pyc",
+    "size": 1035
+  },
+  {
+    "module_path": "importlib/metadata/__init__.pyc",
+    "size": 48495
+  },
+  {
+    "module_path": "importlib/metadata/_adapters.pyc",
+    "size": 3814
+  },
+  {
+    "module_path": "importlib/metadata/_collections.pyc",
+    "size": 1861
+  },
+  {
+    "module_path": "importlib/metadata/_functools.pyc",
+    "size": 3417
+  },
+  {
+    "module_path": "importlib/metadata/_itertools.pyc",
+    "size": 2336
+  },
+  {
+    "module_path": "importlib/metadata/_meta.pyc",
+    "size": 3285
+  },
+  {
+    "module_path": "importlib/metadata/_text.pyc",
+    "size": 3834
+  },
+  {
+    "module_path": "importlib/readers.pyc",
+    "size": 442
+  },
+  {
+    "module_path": "importlib/resources/__init__.pyc",
+    "size": 595
+  },
+  {
+    "module_path": "importlib/resources/_adapters.pyc",
+    "size": 9639
+  },
+  {
+    "module_path": "importlib/resources/_common.pyc",
+    "size": 8730
+  },
+  {
+    "module_path": "importlib/resources/_itertools.pyc",
+    "size": 1519
+  },
+  {
+    "module_path": "importlib/resources/_legacy.pyc",
+    "size": 5734
+  },
+  {
+    "module_path": "importlib/resources/abc.pyc",
+    "size": 8913
+  },
+  {
+    "module_path": "importlib/resources/readers.pyc",
+    "size": 9018
+  },
+  {
+    "module_path": "importlib/util.pyc",
+    "size": 11721
+  },
+  {
+    "module_path": "inspect.pyc",
+    "size": 134281
+  },
+  {
+    "module_path": "ipaddress.pyc",
+    "size": 91785
+  },
+  {
+    "module_path": "json/__init__.pyc",
+    "size": 13595
+  },
+  {
+    "module_path": "json/decoder.pyc",
+    "size": 13893
+  },
+  {
+    "module_path": "json/encoder.pyc",
+    "size": 15070
+  },
+  {
+    "module_path": "json/scanner.pyc",
+    "size": 3310
+  },
+  {
+    "module_path": "logging/__init__.pyc",
+    "size": 95968
+  },
+  {
+    "module_path": "lzma.pyc",
+    "size": 15868
+  },
+  {
+    "module_path": "numbers.pyc",
+    "size": 14173
+  },
+  {
+    "module_path": "opcode.pyc",
+    "size": 14707
+  },
+  {
+    "module_path": "pathlib.pyc",
+    "size": 61909
+  },
+  {
+    "module_path": "pickle.pyc",
+    "size": 78089
+  },
+  {
+    "module_path": "pprint.pyc",
+    "size": 29556
+  },
+  {
+    "module_path": "py_compile.pyc",
+    "size": 10008
+  },
+  {
+    "module_path": "quopri.pyc",
+    "size": 9285
+  },
+  {
+    "module_path": "random.pyc",
+    "size": 33158
+  },
+  {
+    "module_path": "selectors.pyc",
+    "size": 26191
+  },
+  {
+    "module_path": "shutil.pyc",
+    "size": 66026
+  },
+  {
+    "module_path": "signal.pyc",
+    "size": 4438
+  },
+  {
+    "module_path": "socket.pyc",
+    "size": 42013
+  },
+  {
+    "module_path": "statistics.pyc",
+    "size": 55466
+  },
+  {
+    "module_path": "string.pyc",
+    "size": 11485
+  },
+  {
+    "module_path": "stringprep.pyc",
+    "size": 25174
+  },
+  {
+    "module_path": "subprocess.pyc",
+    "size": 79058
+  },
+  {
+    "module_path": "tarfile.pyc",
+    "size": 119922
+  },
+  {
+    "module_path": "tempfile.pyc",
+    "size": 40388
+  },
+  {
+    "module_path": "textwrap.pyc",
+    "size": 18302
+  },
+  {
+    "module_path": "threading.pyc",
+    "size": 65332
+  },
+  {
+    "module_path": "token.pyc",
+    "size": 3549
+  },
+  {
+    "module_path": "tokenize.pyc",
+    "size": 24583
+  },
+  {
+    "module_path": "tracemalloc.pyc",
+    "size": 26928
+  },
+  {
+    "module_path": "typing.pyc",
+    "size": 142795
+  },
+  {
+    "module_path": "urllib/__init__.pyc",
+    "size": 115
+  },
+  {
+    "module_path": "urllib/parse.pyc",
+    "size": 50739
+  },
+  {
+    "module_path": "zipfile/__init__.pyc",
+    "size": 99598
+  },
+  {
+    "module_path": "zipfile/_path/__init__.pyc",
+    "size": 18891
+  },
+  {
+    "module_path": "zipfile/_path/glob.pyc",
+    "size": 1939
+  }
+]

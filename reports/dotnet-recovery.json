@@ -1,0 +1,264 @@
+{
+  "date": "2026-10-25",
+  "tool": "ilspycmd 11.1.0.9782",
+  "sdk": "10.0.300",
+  "target_framework": "net9.0",
+  "configuration": "Debug",
+  "assemblies": [
+    {
+      "assembly": "404NEL",
+      "source_files": 25,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 64,
+      "rebuilt_sha256": "6B9D59B5F1252EA517634AB8630F5EF3073D9A64AC847080E2EDF93D866E8E7C"
+    },
+    {
+      "assembly": "Codexus.Protocol772Compat",
+      "source_files": 10,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 1,
+      "rebuilt_sha256": "6935789B84146E86A164AEF7B477148197E76959C7C1ACFD629BFFBFE4973537"
+    },
+    {
+      "assembly": "Codexus.Cipher",
+      "source_files": 160,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 70,
+      "rebuilt_sha256": "85390BF5DEABFD9119AC7F56E65CCBD3EA6F342250F29F9A7D5CC2A0CC1A8AEC"
+    },
+    {
+      "assembly": "Codexus.Development.SDK",
+      "source_files": 51,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 37,
+      "rebuilt_sha256": "1C37BE4076529BB5D336E684A64D91480A37D5B6C8F7A1114A8DEB898A3C7A87"
+    },
+    {
+      "assembly": "Codexus.Game.Launcher",
+      "source_files": 30,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 43,
+      "rebuilt_sha256": "2526A895ED8A92E5992DDE338520AE2A1DFFF436A5787A240F428C2709E62E8E"
+    },
+    {
+      "assembly": "Codexus.Interceptors",
+      "source_files": 16,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 5,
+      "rebuilt_sha256": "CBBAB143795EBF878B0D41A5C462502137C23511DE18415111B1D802F68CC3FE"
+    },
+    {
+      "assembly": "Codexus.OpenSDK",
+      "source_files": 64,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 42,
+      "rebuilt_sha256": "B56CE3A7CB0447DE5B081C4655AD4791C2AA734927757BC6DCAE868FD117CFEA"
+    },
+    {
+      "assembly": "Downloader",
+      "source_files": 31,
+      "rebuild_passed": true,
+      "errors": 0,
+      "warnings": 3,
+      "rebuilt_sha256": "66C46538B1BCBFF43FCE19D6862F614E1A1CF7F5F454C462719EBACE529C8374"
+    }
+  ],
+  "metadata_repair": {
+    "assembly": "404NEL",
+    "rename_count": 502,
+    "original_sha256": "35DE8E10DD42953C19E02A5607404C6D726AC0858662F2FEDF5205B193FCF8D6",
+    "repaired_copy_sha256": "BDC5D64F551056E68DCC465B28A701A76FAFA33D513B8E55EDD975255737FF1B",
+    "mapping": "404NEL-metadata-renames.json",
+    "operation": "Rename duplicate nested types and fields named <>c using their metadata tokens. No method bodies intentionally changed."
+  },
+  "additional_dependency": {
+    "package": "System.Management",
+    "version": "9.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.management/9.0.0/system.management.9.0.0.nupkg",
+    "package_sha256": "5322CEE5D80D542EEB053D52EA8FC8C7A1101A5553496510B550BEFDCC9391F4"
+  },
+  "input_dependencies": [
+    {
+      "file": "404NEL.dll",
+      "bytes": 195072,
+      "sha256": "35DE8E10DD42953C19E02A5607404C6D726AC0858662F2FEDF5205B193FCF8D6",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "BarsGroup.CodeGuard.dll",
+      "bytes": 18944,
+      "sha256": "2542FFD877B368A90904918B00C50B0486C48DD9DF4A5200D38DA9D5601C6C7D",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "BouncyCastle.Cryptography.dll",
+      "bytes": 4924576,
+      "sha256": "E5EEAF6D263C493619982FD3638E6135077311D08C961E1FE128F9107D29EBC6",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Codexus.Cipher.dll",
+      "bytes": 281088,
+      "sha256": "765A192E3DEF2D1C461CB1814B6B4F3FC276C9BFEF3181A25B218D5FE8154D99",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "Codexus.Development.SDK.dll",
+      "bytes": 87040,
+      "sha256": "D8247CBF85C609CBF5950073F00DE4030F514064ECB1C5E1AA4C58762072B91C",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "Codexus.Game.Launcher.dll",
+      "bytes": 122880,
+      "sha256": "144749AFADB98D64D0EA5BAB7339E51670688128BC1DC6A22ACB2B01E4C65EBB",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "Codexus.Interceptors.dll",
+      "bytes": 29184,
+      "sha256": "62944F92E8B55D6D0317F88FB6619786D942E576766F29EF98A08A329C90DBD1",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "Codexus.OpenSDK.dll",
+      "bytes": 119808,
+      "sha256": "6D16B6A68A2C16CE9BD394B4CA2560CC6EB43A150D632E36792B27ADBBD85D3A",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "Codexus.Protocol772Compat.dll",
+      "bytes": 8704,
+      "sha256": "2B400AD173068092E5A3407F9644ED013DCDAF7F680040CFF3FB43290CA93AE1",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "DotNetty.Buffers.dll",
+      "bytes": 180256,
+      "sha256": "65F066D108192CEFC6E44F18E2D92CF338BE30056F4FAD02D6B8EA692F81BD37",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "DotNetty.Codecs.dll",
+      "bytes": 143280,
+      "sha256": "809D9E582CE909356B34EF8D4F212ADEA5D5CA25E1492A31CCB81A6F9BE23070",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "DotNetty.Common.dll",
+      "bytes": 152096,
+      "sha256": "7A375647446F11A5D5F5EDDF72F0327B4B69956A91917100D0F4D8F120FA7962",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "DotNetty.Transport.dll",
+      "bytes": 187824,
+      "sha256": "F393993CC027EC61F758B8832029B21F2EFD8583807E0AA06AF4DF90D239EB09",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Downloader.dll",
+      "bytes": 132608,
+      "sha256": "DF55DB4BEB1D91E14F4D65547B37CE33A9BC25826C1F26D08E8806647E6201B4",
+      "source": "Original archive _internal/SDK"
+    },
+    {
+      "file": "ICSharpCode.SharpZipLib.dll",
+      "bytes": 258048,
+      "sha256": "32EA2D0CE3512E74F1C7AD82591FE67E6B8939D76A8A4FF9C93EAD030131E71C",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "log4net.dll",
+      "bytes": 221184,
+      "sha256": "DDE0278246298776F9D7FA731CEF6463A4DBD5A53B7034E88ACA30852E272B73",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bytes": 65832,
+      "sha256": "6A7F6994787EDE8468315D36FBC327A876113E619150ACE6057F87494A5A784E",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.DependencyInjection.dll",
+      "bytes": 74120,
+      "sha256": "865FC0BFB4E82F536A570EA5711DFDAE4B1B9C3651C0235C616B40A813AC3991",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.Logging.Abstractions.dll",
+      "bytes": 67344,
+      "sha256": "34AAC3328C97230A3BA8BA66997AF5250D460E7F98CFA5FF4E25DA11C529279E",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.Logging.dll",
+      "bytes": 42376,
+      "sha256": "565B0ABF9CD781D2B432B6075EBF57954097C2EC0D23B01423F0B53C4157733E",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.Options.dll",
+      "bytes": 54664,
+      "sha256": "61F2BA665D119A5254A81243ECA872EEEE07116D834677B45528AA03A62AB345",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Microsoft.Extensions.Primitives.dll",
+      "bytes": 39296,
+      "sha256": "7F63E0A1FB6A124291BAE88093A4B5307CA03AEA99047CC1D07381DEF47DDD35",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "OpenTl.Netty.Socks.dll",
+      "bytes": 72704,
+      "sha256": "05CA2921D738C1480512432356F33C1CEDB7E1570C6AC4A41843A24ED7ACA822",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "Serilog.dll",
+      "bytes": 161792,
+      "sha256": "9FBF7441A9BDC9459652DC66E18F008040651F14CB8D7A7BB806AC4A8B722D10",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "SharpCompress.dll",
+      "bytes": 790016,
+      "sha256": "786913CF3CD9B3A64A221683A819A2F5D075FB579BD2542AC4614742B3E02F57",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "System.IO.Hashing.dll",
+      "bytes": 56592,
+      "sha256": "9AF231F932DF580E52C6CC85D975CBD850CC021CF8837FE2AAB22CA866683E33",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    },
+    {
+      "file": "System.Management.dll",
+      "bytes": 313624,
+      "sha256": "35F32EB5D4D34457DFAE571998490E7D518D78C8EEA294ACBDF678D85F8A19CD",
+      "source": "Official NuGet System.Management 9.0.0, runtimes/win/lib/net9.0"
+    },
+    {
+      "file": "ZstdSharp.dll",
+      "bytes": 396288,
+      "sha256": "213733A14B58EC1E0E19BE2831FECF0299E8C6391B25413828B78E615106B669",
+      "source": "Original archive _internal/python_app/.bridge_runtime"
+    }
+  ],
+  "limits": [
+    "No input executables were run.",
+    "Assemblies were statically read, not loaded to execute application code.",
+    "Build success is not a runtime or behavior-equivalence test.",
+    "Each recovered project builds against unmodified original dependency DLLs.",
+    "This is the backend only; it is not a recovered full launcher EXE."
+  ]
+}

@@ -12,14 +12,26 @@
   <PropertyGroup />
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\Codexus.Interceptors\Codexus.Interceptors.csproj" />
-    <ProjectReference Include="..\Codexus.Cipher\Codexus.Cipher.csproj" />
+    <Reference Include="Codexus.Interceptors">
+      <HintPath>..\..\lib\Codexus.Interceptors.dll</HintPath>
+    </Reference>
+    <Reference Include="Codexus.Cipher">
+      <HintPath>..\..\lib\Codexus.Cipher.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>..\..\lib\Serilog.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\Codexus.OpenSDK\Codexus.OpenSDK.csproj" />
-    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
-    <ProjectReference Include="..\Codexus.Protocol772Compat\Codexus.Protocol772Compat.csproj" />
-    <ProjectReference Include="..\Codexus.Game.Launcher\Codexus.Game.Launcher.csproj" />
+    <Reference Include="Codexus.OpenSDK">
+      <HintPath>..\..\lib\Codexus.OpenSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Codexus.Development.SDK">
+      <HintPath>..\..\lib\Codexus.Development.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Codexus.Protocol772Compat">
+      <HintPath>..\..\lib\Codexus.Protocol772Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Codexus.Game.Launcher">
+      <HintPath>..\..\lib\Codexus.Game.Launcher.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

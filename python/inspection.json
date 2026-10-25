@@ -1,0 +1,563 @@
+{
+  "bytecode": [
+    {
+      "group": "launcher",
+      "name": "hardened_entry.pyc",
+      "sha256": "0414bd8828ea82b7693a8b4c833eee535a136213d16bf3a679fceecf19f63c85",
+      "code_objects": [
+        {
+          "name": "<module>",
+          "args": [],
+          "names": [
+            "__future__",
+            "annotations",
+            "sys",
+            "flet",
+            "ft",
+            "gui",
+            "_main",
+            "__name__",
+            "argv",
+            "SystemExit",
+            "check_environment",
+            "run"
+          ],
+          "line": 1
+        },
+        {
+          "name": "_main",
+          "args": [
+            "page"
+          ],
+          "names": [
+            "gui",
+            "main"
+          ],
+          "line": 10
+        }
+      ]
+    },
+    {
+      "group": "launcher",
+      "name": "pyi_rth_404_flet.pyc",
+      "sha256": "bab1a78ddb35172c8f00f9acba31da630b09d14ba894bdccc96b4f10b26ce21c",
+      "code_objects": [
+        {
+          "name": "<module>",
+          "args": [],
+          "names": [
+            "__future__",
+            "annotations",
+            "os",
+            "sys",
+            "pathlib",
+            "Path",
+            "getattr",
+            "_MEIPASS",
+            "bundled_flet",
+            "is_file",
+            "str",
+            "environ"
+          ],
+          "line": 1
+        }
+      ]
+    },
+    {
+      "group": "updater",
+      "name": "404_updater.pyc",
+      "sha256": "2810ad22fefc795c61208a2dbf66052d88f2eb8d6e04c025dfbe758edc006df5",
+      "code_objects": [
+        {
+          "name": "<module>",
+          "args": [],
+          "names": [
+            "__future__",
+            "annotations",
+            "argparse",
+            "hashlib",
+            "json",
+            "os",
+            "shutil",
+            "signal",
+            "stat",
+            "subprocess",
+            "time",
+            "traceback",
+            "datetime",
+            "pathlib",
+            "Path",
+            "PurePosixPath",
+            "sha256_file",
+            "relative",
+            "process_exists",
+            "wait_for_process",
+            "windows_process_parent_map",
+            "windows_descendant_process_ids",
+            "windows_ancestor_process_ids",
+            "taskkill_process_tree",
+            "taskkill_process",
+            "close_launcher_process",
+            "replace_with_retry",
+            "restore_file",
+            "is_protected",
+            "write_update_log",
+            "apply",
+            "main",
+            "__name__"
+          ],
+          "line": 1
+        },
+        {
+          "name": "sha256_file",
+          "args": [
+            "path"
+          ],
+          "names": [
+            "hashlib",
+            "sha256",
+            "open",
+            "iter",
+            "update",
+            "hexdigest"
+          ],
+          "line": 17
+        },
+        {
+          "name": "sha256_file.<locals>.<lambda>",
+          "args": [],
+          "names": [
+            "read"
+          ],
+          "line": 20
+        },
+        {
+          "name": "relative",
+          "args": [
+            "value"
+          ],
+          "names": [
+            "PurePosixPath",
+            "str",
+            "replace",
+            "lstrip",
+            "is_absolute",
+            "parts",
+            "RuntimeError",
+            "Path"
+          ],
+          "line": 25
+        },
+        {
+          "name": "process_exists",
+          "args": [
+            "pid"
+          ],
+          "names": [
+            "os",
+            "name",
+            "ctypes",
+            "WinDLL",
+            "c_ulong",
+            "c_int",
+            "OpenProcess",
+            "argtypes",
+            "c_void_p",
+            "restype",
+            "POINTER",
+            "GetExitCodeProcess",
+            "CloseHandle",
+            "get_last_error",
+            "bool",
+            "byref",
+            "value",
+            "kill",
+            "ProcessLookupError",
+            "PermissionError",
+            "OSError"
+          ],
+          "line": 32
+        },
+        {
+          "name": "wait_for_process",
+          "args": [
+            "pid",
+            "timeout"
+          ],
+          "names": [
+            "time",
+            "monotonic",
+            "process_exists",
+            "sleep",
+            "RuntimeError"
+          ],
+          "line": 63
+        },
+        {
+          "name": "windows_process_parent_map",
+          "args": [],
+          "names": [
+            "os",
+            "name",
+            "ctypes",
+            "wintypes",
+            "Structure",
+            "WinDLL",
+            "DWORD",
+            "CreateToolhelp32Snapshot",
+            "argtypes",
+            "HANDLE",
+            "restype",
+            "POINTER",
+            "Process32FirstW",
+            "BOOL",
+            "Process32NextW",
+            "CloseHandle",
+            "c_void_p",
+            "value",
+            "sizeof",
+            "dwSize",
+            "bool",
+            "byref",
+            "int",
+            "th32ParentProcessID",
+            "th32ProcessID"
+          ],
+          "line": 72
+        },
+        {
+          "name": "windows_process_parent_map.<locals>.PROCESSENTRY32W",
+          "args": [],
+          "names": [
+            "__name__",
+            "__module__",
+            "__qualname__",
+            "DWORD",
+            "c_size_t",
+            "c_long",
+            "WCHAR",
+            "_fields_"
+          ],
+          "line": 78
+        },
+        {
+          "name": "windows_descendant_process_ids",
+          "args": [
+            "root_pid"
+          ],
+          "names": [
+            "os",
+            "name",
+            "windows_process_parent_map",
+            "items",
+            "difference_update",
+            "extend",
+            "sorted"
+          ],
+          "line": 118
+        },
+        {
+          "name": "windows_ancestor_process_ids",
+          "args": [
+            "process_pid",
+            "stop_pid"
+          ],
+          "names": [
+            "os",
+            "name",
+            "set",
+            "windows_process_parent_map",
+            "add"
+          ],
+          "line": 139
+        },
+        {
+          "name": "taskkill_process_tree",
+          "args": [
+            "pid"
+          ],
+          "names": [
+            "os",
+            "getpid",
+            "process_exists",
+            "subprocess",
+            "run",
+            "str",
+            "DEVNULL",
+            "getattr"
+          ],
+          "line": 154
+        },
+        {
+          "name": "taskkill_process",
+          "args": [
+            "pid"
+          ],
+          "names": [
+            "os",
+            "getpid",
+            "process_exists",
+            "subprocess",
+            "run",
+            "str",
+            "DEVNULL",
+            "getattr"
+          ],
+          "line": 166
+        },
+        {
+          "name": "close_launcher_process",
+          "args": [
+            "pid",
+            "descendants"
+          ],
+          "names": [
+            "os",
+            "getpid",
+            "windows_descendant_process_ids",
+            "windows_ancestor_process_ids",
+            "process_exists",
+            "wait_for_process",
+            "RuntimeError",
+            "name",
+            "reversed",
+            "taskkill_process_tree",
+            "taskkill_process",
+            "kill",
+            "signal",
+            "SIGTERM"
+          ],
+          "line": 178
+        },
+        {
+          "name": "replace_with_retry",
+          "args": [
+            "source",
+            "target",
+            "timeout"
+          ],
+          "names": [
+            "time",
+            "monotonic",
+            "exists",
+            "chmod",
+            "stat",
+            "st_mode",
+            "S_IWRITE",
+            "OSError",
+            "os",
+            "replace",
+            "getattr",
+            "PermissionError",
+            "sleep",
+            "min"
+          ],
+          "line": 205
+        },
+        {
+          "name": "restore_file",
+          "args": [
+            "source",
+            "target"
+          ],
+          "names": [
+            "with_name",
+            "name",
+            "unlink",
+            "shutil",
+            "copy2",
+            "replace_with_retry"
+          ],
+          "line": 229
+        },
+        {
+          "name": "is_protected",
+          "args": [
+            "path",
+            "prefixes"
+          ],
+          "names": [
+            "replace",
+            "strip",
+            "lower",
+            "any"
+          ],
+          "line": 236
+        },
+        {
+          "name": "is_protected.<locals>.<genexpr>",
+          "args": [
+            ".0"
+          ],
+          "names": [
+            "lower",
+            "strip",
+            "startswith"
+          ],
+          "line": 238
+        },
+        {
+          "name": "write_update_log",
+          "args": [
+            "app_root",
+            "message"
+          ],
+          "names": [
+            "parent",
+            "mkdir",
+            "datetime",
+            "now",
+            "strftime",
+            "open",
+            "write",
+            "OSError"
+          ],
+          "line": 241
+        },
+        {
+          "name": "apply",
+          "args": [
+            "plan_path",
+            "wait_pid",
+            "ready_file"
+          ],
+          "names": [
+            "json",
+            "loads",
+            "read_text",
+            "Path",
+            "resolve",
+            "windows_descendant_process_ids",
+            "write_update_log",
+            "len",
+            "parent",
+            "mkdir",
+            "write_text",
+            "close_launcher_process",
+            "time",
+            "sleep",
+            "str",
+            "exists",
+            "shutil",
+            "rmtree",
+            "relative",
+            "is_file",
+            "sha256_file",
+            "RuntimeError",
+            "copy2",
+            "append",
+            "with_name",
+            "name",
+            "unlink",
+            "replace_with_retry",
+            "as_posix",
+            "replace",
+            "lower",
+            "get",
+            "is_dir",
+            "rglob",
+            "relative_to",
+            "add",
+            "sorted",
+            "is_protected",
+            "move",
+            "Exception",
+            "type",
+            "__name__",
+            "reversed",
+            "restore_file"
+          ],
+          "line": 252
+        },
+        {
+          "name": "main",
+          "args": [],
+          "names": [
+            "argparse",
+            "ArgumentParser",
+            "add_argument",
+            "int",
+            "parse_args",
+            "ready_file",
+            "Path",
+            "resolve",
+            "plan",
+            "apply",
+            "wait_pid",
+            "write_update_log",
+            "parent",
+            "subprocess",
+            "Popen",
+            "str",
+            "Exception",
+            "json",
+            "loads",
+            "read_text",
+            "get",
+            "traceback",
+            "format_exc",
+            "rstrip",
+            "is_file"
+          ],
+          "line": 345
+        }
+      ]
+    }
+  ],
+  "native_modules": [
+    {
+      "file": "app_updater.cp312-win_amd64.pyd",
+      "size": 162304,
+      "sha256": "9d493432dd2a9fa1f16d86e1732361e321feed9da123bc739ac7a09182cd6796",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "auth_client.cp312-win_amd64.pyd",
+      "size": 177152,
+      "sha256": "1345d4226a2b1f286b61c86108265929fa997a530d726d947fb4e03785971de2",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "dotnet_bridge.cp312-win_amd64.pyd",
+      "size": 446464,
+      "sha256": "89a930f9bc6468958571375012512d2dfaa645e82ac1c736779d419a9e5e741f",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "game_launcher.cp312-win_amd64.pyd",
+      "size": 927232,
+      "sha256": "1850c72a4e5012aa002b896bc7a5f030c0883e2e1ada8300db4c00dbb23a4266",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "gui.cp312-win_amd64.pyd",
+      "size": 2311680,
+      "sha256": "45ed377258d7079d02ca73ada22b3c30cdb00ea2350158643fcb3dac33722b0c",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "official_4399_sdk.cp312-win_amd64.pyd",
+      "size": 111104,
+      "sha256": "180a306170f414f218e0c2c703860c89800ed64646dbc81b8ca371008224f6ec",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "sauth4399_client.cp312-win_amd64.pyd",
+      "size": 201728,
+      "sha256": "d6c42b527084c2da5bf89a7d6665d240753a3c326de794187b30a247f03fc5dd",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "_brotli.cp312-win_amd64.pyd",
+      "size": 856576,
+      "sha256": "1e4cf067342ee168410560db9bbba370a1b609abc028bff61a3dcc1274dfcd16",
+      "cython_symbol_count": 1
+    },
+    {
+      "file": "_cffi_backend.cp312-win_amd64.pyd",
+      "size": 181248,
+      "sha256": "53de34afc3939d81bf2498b77425c52e2c3f3164f8cfe2543d3acc8f24134488",
+      "cython_symbol_count": 1
+    }
+  ]
+}

@@ -1,0 +1,4668 @@
+{
+  "audit_date": "2026-10-25",
+  "method": "Static file parsing, decompression, marshal parsing, compile-only comparison; no launcher application code executed",
+  "verdict": {
+    "pyinstaller_archives_extracted_and_payloads_validated": true,
+    "business_native_module_source_fully_recovered": false,
+    "full_original_source_recovered": false,
+    "complete_unpacking_or_deprotection_proven": false,
+    "standalone_full_launcher_rebuild_from_source_proven": false,
+    "runtime_behavior_equivalence_tested": false
+  },
+  "interpretation": "PyInstaller container extraction is confirmed. Cython compilation is not itself proof of a remaining executable packer. Original native binaries and .NET obfuscated metadata remain; complete deprotection and complete source recovery cannot be claimed.",
+  "native_business_modules": [
+    {
+      "file": "app_updater.cp312-win_amd64.pyd",
+      "bytes": 162304,
+      "sha256": "9d493432dd2a9fa1f16d86e1732361e321feed9da123bc739ac7a09182cd6796",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 118888,
+          "virtual_address": 4096,
+          "raw_size": 119296,
+          "raw_offset": 1024,
+          "entropy": 6.0842
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 27888,
+          "virtual_address": 126976,
+          "raw_size": 28160,
+          "raw_offset": 120320,
+          "entropy": 5.2087
+        },
+        {
+          "name": ".data",
+          "virtual_size": 10768,
+          "virtual_address": 155648,
+          "raw_size": 7680,
+          "raw_offset": 148480,
+          "entropy": 1.4543
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 3672,
+          "virtual_address": 167936,
+          "raw_size": 4096,
+          "raw_offset": 156160,
+          "entropy": 4.9416
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 172032,
+          "raw_size": 512,
+          "raw_offset": 160256,
+          "entropy": 2.5274
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 1076,
+          "virtual_address": 176128,
+          "raw_size": 1536,
+          "raw_offset": 160768,
+          "entropy": 4.4865
+        }
+      ],
+      "exports": [
+        "PyInit_app_updater"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "app_updater",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "auth_client.cp312-win_amd64.pyd",
+      "bytes": 177152,
+      "sha256": "1345d4226a2b1f286b61c86108265929fa997a530d726d947fb4e03785971de2",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 127640,
+          "virtual_address": 4096,
+          "raw_size": 128000,
+          "raw_offset": 1024,
+          "entropy": 6.1457
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 31070,
+          "virtual_address": 135168,
+          "raw_size": 31232,
+          "raw_offset": 129024,
+          "entropy": 5.2798
+        },
+        {
+          "name": ".data",
+          "virtual_size": 14040,
+          "virtual_address": 167936,
+          "raw_size": 10240,
+          "raw_offset": 160256,
+          "entropy": 1.3343
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 4128,
+          "virtual_address": 184320,
+          "raw_size": 4608,
+          "raw_offset": 170496,
+          "entropy": 4.918
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 192512,
+          "raw_size": 512,
+          "raw_offset": 175104,
+          "entropy": 2.5274
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 1236,
+          "virtual_address": 196608,
+          "raw_size": 1536,
+          "raw_offset": 175616,
+          "entropy": 4.8772
+        }
+      ],
+      "exports": [
+        "PyInit_auth_client"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "auth_client",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "dotnet_bridge.cp312-win_amd64.pyd",
+      "bytes": 446464,
+      "sha256": "89a930f9bc6468958571375012512d2dfaa645e82ac1c736779d419a9e5e741f",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 344232,
+          "virtual_address": 4096,
+          "raw_size": 344576,
+          "raw_offset": 1024,
+          "entropy": 6.2151
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 70188,
+          "virtual_address": 352256,
+          "raw_size": 70656,
+          "raw_offset": 345600,
+          "entropy": 5.6133
+        },
+        {
+          "name": ".data",
+          "virtual_size": 29280,
+          "virtual_address": 425984,
+          "raw_size": 18944,
+          "raw_offset": 416256,
+          "entropy": 1.2385
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 7440,
+          "virtual_address": 458752,
+          "raw_size": 7680,
+          "raw_offset": 435200,
+          "entropy": 5.56
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 466944,
+          "raw_size": 512,
+          "raw_offset": 442880,
+          "entropy": 2.5237
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 2724,
+          "virtual_address": 471040,
+          "raw_size": 3072,
+          "raw_offset": 443392,
+          "entropy": 5.1073
+        }
+      ],
+      "exports": [
+        "PyInit_dotnet_bridge"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "dotnet_bridge",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "game_launcher.cp312-win_amd64.pyd",
+      "bytes": 927232,
+      "sha256": "1850c72a4e5012aa002b896bc7a5f030c0883e2e1ada8300db4c00dbb23a4266",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 768760,
+          "virtual_address": 4096,
+          "raw_size": 769024,
+          "raw_offset": 1024,
+          "entropy": 6.2065
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 125434,
+          "virtual_address": 774144,
+          "raw_size": 125440,
+          "raw_offset": 770048,
+          "entropy": 5.7977
+        },
+        {
+          "name": ".data",
+          "virtual_size": 31984,
+          "virtual_address": 901120,
+          "raw_size": 15360,
+          "raw_offset": 895488,
+          "entropy": 1.6474
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 10956,
+          "virtual_address": 933888,
+          "raw_size": 11264,
+          "raw_offset": 910848,
+          "entropy": 5.8358
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 946176,
+          "raw_size": 512,
+          "raw_offset": 922112,
+          "entropy": 2.5313
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 4284,
+          "virtual_address": 950272,
+          "raw_size": 4608,
+          "raw_offset": 922624,
+          "entropy": 5.1373
+        }
+      ],
+      "exports": [
+        "PyInit_game_launcher"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "game_launcher",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "gui.cp312-win_amd64.pyd",
+      "bytes": 2311680,
+      "sha256": "45ed377258d7079d02ca73ada22b3c30cdb00ea2350158643fcb3dac33722b0c",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 1950776,
+          "virtual_address": 4096,
+          "raw_size": 1951232,
+          "raw_offset": 1024,
+          "entropy": 6.265
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 219014,
+          "virtual_address": 1957888,
+          "raw_size": 219136,
+          "raw_offset": 1952256,
+          "entropy": 5.8701
+        },
+        {
+          "name": ".data",
+          "virtual_size": 148352,
+          "virtual_address": 2179072,
+          "raw_size": 102912,
+          "raw_offset": 2171392,
+          "entropy": 0.9794
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 27012,
+          "virtual_address": 2330624,
+          "raw_size": 27136,
+          "raw_offset": 2274304,
+          "entropy": 6.0636
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 2359296,
+          "raw_size": 512,
+          "raw_offset": 2301440,
+          "entropy": 2.512
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 9324,
+          "virtual_address": 2363392,
+          "raw_size": 9728,
+          "raw_offset": 2301952,
+          "entropy": 5.2912
+        }
+      ],
+      "exports": [
+        "PyInit_gui"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "gui",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "official_4399_sdk.cp312-win_amd64.pyd",
+      "bytes": 111104,
+      "sha256": "180a306170f414f218e0c2c703860c89800ed64646dbc81b8ca371008224f6ec",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 80120,
+          "virtual_address": 4096,
+          "raw_size": 80384,
+          "raw_offset": 1024,
+          "entropy": 6.0626
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 22636,
+          "virtual_address": 86016,
+          "raw_size": 23040,
+          "raw_offset": 81408,
+          "entropy": 5.2442
+        },
+        {
+          "name": ".data",
+          "virtual_size": 4824,
+          "virtual_address": 110592,
+          "raw_size": 2560,
+          "raw_offset": 104448,
+          "entropy": 1.6153
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 2220,
+          "virtual_address": 118784,
+          "raw_size": 2560,
+          "raw_offset": 107008,
+          "entropy": 4.5411
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 122880,
+          "raw_size": 512,
+          "raw_offset": 109568,
+          "entropy": 2.525
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 748,
+          "virtual_address": 126976,
+          "raw_size": 1024,
+          "raw_offset": 110080,
+          "entropy": 4.4683
+        }
+      ],
+      "exports": [
+        "PyInit_official_4399_sdk"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "official_4399_sdk",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    },
+    {
+      "file": "sauth4399_client.cp312-win_amd64.pyd",
+      "bytes": 201728,
+      "sha256": "d6c42b527084c2da5bf89a7d6665d240753a3c326de794187b30a247f03fc5dd",
+      "machine": "0x8664",
+      "format": "PE32+",
+      "clr_directory_present": false,
+      "clr_directory_bytes": 0,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 150776,
+          "virtual_address": 4096,
+          "raw_size": 151040,
+          "raw_offset": 1024,
+          "entropy": 6.1326
+        },
+        {
+          "name": ".rdata",
+          "virtual_size": 38258,
+          "virtual_address": 155648,
+          "raw_size": 38400,
+          "raw_offset": 152064,
+          "entropy": 5.5823
+        },
+        {
+          "name": ".data",
+          "virtual_size": 9744,
+          "virtual_address": 196608,
+          "raw_size": 5120,
+          "raw_offset": 190464,
+          "entropy": 1.7087
+        },
+        {
+          "name": ".pdata",
+          "virtual_size": 3984,
+          "virtual_address": 208896,
+          "raw_size": 4096,
+          "raw_offset": 195584,
+          "entropy": 5.1655
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 248,
+          "virtual_address": 212992,
+          "raw_size": 512,
+          "raw_offset": 199680,
+          "entropy": 2.5313
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 1336,
+          "virtual_address": 217088,
+          "raw_size": 1536,
+          "raw_offset": 200192,
+          "entropy": 4.9974
+        }
+      ],
+      "exports": [
+        "PyInit_sauth4399_client"
+      ],
+      "cython_version_marker": true,
+      "upx_section_marker": false,
+      "module": "sauth4399_client",
+      "matches_original_binary": true,
+      "expected_python_init_export_found": true,
+      "matching_source_or_pyc_files_in_recovery": []
+    }
+  ],
+  "pyinstaller_archives": [
+    {
+      "file": "404Launcher.exe",
+      "cookie_found": true,
+      "python_version": 312,
+      "python_library": "python312.dll",
+      "toc_entries": 16,
+      "all_entry_payloads_decompressed_and_size_checked": true,
+      "recovered_pyz_matches_original_exe": true,
+      "recovered_entry_pyc_payloads_match_original_exe": true,
+      "entries": [
+        {
+          "name": "struct",
+          "type": "m",
+          "bytes": 289,
+          "sha256": "3c0a9560a87d9cbe2f3c39b2fea9f562edaae838533c6c93e5ff0a32d3db49f6"
+        },
+        {
+          "name": "pyimod01_archive",
+          "type": "m",
+          "bytes": 4826,
+          "sha256": "11051ee22b9ee80417edafb0bc633a276fe9e3cf96dc163919d40a2b8817d829"
+        },
+        {
+          "name": "pyimod02_importers",
+          "type": "m",
+          "bytes": 32114,
+          "sha256": "4f9541c100c1435b6c1b85cf8752a7d68b44056b4a117ca805ff66babf59be01"
+        },
+        {
+          "name": "pyimod03_ctypes",
+          "type": "m",
+          "bytes": 6130,
+          "sha256": "af3124fe4edf2b0df6261ef21047333a25be613f87ccd3ca258a934e1f5d3821"
+        },
+        {
+          "name": "pyimod04_pywin32",
+          "type": "m",
+          "bytes": 1614,
+          "sha256": "7298b372e1587404d23f8fe05d134bc4799c2d291f60123b709ba2c4238ab4f4"
+        },
+        {
+          "name": "pyiboot01_bootstrap",
+          "type": "s",
+          "bytes": 1809,
+          "sha256": "2d6b13c3667e15ad907b62ed06e0cde01a29b585d12de58d6182e2bc384d2418"
+        },
+        {
+          "name": "pyi_rth_404_flet",
+          "type": "s",
+          "bytes": 669,
+          "sha256": "dcc2dc5ae4e7799a59a5b4c6aac05f5cab4cbae6b2c4cbb1c76600b1bc7e4e19"
+        },
+        {
+          "name": "pyi_rth_inspect",
+          "type": "s",
+          "bytes": 2700,
+          "sha256": "5f56c6eaf9cd09a37b90f6931164e1f819d081df0d015dc57c8fb20525ab2c65"
+        },
+        {
+          "name": "pyi_rth_pkgutil",
+          "type": "s",
+          "bytes": 1509,
+          "sha256": "fdfd974f0e7532297885929ee61fe613cfe7aa7955688ad53892400f7dff7c28"
+        },
+        {
+          "name": "pyi_rth_multiprocessing",
+          "type": "s",
+          "bytes": 1834,
+          "sha256": "0d01976c9f858f87ebf7c3e2c84715f18e48e0881461a06c9c7ffb9de73cc756"
+        },
+        {
+          "name": "pyi_rth_setuptools",
+          "type": "s",
+          "bytes": 998,
+          "sha256": "4db87e787266e2cf28a122ea82239667351906e9cf7cbff4d7a09e00c608cefb"
+        },
+        {
+          "name": "pyi_rth_cryptography_openssl",
+          "type": "s",
+          "bytes": 459,
+          "sha256": "79b05b8269e38473951b90d45d6906aea7bc44aa9ffdac779ebcad0b68c6d2a6"
+        },
+        {
+          "name": "pyi_rth_pkgres",
+          "type": "s",
+          "bytes": 6655,
+          "sha256": "5b98650ed7ce8f09def8d749432ea5c887a7e46e5734b4b9d33c8d4d848e1ff0"
+        },
+        {
+          "name": "hardened_entry",
+          "type": "s",
+          "bytes": 700,
+          "sha256": "bcb57c046c23064be1ad2e1b6888c1fa1639b52ae4473fd59ef63523f5556fbc"
+        },
+        {
+          "name": "pyi-contents-directory _internal",
+          "type": "o",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "PYZ.pyz",
+          "type": "z",
+          "bytes": 11520413,
+          "sha256": "0b6fc66da2abb724af8761653214c7391a24cab39d2748baf593d596c0d4fa3e"
+        }
+      ]
+    },
+    {
+      "file": "404Updater.exe",
+      "cookie_found": true,
+      "python_version": 312,
+      "python_library": "python312.dll",
+      "toc_entries": 66,
+      "all_entry_payloads_decompressed_and_size_checked": true,
+      "recovered_pyz_matches_original_exe": true,
+      "recovered_entry_pyc_payloads_match_original_exe": true,
+      "entries": [
+        {
+          "name": "struct",
+          "type": "m",
+          "bytes": 289,
+          "sha256": "3c0a9560a87d9cbe2f3c39b2fea9f562edaae838533c6c93e5ff0a32d3db49f6"
+        },
+        {
+          "name": "pyimod01_archive",
+          "type": "m",
+          "bytes": 4826,
+          "sha256": "11051ee22b9ee80417edafb0bc633a276fe9e3cf96dc163919d40a2b8817d829"
+        },
+        {
+          "name": "pyimod02_importers",
+          "type": "m",
+          "bytes": 32114,
+          "sha256": "4f9541c100c1435b6c1b85cf8752a7d68b44056b4a117ca805ff66babf59be01"
+        },
+        {
+          "name": "pyimod03_ctypes",
+          "type": "m",
+          "bytes": 6130,
+          "sha256": "af3124fe4edf2b0df6261ef21047333a25be613f87ccd3ca258a934e1f5d3821"
+        },
+        {
+          "name": "pyimod04_pywin32",
+          "type": "m",
+          "bytes": 1614,
+          "sha256": "7298b372e1587404d23f8fe05d134bc4799c2d291f60123b709ba2c4238ab4f4"
+        },
+        {
+          "name": "pyiboot01_bootstrap",
+          "type": "s",
+          "bytes": 1809,
+          "sha256": "2d6b13c3667e15ad907b62ed06e0cde01a29b585d12de58d6182e2bc384d2418"
+        },
+        {
+          "name": "pyi_rth_inspect",
+          "type": "s",
+          "bytes": 2700,
+          "sha256": "5f56c6eaf9cd09a37b90f6931164e1f819d081df0d015dc57c8fb20525ab2c65"
+        },
+        {
+          "name": "404_updater",
+          "type": "s",
+          "bytes": 22046,
+          "sha256": "6fba45bb11e8e79a403299eed820947875880d1195df38bed33e484bbc06122e"
+        },
+        {
+          "name": "VCRUNTIME140.dll",
+          "type": "b",
+          "bytes": 120400,
+          "sha256": "36585912e5eaf83ba9fea0631534f690ccdc2d7ba91537166fe53e56c221e153"
+        },
+        {
+          "name": "_bz2.pyd",
+          "type": "b",
+          "bytes": 86888,
+          "sha256": "0ec5bdf4c688c1d2bda00f61e1f9e1369188c1019173a5412981f6569a997347"
+        },
+        {
+          "name": "_ctypes.pyd",
+          "type": "b",
+          "bytes": 127848,
+          "sha256": "ed4170b2c2c302639301a01c6aac4c5575e6e4c936edc803d3ba6c34444e35e1"
+        },
+        {
+          "name": "_decimal.pyd",
+          "type": "b",
+          "bytes": 259432,
+          "sha256": "b6edd193dc93d61846be47addd36655aaaf6749ea0409564d04bee6f785ffa15"
+        },
+        {
+          "name": "_hashlib.pyd",
+          "type": "b",
+          "bytes": 67576,
+          "sha256": "dfacbb48ade3d53780ff1e6875da90930a4a5d593e21984779079bd6f98f3768"
+        },
+        {
+          "name": "_lzma.pyd",
+          "type": "b",
+          "bytes": 160616,
+          "sha256": "ed997ca4956fe7e27cc702adaa8d31136312361d285b7b845c8829d8c5a89ae8"
+        },
+        {
+          "name": "_socket.pyd",
+          "type": "b",
+          "bytes": 85864,
+          "sha256": "961dc7c65a28c174688e2f6b7803a615b9c034849a17cfc6527a27ccb2eeadb0"
+        },
+        {
+          "name": "api-ms-win-core-console-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "88ace577a9c51061cb7d1a36babbbefa48212fadc838ffde98fdfff60de18386"
+        },
+        {
+          "name": "api-ms-win-core-datetime-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "1bd81dfd19204b44662510d9054852fb77c9f25c1088d647881c9b976cc16818"
+        },
+        {
+          "name": "api-ms-win-core-debug-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21944,
+          "sha256": "591358eb4d1531e9563ee0813e4301c552ce364c912ce684d16576eabf195dc3"
+        },
+        {
+          "name": "api-ms-win-core-errorhandling-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "d56ce7b1cd76108ad6c137326ec694a14c99d48c3d7b0ace8c3ff4d9bcee3ce8"
+        },
+        {
+          "name": "api-ms-win-core-fibers-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "91d249d7bc0e38ef6bcb17158b1fdc6dd8888dc086615c9b8b750b87e52a5fb3"
+        },
+        {
+          "name": "api-ms-win-core-fibers-l1-1-1.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "fc9d86cec621383eab636ebc87ddd3f5c19a3cb2a33d97be112c051d0b275429"
+        },
+        {
+          "name": "api-ms-win-core-file-l1-1-0.dll",
+          "type": "b",
+          "bytes": 26152,
+          "sha256": "1ca895aba4e7435563a6b43e85eba67a0f8c74aa6a6a94d0fc48fa35535e2585"
+        },
+        {
+          "name": "api-ms-win-core-file-l1-2-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "4cadbc0c39da7c6722206fdcebd670abe5b8d261e7b041dd94f9397a89d1990d"
+        },
+        {
+          "name": "api-ms-win-core-file-l2-1-0.dll",
+          "type": "b",
+          "bytes": 21960,
+          "sha256": "93c624b366ba16c643fc8933070a26f03b073ad0cf7f80173266d67536c61989"
+        },
+        {
+          "name": "api-ms-win-core-handle-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21944,
+          "sha256": "39095f59c41d76ec81bb2723d646fde4c148e7cc3402f4980d2ade95cb9c84f9"
+        },
+        {
+          "name": "api-ms-win-core-heap-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "8f105771b236dbcb859de271f0a6822ce1cb79c36988dd42c9e3f6f55c5f7eb9"
+        },
+        {
+          "name": "api-ms-win-core-interlocked-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "53b25e753ca785bf8b695d89dde5818a318890211dc992a89146f16658f0b606"
+        },
+        {
+          "name": "api-ms-win-core-kernel32-legacy-l1-1-1.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "a9b13a1cd1b8c19b0c6b4afcd5bb0dd29c0e2288231ac9e6db8510094ce68ba6"
+        },
+        {
+          "name": "api-ms-win-core-libraryloader-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "7f39ba298b41e4963047341288cab36b6a241835ee11ba4ad70f44dacd40906c"
+        },
+        {
+          "name": "api-ms-win-core-localization-l1-2-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "6ee44dd0d8510dc024c9f7c79b1b9fa88c987b26b6beb6653ddd11751c34e5dc"
+        },
+        {
+          "name": "api-ms-win-core-memory-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "0512a35316ec9180437f86696a84c5c06a7e4e82e050055a656e5bf9fca206f9"
+        },
+        {
+          "name": "api-ms-win-core-namedpipe-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "c05f1fffe3b5a2738ea54ce9485cca026fb9635f982626fba1e1dcc531897273"
+        },
+        {
+          "name": "api-ms-win-core-processenvironment-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21968,
+          "sha256": "c4eca98c3c67b6395d5b005b00ac1eb0318b86b23aa71035a44c2b1602befba9"
+        },
+        {
+          "name": "api-ms-win-core-processthreads-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "5ccb89e93d67bc3288d4e84649c5346e66e15e3d7cd65d989daf3f4cb584be9a"
+        },
+        {
+          "name": "api-ms-win-core-processthreads-l1-1-1.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "4ad565a8ba3ef0ea8ab87221ad11f83ee0bc844ce236607958406663b407333e"
+        },
+        {
+          "name": "api-ms-win-core-profile-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "7809160932f44e59b021699f5bc68799eb7293ee1fa926d6fcca3c3445302e61"
+        },
+        {
+          "name": "api-ms-win-core-rtlsupport-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21960,
+          "sha256": "9dc1e91e71c7c054854bd1487cb4e6946d82c9f463430f1c4e8d1471005172b1"
+        },
+        {
+          "name": "api-ms-win-core-string-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "60fc31d2a0c634412f529dba76af3b9bf991352877c6dae528186d3935704cfd"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "3a72b4f29f39a265d32ad12f0ce15dbf60129c840e10d84d427829ede45e78ad"
+        },
+        {
+          "name": "api-ms-win-core-synch-l1-2-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "efc1e4460984a73cf47a3def033af1c8f3b1dbc1a56cd27781d3aacf3e3330cb"
+        },
+        {
+          "name": "api-ms-win-core-sysinfo-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22072,
+          "sha256": "b203d862ddef1dd62bf623fc866c7f7a9c317c1c2ae30d1f52cb41f955b5698e"
+        },
+        {
+          "name": "api-ms-win-core-sysinfo-l1-2-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "2703635d835396afd0f138d7c73751afe7e33a24f4225d08c1690b0a371932c0"
+        },
+        {
+          "name": "api-ms-win-core-timezone-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "33f4fddc181066fce06b2227bded813f95e94ed1f3d785e982c6b6b56c510c57"
+        },
+        {
+          "name": "api-ms-win-core-util-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21944,
+          "sha256": "6eda016742a6171205a387a14b3c0b331841567740376f56768f8c151724207d"
+        },
+        {
+          "name": "api-ms-win-crt-conio-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "b762061b688aae679afe788904d2c9970f74a7dac98f3b42463d08f25e483d3f"
+        },
+        {
+          "name": "api-ms-win-crt-convert-l1-1-0.dll",
+          "type": "b",
+          "bytes": 26056,
+          "sha256": "ebb2ae5535a64f65daeab8235585114fc9dd2cf1a49f5852d446250b998b6ae4"
+        },
+        {
+          "name": "api-ms-win-crt-environment-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "17d63275d00bdd8670422b95bd264c532998e0a1b041079e54fce4b6b7a55819"
+        },
+        {
+          "name": "api-ms-win-crt-filesystem-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22056,
+          "sha256": "9a9e2a65a281644e368d0f272b95ba5f6b445d1c35910d06056c5ebeb77402db"
+        },
+        {
+          "name": "api-ms-win-crt-heap-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "bab9ac3ec83e380ae51e4295ef3bf2c738627812d3a49d1e713661abbc8dc57a"
+        },
+        {
+          "name": "api-ms-win-crt-locale-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22080,
+          "sha256": "bd14c67ea28e21d6257ad780a37122c9b5773f69e693f5db6bffaee4d839526e"
+        },
+        {
+          "name": "api-ms-win-crt-math-l1-1-0.dll",
+          "type": "b",
+          "bytes": 30248,
+          "sha256": "606d66d82db562ea7979179d06486a0f94d079941d26b80a1e2c49d29959df6f"
+        },
+        {
+          "name": "api-ms-win-crt-process-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "f6156b1020380ec4f0e48577ebedaaef5fb1ab1f337d8b4e72e6a33a7567a9cc"
+        },
+        {
+          "name": "api-ms-win-crt-runtime-l1-1-0.dll",
+          "type": "b",
+          "bytes": 26152,
+          "sha256": "c5902934d026d7e15fbe9917d474f3322846a41a25e66f4b2b1f758801879f4b"
+        },
+        {
+          "name": "api-ms-win-crt-stdio-l1-1-0.dll",
+          "type": "b",
+          "bytes": 26168,
+          "sha256": "a9c5a153d8c0286f9b41a2b1c65854ad9e6471b8755b7de87bae4470e60bcab6"
+        },
+        {
+          "name": "api-ms-win-crt-string-l1-1-0.dll",
+          "type": "b",
+          "bytes": 26176,
+          "sha256": "25b8f83a7767211b11132775a0e27a45aa4ec8ab4e6572599f9c172ae3606b40"
+        },
+        {
+          "name": "api-ms-win-crt-time-l1-1-0.dll",
+          "type": "b",
+          "bytes": 22096,
+          "sha256": "7c7f6393f06de11750adb09cc5698ae55cd9fb27b2e51e207286feb1b5b2b156"
+        },
+        {
+          "name": "api-ms-win-crt-utility-l1-1-0.dll",
+          "type": "b",
+          "bytes": 21952,
+          "sha256": "d8ba5f17b9ffcbf3aeaf3fa1da226832d2fa90f81acce0cd669464e76ce434ac"
+        },
+        {
+          "name": "base_library.zip",
+          "type": "b",
+          "bytes": 1333532,
+          "sha256": "14f22db3ca79d289acde8bb326990c662d5eeeb5ae60d3d5473585ba102fd29f"
+        },
+        {
+          "name": "libcrypto-3.dll",
+          "type": "b",
+          "bytes": 5232408,
+          "sha256": "4e5d5d20d6d31e72ab341c81e97b89e514326c4c861b48638243bdf0918cfa43"
+        },
+        {
+          "name": "libffi-8.dll",
+          "type": "b",
+          "bytes": 39696,
+          "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a"
+        },
+        {
+          "name": "python312.dll",
+          "type": "b",
+          "bytes": 6920936,
+          "sha256": "b6227a506a9963e7c8182785a54e14a193af51f7b277a61dda04492b499f49ad"
+        },
+        {
+          "name": "select.pyd",
+          "type": "b",
+          "bytes": 33128,
+          "sha256": "e6bff4f35ab49a84f9e5ccd4b26eff30e1b2d7adb67d91911c4b84bfabcc28b3"
+        },
+        {
+          "name": "ucrtbase.dll",
+          "type": "b",
+          "bytes": 1361448,
+          "sha256": "2e5fb14b7bf8540278f3614a12f0226e56a7cc9e64b81cbd976c6fcf2f71cbfb"
+        },
+        {
+          "name": "unicodedata.pyd",
+          "type": "b",
+          "bytes": 1139704,
+          "sha256": "a443f6132d63a683ea3ef463cfe00987e0cf94d02c9e14350795f1a521d05f50"
+        },
+        {
+          "name": "pyi-contents-directory _internal",
+          "type": "o",
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "name": "PYZ.pyz",
+          "type": "z",
+          "bytes": 1315640,
+          "sha256": "d768bc71050fa15f1b6d777371b1a0ae38e7bcb091b3372971cf0e970c778058"
+        }
+      ]
+    }
+  ],
+  "pyz_archives": [
+    {
+      "group": "launcher",
+      "sha256": "0b6fc66da2abb724af8761653214c7391a24cab39d2748baf593d596c0d4fa3e",
+      "toc_entries": 2088,
+      "code_objects_parsed": 2081,
+      "zero_length_namespace_packages": [
+        "backports",
+        "flet.messaging",
+        "flet_cli",
+        "setuptools._distutils.compilers",
+        "setuptools._distutils.compilers.C",
+        "setuptools._vendor",
+        "setuptools._vendor.jaraco"
+      ],
+      "payload_failures": [],
+      "business_names_found": [],
+      "independent_module_index_count": 2088
+    },
+    {
+      "group": "updater",
+      "sha256": "d768bc71050fa15f1b6d777371b1a0ae38e7bcb091b3372971cf0e970c778058",
+      "toc_entries": 110,
+      "code_objects_parsed": 110,
+      "zero_length_namespace_packages": [],
+      "payload_failures": [],
+      "business_names_found": [],
+      "independent_module_index_count": 110
+    }
+  ],
+  "python_entry_comparisons": [
+    {
+      "file": "python/launcher/hardened_entry.py",
+      "pyc_sha256": "0414bd8828ea82b7693a8b4c833eee535a136213d16bf3a679fceecf19f63c85",
+      "source_sha256": "1d2b727f7f79eb646eb8586d2269331bfa635e55baacee18f8f3ab64c4de33e3",
+      "original_code_objects": 2,
+      "compiled_code_objects": 2,
+      "bytecode_equal_ignoring_only_filename_and_source_locations": true
+    },
+    {
+      "file": "python/launcher/pyi_rth_404_flet.py",
+      "pyc_sha256": "bab1a78ddb35172c8f00f9acba31da630b09d14ba894bdccc96b4f10b26ce21c",
+      "source_sha256": "8b63c32ae390a5ba0c4b0df67f988757e03d09da8cc57ba7b19388432bd683b4",
+      "original_code_objects": 1,
+      "compiled_code_objects": 1,
+      "bytecode_equal_ignoring_only_filename_and_source_locations": true
+    },
+    {
+      "file": "python/updater/404_updater.py",
+      "pyc_sha256": "2810ad22fefc795c61208a2dbf66052d88f2eb8d6e04c025dfbe758edc006df5",
+      "source_sha256": "68fb12666097e622c22a51e0787938f9e0a9982b5f4fea0958eb5a8734f8eb25",
+      "original_code_objects": 20,
+      "compiled_code_objects": 20,
+      "bytecode_equal_ignoring_only_filename_and_source_locations": true
+    }
+  ],
+  "dotnet_source_scan": {
+    "src": {
+      "csharp_files": 387,
+      "project_files": 8,
+      "ilspy_warning_comments": [
+        {
+          "file": "dotnet/src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 121,
+          "diagnostic": "//IL_0046: Unknown result type (might be due to invalid IL or missing references)"
+        },
+        {
+          "file": "dotnet/src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 122,
+          "diagnostic": "//IL_004c: Expected Obj, but got Unknown"
+        },
+        {
+          "file": "dotnet/src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 123,
+          "diagnostic": "//IL_007a: Unknown result type (might be due to invalid IL or missing references)"
+        },
+        {
+          "file": "dotnet/src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 124,
+          "diagnostic": "//IL_0081: Expected Obj, but got Unknown"
+        }
+      ],
+      "not_implemented_or_supported_throw_sites": [
+        {
+          "file": "dotnet/src/Codexus.OpenSDK/Codexus/OpenSDK/Cipher/CrcSalt.cs",
+          "line": 9
+        },
+        {
+          "file": "dotnet/src/Downloader/Downloader/DownloadService.cs",
+          "line": 114
+        },
+        {
+          "file": "dotnet/src/Downloader/Downloader/SocketClient.cs",
+          "line": 234
+        }
+      ],
+      "unsupported_data_comment_count": 251,
+      "rva_comment_literal_comparisons": [],
+      "all_rva_comment_literals_present_and_equal": false,
+      "throw_site_note": "These exception sites alone do not prove decompiler failure; they may be original application logic."
+    },
+    "rebuild-src": {
+      "csharp_files": 387,
+      "project_files": 8,
+      "ilspy_warning_comments": [
+        {
+          "file": "dotnet/rebuild-src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 121,
+          "diagnostic": "//IL_0046: Unknown result type (might be due to invalid IL or missing references)"
+        },
+        {
+          "file": "dotnet/rebuild-src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 122,
+          "diagnostic": "//IL_004c: Expected Obj, but got Unknown"
+        },
+        {
+          "file": "dotnet/rebuild-src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 123,
+          "diagnostic": "//IL_007a: Unknown result type (might be due to invalid IL or missing references)"
+        },
+        {
+          "file": "dotnet/rebuild-src/Codexus.Game.Launcher/Codexus/Game/Launcher/Utils/MemoryOptimizer.cs",
+          "line": 124,
+          "diagnostic": "//IL_0081: Expected Obj, but got Unknown"
+        }
+      ],
+      "not_implemented_or_supported_throw_sites": [
+        {
+          "file": "dotnet/rebuild-src/Codexus.OpenSDK/Codexus/OpenSDK/Cipher/CrcSalt.cs",
+          "line": 9
+        },
+        {
+          "file": "dotnet/rebuild-src/Downloader/Downloader/DownloadService.cs",
+          "line": 114
+        },
+        {
+          "file": "dotnet/rebuild-src/Downloader/Downloader/SocketClient.cs",
+          "line": 232
+        }
+      ],
+      "unsupported_data_comment_count": 251,
+      "rva_comment_literal_comparisons": [
+        {
+          "original_field_token": 67109430,
+          "bytes": 8,
+          "comment_data_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "literal_data_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109432,
+          "bytes": 8,
+          "comment_data_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "literal_data_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109434,
+          "bytes": 32,
+          "comment_data_sha256": "047ff5427e6378f93be01dfbbd76c53360cd2bb0e5ca607243322370126e3dd8",
+          "literal_data_sha256": "047ff5427e6378f93be01dfbbd76c53360cd2bb0e5ca607243322370126e3dd8",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109436,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109438,
+          "bytes": 16,
+          "comment_data_sha256": "7d80118fd1bd1246065c2e738c28726db37a6f9532e6fb57febd020f59a24ad0",
+          "literal_data_sha256": "7d80118fd1bd1246065c2e738c28726db37a6f9532e6fb57febd020f59a24ad0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109440,
+          "bytes": 16,
+          "comment_data_sha256": "fd51e644b282a744fe8abfb72ef2f1a660f2567442a834fc4af868d5b7e68272",
+          "literal_data_sha256": "fd51e644b282a744fe8abfb72ef2f1a660f2567442a834fc4af868d5b7e68272",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109442,
+          "bytes": 16,
+          "comment_data_sha256": "f7bda57ce8acb152b592d074766bc2f6cf352150e8afe87334a89f2996dfdd10",
+          "literal_data_sha256": "f7bda57ce8acb152b592d074766bc2f6cf352150e8afe87334a89f2996dfdd10",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109444,
+          "bytes": 32,
+          "comment_data_sha256": "cee08df7e12810976ce58fdf23220576b092e279d7632e1f4adf5a99d2318de1",
+          "literal_data_sha256": "cee08df7e12810976ce58fdf23220576b092e279d7632e1f4adf5a99d2318de1",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109446,
+          "bytes": 16,
+          "comment_data_sha256": "cf00b34880386262d6bcf15354a10a5699a828e537275c19d45c9430117151d3",
+          "literal_data_sha256": "cf00b34880386262d6bcf15354a10a5699a828e537275c19d45c9430117151d3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109448,
+          "bytes": 16,
+          "comment_data_sha256": "a35d606432ce6c51335842e701647817b1e78b0ade4e3c52c5c854b3e96d80ad",
+          "literal_data_sha256": "a35d606432ce6c51335842e701647817b1e78b0ade4e3c52c5c854b3e96d80ad",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109450,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109452,
+          "bytes": 16,
+          "comment_data_sha256": "59afe1bba6d80c7d8b158db9a2e5479c7f9d39733a6d41c469db877494e86718",
+          "literal_data_sha256": "59afe1bba6d80c7d8b158db9a2e5479c7f9d39733a6d41c469db877494e86718",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109454,
+          "bytes": 16,
+          "comment_data_sha256": "94a8e3f6e084026ad7f49dfdd7f7ebd38c765eda848b11593587949ce7fc3136",
+          "literal_data_sha256": "94a8e3f6e084026ad7f49dfdd7f7ebd38c765eda848b11593587949ce7fc3136",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109456,
+          "bytes": 16,
+          "comment_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "literal_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109458,
+          "bytes": 32,
+          "comment_data_sha256": "7461d275d983f21782d34c012b87e74d42a5a00b1dfb4cc5a0baa4e80822f782",
+          "literal_data_sha256": "7461d275d983f21782d34c012b87e74d42a5a00b1dfb4cc5a0baa4e80822f782",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109460,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109462,
+          "bytes": 16,
+          "comment_data_sha256": "59afe1bba6d80c7d8b158db9a2e5479c7f9d39733a6d41c469db877494e86718",
+          "literal_data_sha256": "59afe1bba6d80c7d8b158db9a2e5479c7f9d39733a6d41c469db877494e86718",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109464,
+          "bytes": 16,
+          "comment_data_sha256": "bfa1b11bd51cb915e2f837133c72235e3a6c6cc21b182bc2ca1e891d222a49a2",
+          "literal_data_sha256": "bfa1b11bd51cb915e2f837133c72235e3a6c6cc21b182bc2ca1e891d222a49a2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109466,
+          "bytes": 32,
+          "comment_data_sha256": "a0dcae061dd302ab7b34573336023ba23a6cb20a8914b97eb7cfc973e3f7c487",
+          "literal_data_sha256": "a0dcae061dd302ab7b34573336023ba23a6cb20a8914b97eb7cfc973e3f7c487",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109468,
+          "bytes": 32,
+          "comment_data_sha256": "be0411cda4573eaa6caea3ec0f3733bcc4d55906b97e8ddd950cbfa102d22915",
+          "literal_data_sha256": "be0411cda4573eaa6caea3ec0f3733bcc4d55906b97e8ddd950cbfa102d22915",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109470,
+          "bytes": 16,
+          "comment_data_sha256": "8a65bd984fa76d6440bf4566a699ef2f288cd18ec0fb17d5dea693671cf9f37b",
+          "literal_data_sha256": "8a65bd984fa76d6440bf4566a699ef2f288cd18ec0fb17d5dea693671cf9f37b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109472,
+          "bytes": 16,
+          "comment_data_sha256": "23a13025c26b4723c3aca32c6f79e7346f482f1c31e09de9a1a0bb8c594bb0f6",
+          "literal_data_sha256": "23a13025c26b4723c3aca32c6f79e7346f482f1c31e09de9a1a0bb8c594bb0f6",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109474,
+          "bytes": 32,
+          "comment_data_sha256": "7f4b45f4fc085c649c8eca7571afd2db73e05206c8fdd3b29ba118f9f888ff3c",
+          "literal_data_sha256": "7f4b45f4fc085c649c8eca7571afd2db73e05206c8fdd3b29ba118f9f888ff3c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109476,
+          "bytes": 16,
+          "comment_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "literal_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109478,
+          "bytes": 32,
+          "comment_data_sha256": "e99cc075008f0edf1f0b02e99bd9f867cab11362d83149b10eca9bb21d0058a1",
+          "literal_data_sha256": "e99cc075008f0edf1f0b02e99bd9f867cab11362d83149b10eca9bb21d0058a1",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109480,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109482,
+          "bytes": 16,
+          "comment_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "literal_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109484,
+          "bytes": 32,
+          "comment_data_sha256": "8ca47bb3d2d17e712cffe383d7df8712c66f1d0582c4a890f8d90030f8d6a310",
+          "literal_data_sha256": "8ca47bb3d2d17e712cffe383d7df8712c66f1d0582c4a890f8d90030f8d6a310",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109486,
+          "bytes": 32,
+          "comment_data_sha256": "8261104b0678d80dfbdd8659daa77ba047db65f7e8f638753a27305cf1d639f7",
+          "literal_data_sha256": "8261104b0678d80dfbdd8659daa77ba047db65f7e8f638753a27305cf1d639f7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109488,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109490,
+          "bytes": 16,
+          "comment_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "literal_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109492,
+          "bytes": 16,
+          "comment_data_sha256": "74b5a5cfcea6cd054d927227043105663b022314f9d7c6da56f39ba48ba1b119",
+          "literal_data_sha256": "74b5a5cfcea6cd054d927227043105663b022314f9d7c6da56f39ba48ba1b119",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109494,
+          "bytes": 32,
+          "comment_data_sha256": "97b365e971779e5d25d0fdcc06b2313e08676ca418cd98da2b90bcb243e234dc",
+          "literal_data_sha256": "97b365e971779e5d25d0fdcc06b2313e08676ca418cd98da2b90bcb243e234dc",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109496,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109498,
+          "bytes": 16,
+          "comment_data_sha256": "bc1889c8decd56f2dfdb47ae9d5127dd0e05c350cdfab3f4fbbdfbcae749f94b",
+          "literal_data_sha256": "bc1889c8decd56f2dfdb47ae9d5127dd0e05c350cdfab3f4fbbdfbcae749f94b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109500,
+          "bytes": 16,
+          "comment_data_sha256": "8ef4cdd2c6e5fd4771fbb9f34da550f28fd545b11643b182c0392f0e07c47e69",
+          "literal_data_sha256": "8ef4cdd2c6e5fd4771fbb9f34da550f28fd545b11643b182c0392f0e07c47e69",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109502,
+          "bytes": 16,
+          "comment_data_sha256": "aa8b267195d6e06ca17bc00a3deed45b57144dc18a80c144e173d62a162d5c8e",
+          "literal_data_sha256": "aa8b267195d6e06ca17bc00a3deed45b57144dc18a80c144e173d62a162d5c8e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109504,
+          "bytes": 32,
+          "comment_data_sha256": "fd7df2cdccc788230d8587cc730120e8d664de1b6c87f7b8ba538a07e25ebd0b",
+          "literal_data_sha256": "fd7df2cdccc788230d8587cc730120e8d664de1b6c87f7b8ba538a07e25ebd0b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109506,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109508,
+          "bytes": 16,
+          "comment_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "literal_data_sha256": "240d52861473a18a7ccd88c30c70fac3461697fc4e5d634e986ad8f24f56e25b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109510,
+          "bytes": 16,
+          "comment_data_sha256": "4a1b52629b5edc2d53a3988b1e0d78245a0eb49c77f5d1f18ffccd69e428aebe",
+          "literal_data_sha256": "4a1b52629b5edc2d53a3988b1e0d78245a0eb49c77f5d1f18ffccd69e428aebe",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109512,
+          "bytes": 16,
+          "comment_data_sha256": "685c413860f97f25b5b21cf31a2452468531527569ce958008584b6191d822f4",
+          "literal_data_sha256": "685c413860f97f25b5b21cf31a2452468531527569ce958008584b6191d822f4",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109514,
+          "bytes": 32,
+          "comment_data_sha256": "ea2bae4645ebadc031dcd89020ca68204afaca17d9387a274793d7a9e1b5f1e3",
+          "literal_data_sha256": "ea2bae4645ebadc031dcd89020ca68204afaca17d9387a274793d7a9e1b5f1e3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109516,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109518,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109520,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109522,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109524,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109526,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109528,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109530,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109532,
+          "bytes": 16,
+          "comment_data_sha256": "beccab743991ee78c58b5e13f49eb2857bd84aaa73ff560fae6c95522e27147d",
+          "literal_data_sha256": "beccab743991ee78c58b5e13f49eb2857bd84aaa73ff560fae6c95522e27147d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109534,
+          "bytes": 64,
+          "comment_data_sha256": "f8ae47adac611703acea5dcebc4b72c12e56883a01179fbaa9ec278412de10c0",
+          "literal_data_sha256": "f8ae47adac611703acea5dcebc4b72c12e56883a01179fbaa9ec278412de10c0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109536,
+          "bytes": 32,
+          "comment_data_sha256": "ea2bae4645ebadc031dcd89020ca68204afaca17d9387a274793d7a9e1b5f1e3",
+          "literal_data_sha256": "ea2bae4645ebadc031dcd89020ca68204afaca17d9387a274793d7a9e1b5f1e3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109538,
+          "bytes": 16,
+          "comment_data_sha256": "7cd4c89c20c139856a50eff0760fd01fef687a643f76390d508f2cd7d800fdae",
+          "literal_data_sha256": "7cd4c89c20c139856a50eff0760fd01fef687a643f76390d508f2cd7d800fdae",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109540,
+          "bytes": 16,
+          "comment_data_sha256": "beccab743991ee78c58b5e13f49eb2857bd84aaa73ff560fae6c95522e27147d",
+          "literal_data_sha256": "beccab743991ee78c58b5e13f49eb2857bd84aaa73ff560fae6c95522e27147d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109542,
+          "bytes": 64,
+          "comment_data_sha256": "86117d2edab108855e303671b96c609b21d88622a3435490ddc59c51898b83a8",
+          "literal_data_sha256": "86117d2edab108855e303671b96c609b21d88622a3435490ddc59c51898b83a8",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109544,
+          "bytes": 80,
+          "comment_data_sha256": "73cc0aedb6afe729a61e87c4a066a1e3901fb75c6fce20f582bec92276573d01",
+          "literal_data_sha256": "73cc0aedb6afe729a61e87c4a066a1e3901fb75c6fce20f582bec92276573d01",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109546,
+          "bytes": 16,
+          "comment_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "literal_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109548,
+          "bytes": 32,
+          "comment_data_sha256": "df232c9e5f4bde144f6cd924255207ed3cf7c9708856cd0a415583f55b415686",
+          "literal_data_sha256": "df232c9e5f4bde144f6cd924255207ed3cf7c9708856cd0a415583f55b415686",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109550,
+          "bytes": 16,
+          "comment_data_sha256": "176af3237510a42c497afb972cf709905cfe5507a6fa9e030537ba964c2f247a",
+          "literal_data_sha256": "176af3237510a42c497afb972cf709905cfe5507a6fa9e030537ba964c2f247a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109552,
+          "bytes": 16,
+          "comment_data_sha256": "19e1e6604a3b3dd05c0b9ae4030845f4b4e2f80c076fe5761a5e8b0a1db6b366",
+          "literal_data_sha256": "19e1e6604a3b3dd05c0b9ae4030845f4b4e2f80c076fe5761a5e8b0a1db6b366",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109554,
+          "bytes": 16,
+          "comment_data_sha256": "6df028863ced4dba5198fd2e5d90e05812ff7e12b245970781dad9c916f9f77b",
+          "literal_data_sha256": "6df028863ced4dba5198fd2e5d90e05812ff7e12b245970781dad9c916f9f77b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109556,
+          "bytes": 16,
+          "comment_data_sha256": "201e5bab4807f81603ebbef5dc1ad298a6503844b6040d1589039918bb327d7b",
+          "literal_data_sha256": "201e5bab4807f81603ebbef5dc1ad298a6503844b6040d1589039918bb327d7b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109558,
+          "bytes": 32,
+          "comment_data_sha256": "2aaeaf00a1ab109edcaa0887fe6388b554c5bd47a754dc899f7249bcc7b9824e",
+          "literal_data_sha256": "2aaeaf00a1ab109edcaa0887fe6388b554c5bd47a754dc899f7249bcc7b9824e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109560,
+          "bytes": 16,
+          "comment_data_sha256": "1b9e5a8eee1b6cb291ffb838ed3ea43a2f5aecacd397992bbde34d95cac4ac28",
+          "literal_data_sha256": "1b9e5a8eee1b6cb291ffb838ed3ea43a2f5aecacd397992bbde34d95cac4ac28",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109562,
+          "bytes": 16,
+          "comment_data_sha256": "fc6309c59db3af2e5e0ff4b173f0de9f79614269762ea701789eb73e1b0da60e",
+          "literal_data_sha256": "fc6309c59db3af2e5e0ff4b173f0de9f79614269762ea701789eb73e1b0da60e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109564,
+          "bytes": 16,
+          "comment_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "literal_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109566,
+          "bytes": 32,
+          "comment_data_sha256": "abf42f0e6c4bdbde17ec719d51703e08751a190a9e348c1dfdbec308c9731508",
+          "literal_data_sha256": "abf42f0e6c4bdbde17ec719d51703e08751a190a9e348c1dfdbec308c9731508",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109568,
+          "bytes": 32,
+          "comment_data_sha256": "ed2c8d2af79880d77af46b9492d7537821355f261aab572e90fdecc8bdf81b81",
+          "literal_data_sha256": "ed2c8d2af79880d77af46b9492d7537821355f261aab572e90fdecc8bdf81b81",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109570,
+          "bytes": 32,
+          "comment_data_sha256": "712d26deafe7871e2a19d7c080624a8cda7132f0c4ee01cb7c12533f8a7d5b9b",
+          "literal_data_sha256": "712d26deafe7871e2a19d7c080624a8cda7132f0c4ee01cb7c12533f8a7d5b9b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109572,
+          "bytes": 32,
+          "comment_data_sha256": "647a925253b4e5829056f9abaf1b9e9c39f13fb596d60668cae987b356f6bc12",
+          "literal_data_sha256": "647a925253b4e5829056f9abaf1b9e9c39f13fb596d60668cae987b356f6bc12",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109574,
+          "bytes": 80,
+          "comment_data_sha256": "70636568159976817b293bc26f566d58123b2717dbed961efdf213482b178de0",
+          "literal_data_sha256": "70636568159976817b293bc26f566d58123b2717dbed961efdf213482b178de0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109576,
+          "bytes": 16,
+          "comment_data_sha256": "c53a3d19b894570a60845622333345858b7630ce6a46c6b7e9669baacbfbbbfd",
+          "literal_data_sha256": "c53a3d19b894570a60845622333345858b7630ce6a46c6b7e9669baacbfbbbfd",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109578,
+          "bytes": 32,
+          "comment_data_sha256": "adea4b42c2d07fc1577d284e8b0a8c97e04755d7d9bcf93a490c716ae3f141d9",
+          "literal_data_sha256": "adea4b42c2d07fc1577d284e8b0a8c97e04755d7d9bcf93a490c716ae3f141d9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109580,
+          "bytes": 32,
+          "comment_data_sha256": "5b7f083eacdc0561465d2a5413afc42e9b307a33600de934cbb090f8111bd4f7",
+          "literal_data_sha256": "5b7f083eacdc0561465d2a5413afc42e9b307a33600de934cbb090f8111bd4f7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109582,
+          "bytes": 32,
+          "comment_data_sha256": "8672a2144079e0c80e53e469135550e066d1724e92bbc8986103ef27384a2b89",
+          "literal_data_sha256": "8672a2144079e0c80e53e469135550e066d1724e92bbc8986103ef27384a2b89",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109584,
+          "bytes": 16,
+          "comment_data_sha256": "d2d40fed82d3d36a7af47a605add4e2e51e52bdaac52ee3b3bc8e2459d2debd6",
+          "literal_data_sha256": "d2d40fed82d3d36a7af47a605add4e2e51e52bdaac52ee3b3bc8e2459d2debd6",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109586,
+          "bytes": 32,
+          "comment_data_sha256": "89076c5b694565edf00882b7931053d3b1295055438c51dd4af0aecaff5d56e2",
+          "literal_data_sha256": "89076c5b694565edf00882b7931053d3b1295055438c51dd4af0aecaff5d56e2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109588,
+          "bytes": 32,
+          "comment_data_sha256": "40c7b7b785f0413c720fe3ab14851640851e0053c80e08e6ca886ef93ae786fd",
+          "literal_data_sha256": "40c7b7b785f0413c720fe3ab14851640851e0053c80e08e6ca886ef93ae786fd",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109590,
+          "bytes": 16,
+          "comment_data_sha256": "834c81d64313777e7aa035d0038b0de56a4e0f46b494d3dddb48e61ee6ee0f77",
+          "literal_data_sha256": "834c81d64313777e7aa035d0038b0de56a4e0f46b494d3dddb48e61ee6ee0f77",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109592,
+          "bytes": 32,
+          "comment_data_sha256": "e99f53299e9527e58e1264c9330ec9d48e6a3646febb0bcab69ef554d3b349ba",
+          "literal_data_sha256": "e99f53299e9527e58e1264c9330ec9d48e6a3646febb0bcab69ef554d3b349ba",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109594,
+          "bytes": 16,
+          "comment_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "literal_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109596,
+          "bytes": 32,
+          "comment_data_sha256": "140a040afa5b93f0caed6a3911a11404609f790458a22bc48838fcc9a5e7eb4a",
+          "literal_data_sha256": "140a040afa5b93f0caed6a3911a11404609f790458a22bc48838fcc9a5e7eb4a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109598,
+          "bytes": 16,
+          "comment_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "literal_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109600,
+          "bytes": 16,
+          "comment_data_sha256": "efce35b73e67313113371c11745638dd0430fad96c87d46c80e13ab2322550a3",
+          "literal_data_sha256": "efce35b73e67313113371c11745638dd0430fad96c87d46c80e13ab2322550a3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109602,
+          "bytes": 16,
+          "comment_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "literal_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109604,
+          "bytes": 16,
+          "comment_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "literal_data_sha256": "54db4040d8fa1bc0f2b32e8759e96335c47e2f9f3afc2c7d2a14c0d473420e10",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109606,
+          "bytes": 32,
+          "comment_data_sha256": "571c2b81afe98eb15fbf6a483a4f2ecbb651d56e2fd62d9550368a93c2fc3181",
+          "literal_data_sha256": "571c2b81afe98eb15fbf6a483a4f2ecbb651d56e2fd62d9550368a93c2fc3181",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109608,
+          "bytes": 16,
+          "comment_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "literal_data_sha256": "7a55e000969ff762d5c6611e3dda1f040e6e95ec6aa41e2ad331ca22c8c3642d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109610,
+          "bytes": 32,
+          "comment_data_sha256": "3a86540ec2504348b26818a47f4f7c40044bd126acf88359409bdf2bc9b5e8be",
+          "literal_data_sha256": "3a86540ec2504348b26818a47f4f7c40044bd126acf88359409bdf2bc9b5e8be",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109612,
+          "bytes": 32,
+          "comment_data_sha256": "8e627eb3bd61046ab4ef31699291703f60f4173a7950d21e89d9b56b9f1c3a21",
+          "literal_data_sha256": "8e627eb3bd61046ab4ef31699291703f60f4173a7950d21e89d9b56b9f1c3a21",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109614,
+          "bytes": 32,
+          "comment_data_sha256": "8fd9741c38ca35bb0665d005f64ddb904e6ab4495774b5f966fc38a95d7ed913",
+          "literal_data_sha256": "8fd9741c38ca35bb0665d005f64ddb904e6ab4495774b5f966fc38a95d7ed913",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109616,
+          "bytes": 32,
+          "comment_data_sha256": "999f6d7c825cd750bf5cfb6496f387fc2787bb8aadbbb0ff2ec8ac350f9cc89d",
+          "literal_data_sha256": "999f6d7c825cd750bf5cfb6496f387fc2787bb8aadbbb0ff2ec8ac350f9cc89d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109618,
+          "bytes": 32,
+          "comment_data_sha256": "4fc248857f5948a9e3f229dc260f026b903c908c015c1e02d4a1593e09e10af1",
+          "literal_data_sha256": "4fc248857f5948a9e3f229dc260f026b903c908c015c1e02d4a1593e09e10af1",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109620,
+          "bytes": 16,
+          "comment_data_sha256": "f589d8652d841631f587598488866a6e375544819669b248a791c62587f77b1b",
+          "literal_data_sha256": "f589d8652d841631f587598488866a6e375544819669b248a791c62587f77b1b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109622,
+          "bytes": 32,
+          "comment_data_sha256": "7c2b97a21257247f2e39570f9faf8a63768d5bdecaadff41413d55f148883a5c",
+          "literal_data_sha256": "7c2b97a21257247f2e39570f9faf8a63768d5bdecaadff41413d55f148883a5c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109624,
+          "bytes": 32,
+          "comment_data_sha256": "37de936158e9e8221df723b451370e914aef653a517aacde28db77d4beea5a43",
+          "literal_data_sha256": "37de936158e9e8221df723b451370e914aef653a517aacde28db77d4beea5a43",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109626,
+          "bytes": 32,
+          "comment_data_sha256": "f7e1a427807bf1a288aa1d10b4be6ed388943a98d02bee172e2a2b1426c4e092",
+          "literal_data_sha256": "f7e1a427807bf1a288aa1d10b4be6ed388943a98d02bee172e2a2b1426c4e092",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109628,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109630,
+          "bytes": 16,
+          "comment_data_sha256": "84f2ade2d21ab8dfeb81b9d2a38e171d29c581a2c8dffc540055c5f8d8645afb",
+          "literal_data_sha256": "84f2ade2d21ab8dfeb81b9d2a38e171d29c581a2c8dffc540055c5f8d8645afb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109632,
+          "bytes": 32,
+          "comment_data_sha256": "a0dcae061dd302ab7b34573336023ba23a6cb20a8914b97eb7cfc973e3f7c487",
+          "literal_data_sha256": "a0dcae061dd302ab7b34573336023ba23a6cb20a8914b97eb7cfc973e3f7c487",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109634,
+          "bytes": 32,
+          "comment_data_sha256": "be0411cda4573eaa6caea3ec0f3733bcc4d55906b97e8ddd950cbfa102d22915",
+          "literal_data_sha256": "be0411cda4573eaa6caea3ec0f3733bcc4d55906b97e8ddd950cbfa102d22915",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109636,
+          "bytes": 16,
+          "comment_data_sha256": "8a65bd984fa76d6440bf4566a699ef2f288cd18ec0fb17d5dea693671cf9f37b",
+          "literal_data_sha256": "8a65bd984fa76d6440bf4566a699ef2f288cd18ec0fb17d5dea693671cf9f37b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109638,
+          "bytes": 16,
+          "comment_data_sha256": "23a13025c26b4723c3aca32c6f79e7346f482f1c31e09de9a1a0bb8c594bb0f6",
+          "literal_data_sha256": "23a13025c26b4723c3aca32c6f79e7346f482f1c31e09de9a1a0bb8c594bb0f6",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109640,
+          "bytes": 32,
+          "comment_data_sha256": "7f4b45f4fc085c649c8eca7571afd2db73e05206c8fdd3b29ba118f9f888ff3c",
+          "literal_data_sha256": "7f4b45f4fc085c649c8eca7571afd2db73e05206c8fdd3b29ba118f9f888ff3c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109642,
+          "bytes": 16,
+          "comment_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "literal_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109644,
+          "bytes": 16,
+          "comment_data_sha256": "0e4ece2032aa7683978b27f63a208c1aa29895435ee1013dfa8f59df27c2f982",
+          "literal_data_sha256": "0e4ece2032aa7683978b27f63a208c1aa29895435ee1013dfa8f59df27c2f982",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109646,
+          "bytes": 32,
+          "comment_data_sha256": "f1653dd6fab3db16183f5517172dd1647b0244e60ed833e2e11bdda53d67f6ae",
+          "literal_data_sha256": "f1653dd6fab3db16183f5517172dd1647b0244e60ed833e2e11bdda53d67f6ae",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109648,
+          "bytes": 64,
+          "comment_data_sha256": "0521390ae8fdabc58edc2d9ad59e501d3d7396714a17bc997eab3e73d2637e3b",
+          "literal_data_sha256": "0521390ae8fdabc58edc2d9ad59e501d3d7396714a17bc997eab3e73d2637e3b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109650,
+          "bytes": 144,
+          "comment_data_sha256": "9b0f3cd50d17c35872ddb83a8b1fa6583ba190e305fa92cf7116d050be45cde0",
+          "literal_data_sha256": "9b0f3cd50d17c35872ddb83a8b1fa6583ba190e305fa92cf7116d050be45cde0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109652,
+          "bytes": 16,
+          "comment_data_sha256": "57b7fa8a48c00b172137ef94430def215e852cd8c80ef1241dc254eca571e65f",
+          "literal_data_sha256": "57b7fa8a48c00b172137ef94430def215e852cd8c80ef1241dc254eca571e65f",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109654,
+          "bytes": 16,
+          "comment_data_sha256": "3a1c2465ad085b08b1d62fea2c48b0cdb2a7f2ad49704f00c3656ea72357bfd5",
+          "literal_data_sha256": "3a1c2465ad085b08b1d62fea2c48b0cdb2a7f2ad49704f00c3656ea72357bfd5",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109656,
+          "bytes": 16,
+          "comment_data_sha256": "7504eaa602af8746547fc943243b45e511d273ee103d3d476564f207c664a474",
+          "literal_data_sha256": "7504eaa602af8746547fc943243b45e511d273ee103d3d476564f207c664a474",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109658,
+          "bytes": 16,
+          "comment_data_sha256": "0689124e70f4a69fde2d1b7d8ba6fe9b34ed93148aafcc40fcc95b77b43110b7",
+          "literal_data_sha256": "0689124e70f4a69fde2d1b7d8ba6fe9b34ed93148aafcc40fcc95b77b43110b7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109660,
+          "bytes": 16,
+          "comment_data_sha256": "0689124e70f4a69fde2d1b7d8ba6fe9b34ed93148aafcc40fcc95b77b43110b7",
+          "literal_data_sha256": "0689124e70f4a69fde2d1b7d8ba6fe9b34ed93148aafcc40fcc95b77b43110b7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109662,
+          "bytes": 48,
+          "comment_data_sha256": "a86549dcc963afa924e99671bded3778e2d98c9246f4e0148fdee6ed6e0a735f",
+          "literal_data_sha256": "a86549dcc963afa924e99671bded3778e2d98c9246f4e0148fdee6ed6e0a735f",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109664,
+          "bytes": 16,
+          "comment_data_sha256": "39d9b74e8f6be8e5c84044b66b73f7ec70ac7f028463bb5b772c76212c34fa6d",
+          "literal_data_sha256": "39d9b74e8f6be8e5c84044b66b73f7ec70ac7f028463bb5b772c76212c34fa6d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109666,
+          "bytes": 16,
+          "comment_data_sha256": "3a73bf8c323ae3d40010100dfae3b3d1bd575a0d0aa25818c5cd3f26818e4b14",
+          "literal_data_sha256": "3a73bf8c323ae3d40010100dfae3b3d1bd575a0d0aa25818c5cd3f26818e4b14",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109668,
+          "bytes": 16,
+          "comment_data_sha256": "10972d9e865f94f46edd918f1ac3ef2ca3c88db375db72bda163001981fe645e",
+          "literal_data_sha256": "10972d9e865f94f46edd918f1ac3ef2ca3c88db375db72bda163001981fe645e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109670,
+          "bytes": 16,
+          "comment_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "literal_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109672,
+          "bytes": 16,
+          "comment_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "literal_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109674,
+          "bytes": 16,
+          "comment_data_sha256": "7a0b70ee76f28e6d6f05d45079eef591c08e9aa73aaf5bad0ce10c95ed4c2962",
+          "literal_data_sha256": "7a0b70ee76f28e6d6f05d45079eef591c08e9aa73aaf5bad0ce10c95ed4c2962",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109676,
+          "bytes": 16,
+          "comment_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "literal_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109678,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109680,
+          "bytes": 16,
+          "comment_data_sha256": "da5bc469b3beacbcd2236be1a224e38b345522a8f758f2d2307e0fd0c9eb5c5d",
+          "literal_data_sha256": "da5bc469b3beacbcd2236be1a224e38b345522a8f758f2d2307e0fd0c9eb5c5d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109682,
+          "bytes": 16,
+          "comment_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "literal_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109684,
+          "bytes": 16,
+          "comment_data_sha256": "7a0b70ee76f28e6d6f05d45079eef591c08e9aa73aaf5bad0ce10c95ed4c2962",
+          "literal_data_sha256": "7a0b70ee76f28e6d6f05d45079eef591c08e9aa73aaf5bad0ce10c95ed4c2962",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109686,
+          "bytes": 16,
+          "comment_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "literal_data_sha256": "5ffb98b1ff3821bfcb44c5b6692cab4114a2113660ea35125b120b8b9744bf23",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109688,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109690,
+          "bytes": 16,
+          "comment_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "literal_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109692,
+          "bytes": 16,
+          "comment_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "literal_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109694,
+          "bytes": 16,
+          "comment_data_sha256": "8c6891235fac842fa8caa7c55b07807aac4ec9aa4450759594384fd0f8b332e4",
+          "literal_data_sha256": "8c6891235fac842fa8caa7c55b07807aac4ec9aa4450759594384fd0f8b332e4",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109696,
+          "bytes": 16,
+          "comment_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "literal_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109698,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109700,
+          "bytes": 16,
+          "comment_data_sha256": "da5bc469b3beacbcd2236be1a224e38b345522a8f758f2d2307e0fd0c9eb5c5d",
+          "literal_data_sha256": "da5bc469b3beacbcd2236be1a224e38b345522a8f758f2d2307e0fd0c9eb5c5d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109702,
+          "bytes": 16,
+          "comment_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "literal_data_sha256": "c42befa0a93de0cab67dfa8ece5f1ab1557dd7354d11dd5d066f03f5ce7d8bbb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109704,
+          "bytes": 16,
+          "comment_data_sha256": "8c6891235fac842fa8caa7c55b07807aac4ec9aa4450759594384fd0f8b332e4",
+          "literal_data_sha256": "8c6891235fac842fa8caa7c55b07807aac4ec9aa4450759594384fd0f8b332e4",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109706,
+          "bytes": 16,
+          "comment_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "literal_data_sha256": "8a542a6df62065bb4ede572d4778c1167032a88d4a5acfbdc45a016704c57c30",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109708,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109710,
+          "bytes": 16,
+          "comment_data_sha256": "63921c9391d578c5415dab097efea9debba5dc31144fc67ff5ac5aa71001d34d",
+          "literal_data_sha256": "63921c9391d578c5415dab097efea9debba5dc31144fc67ff5ac5aa71001d34d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109712,
+          "bytes": 16,
+          "comment_data_sha256": "b99dc1ed2563e138ba430734d25568507dc31237250ea6a99a2a956c09ce7dfa",
+          "literal_data_sha256": "b99dc1ed2563e138ba430734d25568507dc31237250ea6a99a2a956c09ce7dfa",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109714,
+          "bytes": 16,
+          "comment_data_sha256": "99cdfa198cc528c46448bac79ddbb0443182823eeb9867b88c866547e4955121",
+          "literal_data_sha256": "99cdfa198cc528c46448bac79ddbb0443182823eeb9867b88c866547e4955121",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109716,
+          "bytes": 16,
+          "comment_data_sha256": "b99dc1ed2563e138ba430734d25568507dc31237250ea6a99a2a956c09ce7dfa",
+          "literal_data_sha256": "b99dc1ed2563e138ba430734d25568507dc31237250ea6a99a2a956c09ce7dfa",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109718,
+          "bytes": 16,
+          "comment_data_sha256": "18fffc68c7394f7e222324764a7b364da70b925675584e743295e5b411c6204b",
+          "literal_data_sha256": "18fffc68c7394f7e222324764a7b364da70b925675584e743295e5b411c6204b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109720,
+          "bytes": 32,
+          "comment_data_sha256": "55813d2703e93cd1c032c7ead1a242615688e471fc647f00f71d72d95fa37f7b",
+          "literal_data_sha256": "55813d2703e93cd1c032c7ead1a242615688e471fc647f00f71d72d95fa37f7b",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109722,
+          "bytes": 16,
+          "comment_data_sha256": "c1c4d2d38d15ffab8fe7d93baadb83cf73340d06b62da3d692dd258c8fa94313",
+          "literal_data_sha256": "c1c4d2d38d15ffab8fe7d93baadb83cf73340d06b62da3d692dd258c8fa94313",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109724,
+          "bytes": 16,
+          "comment_data_sha256": "5ac5eb22c2ae780def27715669be2b7a66e36594872d2910970306e2d205b732",
+          "literal_data_sha256": "5ac5eb22c2ae780def27715669be2b7a66e36594872d2910970306e2d205b732",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109726,
+          "bytes": 16,
+          "comment_data_sha256": "3026dd9fa7cf6e48d2fe5574ad8d9c882270ed0e6b56d385c08af92cda6b7d91",
+          "literal_data_sha256": "3026dd9fa7cf6e48d2fe5574ad8d9c882270ed0e6b56d385c08af92cda6b7d91",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109728,
+          "bytes": 48,
+          "comment_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "literal_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109730,
+          "bytes": 48,
+          "comment_data_sha256": "4bf7867db105e97ef8133feb81801bffc69c1132e4e0464049832a3cf5231021",
+          "literal_data_sha256": "4bf7867db105e97ef8133feb81801bffc69c1132e4e0464049832a3cf5231021",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109732,
+          "bytes": 16,
+          "comment_data_sha256": "2a57a4b1808b0ecd854349956fe7aaf341581a57f31c8bdd6dc5723b5d14b74a",
+          "literal_data_sha256": "2a57a4b1808b0ecd854349956fe7aaf341581a57f31c8bdd6dc5723b5d14b74a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109734,
+          "bytes": 48,
+          "comment_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "literal_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109736,
+          "bytes": 48,
+          "comment_data_sha256": "a8d7400859f0c2ce5ce911df0be78c76200b6076ee0844cdb59c33eb136505ad",
+          "literal_data_sha256": "a8d7400859f0c2ce5ce911df0be78c76200b6076ee0844cdb59c33eb136505ad",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109738,
+          "bytes": 16,
+          "comment_data_sha256": "9d50c46a4e6dd45519de832f79e08a48d545daa97614f22e1eb903d4f911aae8",
+          "literal_data_sha256": "9d50c46a4e6dd45519de832f79e08a48d545daa97614f22e1eb903d4f911aae8",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109740,
+          "bytes": 48,
+          "comment_data_sha256": "fc6b9bc0f9cc2b73d85f15fc4b101704908cc3eb83ef6075ca5f80f092661001",
+          "literal_data_sha256": "fc6b9bc0f9cc2b73d85f15fc4b101704908cc3eb83ef6075ca5f80f092661001",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109742,
+          "bytes": 48,
+          "comment_data_sha256": "e4c680e2d8fbfdcdc3b89dc33f141f86068c5caf679e4c100f5ca29f634f0488",
+          "literal_data_sha256": "e4c680e2d8fbfdcdc3b89dc33f141f86068c5caf679e4c100f5ca29f634f0488",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109744,
+          "bytes": 16,
+          "comment_data_sha256": "47fc3fa2187922a994ed3ad9cbcf5576843e88bc480c60f8349afb73f17f160d",
+          "literal_data_sha256": "47fc3fa2187922a994ed3ad9cbcf5576843e88bc480c60f8349afb73f17f160d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109746,
+          "bytes": 48,
+          "comment_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "literal_data_sha256": "5ac8ebc514f8593ea9f635322c3be45350ca01e62a33136ffee7292f821a7111",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109748,
+          "bytes": 48,
+          "comment_data_sha256": "506875cd00ceac5ca17f15879ee543bf5f88e682485646f7d7ffcd388b16e46d",
+          "literal_data_sha256": "506875cd00ceac5ca17f15879ee543bf5f88e682485646f7d7ffcd388b16e46d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109750,
+          "bytes": 16,
+          "comment_data_sha256": "6907ae9dba053147d99dae81e9b5dd1bb2b7eee392f7a7ff112ecf12041b459d",
+          "literal_data_sha256": "6907ae9dba053147d99dae81e9b5dd1bb2b7eee392f7a7ff112ecf12041b459d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109752,
+          "bytes": 48,
+          "comment_data_sha256": "2ec25db54fbda3347de065f9d900fd81425c6d70de3d4467ebea33e7c036b2da",
+          "literal_data_sha256": "2ec25db54fbda3347de065f9d900fd81425c6d70de3d4467ebea33e7c036b2da",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109754,
+          "bytes": 48,
+          "comment_data_sha256": "eba92a4a4891c0dbb04d9b7319d8ad50b78ca302a285eca6ae09037725f1b3b5",
+          "literal_data_sha256": "eba92a4a4891c0dbb04d9b7319d8ad50b78ca302a285eca6ae09037725f1b3b5",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109756,
+          "bytes": 16,
+          "comment_data_sha256": "b79c988932e2af86cd188a7f7c97ce694c8fd14f1fdce5436e866ee6e70bfdbe",
+          "literal_data_sha256": "b79c988932e2af86cd188a7f7c97ce694c8fd14f1fdce5436e866ee6e70bfdbe",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109758,
+          "bytes": 48,
+          "comment_data_sha256": "69109a41d35dd8bed0ca0c70ed7734e44741abb769b23a1d17cb50f982a58f0e",
+          "literal_data_sha256": "69109a41d35dd8bed0ca0c70ed7734e44741abb769b23a1d17cb50f982a58f0e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109760,
+          "bytes": 48,
+          "comment_data_sha256": "4633d63b9bd159e3723cf20eff1cf79604570891ca9682c943ae92d32ec7403f",
+          "literal_data_sha256": "4633d63b9bd159e3723cf20eff1cf79604570891ca9682c943ae92d32ec7403f",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109762,
+          "bytes": 16,
+          "comment_data_sha256": "5ac5eb22c2ae780def27715669be2b7a66e36594872d2910970306e2d205b732",
+          "literal_data_sha256": "5ac5eb22c2ae780def27715669be2b7a66e36594872d2910970306e2d205b732",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109764,
+          "bytes": 48,
+          "comment_data_sha256": "8039ed83e0d1ae74298ca4271d6ca12fe158145bb0cbe99421a5bdeae5fb820d",
+          "literal_data_sha256": "8039ed83e0d1ae74298ca4271d6ca12fe158145bb0cbe99421a5bdeae5fb820d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109766,
+          "bytes": 48,
+          "comment_data_sha256": "bfb347044e70aa1a39864299db1cf6ffd36f540a06c9c1de8cd78e9418e0ad6f",
+          "literal_data_sha256": "bfb347044e70aa1a39864299db1cf6ffd36f540a06c9c1de8cd78e9418e0ad6f",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109768,
+          "bytes": 16,
+          "comment_data_sha256": "fb4e4bc6ae0474f52f270758e9f5a004943bc60d6b50309c04e996fa0744dc4e",
+          "literal_data_sha256": "fb4e4bc6ae0474f52f270758e9f5a004943bc60d6b50309c04e996fa0744dc4e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109770,
+          "bytes": 48,
+          "comment_data_sha256": "94b5e40a9d1cfcec3eda69d43ce9ba6a9f833ec60e32ca671fcb9a5d6bcbcef8",
+          "literal_data_sha256": "94b5e40a9d1cfcec3eda69d43ce9ba6a9f833ec60e32ca671fcb9a5d6bcbcef8",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109772,
+          "bytes": 48,
+          "comment_data_sha256": "a3eacca7456a0b765a331d053456883ade281684bd9a460772511c09b41cb4e3",
+          "literal_data_sha256": "a3eacca7456a0b765a331d053456883ade281684bd9a460772511c09b41cb4e3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109774,
+          "bytes": 16,
+          "comment_data_sha256": "7dabd7717ce118c6be1fa3690fec2643a11ee12d55e94d2dc4500c5c01b5a72a",
+          "literal_data_sha256": "7dabd7717ce118c6be1fa3690fec2643a11ee12d55e94d2dc4500c5c01b5a72a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109776,
+          "bytes": 48,
+          "comment_data_sha256": "43f45745cefbeabdf1bf6c1aa08e21878c2f3f4a83031c04795e80f27558547d",
+          "literal_data_sha256": "43f45745cefbeabdf1bf6c1aa08e21878c2f3f4a83031c04795e80f27558547d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109778,
+          "bytes": 48,
+          "comment_data_sha256": "8eb5a5e3b7b0b30cd31136f05682c302a41dbb90a2148bc2b9769e79fdf56374",
+          "literal_data_sha256": "8eb5a5e3b7b0b30cd31136f05682c302a41dbb90a2148bc2b9769e79fdf56374",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109780,
+          "bytes": 16,
+          "comment_data_sha256": "719dd715d7be76b4763895b8499306e62fc20cb79ea2de249b8a7214ffaf918d",
+          "literal_data_sha256": "719dd715d7be76b4763895b8499306e62fc20cb79ea2de249b8a7214ffaf918d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109782,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109784,
+          "bytes": 16,
+          "comment_data_sha256": "8343a292feb3b44c57d3e7d0a0b3b3e475c51462b401cbe95edf1075277ae9a9",
+          "literal_data_sha256": "8343a292feb3b44c57d3e7d0a0b3b3e475c51462b401cbe95edf1075277ae9a9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109786,
+          "bytes": 16,
+          "comment_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "literal_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109788,
+          "bytes": 16,
+          "comment_data_sha256": "1a703408b3a64b4290ede84e665dd2c439bc592a8bdac890ab6efb9a042bce58",
+          "literal_data_sha256": "1a703408b3a64b4290ede84e665dd2c439bc592a8bdac890ab6efb9a042bce58",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109790,
+          "bytes": 16,
+          "comment_data_sha256": "4c350775da2d501150a0154c70ecba0f508f8287b9cb805a10b0b69852b10e31",
+          "literal_data_sha256": "4c350775da2d501150a0154c70ecba0f508f8287b9cb805a10b0b69852b10e31",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109792,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109794,
+          "bytes": 16,
+          "comment_data_sha256": "8343a292feb3b44c57d3e7d0a0b3b3e475c51462b401cbe95edf1075277ae9a9",
+          "literal_data_sha256": "8343a292feb3b44c57d3e7d0a0b3b3e475c51462b401cbe95edf1075277ae9a9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109796,
+          "bytes": 16,
+          "comment_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "literal_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109798,
+          "bytes": 16,
+          "comment_data_sha256": "7f5bac20d449669b96881b8c4bfb1358b2adcec0bf8669b3cc3c0ec9ecab3633",
+          "literal_data_sha256": "7f5bac20d449669b96881b8c4bfb1358b2adcec0bf8669b3cc3c0ec9ecab3633",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109800,
+          "bytes": 32,
+          "comment_data_sha256": "455203e795f299bad84b37345f4fcbe21c90da63e78b1ffcb96830a794aaafa6",
+          "literal_data_sha256": "455203e795f299bad84b37345f4fcbe21c90da63e78b1ffcb96830a794aaafa6",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109802,
+          "bytes": 16,
+          "comment_data_sha256": "5465f4237c3ebc80dfbe3b2870402fa00fe66a5b0cf64672027514c73237c281",
+          "literal_data_sha256": "5465f4237c3ebc80dfbe3b2870402fa00fe66a5b0cf64672027514c73237c281",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109804,
+          "bytes": 32,
+          "comment_data_sha256": "f99d1f3538752253f8f5b2ed9fd8434f5790001fa92a4ead81a321bd246efea3",
+          "literal_data_sha256": "f99d1f3538752253f8f5b2ed9fd8434f5790001fa92a4ead81a321bd246efea3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109806,
+          "bytes": 32,
+          "comment_data_sha256": "d3f93f7bf4e2d71e992999ffa6fd87cbb480ac5fa246fb724b1535af17c1292c",
+          "literal_data_sha256": "d3f93f7bf4e2d71e992999ffa6fd87cbb480ac5fa246fb724b1535af17c1292c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109808,
+          "bytes": 32,
+          "comment_data_sha256": "e8ce66b5fa89ed508a3e4b4f5b76766496017a4e814275581614d8fb157d284e",
+          "literal_data_sha256": "e8ce66b5fa89ed508a3e4b4f5b76766496017a4e814275581614d8fb157d284e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109810,
+          "bytes": 32,
+          "comment_data_sha256": "9065e6a810e893a7b645a00137321dfcbaddce6651c16263b1e1ad314ba3e838",
+          "literal_data_sha256": "9065e6a810e893a7b645a00137321dfcbaddce6651c16263b1e1ad314ba3e838",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109812,
+          "bytes": 16,
+          "comment_data_sha256": "7428d503531a6259f8902d585691d14992ed4df85a735c7e55132fd6ba24630a",
+          "literal_data_sha256": "7428d503531a6259f8902d585691d14992ed4df85a735c7e55132fd6ba24630a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109814,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109816,
+          "bytes": 16,
+          "comment_data_sha256": "0237c828991fdf790cce00f7b6ab8987639f8bc47c335aba9488570c4c5ff4f7",
+          "literal_data_sha256": "0237c828991fdf790cce00f7b6ab8987639f8bc47c335aba9488570c4c5ff4f7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109818,
+          "bytes": 16,
+          "comment_data_sha256": "c29c49ba55d87c595b9d64313233b211f7d3276e574be329cfad22a170867812",
+          "literal_data_sha256": "c29c49ba55d87c595b9d64313233b211f7d3276e574be329cfad22a170867812",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109820,
+          "bytes": 16,
+          "comment_data_sha256": "4c516262816511ab07d5ffb5f4763fc54976838929321b06efc0bd279c743980",
+          "literal_data_sha256": "4c516262816511ab07d5ffb5f4763fc54976838929321b06efc0bd279c743980",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109822,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109824,
+          "bytes": 16,
+          "comment_data_sha256": "d97a951309806747a44ea56ee873ff4e8a91e4d32dcda3c76c73d39ff5c90cfb",
+          "literal_data_sha256": "d97a951309806747a44ea56ee873ff4e8a91e4d32dcda3c76c73d39ff5c90cfb",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109826,
+          "bytes": 32,
+          "comment_data_sha256": "48a929e13a5dad5a8d80f1b963fec27aa6357b992c49fe69753006c9fe97ffec",
+          "literal_data_sha256": "48a929e13a5dad5a8d80f1b963fec27aa6357b992c49fe69753006c9fe97ffec",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109828,
+          "bytes": 32,
+          "comment_data_sha256": "ec29fdb956b816320507d080323af6e6e26a49c9f36b09b1658533f327c6a1f2",
+          "literal_data_sha256": "ec29fdb956b816320507d080323af6e6e26a49c9f36b09b1658533f327c6a1f2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109830,
+          "bytes": 16,
+          "comment_data_sha256": "db619f4a99cd8b4e26a12c6761bf33e5e84a6b34a55652ee9a011cd87708347d",
+          "literal_data_sha256": "db619f4a99cd8b4e26a12c6761bf33e5e84a6b34a55652ee9a011cd87708347d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109832,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109834,
+          "bytes": 16,
+          "comment_data_sha256": "ab072e853a44e51f6b12d7293d26da8805a8a5748e71fc5dad50acd10d069d0a",
+          "literal_data_sha256": "ab072e853a44e51f6b12d7293d26da8805a8a5748e71fc5dad50acd10d069d0a",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109836,
+          "bytes": 16,
+          "comment_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "literal_data_sha256": "c14d6d88f17d6226c1deb15df0e8279e57e8484135a502e6dbbb05f4758b00d0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109838,
+          "bytes": 16,
+          "comment_data_sha256": "7f5bac20d449669b96881b8c4bfb1358b2adcec0bf8669b3cc3c0ec9ecab3633",
+          "literal_data_sha256": "7f5bac20d449669b96881b8c4bfb1358b2adcec0bf8669b3cc3c0ec9ecab3633",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109840,
+          "bytes": 16,
+          "comment_data_sha256": "5465f4237c3ebc80dfbe3b2870402fa00fe66a5b0cf64672027514c73237c281",
+          "literal_data_sha256": "5465f4237c3ebc80dfbe3b2870402fa00fe66a5b0cf64672027514c73237c281",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109842,
+          "bytes": 32,
+          "comment_data_sha256": "f99d1f3538752253f8f5b2ed9fd8434f5790001fa92a4ead81a321bd246efea3",
+          "literal_data_sha256": "f99d1f3538752253f8f5b2ed9fd8434f5790001fa92a4ead81a321bd246efea3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109844,
+          "bytes": 32,
+          "comment_data_sha256": "d3f93f7bf4e2d71e992999ffa6fd87cbb480ac5fa246fb724b1535af17c1292c",
+          "literal_data_sha256": "d3f93f7bf4e2d71e992999ffa6fd87cbb480ac5fa246fb724b1535af17c1292c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109846,
+          "bytes": 32,
+          "comment_data_sha256": "e8ce66b5fa89ed508a3e4b4f5b76766496017a4e814275581614d8fb157d284e",
+          "literal_data_sha256": "e8ce66b5fa89ed508a3e4b4f5b76766496017a4e814275581614d8fb157d284e",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109848,
+          "bytes": 32,
+          "comment_data_sha256": "9065e6a810e893a7b645a00137321dfcbaddce6651c16263b1e1ad314ba3e838",
+          "literal_data_sha256": "9065e6a810e893a7b645a00137321dfcbaddce6651c16263b1e1ad314ba3e838",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109850,
+          "bytes": 32,
+          "comment_data_sha256": "d18d41f1a8cb899976d01292489dbbfe242024cee7c8ce72c936c4993973f680",
+          "literal_data_sha256": "d18d41f1a8cb899976d01292489dbbfe242024cee7c8ce72c936c4993973f680",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109852,
+          "bytes": 16,
+          "comment_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "literal_data_sha256": "6b1144eed3ba43f7ee363dafc6f283d7ec2a5aaed9fb614b5818cf297f807879",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109854,
+          "bytes": 16,
+          "comment_data_sha256": "7d80118fd1bd1246065c2e738c28726db37a6f9532e6fb57febd020f59a24ad0",
+          "literal_data_sha256": "7d80118fd1bd1246065c2e738c28726db37a6f9532e6fb57febd020f59a24ad0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109856,
+          "bytes": 16,
+          "comment_data_sha256": "6c5891d0eca5b6428ad73f3249021d4709f0b0d85bab7177a425c5b8a8d26ba9",
+          "literal_data_sha256": "6c5891d0eca5b6428ad73f3249021d4709f0b0d85bab7177a425c5b8a8d26ba9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109858,
+          "bytes": 16,
+          "comment_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "literal_data_sha256": "de4abd4614d65f19a976e0e64b5c32e1e658046c68f76cc09eefcc7e2788fcc2",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109860,
+          "bytes": 16,
+          "comment_data_sha256": "4b7f7afe36475272fd1c0cb8e81e826879031299f55e5b5b9bac632e90b917b0",
+          "literal_data_sha256": "4b7f7afe36475272fd1c0cb8e81e826879031299f55e5b5b9bac632e90b917b0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109862,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109864,
+          "bytes": 16,
+          "comment_data_sha256": "9dc167411de277393bf145fc8bbd69b1f251200e1f5c3a8cc20990a46be822ae",
+          "literal_data_sha256": "9dc167411de277393bf145fc8bbd69b1f251200e1f5c3a8cc20990a46be822ae",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109866,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109868,
+          "bytes": 16,
+          "comment_data_sha256": "cd0d49ff296c79c5928d07d4416a50154d7e828b62b446f0d10de8e7dc1f12fc",
+          "literal_data_sha256": "cd0d49ff296c79c5928d07d4416a50154d7e828b62b446f0d10de8e7dc1f12fc",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109870,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109872,
+          "bytes": 16,
+          "comment_data_sha256": "c3684339edc25ac130208845ff8c82aa42182b808a813a786fb4c7ab903cfba6",
+          "literal_data_sha256": "c3684339edc25ac130208845ff8c82aa42182b808a813a786fb4c7ab903cfba6",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109874,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109876,
+          "bytes": 16,
+          "comment_data_sha256": "09691177eb287ed39799399cf436a7a98271bdf65dbf5acc8fc3980d9603efd4",
+          "literal_data_sha256": "09691177eb287ed39799399cf436a7a98271bdf65dbf5acc8fc3980d9603efd4",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109878,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109880,
+          "bytes": 32,
+          "comment_data_sha256": "9cb8f91e5831d5c22a6a091d1e97639779f43c82fc98c3fcd3d9dcdf5e0e33c9",
+          "literal_data_sha256": "9cb8f91e5831d5c22a6a091d1e97639779f43c82fc98c3fcd3d9dcdf5e0e33c9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109882,
+          "bytes": 16,
+          "comment_data_sha256": "f55a421f48ef03be821c34d23ed9884a3d0b2e737c341330ae25938e6af7289d",
+          "literal_data_sha256": "f55a421f48ef03be821c34d23ed9884a3d0b2e737c341330ae25938e6af7289d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109884,
+          "bytes": 16,
+          "comment_data_sha256": "bf0995a488d1d14d88641a36302da1c0a05b83a82946a895a0362cd6275983b7",
+          "literal_data_sha256": "bf0995a488d1d14d88641a36302da1c0a05b83a82946a895a0362cd6275983b7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109886,
+          "bytes": 16,
+          "comment_data_sha256": "5979cdb946adb7c9bb00e8f9e51040abd67e31910f3133eb45a2ebcf61c109d3",
+          "literal_data_sha256": "5979cdb946adb7c9bb00e8f9e51040abd67e31910f3133eb45a2ebcf61c109d3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109888,
+          "bytes": 16,
+          "comment_data_sha256": "4b7f7afe36475272fd1c0cb8e81e826879031299f55e5b5b9bac632e90b917b0",
+          "literal_data_sha256": "4b7f7afe36475272fd1c0cb8e81e826879031299f55e5b5b9bac632e90b917b0",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109890,
+          "bytes": 16,
+          "comment_data_sha256": "9dc167411de277393bf145fc8bbd69b1f251200e1f5c3a8cc20990a46be822ae",
+          "literal_data_sha256": "9dc167411de277393bf145fc8bbd69b1f251200e1f5c3a8cc20990a46be822ae",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109892,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109894,
+          "bytes": 16,
+          "comment_data_sha256": "b0ee46f59e065f0cb2b54f87e19b9ad3778286b65f51450e817862256c4456fe",
+          "literal_data_sha256": "b0ee46f59e065f0cb2b54f87e19b9ad3778286b65f51450e817862256c4456fe",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109896,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109898,
+          "bytes": 16,
+          "comment_data_sha256": "e16836b19558f1ad143569483ef99d1732c9dea6c7292e0b997cc3b06c170202",
+          "literal_data_sha256": "e16836b19558f1ad143569483ef99d1732c9dea6c7292e0b997cc3b06c170202",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109900,
+          "bytes": 16,
+          "comment_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "literal_data_sha256": "c8f1acc45f09c63c2dd1310b0a73f5799ecc29f89db03865e828b0436ddcd47c",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109902,
+          "bytes": 32,
+          "comment_data_sha256": "9cb8f91e5831d5c22a6a091d1e97639779f43c82fc98c3fcd3d9dcdf5e0e33c9",
+          "literal_data_sha256": "9cb8f91e5831d5c22a6a091d1e97639779f43c82fc98c3fcd3d9dcdf5e0e33c9",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109904,
+          "bytes": 16,
+          "comment_data_sha256": "f55a421f48ef03be821c34d23ed9884a3d0b2e737c341330ae25938e6af7289d",
+          "literal_data_sha256": "f55a421f48ef03be821c34d23ed9884a3d0b2e737c341330ae25938e6af7289d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109906,
+          "bytes": 16,
+          "comment_data_sha256": "bf0995a488d1d14d88641a36302da1c0a05b83a82946a895a0362cd6275983b7",
+          "literal_data_sha256": "bf0995a488d1d14d88641a36302da1c0a05b83a82946a895a0362cd6275983b7",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109908,
+          "bytes": 16,
+          "comment_data_sha256": "5979cdb946adb7c9bb00e8f9e51040abd67e31910f3133eb45a2ebcf61c109d3",
+          "literal_data_sha256": "5979cdb946adb7c9bb00e8f9e51040abd67e31910f3133eb45a2ebcf61c109d3",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109910,
+          "bytes": 16,
+          "comment_data_sha256": "66ded1ba70a64f8886cf8a10fb955816968e70c24502db1704b7b297861b0dde",
+          "literal_data_sha256": "66ded1ba70a64f8886cf8a10fb955816968e70c24502db1704b7b297861b0dde",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109912,
+          "bytes": 32,
+          "comment_data_sha256": "a0148f156e6d549cfee4cee4da2da83b6e40037d19cf7b8fd0f7e568669e0bec",
+          "literal_data_sha256": "a0148f156e6d549cfee4cee4da2da83b6e40037d19cf7b8fd0f7e568669e0bec",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109914,
+          "bytes": 16,
+          "comment_data_sha256": "3c1c7d048098b951886d737af2e1d2c47681a1a0dd4d32c31c43ce9bf014d74d",
+          "literal_data_sha256": "3c1c7d048098b951886d737af2e1d2c47681a1a0dd4d32c31c43ce9bf014d74d",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109916,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109918,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109920,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109922,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109924,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109926,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109928,
+          "bytes": 16,
+          "comment_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "literal_data_sha256": "6eb6b76376309029f4a5fbfd10fec65144cf9dac9361970faab6bb41a2b34c75",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        },
+        {
+          "original_field_token": 67109930,
+          "bytes": 16,
+          "comment_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "literal_data_sha256": "e612472cf32f273834481f8d777792be4dc5e45c18d37bd8023158cb17f30927",
+          "comment_and_literal_equal": true,
+          "declared_length_equal": true
+        }
+      ],
+      "all_rva_comment_literals_present_and_equal": true,
+      "throw_site_note": "These exception sites alone do not prove decompiler failure; they may be original application logic."
+    }
+  },
+  "dotnet_metadata_independent_check": {
+    "available": true,
+    "method": "PEReader and MetadataReader, no Assembly.Load",
+    "files": [
+      {
+        "File": "404NEL.dll",
+        "Sha256": "35DE8E10DD42953C19E02A5607404C6D726AC0858662F2FEDF5205B193FCF8D6",
+        "HasMetadata": true,
+        "MetadataVersion": "v4.0.30319",
+        "TypeDefinitions": 350,
+        "FieldDefinitions": 1083,
+        "MethodDefinitions": 899,
+        "ReadableMethodBodies": 899,
+        "BodylessMethods": 0,
+        "IlBytes": 69396,
+        "DuplicateNestedTypeNameGroups": 1,
+        "FieldsNamedCompilerLikeC": 251
+      },
+      {
+        "File": "404NEL.dll",
+        "Sha256": "BDC5D64F551056E68DCC465B28A701A76FAFA33D513B8E55EDD975255737FF1B",
+        "HasMetadata": true,
+        "MetadataVersion": "v4.0.30319",
+        "TypeDefinitions": 350,
+        "FieldDefinitions": 1083,
+        "MethodDefinitions": 899,
+        "ReadableMethodBodies": 899,
+        "BodylessMethods": 0,
+        "IlBytes": 69396,
+        "DuplicateNestedTypeNameGroups": 0,
+        "FieldsNamedCompilerLikeC": 0
+      },
+      {
+        "File": "404NEL.dll",
+        "Sha256": "6B9D59B5F1252EA517634AB8630F5EF3073D9A64AC847080E2EDF93D866E8E7C",
+        "HasMetadata": true,
+        "MetadataVersion": "v4.0.30319",
+        "TypeDefinitions": 357,
+        "FieldDefinitions": 1464,
+        "MethodDefinitions": 940,
+        "ReadableMethodBodies": 940,
+        "BodylessMethods": 0,
+        "IlBytes": 77219,
+        "DuplicateNestedTypeNameGroups": 0,
+        "FieldsNamedCompilerLikeC": 0
+      }
+    ],
+    "raw_method_token_comparisons": 899,
+    "raw_identical_il_local_signature_maxstack_exception_regions_by_token": 87,
+    "raw_method_token_comparison_caveat": "The metadata rewrite reordered method/field tokens. Equality by raw token is not a valid semantic method comparison; mismatch is not evidence of changed behavior.",
+    "original_and_metadata_repaired_rva_fields": 253,
+    "raw_identical_rva_fields_by_token_size_hash": 4,
+    "all_original_and_repaired_rva_field_size_hash_multisets_equal": true,
+    "recovered_literal_arrays_compared_against_original_rva_field_data": 251,
+    "matching_recovered_literal_array_count": 251,
+    "all_recovered_literal_array_bytes_match_original_rva_field_data": true,
+    "interpretation": "RVA data preservation is verified by sizes and hashes independently of reordered tokens; each of the 251 recovered arrays is compared with its original RVA bytes. Semantic method equivalence was not established."
+  },
+  "dotnet_input_dependencies": [
+    {
+      "file": "404NEL.dll",
+      "bytes": 195072,
+      "sha256": "35de8e10dd42953c19e02a5607404c6d726ac0858662f2fedf5205b193fcf8d6",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 192700,
+          "virtual_address": 8192,
+          "raw_size": 193024,
+          "raw_offset": 512,
+          "entropy": 6.1967
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 856,
+          "virtual_address": 204800,
+          "raw_size": 1024,
+          "raw_offset": 193536,
+          "entropy": 2.7635
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 212992,
+          "raw_size": 512,
+          "raw_offset": 194560,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "BarsGroup.CodeGuard.dll",
+      "bytes": 18944,
+      "sha256": "2542ffd877b368a90904918b00c50b0486c48dd9df4a5200d38da9d5601c6c7d",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 15996,
+          "virtual_address": 8192,
+          "raw_size": 16384,
+          "raw_offset": 512,
+          "entropy": 5.2819
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1248,
+          "virtual_address": 24576,
+          "raw_size": 1536,
+          "raw_offset": 16896,
+          "entropy": 2.8478
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 32768,
+          "raw_size": 512,
+          "raw_offset": 18432,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "BouncyCastle.Cryptography.dll",
+      "bytes": 4924576,
+      "sha256": "e5eeaf6d263c493619982fd3638e6135077311d08c961e1fe128f9107d29ebc6",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 4910048,
+          "virtual_address": 8192,
+          "raw_size": 4910080,
+          "raw_offset": 512,
+          "entropy": 6.7789
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1268,
+          "virtual_address": 4923392,
+          "raw_size": 1536,
+          "raw_offset": 4910592,
+          "entropy": 2.928
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 4931584,
+          "raw_size": 512,
+          "raw_offset": 4912128,
+          "entropy": 0.098
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.Cipher.dll",
+      "bytes": 281088,
+      "sha256": "765a192e3def2d1c461cb1814b6b4f3fc276c9bfef3181a25b218d5fe8154d99",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 278804,
+          "virtual_address": 8192,
+          "raw_size": 279040,
+          "raw_offset": 512,
+          "entropy": 6.0987
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 936,
+          "virtual_address": 294912,
+          "raw_size": 1024,
+          "raw_offset": 279552,
+          "entropy": 3.0115
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 303104,
+          "raw_size": 512,
+          "raw_offset": 280576,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.Development.SDK.dll",
+      "bytes": 87040,
+      "sha256": "d8247cbf85c609cbf5950073f00de4030f514064ecb1c5e1aa4c58762072b91c",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 84564,
+          "virtual_address": 8192,
+          "raw_size": 84992,
+          "raw_offset": 512,
+          "entropy": 6.0047
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1024,
+          "virtual_address": 98304,
+          "raw_size": 1024,
+          "raw_offset": 85504,
+          "entropy": 3.2779
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 106496,
+          "raw_size": 512,
+          "raw_offset": 86528,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.Game.Launcher.dll",
+      "bytes": 122880,
+      "sha256": "144749afadb98d64d0ea5bab7339e51670688128bc1dc6a22acb2b01e4c65ebb",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 120680,
+          "virtual_address": 8192,
+          "raw_size": 120832,
+          "raw_offset": 512,
+          "entropy": 5.9248
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1004,
+          "virtual_address": 131072,
+          "raw_size": 1024,
+          "raw_offset": 121344,
+          "entropy": 3.2387
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 139264,
+          "raw_size": 512,
+          "raw_offset": 122368,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.Interceptors.dll",
+      "bytes": 29184,
+      "sha256": "62944f92e8b55d6d0317f88fb6619786d942e576766f29ef98a08a329c90dbd1",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 26628,
+          "virtual_address": 8192,
+          "raw_size": 27136,
+          "raw_offset": 512,
+          "entropy": 5.7499
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1004,
+          "virtual_address": 40960,
+          "raw_size": 1024,
+          "raw_offset": 27648,
+          "entropy": 3.1796
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 49152,
+          "raw_size": 512,
+          "raw_offset": 28672,
+          "entropy": 0.0612
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.OpenSDK.dll",
+      "bytes": 119808,
+      "sha256": "6d16b6a68a2c16ce9bd394b4ca2560cc6eb43a150d632e36792b27adbbd85d3a",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 117552,
+          "virtual_address": 8192,
+          "raw_size": 117760,
+          "raw_offset": 512,
+          "entropy": 6.0351
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 940,
+          "virtual_address": 131072,
+          "raw_size": 1024,
+          "raw_offset": 118272,
+          "entropy": 3.0709
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 139264,
+          "raw_size": 512,
+          "raw_offset": 119296,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Codexus.Protocol772Compat.dll",
+      "bytes": 8704,
+      "sha256": "2b400ad173068092e5a3407f9644ed013dcdaf7f680040cff3fb43290ca93ae1",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 5704,
+          "virtual_address": 8192,
+          "raw_size": 6144,
+          "raw_offset": 512,
+          "entropy": 5.1824
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1040,
+          "virtual_address": 16384,
+          "raw_size": 1536,
+          "raw_offset": 6656,
+          "entropy": 2.4268
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 24576,
+          "raw_size": 512,
+          "raw_offset": 8192,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "DotNetty.Buffers.dll",
+      "bytes": 180256,
+      "sha256": "65f066d108192cefc6e44f18e2d92cf338be30056f4fad02d6b8ea692f81bd37",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 167460,
+          "virtual_address": 8192,
+          "raw_size": 167936,
+          "raw_offset": 512,
+          "entropy": 5.8254
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 856,
+          "virtual_address": 180224,
+          "raw_size": 1024,
+          "raw_offset": 168448,
+          "entropy": 2.8078
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 188416,
+          "raw_size": 512,
+          "raw_offset": 169472,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "DotNetty.Codecs.dll",
+      "bytes": 143280,
+      "sha256": "809d9e582ce909356b34ef8d4f212adea5d5ca25e1492a31ccb81a6f9be23070",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 130760,
+          "virtual_address": 8192,
+          "raw_size": 131072,
+          "raw_offset": 512,
+          "entropy": 5.8092
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 848,
+          "virtual_address": 139264,
+          "raw_size": 1024,
+          "raw_offset": 131584,
+          "entropy": 2.776
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 147456,
+          "raw_size": 512,
+          "raw_offset": 132608,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "DotNetty.Common.dll",
+      "bytes": 152096,
+      "sha256": "7a375647446f11a5d5f5eddf72f0327b4b69956a91917100d0f4d8f120fa7962",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 139288,
+          "virtual_address": 8192,
+          "raw_size": 139776,
+          "raw_offset": 512,
+          "entropy": 5.983
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 848,
+          "virtual_address": 155648,
+          "raw_size": 1024,
+          "raw_offset": 140288,
+          "entropy": 2.777
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 163840,
+          "raw_size": 512,
+          "raw_offset": 141312,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "DotNetty.Transport.dll",
+      "bytes": 187824,
+      "sha256": "f393993cc027ec61f758b8832029b21f2efd8583807e0aa06af4df90d239eb09",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 175512,
+          "virtual_address": 8192,
+          "raw_size": 175616,
+          "raw_offset": 512,
+          "entropy": 5.9762
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 864,
+          "virtual_address": 188416,
+          "raw_size": 1024,
+          "raw_offset": 176128,
+          "entropy": 2.8126
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 196608,
+          "raw_size": 512,
+          "raw_offset": 177152,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Downloader.dll",
+      "bytes": 132608,
+      "sha256": "df55db4beb1d91e14f4d65547b37ce33a9bc25826c1f26d08e8806647e6201b4",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 129836,
+          "virtual_address": 8192,
+          "raw_size": 130048,
+          "raw_offset": 512,
+          "entropy": 6.5909
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1172,
+          "virtual_address": 139264,
+          "raw_size": 1536,
+          "raw_offset": 130560,
+          "entropy": 2.705
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 147456,
+          "raw_size": 512,
+          "raw_offset": 132096,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "ICSharpCode.SharpZipLib.dll",
+      "bytes": 258048,
+      "sha256": "32ea2d0ce3512e74f1c7ad82591fe67e6b8939d76a8a4ff9c93ead030131e71c",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 254512,
+          "virtual_address": 8192,
+          "raw_size": 254976,
+          "raw_offset": 512,
+          "entropy": 6.0141
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1652,
+          "virtual_address": 270336,
+          "raw_size": 2048,
+          "raw_offset": 255488,
+          "entropy": 2.9436
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 278528,
+          "raw_size": 512,
+          "raw_offset": 257536,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "log4net.dll",
+      "bytes": 221184,
+      "sha256": "dde0278246298776f9d7fa731cef6463a4dbd5a53b7034e88aca30852e272b73",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 218328,
+          "virtual_address": 8192,
+          "raw_size": 218624,
+          "raw_offset": 512,
+          "entropy": 5.7543
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1536,
+          "virtual_address": 229376,
+          "raw_size": 1536,
+          "raw_offset": 219136,
+          "entropy": 3.3793
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 237568,
+          "raw_size": 512,
+          "raw_offset": 220672,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "bytes": 65832,
+      "sha256": "6a7f6994787ede8468315d36fbc327a876113e619150ace6057f87494a5a784e",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 52224,
+          "virtual_address": 8192,
+          "raw_size": 52224,
+          "raw_offset": 512,
+          "entropy": 5.8855
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1552,
+          "virtual_address": 65536,
+          "raw_size": 2048,
+          "raw_offset": 52736,
+          "entropy": 2.767
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 73728,
+          "raw_size": 512,
+          "raw_offset": 54784,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.DependencyInjection.dll",
+      "bytes": 74120,
+      "sha256": "865fc0bfb4e82f536a570ea5711dfdae4b1b9c3651c0235c616b40a813ac3991",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 62260,
+          "virtual_address": 8192,
+          "raw_size": 62464,
+          "raw_offset": 512,
+          "entropy": 6.0601
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1316,
+          "virtual_address": 73728,
+          "raw_size": 1536,
+          "raw_offset": 62976,
+          "entropy": 2.9743
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 81920,
+          "raw_size": 512,
+          "raw_offset": 64512,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.Logging.Abstractions.dll",
+      "bytes": 67344,
+      "sha256": "34aac3328c97230a3ba8ba66997af5250d460e7f98cfa5ff4e25da11c529279e",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 53616,
+          "virtual_address": 8192,
+          "raw_size": 53760,
+          "raw_offset": 512,
+          "entropy": 6.0275
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 2016,
+          "virtual_address": 65536,
+          "raw_size": 2048,
+          "raw_offset": 54272,
+          "entropy": 3.378
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 73728,
+          "raw_size": 512,
+          "raw_offset": 56320,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.Logging.dll",
+      "bytes": 42376,
+      "sha256": "565b0abf9cd781d2b432b6075ebf57954097c2ec0d23b01423f0b53c4157733e",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 30604,
+          "virtual_address": 8192,
+          "raw_size": 30720,
+          "raw_offset": 512,
+          "entropy": 6.0074
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1220,
+          "virtual_address": 40960,
+          "raw_size": 1536,
+          "raw_offset": 31232,
+          "entropy": 2.7948
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 49152,
+          "raw_size": 512,
+          "raw_offset": 32768,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.Options.dll",
+      "bytes": 54664,
+      "sha256": "61f2ba665d119a5254a81243eca872eeee07116d834677b45528aa03a62ab345",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 42628,
+          "virtual_address": 8192,
+          "raw_size": 43008,
+          "raw_offset": 512,
+          "entropy": 5.905
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1220,
+          "virtual_address": 57344,
+          "raw_size": 1536,
+          "raw_offset": 43520,
+          "entropy": 2.7888
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 65536,
+          "raw_size": 512,
+          "raw_offset": 45056,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Microsoft.Extensions.Primitives.dll",
+      "bytes": 39296,
+      "sha256": "7f63e0a1fb6a124291bae88093a4b5307ca03aea99047cc1d07381def47ddd35",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 27628,
+          "virtual_address": 8192,
+          "raw_size": 27648,
+          "raw_offset": 512,
+          "entropy": 5.9047
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1236,
+          "virtual_address": 40960,
+          "raw_size": 1536,
+          "raw_offset": 28160,
+          "entropy": 2.8268
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 49152,
+          "raw_size": 512,
+          "raw_offset": 29696,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "OpenTl.Netty.Socks.dll",
+      "bytes": 72704,
+      "sha256": "05ca2921d738c1480512432356f33c1cedb7e1570c6ac4a41843a24ed7aca822",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 69924,
+          "virtual_address": 8192,
+          "raw_size": 70144,
+          "raw_offset": 512,
+          "entropy": 5.1579
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1040,
+          "virtual_address": 81920,
+          "raw_size": 1536,
+          "raw_offset": 70656,
+          "entropy": 2.4031
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 90112,
+          "raw_size": 512,
+          "raw_offset": 72192,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "Serilog.dll",
+      "bytes": 161792,
+      "sha256": "9fbf7441a9bdc9459652dc66e18f008040651f14cb8d7a7bb806ac4a8b722d10",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 159076,
+          "virtual_address": 8192,
+          "raw_size": 159232,
+          "raw_offset": 512,
+          "entropy": 6.1464
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1100,
+          "virtual_address": 172032,
+          "raw_size": 1536,
+          "raw_offset": 159744,
+          "entropy": 2.5692
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 180224,
+          "raw_size": 512,
+          "raw_offset": 161280,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "SharpCompress.dll",
+      "bytes": 790016,
+      "sha256": "786913cf3cd9b3a64a221683a819a2f5d075fb579bd2542ac4614742b3e02f57",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 786712,
+          "virtual_address": 8192,
+          "raw_size": 786944,
+          "raw_offset": 512,
+          "entropy": 6.6026
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1556,
+          "virtual_address": 802816,
+          "raw_size": 2048,
+          "raw_offset": 787456,
+          "entropy": 2.814
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 811008,
+          "raw_size": 512,
+          "raw_offset": 789504,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "System.IO.Hashing.dll",
+      "bytes": 56592,
+      "sha256": "9af231f932df580e52c6cc85d975cbd850cc021cf8837fe2aab22ca866683e33",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 43456,
+          "virtual_address": 8192,
+          "raw_size": 43520,
+          "raw_offset": 512,
+          "entropy": 6.4171
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1368,
+          "virtual_address": 57344,
+          "raw_size": 1536,
+          "raw_offset": 44032,
+          "entropy": 3.1741
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 65536,
+          "raw_size": 512,
+          "raw_offset": 45568,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "System.Management.dll",
+      "bytes": 313624,
+      "sha256": "35f32eb5d4d34457dfae571998490e7d518d78c8eea294acbdf678d85f8a19cd",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 299736,
+          "virtual_address": 8192,
+          "raw_size": 300032,
+          "raw_offset": 512,
+          "entropy": 5.9255
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1740,
+          "virtual_address": 311296,
+          "raw_size": 2048,
+          "raw_offset": 300544,
+          "entropy": 3.0261
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 319488,
+          "raw_size": 512,
+          "raw_offset": 302592,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    },
+    {
+      "file": "ZstdSharp.dll",
+      "bytes": 396288,
+      "sha256": "213733a14b58ec1e0e19be2831fecf0299e8c6391b25413828b78e615106b669",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 393412,
+          "virtual_address": 8192,
+          "raw_size": 393728,
+          "raw_offset": 512,
+          "entropy": 6.2781
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1064,
+          "virtual_address": 409600,
+          "raw_size": 1536,
+          "raw_offset": 394240,
+          "entropy": 2.5143
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 417792,
+          "raw_size": 512,
+          "raw_offset": 395776,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true
+    }
+  ],
+  "dotnet_rebuilt_binaries": [
+    {
+      "file": "404NEL.dll",
+      "bytes": 235008,
+      "sha256": "6b9d59b5f1252ea517634ab8630f5ef3073d9a64ac847080e2edf93d866e8e7c",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 232624,
+          "virtual_address": 8192,
+          "raw_size": 232960,
+          "raw_offset": 512,
+          "entropy": 6.3266
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 860,
+          "virtual_address": 245760,
+          "raw_size": 1024,
+          "raw_offset": 233472,
+          "entropy": 2.7662
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 253952,
+          "raw_size": 512,
+          "raw_offset": 234496,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 64
+    },
+    {
+      "file": "Codexus.Protocol772Compat.dll",
+      "bytes": 9216,
+      "sha256": "6935789b84146e86a164aef7b477148197e76959c7c1acfd629bffbfe4973537",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 6348,
+          "virtual_address": 8192,
+          "raw_size": 6656,
+          "raw_offset": 512,
+          "entropy": 5.3795
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1040,
+          "virtual_address": 16384,
+          "raw_size": 1536,
+          "raw_offset": 7168,
+          "entropy": 2.4268
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 24576,
+          "raw_size": 512,
+          "raw_offset": 8704,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 1
+    },
+    {
+      "file": "Codexus.Cipher.dll",
+      "bytes": 301056,
+      "sha256": "85390bf5deabfd9119ac7f56e65ccbd3ea6f342250f29f9a7d5cc2a0cc1a8aec",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 298800,
+          "virtual_address": 8192,
+          "raw_size": 299008,
+          "raw_offset": 512,
+          "entropy": 6.0884
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 940,
+          "virtual_address": 311296,
+          "raw_size": 1024,
+          "raw_offset": 299520,
+          "entropy": 3.0142
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 319488,
+          "raw_size": 512,
+          "raw_offset": 300544,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 70
+    },
+    {
+      "file": "Codexus.Development.SDK.dll",
+      "bytes": 80384,
+      "sha256": "1c37be4076529bb5d336e684a64d91480a37d5b6c8f7a1114a8deb898a3c7a87",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 78100,
+          "virtual_address": 8192,
+          "raw_size": 78336,
+          "raw_offset": 512,
+          "entropy": 6.0445
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1024,
+          "virtual_address": 90112,
+          "raw_size": 1024,
+          "raw_offset": 78848,
+          "entropy": 3.2786
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 98304,
+          "raw_size": 512,
+          "raw_offset": 79872,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 37
+    },
+    {
+      "file": "Codexus.Game.Launcher.dll",
+      "bytes": 123392,
+      "sha256": "2526a895ed8a92e5992dde338520ae2a1dfff436a5787a240f428c2709e62e8e",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 121216,
+          "virtual_address": 8192,
+          "raw_size": 121344,
+          "raw_offset": 512,
+          "entropy": 5.9396
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1004,
+          "virtual_address": 131072,
+          "raw_size": 1024,
+          "raw_offset": 121856,
+          "entropy": 3.2387
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 139264,
+          "raw_size": 512,
+          "raw_offset": 122880,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 43
+    },
+    {
+      "file": "Codexus.Interceptors.dll",
+      "bytes": 29184,
+      "sha256": "cbbab143795ebf878b0d41a5c462502137c23511de18415111b1d802f68cc3fe",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 26672,
+          "virtual_address": 8192,
+          "raw_size": 27136,
+          "raw_offset": 512,
+          "entropy": 5.7572
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1004,
+          "virtual_address": 40960,
+          "raw_size": 1024,
+          "raw_offset": 27648,
+          "entropy": 3.1796
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 49152,
+          "raw_size": 512,
+          "raw_offset": 28672,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 5
+    },
+    {
+      "file": "Codexus.OpenSDK.dll",
+      "bytes": 128000,
+      "sha256": "b56ce3a7cb0447de5b081c4655ad4791c2aa734927757bc6dcae868fd117cfea",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 125640,
+          "virtual_address": 8192,
+          "raw_size": 125952,
+          "raw_offset": 512,
+          "entropy": 6.0268
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 940,
+          "virtual_address": 139264,
+          "raw_size": 1024,
+          "raw_offset": 126464,
+          "entropy": 3.0787
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 147456,
+          "raw_size": 512,
+          "raw_offset": 127488,
+          "entropy": 0.0815
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 42
+    },
+    {
+      "file": "Downloader.dll",
+      "bytes": 118784,
+      "sha256": "66c46538b1bcbff43fce19d6862f614e1a1cf7f5f454c462719ebace529c8374",
+      "machine": "0x14c",
+      "format": "PE32",
+      "clr_directory_present": true,
+      "clr_directory_bytes": 72,
+      "sections": [
+        {
+          "name": ".text",
+          "virtual_size": 116164,
+          "virtual_address": 8192,
+          "raw_size": 116224,
+          "raw_offset": 512,
+          "entropy": 5.9756
+        },
+        {
+          "name": ".rsrc",
+          "virtual_size": 1172,
+          "virtual_address": 131072,
+          "raw_size": 1536,
+          "raw_offset": 116736,
+          "entropy": 2.7011
+        },
+        {
+          "name": ".reloc",
+          "virtual_size": 12,
+          "virtual_address": 139264,
+          "raw_size": 512,
+          "raw_offset": 118272,
+          "entropy": 0.1019
+        }
+      ],
+      "exports": [],
+      "cython_version_marker": false,
+      "upx_section_marker": false,
+      "matches_recorded_hash": true,
+      "previous_build_errors": 0,
+      "previous_build_warnings": 3
+    }
+  ],
+  "dotnet_metadata_repair_reported": {
+    "assembly": "404NEL",
+    "rename_count": 502,
+    "original_sha256": "35DE8E10DD42953C19E02A5607404C6D726AC0858662F2FEDF5205B193FCF8D6",
+    "repaired_copy_sha256": "BDC5D64F551056E68DCC465B28A701A76FAFA33D513B8E55EDD975255737FF1B",
+    "mapping": "404NEL-metadata-renames.json",
+    "operation": "Rename duplicate nested types and fields named <>c using their metadata tokens. No method bodies intentionally changed."
+  },
+  "original_inventory_check": {
+    "original_file_count": 1209,
+    "previous_original_inventory_records": 1209,
+    "original_zip_sha256_reported": "ffb959247ca3f4203e8a7da41852072174d70d37d739f8184bb286b63e916a44",
+    "manifest_root_type": "dict",
+    "hardening_root_type": "list",
+    "independent_inventory_hash_mismatch_count": 0
+  },
+  "limits": [
+    "This audit did not execute the original EXE, DLL or PYD application code.",
+    "No authorization or time-limit logic was modified.",
+    "Section names and entropy are descriptive signals, not a complete detector for packers, virtualization, anti-tamper or runtime decryption.",
+    "Compilation and entry-point bytecode matches do not establish full application behavior equivalence."
+  ]
+}

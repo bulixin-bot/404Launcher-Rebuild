@@ -1,0 +1,1 @@
+PyInit_dotnet_bridge

@@ -15,9 +15,15 @@
     <Reference Include="SharpCompress">
       <HintPath>..\..\lib\SharpCompress.dll</HintPath>
     </Reference>
-    <ProjectReference Include="..\Codexus.Cipher\Codexus.Cipher.csproj" />
-    <PackageReference Include="System.Management" Version="9.0.0" />
-    <ProjectReference Include="..\Codexus.Development.SDK\Codexus.Development.SDK.csproj" />
+    <Reference Include="Codexus.Cipher">
+      <HintPath>..\..\lib\Codexus.Cipher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>..\..\lib\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="Codexus.Development.SDK">
+      <HintPath>..\..\lib\Codexus.Development.SDK.dll</HintPath>
+    </Reference>
     <Reference Include="Serilog">
       <HintPath>..\..\lib\Serilog.dll</HintPath>
     </Reference>

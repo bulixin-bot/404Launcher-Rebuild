@@ -1,0 +1,85 @@
+  0           0 RESUME                   0
+
+  2           2 LOAD_CONST               0 (0)
+              4 LOAD_CONST               1 (('annotations',))
+              6 IMPORT_NAME              0 (__future__)
+              8 IMPORT_FROM              1 (annotations)
+             10 STORE_NAME               1 (annotations)
+             12 POP_TOP
+
+  4          14 LOAD_CONST               0 (0)
+             16 LOAD_CONST               2 (None)
+             18 IMPORT_NAME              2 (sys)
+             20 STORE_NAME               2 (sys)
+
+  6          22 LOAD_CONST               0 (0)
+             24 LOAD_CONST               2 (None)
+             26 IMPORT_NAME              3 (flet)
+             28 STORE_NAME               4 (ft)
+
+  7          30 LOAD_CONST               0 (0)
+             32 LOAD_CONST               2 (None)
+             34 IMPORT_NAME              5 (gui)
+             36 STORE_NAME               5 (gui)
+
+ 10          38 LOAD_CONST               6 (('page', 'ft.Page', 'return', 'None'))
+             40 LOAD_CONST               3 (<code object _main at 0x000001989934EBC0, file "hardened_entry.py", line 10>)
+             42 MAKE_FUNCTION            4 (annotations)
+             44 STORE_NAME               6 (_main)
+
+ 14          46 LOAD_NAME                7 (__name__)
+             48 LOAD_CONST               4 ('__main__')
+             50 COMPARE_OP              40 (==)
+             54 POP_JUMP_IF_FALSE       56 (to 168)
+
+ 15          56 LOAD_CONST               5 ('--check')
+             58 LOAD_NAME                2 (sys)
+             60 LOAD_ATTR               16 (argv)
+             80 CONTAINS_OP              0
+             82 POP_JUMP_IF_FALSE       23 (to 130)
+
+ 16          84 PUSH_NULL
+             86 LOAD_NAME                9 (SystemExit)
+             88 PUSH_NULL
+             90 LOAD_NAME                5 (gui)
+             92 LOAD_ATTR               20 (check_environment)
+            112 CALL                     0
+            120 CALL                     1
+            128 RAISE_VARARGS            1
+
+ 17     >>  130 PUSH_NULL
+            132 LOAD_NAME                4 (ft)
+            134 LOAD_ATTR               22 (run)
+            154 LOAD_NAME                6 (_main)
+            156 CALL                     1
+            164 POP_TOP
+            166 RETURN_CONST             2 (None)
+
+ 14     >>  168 RETURN_CONST             2 (None)
+
+Disassembly of <code object _main at 0x000001989934EBC0, file "hardened_entry.py", line 10>:
+ 10           0 RETURN_GENERATOR
+              2 POP_TOP
+              4 RESUME                   0
+
+ 11           6 LOAD_GLOBAL              1 (NULL + gui)
+             16 LOAD_ATTR                2 (main)
+             36 LOAD_FAST                0 (page)
+             38 CALL                     1
+             46 GET_AWAITABLE            0
+             48 LOAD_CONST               0 (None)
+        >>   50 SEND                     3 (to 60)
+             54 YIELD_VALUE              2
+             56 RESUME                   3
+             58 JUMP_BACKWARD_NO_INTERRUPT     5 (to 50)
+        >>   60 END_SEND
+             62 POP_TOP
+             64 RETURN_CONST             0 (None)
+        >>   66 CLEANUP_THROW
+             68 JUMP_BACKWARD            5 (to 60)
+        >>   70 CALL_INTRINSIC_1         3 (INTRINSIC_STOPITERATION_ERROR)
+             72 RERAISE                  1
+ExceptionTable:
+  4 to 52 -> 70 [0] lasti
+  54 to 54 -> 66 [2]
+  56 to 66 -> 70 [0] lasti
