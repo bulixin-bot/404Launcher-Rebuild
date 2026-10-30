@@ -12,6 +12,7 @@
 - `python/updater/`：更新器入口，17 个顶层函数，20/20 个代码对象的指令、常量和异常表与原字节码一致。
 - `lib/`：编译引用，包括原包依赖及额外官方 `System.Management` 9.0.0；来源和许可证见 `reports/dotnet-recovery.md` 与 `lib/licenses/`。
 - `reports/`：输入哈希、字节码验证、编译结果、元数据重命名与脱壳范围审计。
+- `packaging/`、`build-exe.ps1`：可启动 EXE 的混合重建配方，含工作目录修复与环境自检。
 
 7 个业务 `.pyd` 的原始哈希及状态列在 `reports/native-modules.json`。本仓库未将这些未恢复的原生模块或整套第三方 Python PYZ 归档作为源码上传。
 
@@ -27,11 +28,25 @@ dotnet build 404Launcher.Rebuild.sln -c Release
 
 本仓库布局已完成一次 Release 构建：8 个项目、0 错误、16 警告。早期独立恢复包的 Debug 构建报告另有 265 个警告，见报告说明。
 
+## 构建可启动 EXE
+
+可用 `build-exe.ps1` 构建 Windows x64 运行版。需 Python 3.12、.NET SDK 10、`packaging/requirements.txt` 中的 PyInstaller，以及原始 1.3.9 ZIP 或经过文件哈希校验的原版目录：
+
+```powershell
+py -3.12 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r packaging/requirements.txt
+.\build-exe.ps1 -OriginalArchive 'C:\path\404Launcher1.3.9.zip' -PythonExe '.\.venv\Scripts\python.exe'
+```
+
+默认生成 `artifacts/dist/404Launcher1.3.9-Rebuilt-Windows-x64/404Launcher.exe` 及完整 ZIP。保留整个运行目录，不能只复制 EXE。已解压原包也可用 `-OriginalDirectory`；详细步骤与验证边界见 [EXE 构建说明](packaging/BUILD-EXE.md)。
+
+这是真实可启动的混合重建版：入口及 7 个业务后端 DLL 从源码构建，7 个 Cython 模块和必要运行时复用原版。第三方 Downloader 保留原强名称签名依赖，补入官方 System.Management / System.CodeDom 9.0.0 及许可证。登录、订阅和授权逻辑未作绕过修改。
+
 ## 完整性与限制
 
 输入压缩包 SHA-256：`ffb959247ca3f4203e8a7da41852072174d70d37d739f8184bb286b63e916a44`。
 
-Python 入口采用静态 `marshal` / `dis` / `compile` 检查，未运行原始 EXE 或执行业务 `.pyd`。运行 `python python/verify_launcher.py` 和 `python python/updater/verify_recovery.py` 可在 Python 3.12 下复核入口恢复结果。
+此前的源码恢复审计采用静态 `marshal` / `dis` / `compile` 检查，没有运行原始 EXE 或执行业务 `.pyd`。运行 `python python/verify_launcher.py` 和 `python python/updater/verify_recovery.py` 可在 Python 3.12 下复核原始入口恢复结果。后续 EXE 构建验证单独记录在 `reports/exe-build-validation.json`，其中执行了新 EXE 的环境自检，并复用了原生模块。
 
 独立审计确认：启动器/更新器的 CArchive 可解析和解压，PYZ 逐字节匹配，3 个 Python 入口共 23 个代码对象一致。251 处 `Not supported: data(...)` 注释对应的恢复数组与原 DLL 的 RVA 数据逐项匹配；这些注释不能直接认定为数据丢失。
 

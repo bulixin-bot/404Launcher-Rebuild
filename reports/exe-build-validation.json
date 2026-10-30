@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-30",
+  "configuration": "Release",
+  "platform": "Windows x64",
+  "python": "3.12.14",
+  "pyinstaller": "6.22.3",
+  "entrypoint": "packaging/launcher_entry.py",
+  "command": "build-exe.ps1 -OriginalDirectory <validated-original-directory> -PythonExe <python-3.12-environment>",
+  "end_to_end_recipe_passed": true,
+  "input_validation": "Pinned original manifests and all 1207 listed file hashes; runtime-generated files excluded",
+  "rebuilt_business_dlls": 7,
+  "retained_original_cython_business_modules": 7,
+  "retained_original_strong_named_downloader": true,
+  "environment_check": {
+    "executed": true,
+    "exit_code": 0,
+    "stdout": "Flet UI and .NET bridge loaded successfully.",
+    "stderr": ""
+  },
+  "fresh_recipe_exe_sha256": "54318a0664941613f3a076fa1bbb3e6843d46ea5790434813ab6af700d427e47",
+  "fresh_recipe_zip_sha256": "6c7096f6bb9ab88f7a66b6044c250221a6c67ed2a60722cdfbf5e356364a91b0",
+  "zip_crc_validation_passed": true,
+  "previous_build_gui_smoke_test": {
+    "window_title": "404 Launcher",
+    "version_displayed": "1.3.9",
+    "login_screen_displayed": true,
+    "dotnet_component_loaded": true,
+    "scope": "Earlier portable build using the same startup working-directory fix; not a full game-session test"
+  },
+  "real_account_login_game_launch_purchase_update_flows_verified": false,
+  "full_source_recovery": false,
+  "login_or_entitlement_bypass_added": false
+}
